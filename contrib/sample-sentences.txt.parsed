@@ -1,0 +1,1218 @@
+# ::id 0
+# ::snt Chapter 1 .
+# ::alignments 0-1|0 1-2|0.0 
+(v1 / chapter
+    :op1 1)
+
+# ::id 1
+# ::snt Once when I was six years old I saw a magnificent picture in a book , called True Stories from Nature , about the primeval forest .
+# ::alignments 2-3|0.0.2 4-5|0.0.1.1 5-6|0.0.1+0.0.1.0 6-7|0.0.1.2 7-8|0.0.0 8-9|0.0 10-11|0.0.3.0 11-12|0.0.3 14-15|0.0.3.1 16-17|0.0.3.1.0 17-18|0.0.3.1.0.0.0 18-19|0.0.3.1.0.0 20-21|0.0.3.2 24-25|0.1.0 25-26|0.1 
+(mu / multi-sentence
+    :snt1 (v11 / see-01
+        :ARG0 (v9 / i)
+        :duration (v3 / temporal-quantity
+            :unit (v4 / year)
+            :quant 6
+            :mod (v7 / old))
+        :ARG0 (v1 / i)
+        :ARG1 (v15 / picture
+            :mod (v13 / magnificent)
+            :location (v17 / book
+                :ARG1-of (v19 / call-01
+                    :ARG2 (v23 / stories
+                        :mod (v21 / true-01))))
+            :location (v25 / publication)))
+    :snt2 (v31 / forest
+        :mod (v29 / primeval)))
+
+# ::id 2
+# ::snt It was a picture of a boa constrictor in the act of swallowing an animal .
+# ::alignments 3-4|0 6-7|0.0.0 7-8|0.0 10-11|0.0.1 12-13|0.0.1.0 14-15|0.0.1.0.0 
+(v1 / picture
+    :poss (v5 / constrictor
+        :mod (v3 / boa)
+        :location (v7 / act-02
+            :ARG0-of (v9 / swallow-01
+                :ARG1 (v11 / animal))
+            :ARG0 v3)))
+
+# ::id 3
+# ::snt Here is a copy of the drawing .
+# ::alignments 0-1|0.1 3-4|0.0+0.0.0 6-7|0 
+(v7 / draw-02
+    :mod (v3 / thing
+        :ARG2-of (v4 / copy-01))
+    :location (v1 / here))
+
+# ::id 4
+# ::snt In the book it said : " Boa constrictors swallow their prey whole , without chewing it .
+# ::alignments 2-3|0.0.0 4-5|0.0 7-8|0.1.0.0 8-9|0.1.0 9-10|0.1 11-12|0.1.1.0 12-13|0.1.1 15-16|0.1.2 
+(mu / multi-sentence
+    :snt1 (v3 / say-01
+        :ARG0 (v1 / book))
+    :snt2 (v9 / swallow-01
+        :ARG1 (v7 / constrictor
+            :mod (v5 / boa))
+        :ARG1 (v13 / whole
+            :mod (v11 / prey))
+        :ARG1 (v15 / chew-01
+            :ARG0 v7)))
+
+# ::id 5
+# ::snt After that they are not able to move , and they sleep through the six months that they need for digestion . "
+# ::alignments 0-1|0 4-5|0.0.1 5-6|0.0 7-8|0.0.0 9-10|0.0.0.0 11-12|0.0.0.0.0 14-15|0.0.0.0.0.0.1 15-16|0.0.0.0.0.0+0.0.0.0.0.0.0 18-19|0.0.0.0.0.1 20-21|0.0.0.0.0.1.0 
+(v1 / after
+    :op1 (v3 / possible-01
+        :ARG1 (v5 / move-01
+            :ARG0 (v7 / and
+                :op2 (v9 / sleep-01
+                    :ARG1 (v11 / temporal-quantity
+                        :unit (v12 / month)
+                        :quant 6)
+                    :ARG1 (v15 / need-01
+                        :ARG1 (v17 / digestion)))))
+        :polarity -))
+
+# ::id 6
+# ::snt I pondered deeply , then , over the adventures of the jungle .
+# ::alignments 0-1|0.0 1-2|0 2-3|0.1 8-9|0.2 11-12|0.2.0 
+(v3 / ponder-01
+    :ARG0 (v1 / i)
+    :manner (v5 / deep-02
+        :ARG0 v1)
+    :ARG1 (v7 / adventure
+        :part-of (v9 / jungle)))
+
+# ::id 7
+# ::snt And after some work with a colored pencil I succeeded in making my 1 drawing .
+# ::alignments 0-1|0 1-2|0.0 2-3|0.0.0.0 3-4|0.0.0 6-7|0.0.0.1.0 7-8|0.0.0.1 8-9|0.0.0.2.0 9-10|0.0.0.2 13-14|0.0.0.2.1.0+0.0.0.2.1.0.0 14-15|0.0.0.2.1 
+(v1 / and
+    :time (v3 / after
+        :op1 (v7 / work-01
+            :mod (v5 / some)
+            :manner (v11 / pencil
+                :ARG1-of (v9 / color-in-02))
+            :ARG1-of (v15 / succeed-01
+                :ARG0 (v13 / i)
+                :ARG1 (v19 / draw-02
+                    :mod (v17 / ordinal-entity
+                        :value 1)
+                    :ARG0 v13)))))
+
+# ::id 8
+# ::snt My Drawing Number 1 .
+# ::alignments 0-1|0.2 1-2|0.0 2-3|0 3-4|0.1 
+(v5 / number
+    :mod (v3 / drawing)
+    :quant 1
+    :poss (v1 / i))
+
+# ::id 9
+# ::snt It looked like this : I showed my masterpiece to the grown - ups , and asked them whether the drawing frightened them .
+# ::alignments 1-2|0 2-3|0.0 3-4|0.0.0 5-6|0.1.0 6-7|0.1 8-9|0.1.1 11-12|0.1.1.0.0 15-16|0.1.1.0 16-17|0.1.1.0.1 20-21|0.1.1.0.1.0.0 21-22|0.1.1.0.1.0 
+(v1 / look-01
+    :ARG1-of (v3 / resemble-01
+        :ARG2 (v5 / this))
+    :ARG1 (v9 / show-01
+        :ARG0 (v7 / i)
+        :ARG1 (v11 / masterpiece
+            :topic (v15 / and
+                :ARG1-of (v13 / grow-03)
+                :op2 (v17 / ask-02
+                    :ARG1 (v21 / frighten-01
+                        :ARG0 (v19 / draw-02)))))))
+
+# ::id 10
+# ::snt But they answered : " Frighten ?
+# ::alignments 0-1|0.0 2-3|0.0.0 5-6|0.0.0.0 6-7|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / contrast-01
+        :ARG2 (v3 / answer-01
+            :ARG1 (v5 / frighten-01)))
+    :snt2 interrogative)
+
+# ::id 11
+# ::snt Why should any 1 be frightened by a hat ? "
+# ::alignments 1-2|0.0 2-3|0.0.0.1 3-4|0.0.0.0 5-6|0.0.0 8-9|0.0.0.2 9-10|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / recommend-01
+        :ARG1 (v5 / frighten-01
+            :ARG1 1
+            :mod (v3 / any)
+            :ARG0 (v7 / hat)))
+    :snt2 interrogative)
+
+# ::id 12
+# ::snt My drawing was not a picture of a hat .
+# ::alignments 0-1|0.1.0 1-2|0.1 3-4|0.0 5-6|0 8-9|0.2 
+(v5 / picture
+    :polarity -
+    :domain (v3 / draw-02
+        :part-of (v1 / i))
+    :poss (v7 / hat))
+
+# ::id 13
+# ::snt It was a picture of a boa constrictor digesting an elephant .
+# ::alignments 3-4|0 6-7|0.0.0 7-8|0.0 8-9|0.1 10-11|0.1.0 
+(v1 / picture
+    :poss (v5 / constrictor
+        :mod (v3 / boa))
+    :ARG1-of (v7 / digest-01
+        :ARG1 (v9 / elephant)))
+
+# ::id 14
+# ::snt But since the grown - ups were not able to understand it , I made another drawing : I drew the inside of the boa constrictor , so that the grown - ups could see it clearly .
+# ::alignments 0-1|0 1-2|0.0.7 3-4|0.0.6 7-8|0.0.5.0 8-9|0.0.5 10-11|0.0.5.1 13-14|0.0.4 15-16|0.0.3.0 16-17|0.0.3 18-19|0.0.0 19-20|0.0 21-22|0.0.1 24-25|0.0.1.0.0 25-26|0.0.1.0 27-28|0.0.2.1.0 30-31|0.0.2.1 33-34|0.0.2 34-35|0.0.2.0 36-37|0.0.2.0.0 
+(v1 / contrast-01
+    :ARG2 (v19 / draw-02
+        :ARG0 (v17 / i)
+        :ARG1 (v21 / inside
+            :part-of (v25 / constrictor
+                :mod (v23 / boa)))
+        :ARG1 (v31 / possible-01
+            :ARG1 (v33 / see-01
+                :ARG1-of (v35 / clear-06))
+            :ARG1-of (v29 / grow-03
+                :degree (v27 / so))
+            :ARG0 v17)
+        :ARG1-of (v15 / draw-02
+            :mod (v13 / another))
+        :ARG0 (v11 / i)
+        :ARG1-of (v7 / possible-01
+            :polarity -
+            :ARG1 (v9 / understand-01))
+        :ARG1-of (v5 / grow-03)
+        :op1 (v3 / since)))
+
+# ::id 15
+# ::snt They always need to have things explained .
+# ::alignments 0-1|0.1 1-2|0.0 2-3|0 5-6|0.2 6-7|0.2.0 
+(v5 / need-01
+    :time (v3 / always)
+    :ARG0 (v1 / they)
+    :ARG1 (v7 / thing
+        :ARG1-of (v9 / explain-01)))
+
+# ::id 16
+# ::snt My Drawing Number 2 looked like this : The grown - ups ' response , this time , was to advise me to lay aside my drawings of boa constrictors , whether from the inside or the outside , and devote myself instead to geography , history , arithmetic and grammar .
+# ::alignments 0-1|0.4 1-2|0.3.0 2-3|0.3 3-4|0.2 4-5|0 5-6|0.0 6-7|0.0.0 9-10|0.1.3 13-14|0.1 15-16|0.1.0.0 16-17|0.1.0 20-21|0.1.1 21-22|0.1.1.0 23-24|0.1.1.1 26-27|0.1.1.1.0 28-29|0.1.1.1.0.0.0 29-30|0.1.1.1.0.0 34-35|0.1.2.0 35-36|0.1.2 37-38|0.1.2.1 39-40|0.1.2.2 40-41|0.1.2.2.0 42-43|0.1.2.2.0.0 44-45|0.1.2.2.0.1.2 46-47|0.1.2.2.0.1.1 48-49|0.1.2.2.0.1.0 49-50|0.1.2.2.0.1 50-51|0.1.2.2.0.1.3 
+(v7 / look-01
+    :ARG1 (v9 / resemble-01
+        :ARG2 (v11 / this))
+    :ARG1 (v15 / respond-01
+        :ARG1 (v19 / time
+            :mod (v17 / this))
+        :ARG2 (v21 / advise-01
+            :ARG1 (v23 / i)
+            :ARG2 (v25 / lay-01
+                :ARG0 v23
+                :ARG1 (v27 / drawing
+                    :poss (v31 / constrictor
+                        :mod (v29 / boa))))
+            :ARG0 v19)
+        :ARG1 (v35 / or
+            :op1 (v33 / inside)
+            :op2 (v37 / outside)
+            :op2 (v39 / and
+                :op2 (v41 / devote-01
+                    :ARG1-of (v43 / instead-of-91)
+                    :ARG1 (v51 / and
+                        :op2 (v49 / arithmetic)
+                        :op2 (v47 / history)
+                        :op1 (v45 / geography)
+                        :op4 (v53 / grammar)))))
+        :ARG1-of (v13 / grow-03))
+    :ARG1 2
+    :ARG0 (v5 / number
+        :mod (v3 / drawing))
+    :ARG0 (v1 / i))
+
+# ::id 17
+# ::snt That is why , at the age of 6 , I gave up what might have been a magnificent career as a painter .
+# ::alignments 0-1|0.1.0 6-7|0.1 8-9|0.1.1 10-11|0.0 11-12|0 14-15|0.2 18-19|0.2.0.0 19-20|0.2.0 22-23|0.2.0.1 
+(v7 / give-01
+    :ARG0 (v5 / i)
+    :time (v3 / age-01
+        :mod (v1 / that)
+        :ARG2 6)
+    :purpose (v9 / possible-01
+        :ARG1 (v13 / career
+            :mod (v11 / magnificent)
+            :mod (v15 / paint-02))))
+
+# ::id 18
+# ::snt I had been disheartened by the failure of my Drawing Number 1 and my Drawing Number 2 .
+# ::alignments 0-1|0.0 3-4|0 6-7|0.1 9-10|0.1.0.3 10-11|0.1.0.2 11-12|0.1.0.1 12-13|0.1.0 14-15|0.1.0.0.0 15-16|0.1.0.0 16-17|0.1.0.0.1 
+(v3 / dishearten-01
+    :ARG1 (v1 / i)
+    :ARG0 (v5 / fail-01
+        :ARG1 (v11 / and
+            :op2 (v15 / number
+                :mod (v13 / drawing)
+                :quant 2)
+            :quant 1
+            :op1 (v9 / number)
+            :op2 (v7 / drawing))
+        :ARG0 v1))
+
+# ::id 19
+# ::snt Grown - ups never understand anything by themselves , and it is tiresome for children to be always and forever explaining things to them .
+# ::alignments 0-1|0.1 4-5|0.0 5-6|0.0.0 9-10|0 12-13|0.2 14-15|0.2.0 17-18|0.2.0.0.0 18-19|0.2.0.0 19-20|0.2.0.0.1.0 20-21|0.2.0.0.1 21-22|0.2.0.0.1.1 
+(v7 / and
+    :op2 (v3 / understand-01
+        :ARG1 (v5 / anything))
+    :ARG1-of (v1 / grow-01)
+    :op3 (v9 / tiresome
+        :beneficiary (v11 / child
+            :location (v15 / and
+                :time (v13 / always)
+                :op2 (v19 / explain-01
+                    :time (v17 / forever)
+                    :ARG1 (v21 / thing))))))
+
+# ::id 20
+# ::snt So then I chose another profession , and learned to pilot airplanes .
+# ::alignments 0-1|0 2-3|0.0.0.0 3-4|0.0.0 4-5|0.0.0.1.0 5-6|0.0.0.1 7-8|0.0 8-9|0.0.1 10-11|0.0.1.0.0 11-12|0.0.1.0 
+(v1 / cause-01
+    :ARG1 (v11 / and
+        :op1 (v5 / choose-01
+            :ARG0 (v3 / i)
+            :ARG1 (v9 / profession
+                :mod (v7 / another)))
+        :op2 (v13 / learn-01
+            :ARG2 (v17 / airplane
+                :ARG1-of (v15 / pilot-01)))))
+
+# ::id 21
+# ::snt I have flown a little over all parts of the world ; and it is true that geography has been very useful to me .
+# ::alignments 0-1|0.0 2-3|0 4-5|0.1 6-7|0.2.0 7-8|0.2 10-11|0.2.1 11-12|0.3 12-13|0.3.0 15-16|0.3.0.0.1.0 17-18|0.3.0.0.1 20-21|0.3.0.0.0 21-22|0.3.0.0 23-24|0.3.0.0.2 
+(v3 / fly-01
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / little)
+    :source (v9 / part
+        :quant (v7 / all)
+        :part-of (v11 / world))
+    :concession-of (v13 / and
+        :op2 (v14 / and
+            :op2 (v22 / useful-05
+                :degree (v20 / very)
+                :ARG1 (v18 / geography
+                    :mod (v16 / true))
+                :ARG2 (v24 / i)))))
+
+# ::id 22
+# ::snt At a glance I can distinguish China from Arizona .
+# ::alignments 2-3|0 3-4|0.0.1 4-5|0.0 5-6|0.0.0 6-7|0.0.0.0+0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.1 8-9|0.0.0.1+0.0.0.1.0+0.0.0.1.0.0+0.0.0.1.1 
+(v1 / glance-01
+    :ARG1-of (v5 / possible-01
+        :ARG1 (v7 / distinguish-01
+            :ARG1 (v9 / country
+                :name (v10 / name
+                    :op1 "China")
+                :wiki "China")
+            :ARG2 (v13 / state
+                :name (v14 / name
+                    :op1 "Arizona")
+                :wiki "Arizona"))
+        :ARG0 (v3 / i)))
+
+# ::id 23
+# ::snt If 1 gets lost in the night , such knowledge is valuable .
+# ::alignments 1-2|0.0.0 3-4|0.0 6-7|0.0.1 9-10|0.1.0 11-12|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / lose-02
+        :ARG1 1
+        :time (v3 / night))
+    :snt2 (v7 / value-02
+        :ARG1 (v5 / knowledge)
+        :ARG0 v1))
+
+# ::id 24
+# ::snt In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence .
+# ::alignments 4-5|0.5.0 5-6|0.5 6-7|0.2 10-11|0.1 11-12|0.0 12-13|0 15-16|0.3.1 16-17|0.3.0 17-18|0.3 21-22|0.4 23-24|0.4.0 25-26|0.4.0.0 
+(v11 / encounter
+    :quant (v9 / many)
+    :mod (v7 / great)
+    :poss (v5 / i)
+    :prep-with (v17 / person
+        :quant (v15 / many)
+        :mod (v13 / great))
+    :ARG1-of (v19 / concern-01
+        :ARG0 (v21 / matter
+            :mod (v23 / consequence)))
+    :domain (v3 / life
+        :mod (v1 / this)))
+
+# ::id 25
+# ::snt I have lived a great deal among grown - ups .
+# ::alignments 0-1|0.0 2-3|0 4-5|0.1.0 5-6|0.1 7-8|0.1.1 
+(v3 / live-01
+    :ARG0 (v1 / i)
+    :ARG1 (v7 / deal-01
+        :mod (v5 / great)
+        :ARG1 (v9 / grow-03)
+        :ARG0 v1))
+
+# ::id 26
+# ::snt I have seen them intimately , close at hand .
+# ::alignments 0-1|0.0 2-3|0 4-5|0.1 6-7|0.2 
+(v3 / see-01
+    :ARG0 (v1 / i)
+    :manner (v5 / intimate)
+    :manner (v7 / close-10
+        :ARG0 v1))
+
+# ::id 27
+# ::snt And that has n't much improved my opinion of them .
+# ::alignments 0-1|0 3-4|0.0.1 4-5|0.0.0 5-6|0.0 7-8|0.0.2 
+(v1 / and
+    :op2 (v5 / improve-01
+        :degree (v3 / much)
+        :polarity -
+        :ARG1 (v7 / opine-01)))
+
+# ::id 28
+# ::snt Whenever I met 1 of them who seemed to me at all clear - sighted , I tried the experiment of showing him my Drawing Number 1 , which I have always kept .
+# ::alignments 1-2|0.0 2-3|0 3-4|0.1+0.2.2 7-8|0.2 9-10|0.2.0 11-12|0.2.1.3.1 12-13|0.2.1.3.0 14-15|0.2.1.3 16-17|0.2.1.0 17-18|0.2.1 19-20|0.2.1.1 21-22|0.2.1.1.0 24-26|0.2.1.1.0.0 26-27|0.1+0.2.2 29-30|0.2.1.2.1 31-32|0.2.1.2.0 32-33|0.2.1.2 
+(v3 / meet-03
+    :ARG0 (v1 / i)
+    :ARG1 1
+    :time (v5 / seem-01
+        :ARG2 (v7 / i)
+        :ARG1 (v17 / try-01
+            :ARG0 (v15 / i)
+            :ARG1 (v19 / experiment-01
+                :ARG0-of (v21 / show-01
+                    :ARG1 "Drawing")
+                :ARG0 v15)
+            :ARG1 (v27 / keep-01
+                :time (v25 / always)
+                :ARG0 (v23 / i)
+                :ARG0 v15)
+            :ARG1-of (v13 / sight-01
+                :ARG1-of (v11 / clear-06)
+                :mod (v9 / all)))
+        :quant 1))
+
+# ::id 29
+# ::snt I would try to find out , so , if this was a person of true understanding .
+# ::alignments 0-1|0.0 2-3|0 4-5|0.1 7-8|0.1.0 10-11|0.2.0 13-14|0.2 15-16|0.2.1.0 16-17|0.2.1 
+(v3 / try-01
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / find-01
+        :ARG1 (v7 / so)
+        :ARG0 v1)
+    :ARG1 (v11 / person
+        :domain (v9 / this)
+        :ARG1-of (v15 / understand-01
+            :ARG1 (v13 / true)
+            :ARG0 v9)))
+
+# ::id 30
+# ::snt But , whoever it was , he , or she , would always say : " That is a hat . "
+# ::alignments 0-1|0.0 8-9|0.0.0 12-13|0.0.0.0.0 13-14|0.0.0.0 16-17|0.1.0 19-20|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / contrast-01
+        :ARG2 (v3 / or
+            :op2 (v7 / say-01
+                :time (v5 / always))))
+    :snt2 (v11 / hat
+        :domain (v9 / that)))
+
+# ::id 31
+# ::snt Then I would never talk to that person about boa constrictors , or primeval forests , or stars .
+# ::alignments 0-1|0.1 1-2|0.0 4-5|0 7-8|0.2 9-10|0.2.0.0 10-11|0.2.0 12-13|0.2.1 13-14|0.2.1.0.0.0 14-15|0.2.1.0.0 16-17|0.2.1.0 17-18|0.2.1.0.1 
+(v5 / talk-01
+    :ARG0 (v3 / i)
+    :time (v1 / then)
+    :ARG2 (v7 / person
+        :poss (v11 / constrictor
+            :mod (v9 / boa))
+        :mod (v13 / or
+            :op2 (v19 / or
+                :op1 (v17 / forest
+                    :mod (v15 / primeval))
+                :op2 (v21 / star)))))
+
+# ::id 32
+# ::snt I would bring myself down to his level .
+# ::alignments 0-1|0.0 2-3|0 7-8|0.1 
+(v3 / bring-01
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / level))
+
+# ::id 33
+# ::snt I would talk to him about bridge , and golf , and politics , and neckties .
+# ::alignments 0-1|0.0 2-3|0 6-7|0.1.0 8-9|0.1 9-10|0.1.1 11-12|0.1.2 12-13|0.1.2.0 14-15|0.1.3 15-16|0.1.3.0 
+(v3 / talk-01
+    :ARG0 (v1 / i)
+    :ARG1 (v7 / and
+        :op1 (v5 / bridge)
+        :op2 (v9 / golf)
+        :op2 (v11 / and
+            :op2 (v13 / politics))
+        :op2 (v15 / and
+            :op2 (v17 / necktie))))
+
+# ::id 34
+# ::snt And the grown - up would be greatly pleased to have met such a sensible man .
+# ::alignments 0-1|0 2-3|0.0 7-8|0.0.0.0 8-9|0.0.0 11-12|0.0.0.1 12-13|0.0.0.1.0.0.0 14-15|0.0.0.1.0.0 15-16|0.0.0.1.0 
+(v1 / and
+    :op2 (v3 / grow-03
+        :ARG1-of (v7 / please-01
+            :degree (v5 / great)
+            :ARG1 (v9 / meet-03
+                :ARG1 (v15 / man
+                    :ARG1-of (v13 / sense-02
+                        :mod (v11 / such)))))))
+
+# ::id 35
+# ::snt Chapter 2 .
+# ::alignments 0-1|0 1-2|0.0 
+(v1 / chapter
+    :op1 2)
+
+# ::id 36
+# ::snt So I lived my life alone , without anyone that I could really talk to , until I had an accident with my plane in the Desert of Sahara , six years ago .
+# ::alignments 0-1|0 1-2|0.0.0 2-3|0.0 4-5|0.0.1 5-6|0.0.2 8-9|0.0.3 10-11|0.0.3.0.2 11-12|0.0.3.0 12-13|0.0.3.0.0.0 13-14|0.0.3.0.0 16-17|0.0.3.0.1 17-18|0.0.3.0.1.0.0 20-21|0.0.3.0.1.0 23-24|0.0.3.0.1.0.1 26-29|0.0.3.0.1.0.1.0.2 30-31|0.0.3.0.1.0.1.0.1 31-32|0.0.3.0.1.0.1.0+0.0.3.0.1.0.1.0.0 
+(v1 / cause-01
+    :ARG1 (v5 / live-01
+        :ARG0 (v3 / i)
+        :ARG1 (v7 / life)
+        :manner (v9 / alone)
+        :location (v11 / anyone
+            :location (v15 / possible-01
+                :ARG1 (v19 / talk-01
+                    :mod (v17 / really))
+                :time (v21 / until
+                    :op1 (v25 / accident
+                        :domain (v23 / i)
+                        :prep-with (v27 / plane
+                            :time (v29 / temporal-quantity
+                                :unit (v30 / year)
+                                :quant 6
+                                :time "Desert"))))
+                :ARG0 (v13 / i)))))
+
+# ::id 37
+# ::snt Something was broken in my engine .
+# ::alignments 2-3|0 5-6|0.0 
+(v1 / break-01
+    :location (v3 / engine))
+
+# ::id 38
+# ::snt And as I had with me neither a mechanic nor any passengers , I set myself to attempt the difficult repairs all alone .
+# ::alignments 0-1|0 2-3|0.0.1.1 5-6|0.0.1.0 8-9|0.0.1 10-11|0.0.1.2.0 11-12|0.0.1.2 13-14|0.0.0 17-18|0.0 19-20|0.0.2.0 20-21|0.0.2 21-22|0.0.2.1.0 22-23|0.0.2.1 
+(v1 / and
+    :op2 (v15 / attempt-01
+        :ARG0 (v13 / i)
+        :ARG1 (v7 / mechanic
+            :poss (v5 / i)
+            :domain (v3 / i)
+            :mod (v11 / passenger
+                :mod (v9 / any)))
+        :ARG1 (v19 / repair-01
+            :mod (v17 / difficult)
+            :mod (v23 / alone
+                :mod (v21 / all))
+            :ARG0 v13)))
+
+# ::id 39
+# ::snt It was a question of life or death for me : I had scarcely enough drinking water to last a week .
+# ::alignments 3-4|0.1 5-6|0.0 6-7|0 7-8|0.2 9-10|0.3 11-12|0.4.4 13-14|0.4.1.0 14-15|0.4.1 15-16|0.4.0 16-17|0.4 18-19|0.4.2 20-21|0.4.3 
+(v5 / or
+    :op1 (v3 / life)
+    :op1 (v1 / question-01)
+    :time (v7 / die-01)
+    :op2 (v9 / i)
+    :topic (v19 / water
+        :ARG1-of (v17 / drink-01)
+        :quant (v15 / enough
+            :degree (v13 / scarcely-more-than))
+        :time (v21 / last-01)
+        :time (v23 / week)
+        :poss (v11 / i)))
+
+# ::id 40
+# ::snt The 1 night , then , I went to sleep on the sand , a 1000 miles from any human habitation .
+# ::alignments 1-2|0.1.0+0.1.0.0 2-3|0.1 6-7|0.0 7-8|0 9-10|0.2 12-13|0.2.0 15-16|0.3.2 18-19|0.3.1 19-20|0.3.0 20-21|0.3 
+(v7 / go-02
+    :ARG0 (v5 / i)
+    :time (v3 / night
+        :mod (v1 / ordinal-entity
+            :value 1))
+    :purpose (v9 / sleep-01
+        :ARG1 (v11 / sand-01)
+        :ARG0 v5)
+    :manner (v17 / habitation
+        :mod (v15 / human)
+        :mod (v13 / any)
+        :quant 1000))
+
+# ::id 41
+# ::snt I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean .
+# ::alignments 0-1|0.1 2-3|0.0 3-4|0 6-7|0.2.0 7-8|0.2 10-11|0.2.1 13-14|0.2.1.0 16-17|0.2.1.0.0 
+(v5 / isolate-01
+    :degree (v3 / more)
+    :ARG0 (v1 / i)
+    :ARG1 (v9 / sailor
+        :mod (v7 / shipwrecked)
+        :location (v11 / raft
+            :location (v13 / middle
+                :part-of (v15 / ocean)))))
+
+# ::id 42
+# ::snt Thus you can imagine my amazement , at sunrise , when I was awakened by an odd little voice .
+# ::alignments 1-2|0.2 2-3|0 3-4|0.0 5-6|0.0.0 8-9|0.1.3 11-12|0.1.2 16-17|0.1.1 17-18|0.1.0 18-19|0.1 
+(v3 / possible-01
+    :ARG1 (v5 / imagine-01
+        :ARG1 (v7 / amazement))
+    :ARG1 (v17 / voice
+        :mod (v15 / little)
+        :mod (v13 / odd)
+        :poss (v11 / i)
+        :poss (v9 / sunrise))
+    :ARG0 (v1 / you))
+
+# ::id 43
+# ::snt It said : " If you please -- draw me a sheep ! "
+# ::alignments 1-2|0 5-6|0.0.0 8-9|0.0 9-10|0.0.1.0 11-12|0.0.1 
+(v1 / say-01
+    :ARG1 (v5 / draw-02
+        :ARG0 (v3 / you)
+        :ARG1 (v9 / sheep
+            :domain (v7 / i))))
+
+# ::id 44
+# ::snt " What ! "
+# ::alignments 1-2|0 
+(v1 / amr-unknown)
+
+# ::id 45
+# ::snt " Draw me a sheep ! "
+# ::alignments 1-2|0 2-3|0.0 4-5|0.1 
+(v1 / draw-02
+    :ARG1 (v3 / i)
+    :ARG1 (v5 / sheep
+        :poss v3))
+
+# ::id 46
+# ::snt I jumped to my feet , completely thunderstruck .
+# ::alignments 0-1|0.0 1-2|0 4-5|0.1+0.1.0 6-7|0.2.0 7-8|0.2 
+(v3 / jump-08
+    :ARG0 (v1 / i)
+    :ARG2 (v5 / distance-quantity
+        :unit (v6 / foot))
+    :mod (v11 / thunderstruck
+        :ARG1-of (v9 / complete-02)))
+
+# ::id 47
+# ::snt I blinked my eyes hard .
+# ::alignments 0-1|0.0 1-2|0 3-4|0.1 4-5|0.2 
+(v3 / blink-01
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / eye)
+    :ARG1-of (v7 / hard-02
+        :ARG0 v1))
+
+# ::id 48
+# ::snt I looked carefully all around me .
+# ::alignments 0-1|0.0.0 1-2|0.0 2-3|0.0.1 3-4|0.0.1.0 4-5|0.0.2 5-6|0.1 
+(mu / multi-sentence
+    :snt1 (v3 / look-01
+        :ARG0 (v1 / i)
+        :manner (v5 / careful
+            :op1 (v7 / all))
+        :ARG1 (v9 / around))
+    :snt2 (v11 / i))
+
+# ::id 49
+# ::snt And I saw a most extraordinary small person , who stood there examining me with great seriousness .
+# ::alignments 0-1|0 1-2|0.0.0 2-3|0.0 4-5|0.0.1.1.0 5-6|0.0.1.1 6-7|0.0.1.0 7-8|0.0.1 10-11|0.0.1.2 12-13|0.0.1.2.0 13-14|0.0.1.2.0.0 15-16|0.0.1.2.0.1.0 16-17|0.0.1.2.0.1 
+(v1 / and
+    :op2 (v5 / see-01
+        :ARG0 (v3 / i)
+        :ARG1 (v13 / person
+            :mod (v11 / small)
+            :mod (v9 / extraordinary
+                :degree (v7 / most))
+            :ARG1-of (v15 / stand-01
+                :manner (v17 / examine-01
+                    :ARG1 (v19 / i)
+                    :ARG1 (v23 / serious-01
+                        :mod (v21 / great)))))))
+
+# ::id 50
+# ::snt Here you may see the best portrait that , later , I was able to make of him .
+# ::alignments 0-1|0.3 1-2|0.2 2-3|0 3-4|0.0 5-6|0.0.0.0+0.0.0.0.0 6-7|0.0.0 9-10|0.1.1 11-12|0.1.0 13-14|0.1 
+(v5 / possible-01
+    :ARG1 (v7 / see-01
+        :ARG1 (v13 / portrait
+            :mod (v9 / good
+                :degree (v10 / most))))
+    :ARG1 (v19 / possible-01
+        :ARG0 (v17 / i)
+        :time (v15 / late))
+    :ARG0 (v3 / you)
+    :mod (v1 / here))
+
+# ::id 51
+# ::snt But my drawing is certainly very much less charming than its model .
+# ::alignments 0-1|0 2-3|0.0.3 4-5|0.0.2 5-6|0.0.1.0 6-7|0.0.1 7-8|0.0.0 8-9|0.0 11-12|0.0.4 
+(v1 / contrast-01
+    :ARG2 (v13 / charm-01
+        :degree (v11 / less)
+        :degree (v9 / much
+            :degree (v7 / very))
+        :manner (v5 / certain)
+        :ARG0 (v3 / draw-02)
+        :compared-to (v15 / model)))
+
+# ::id 52
+# ::snt That , however , is not my fault .
+# ::alignments 0-1|0.1 5-6|0.0 7-8|0 
+(v3 / fault-01
+    :polarity -
+    :ARG2 (v1 / that))
+
+# ::id 53
+# ::snt The grown - ups discouraged me in my painter 's career when I was six years old , and I never learned to draw anything , except boas from the outside and boas from the inside .
+# ::alignments 1-2|0.0 4-5|0 5-6|0.1 8-9|0.2.0 10-11|0.2 12-13|0.3.3 14-15|0.3.0.0.1 15-16|0.3.0.0+0.3.0.0.0 16-17|0.3.0 18-19|0.3 19-20|0.3.1.0 21-22|0.3.1 23-24|0.3.1.1 24-25|0.3.1.1.0 26-27|0.3.1.2 27-28|0.3.1.2.0 30-31|0.3.1.2.0.0.0 31-32|0.3.1.2.0.0 32-33|0.3.1.2.0.0.1 35-36|0.3.2 
+(v3 / discourage-01
+    :ARG1-of (v1 / grow-03)
+    :ARG1 (v5 / i)
+    :location (v9 / career
+        :poss (v7 / paint-02)
+        :poss v5)
+    :ARG1 (v19 / and
+        :op2 (v17 / old
+            :mod (v13 / temporal-quantity
+                :unit (v14 / year)
+                :quant 6))
+        :op2 (v23 / learn-01
+            :ARG0 (v21 / i)
+            :ARG1 (v25 / draw-02
+                :ARG1 (v27 / anything)
+                :ARG0 v21)
+            :ARG2-of (v29 / except-01
+                :ARG1 (v31 / boa
+                    :location (v35 / and
+                        :op1 (v33 / outside)
+                        :op2 (v37 / boa)))
+                :ARG0 v21))
+        :op3 (v39 / inside)
+        :poss (v11 / i)))
+
+# ::id 54
+# ::snt Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment .
+# ::alignments 0-1|0.1 1-2|0.0 2-3|0 4-5|0.2.1 5-6|0.2.0 6-7|0.2 9-10|0.2.2 10-11|0.2.2.0.0 11-12|0.2.2.0 15-16|0.2.2.0.1 17-18|0.2.2.0.1.0 
+(v5 / stare-01
+    :ARG0 (v3 / i)
+    :time (v1 / now)
+    :time (v11 / apparition
+        :mod (v9 / sudden)
+        :mod (v7 / this)
+        :prep-with (v13 / eye
+            :ARG1-of (v17 / start-01
+                :mod (v15 / fair)
+                :source (v19 / head-01
+                    :ARG1 (v21 / astonishment))))))
+
+# ::id 55
+# ::snt Remember , I had crashed in the desert a 1000 miles from any inhabited region .
+# ::alignments 0-1|0 2-3|0.0.0 4-5|0.0 7-8|0.0.1.3 9-10|0.0.1.2 12-13|0.0.1.1 13-14|0.0.1.0 14-15|0.0.1 
+(v1 / remember-01
+    :ARG1 (v5 / crash-01
+        :ARG0 (v3 / i)
+        :location (v13 / region
+            :ARG1-of (v11 / inhabit-01)
+            :mod (v9 / any)
+            :quant 1000
+            :location (v7 / desert))))
+
+# ::id 56
+# ::snt And yet my little man seemed neither to be straying uncertainly among the sands , nor to be fainting from fatigue or hunger or thirst or fear .
+# ::alignments 0-1|0 1-2|0.0.1 3-4|0.0.0.0 4-5|0.0.0 5-6|0.0 9-10|0.0.2 10-11|0.0.2.0 13-14|0.0.2.1 18-19|0.1 20-21|0.1.0.0 21-22|0.1.0 22-23|0.1.0.1 23-24|0.1.0.2 24-25|0.1.0.2.0.0 25-26|0.1.0.2.0 26-27|0.1.0.2.0.1 
+(v1 / and
+    :op2 (v9 / seem-01
+        :ARG1 (v7 / man
+            :mod (v5 / little))
+        :time (v3 / yet)
+        :ARG1 (v11 / stray-01
+            :manner (v13 / uncertainly)
+            :ARG1 (v15 / sand)
+            :ARG0 v7))
+    :op2 (v17 / faint-01
+        :time (v21 / or
+            :op1 (v19 / fatigue)
+            :op2 (v23 / hunger-01
+                :ARG0 v19)
+            :op2 (v25 / or
+                :op2 (v29 / or
+                    :op1 (v27 / thirst-01)
+                    :op2 (v31 / fear-01
+                        :ARG0 v27))))
+        :ARG0 v9))
+
+# ::id 57
+# ::snt Nothing about him gave any suggestion of a child lost in the middle of the desert , a 1000 miles from any human habitation .
+# ::alignments 0-1|0.0 3-4|0 4-5|0.1.1 5-6|0.1+0.1.0 8-9|0.2 9-10|0.2.0 12-13|0.2.0.0 15-16|0.2.0.0.0 18-19|0.3 21-22|0.4.1 22-23|0.4.0 23-24|0.4 
+(v3 / give-01
+    :ARG0 (v1 / nothing)
+    :ARG1 (v7 / thing
+        :ARG1-of (v8 / suggest-01)
+        :mod (v5 / any))
+    :ARG1 (v11 / child
+        :ARG1-of (v13 / lose-02
+            :location (v15 / middle
+                :part-of (v17 / desert))))
+    :ARG2 1000
+    :ARG2 (v23 / habitation
+        :mod (v21 / human)
+        :mod (v19 / any)))
+
+# ::id 58
+# ::snt When at last I was able to speak , I said to him : " But -- what are you doing here ? "
+# ::alignments 2-3|0.4 3-4|0.3 5-6|0.0 7-8|0.0.0 9-10|0.0.0.0.0 10-11|0.0.0.0 15-16|0 19-20|0.1.0 20-21|0.1 21-22|0.1.1 22-23|0.2 
+(v13 / contrast-01
+    :ARG1 (v5 / possible-01
+        :ARG1 (v7 / speak-01
+            :ARG1 (v11 / say-01
+                :ARG0 (v9 / i))))
+    :ARG2 (v17 / do-02
+        :ARG0 (v15 / you)
+        :location (v19 / here)
+        :ARG0 v5)
+    :mode interrogative
+    :ARG1 (v3 / i)
+    :mod (v1 / last))
+
+# ::id 59
+# ::snt And in answer he repeated , very slowly , as if he were speaking of a matter of great consequence : " If you please -- draw me a sheep ... "
+# ::alignments 0-1|0.0 2-3|0.0.0 4-5|0.0.0.0 6-7|0.0.0.1.0 7-8|0.0.0.1 13-14|0.1.0 16-17|0.1.0.0 18-19|0.1.0.0.0.0 19-20|0.1.0.0.0 23-24|0.1.0.1 26-27|0.1 27-28|0.1.1.0 29-30|0.1.1 
+(mu / multi-sentence
+    :snt1 (v1 / and
+        :op2 (v3 / answer-01
+            :ARG1-of (v5 / repeat-01)
+            :manner (v9 / slow
+                :degree (v7 / very))))
+    :snt2 (v21 / draw-02
+        :ARG0 (v11 / speak-01
+            :ARG1 (v13 / matter
+                :topic (v17 / consequence
+                    :mod (v15 / great)))
+            :ARG0 (v19 / you))
+        :ARG1 (v25 / sheep
+            :domain (v23 / i))
+        :ARG0 v1))
+
+# ::id 60
+# ::snt When a mystery is too overpowering , 1 dare not disobey .
+# ::alignments 2-3|0.2.1 4-5|0.2.0 5-6|0.2 7-8|0.1 8-9|0 9-10|0.0.0 10-11|0.0 
+(v7 / dare-01
+    :ARG1 (v9 / disobey-01
+        :polarity -)
+    :ARG1 1
+    :condition (v5 / overpowering
+        :degree (v3 / too)
+        :domain (v1 / mystery)))
+
+# ::id 61
+# ::snt Absurd as it might seem to me , a 1000 miles from any human habitation and in danger of death , I took out of my pocket a sheet of paper and my fountain - pen .
+# ::alignments 0-1|0.1 3-4|0 4-5|0.0 6-7|0.0.0 9-10|0.0.0.0.2.1 12-13|0.0.0.0.2.0.1 13-14|0.0.0.0.2.0.0 14-15|0.0.0.0.2.0 15-16|0.0.0.0.2 19-20|0.0.0.0.2.2 21-22|0.0.0.0.0.0 26-27|0.0.0.0.0 28-29|0.0.0.0.0.1 30-31|0.0.0.0.0.1.0 31-32|0.0.0.0 33-34|0.0.0.0.1.0 35-36|0.0.0.0.1 
+(v3 / possible-01
+    :ARG1 (v5 / seem-01
+        :ARG2 (v7 / i
+            :poss (v27 / and
+                :op1 (v21 / pocket
+                    :poss (v19 / i)
+                    :mod (v23 / sheet
+                        :mod (v25 / paper)))
+                :op2 (v31 / pen
+                    :mod (v29 / fountain))
+                :op2 (v15 / and
+                    :op2 (v13 / habitation
+                        :mod (v11 / human)
+                        :mod (v9 / any))
+                    :quant 1000
+                    :op3 (v17 / die-01)))))
+    :mod (v1 / absurd))
+
+# ::id 62
+# ::snt But then I remembered how my studies had been concentrated on geography , history , arithmetic , and grammar , and I told the little chap ( a little crossly , too ) that I did not know how to draw .
+# ::alignments 0-1|0 2-3|0.0.0 3-4|0.0 6-7|0.0.1.0 9-10|0.0.1 11-12|0.0.1.1.2 13-14|0.0.1.1.1 15-16|0.0.1.1.0 17-18|0.0.1.1 18-19|0.0.1.1.3 20-21|0.0.1.1.4 21-22|0.0.1.1.4.0.0 22-23|0.0.1.1.4.0 24-25|0.0.1.1.4.0.1.0 25-26|0.0.1.1.4.0.1 28-29|0.0.1.1.4.0.1.1.0 29-30|0.0.1.1.4.0.1.1 31-32|0.0.1.1.4.1 34-35|0.0.2.1 36-37|0.0.2.0 37-38|0.0.2 40-41|0.0.2.2 
+(v1 / contrast-01
+    :ARG2 (v5 / remember-01
+        :ARG0 (v3 / i)
+        :ARG1 (v9 / concentrate-01
+            :ARG1 (v7 / study-01)
+            :ARG0 (v17 / and
+                :op2 (v15 / arithmetic)
+                :op1 (v13 / history)
+                :mod (v11 / geography)
+                :op3 (v19 / grammar)
+                :op5 (v21 / and
+                    :op2 (v25 / tell-01
+                        :ARG0 (v23 / i)
+                        :ARG2 (v29 / chap
+                            :mod (v27 / little)
+                            :location (v33 / crossly
+                                :degree (v31 / little))))
+                    :op2 (v35 / too)))
+            :ARG0 v3)
+        :ARG1 (v39 / know-01
+            :polarity -
+            :ARG0 (v37 / i)
+            :ARG1 (v41 / draw-02)
+            :ARG0 v3)))
+
+# ::id 63
+# ::snt He answered me : " That does n't matter .
+# ::alignments 0-1|0.0.0 1-2|0.0 2-3|0.0.1 7-8|0.1.0 8-9|0.1 
+(mu / multi-sentence
+    :snt1 (v3 / answer-01
+        :ARG0 (v1 / he)
+        :ARG1 (v5 / i))
+    :snt2 (v7 / matter-01
+        :polarity -))
+
+# ::id 64
+# ::snt Draw me a sheep ... "
+# ::alignments 0-1|0 1-2|0.0 3-4|0.1 
+(v1 / draw-02
+    :ARG1 (v3 / i)
+    :ARG1 (v5 / sheep))
+
+# ::id 65
+# ::snt But I had never drawn a sheep .
+# ::alignments 0-1|0 1-2|0.0.0 4-5|0.0 6-7|0.0.1 
+(v1 / contrast-01
+    :ARG2 (v5 / draw-02
+        :ARG0 (v3 / i)
+        :ARG1 (v7 / sheep)))
+
+# ::id 66
+# ::snt So I drew for him 1 of the 2 pictures I had drawn so often .
+# ::alignments 0-1|0 1-2|0.0.0 2-3|0.0 5-6|0.0.1.1 8-9|0.0.1.0 9-10|0.0.1 10-11|0.0.2.0 12-13|0.0.2 13-14|0.0.2.1.0 14-15|0.0.2.1 
+(v1 / cause-01
+    :ARG1 (v5 / draw-02
+        :ARG0 (v3 / i)
+        :ARG1 (v7 / picture
+            :quant 2
+            :quant 1)
+        :ARG1 (v11 / draw-02
+            :ARG0 (v9 / i)
+            :ARG1 v7
+            :mod (v15 / often
+                :degree (v13 / so))
+            :ARG0 v3)))
+
+# ::id 67
+# ::snt It was that of the boa constrictor from the outside .
+# ::alignments 5-6|0.0 6-7|0 9-10|0.1 
+(v3 / constrictor
+    :mod (v1 / boa)
+    :location (v5 / outside))
+
+# ::id 68
+# ::snt And I was astounded to hear the little fellow greet it with , " No , no , no !
+# ::alignments 0-1|0 1-2|0.0.0 3-4|0.0 5-6|0.0.1 7-8|0.0.1.0.0.0 8-9|0.0.1.0.0 9-10|0.0.1.0 14-15|0.1 16-17|0.1 18-19|0.1 
+(v1 / and
+    :op2 (v5 / astounded
+        :domain (v3 / i)
+        :mod (v7 / hear-01
+            :ARG1 (v13 / greet-01
+                :ARG0 (v11 / fellow
+                    :mod (v9 / little)))
+            :ARG0 v3))
+    :polarity -)
+
+# ::id 69
+# ::snt I do not want an elephant inside a boa constrictor .
+# ::alignments 0-1|0.1 2-3|0.0 3-4|0 5-6|0.2 6-7|0.2.0 8-9|0.2.0.0.0 9-10|0.2.0.0 
+(v3 / want-01
+    :polarity -
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / elephant
+        :location (v7 / inside
+            :op1 (v11 / constrictor
+                :mod (v9 / boa)))))
+
+# ::id 70
+# ::snt A boa constrictor is a very dangerous creature , and an elephant is very cumbersome .
+# ::alignments 1-2|0.0.1.0 2-3|0.0.1 5-6|0.0.0.0 6-7|0.0.0 7-8|0.0 9-10|0 11-12|0.1.1 13-14|0.1.0 14-15|0.1 
+(v11 / and
+    :op1 (v9 / creature
+        :mod (v7 / dangerous
+            :degree (v5 / very))
+        :domain (v3 / constrictor
+            :mod (v1 / boa)))
+    :op2 (v17 / cumbersome
+        :degree (v15 / very)
+        :domain (v13 / elephant)))
+
+# ::id 71
+# ::snt Where I live , everything is very small .
+# ::alignments 1-2|0.2.0 2-3|0.2 4-5|0.1 6-7|0.0 7-8|0 
+(v9 / small
+    :degree (v7 / very)
+    :domain (v5 / everything)
+    :manner (v3 / live-01
+        :ARG0 (v1 / i)))
+
+# ::id 72
+# ::snt What I need is a sheep .
+# ::alignments 0-1|0.0.1 1-2|0.0.0 2-3|0.0 5-6|0 
+(v7 / sheep
+    :domain (v5 / need-01
+        :ARG0 (v3 / i)
+        :ARG1 (v1 / amr-unknown)))
+
+# ::id 73
+# ::snt Draw me a sheep . "
+# ::alignments 0-1|0 1-2|0.0 3-4|0.1 
+(v1 / draw-02
+    :ARG1 (v3 / i)
+    :ARG1 (v5 / sheep))
+
+# ::id 74
+# ::snt So then I made a drawing .
+# ::alignments 0-1|0 2-3|0.0.0 5-6|0.0 
+(v1 / cause-01
+    :ARG1 (v5 / draw-02
+        :ARG0 (v3 / i)))
+
+# ::id 75
+# ::snt He looked at it carefully , then he said : " No .
+# ::alignments 0-1|0.0 1-2|0 4-5|0.1 8-9|0.2 11-12|0.2.0 
+(v3 / look-01
+    :ARG0 (v1 / he)
+    :manner (v5 / careful)
+    :ARG1 (v7 / say-01
+        :polarity -
+        :ARG0 v1))
+
+# ::id 76
+# ::snt This sheep is already very sickly .
+# ::alignments 0-1|0.2.0 1-2|0.2 3-4|0.1 4-5|0.0 5-6|0 
+(v9 / sickly
+    :degree (v7 / very)
+    :time (v5 / already)
+    :domain (v3 / sheep
+        :mod (v1 / this)))
+
+# ::id 77
+# ::snt Make me another . "
+# ::alignments 1-2|0.0 2-3|0 
+(v3 / another
+    :domain (v1 / i))
+
+# ::id 78
+# ::snt So I made another drawing .
+# ::alignments 0-1|0 1-2|0.0.1 3-4|0.0.0 4-5|0.0 
+(v1 / cause-01
+    :ARG1 (v7 / draw-02
+        :mod (v5 / another)
+        :ARG0 (v3 / i)))
+
+# ::id 79
+# ::snt My friend smiled gently and indulgently .
+# ::alignments 0-1|0.3 1-2|0.1.0+0.1.0.0 2-3|0.1 3-4|0.0 4-5|0 5-6|0.2 
+(v11 / and
+    :op1 (v9 / gently)
+    :op1 (v7 / smile-01
+        :ARG0 (v3 / have-rel-role-91
+            :ARG2 (v4 / friend)))
+    :mod (v13 / indulgently)
+    :op2 (v1 / i))
+
+# ::id 80
+# ::snt " You see yourself , " he said , " that this is not a sheep .
+# ::alignments 1-2|0.0 2-3|0 7-8|0.1 11-12|0.1.0.1 13-14|0.1.0.0 15-16|0.1.0 
+(v3 / see-01
+    :ARG0 (v1 / you)
+    :ARG1 (v5 / say-01
+        :ARG1 (v9 / sheep
+            :polarity -
+            :domain (v7 / this))
+        :ARG0 v1))
+
+# ::id 81
+# ::snt This is a ram .
+# ::alignments 0-1|0.0 3-4|0 
+(v3 / ram
+    :domain (v1 / this))
+
+# ::id 82
+# ::snt It has horns . "
+# ::alignments 2-3|0 
+(v1 / horn)
+
+# ::id 83
+# ::snt So then I did my drawing over once more .
+# ::alignments 0-1|0 2-3|0.0.1 5-6|0.0 8-9|0.0.0 
+(v1 / cause-01
+    :ARG1 (v5 / draw-02
+        :degree (v7 / more)
+        :ARG0 (v3 / i)))
+
+# ::id 84
+# ::snt But it was rejected too , just like the others .
+# ::alignments 0-1|0 3-4|0.0 4-5|0.0.0 6-7|0.0.1.0 7-8|0.0.1 9-10|0.0.1.1 
+(v1 / contrast-01
+    :ARG2 (v3 / reject-01
+        :mod (v5 / too)
+        :ARG1-of (v9 / resemble-01
+            :mod (v7 / just)
+            :ARG2 (v11 / other))))
+
+# ::id 85
+# ::snt " This 1 is too old .
+# ::alignments 1-2|0.1 2-3|0.1.0 4-5|0.0 5-6|0 
+(v5 / old
+    :degree (v3 / too)
+    :domain (v1 / this
+        :mod 1))
+
+# ::id 86
+# ::snt I want a sheep that will live a long time . "
+# ::alignments 0-1|0.0 1-2|0 3-4|0.1 6-7|0.1.0 8-9|0.1.0.0.0 9-10|0.1.0.0 
+(v3 / want-01
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / sheep
+        :ARG0-of (v7 / live-01
+            :ARG1 (v11 / time
+                :ARG1-of (v9 / long-03)))))
+
+# ::id 87
+# ::snt By this time my patience was exhausted , because I was in a hurry to start taking my engine apart .
+# ::alignments 1-2|0.1.0 2-3|0.1 4-5|0.0 6-7|0 8-9|0.2 9-10|0.2.0.0 13-14|0.2.0 15-16|0.2.0.1 16-17|0.2.0.1.0 18-19|0.2.0.1.0.0 
+(v7 / exhaust-01
+    :ARG1 (v5 / patience)
+    :time (v3 / time
+        :mod (v1 / this))
+    :ARG1-of (v9 / cause-01
+        :ARG0 (v13 / hurry
+            :domain (v11 / i)
+            :ARG1-of (v15 / start-01
+                :ARG1 (v17 / take-01
+                    :ARG1 (v19 / engine))
+                :ARG0 v11))
+        :ARG0 v5))
+
+# ::id 88
+# ::snt So I tossed off this drawing .
+# ::alignments 0-1|0 1-2|0.0.0 2-3|0.0 4-5|0.0.1.0 5-6|0.0.1 
+(v1 / cause-01
+    :ARG1 (v5 / toss-01
+        :ARG0 (v3 / i)
+        :ARG1 (v9 / draw-02
+            :mod (v7 / this)
+            :ARG0 v3)))
+
+# ::id 89
+# ::snt And I threw out an explanation with it .
+# ::alignments 0-1|0 1-2|0.0.0 2-3|0.0 5-6|0.0.1 
+(v1 / and
+    :op2 (v5 / throw-01
+        :ARG0 (v3 / i)
+        :ARG1 (v7 / explain-01
+            :ARG0 v3)))
+
+# ::id 90
+# ::snt " This is only his box .
+# ::alignments 1-2|0.1 3-4|0.0 5-6|0 
+(v5 / box
+    :mod (v3 / only)
+    :domain (v1 / this))
+
+# ::id 91
+# ::snt The sheep you asked for is inside . "
+# ::alignments 1-2|0 2-3|0.0.0 3-4|0.0 6-7|0.1 
+(v1 / sheep
+    :ARG1-of (v5 / ask-02
+        :ARG0 (v3 / you))
+    :location (v7 / inside))
+
+# ::id 92
+# ::snt I was very surprised to see a light break over the face of my young judge : " That is exactly the way I wanted it !
+# ::alignments 0-1|0.1 2-3|0.0 3-4|0 5-6|0.2 7-8|0.2.0.0 8-9|0.2.0 11-12|0.2.0.1 14-15|0.2.0.1.0.1 15-16|0.2.0.1.0 18-19|0.2.0.1.0.0.1 20-21|0.2.0.1.0.0.0 22-23|0.2.0.1.0.0 23-24|0.2.0.1.0.0.2.0 24-25|0.2.0.1.0.0.2 
+(v5 / surprise-01
+    :degree (v3 / very)
+    :ARG1 (v1 / i)
+    :ARG0 (v7 / see-01
+        :ARG1 (v11 / break
+            :ARG1-of (v9 / light-06)
+            :location (v13 / face
+                :poss (v17 / judge-01
+                    :ARG1 (v23 / way
+                        :mod (v21 / exact)
+                        :domain (v19 / that)
+                        :ARG1-of (v27 / want-01
+                            :ARG0 (v25 / i)))
+                    :mod (v15 / young))))))
+
+# ::id 93
+# ::snt Do you think that this sheep will have to have a great deal of grass ? "
+# ::alignments 1-2|0.0 2-3|0 4-5|0.1.1.0 5-6|0.1.1 11-12|0.1.0 12-13|0.1 14-15|0.1.2 15-16|0.2 
+(v3 / think-01
+    :ARG0 (v1 / you)
+    :ARG1 (v11 / deal-01
+        :mod (v9 / great)
+        :ARG1 (v7 / sheep
+            :mod (v5 / this))
+        :ARG1 (v13 / grass-roots)
+        :ARG0 v1)
+    :mode interrogative)
+
+# ::id 94
+# ::snt " Why ? "
+# ::alignments 
+(e / emptygraph)
+
+# ::id 95
+# ::snt " Because where I live everything is very small ... "
+# ::alignments 1-2|0 3-4|0.0.1.0 4-5|0.0.1 5-6|0.0.1.1 7-8|0.0.0 8-9|0.0 
+(v1 / cause-01
+    :ARG0 (v11 / small
+        :degree (v9 / very)
+        :domain (v5 / live-01
+            :ARG0 (v3 / i)
+            :ARG1 (v7 / everything))))
+
+# ::id 96
+# ::snt " There will surely be enough grass for him , "
+# ::alignments 3-4|0.1 5-6|0.0 6-7|0 
+(v5 / grass-roots
+    :mod (v3 / enough)
+    :ARG1-of (v1 / sure-02))
+
+# ::id 97
+# ::snt I said .
+# ::alignments 0-1|0.0 1-2|0 
+(v3 / say-01
+    :ARG0 (v1 / i))
+
+# ::id 98
+# ::snt " It is a very small sheep that I have given you . "
+# ::alignments 4-5|0.0.0 5-6|0.0 6-7|0 8-9|0.1.0 10-11|0.1 11-12|0.1.1 
+(v5 / sheep
+    :mod (v3 / small
+        :degree (v1 / very))
+    :ARG1-of (v9 / give-01
+        :ARG0 (v7 / i)
+        :ARG1 (v11 / you)))
+
+# ::id 99
+# ::snt He bent his head over the drawing : " Not so small that -- Look !
+# ::alignments 0-1|0.1.0 1-2|0.1 3-4|0.1.1 6-7|0.1.1.0 9-10|0.0.1 10-11|0.0.0 11-12|0.0 14-15|0 
+(v13 / look-01
+    :domain (v11 / small
+        :degree (v9 / so)
+        :polarity -)
+    :ARG1 (v3 / bent
+        :domain (v1 / he)
+        :mod (v5 / head-01
+            :ARG1 (v7 / draw-02)
+            :ARG0 v1)))
+

@@ -1,0 +1,1988 @@
+# ::id 0
+# ::snt Reanudación de el período de sesiones
+# ::alignments 0-1|0 5-6|0.0 
+(v1 / resume-01
+    :ARG1 (v3 / session))
+
+# ::id 1
+# ::snt Declaro reanudado el período de sesiones de el Parlamento Europeo , interrumpido el viernes 17 de diciembre pasado , y reitero a Sus Señorías mi deseo de que hayan tenido unas buenas vacaciones .
+# ::alignments 0-1|0.0.1 1-2|0.0+0.0.0 5-6|0.0.2 11-12|0.1 13-17|0.1.0.1 17-18|0.1.0.0 19-20|0.1.0 20-21|0.1.0.2 22-24|0.1.0.2.0.0+0.1.0.2.0.0.0+0.1.0.2.0.0.0.0+0.1.0.2.0.0.0.1 25-26|0.1.0.2.0 31-32|0.1.1.0 32-33|0.1.1 
+(mu / multi-sentence
+    :snt1 (v3 / declare-01
+        :ARG1 (v4 / resume-01)
+        :ARG0 (v1 / i)
+        :ARG1 (v7 / session
+            :ARG0 v4))
+    :snt2 (v9 / adjourn-01
+        :op1 (v15 / and
+            :op1 (v13 / last)
+            :op1 (v11 / genericconcept)
+            :op2 (v17 / repeat-01
+                :ARG1 (v23 / desire-01
+                    :ARG0 (v19 / person
+                        :name (v20 / name
+                            :op1 "Sus"
+                            :op2 "Señorías")
+                        :wiki "Sus_Señorías"))))
+        :ARG1 (v27 / holiday
+            :mod (v25 / good)
+            :ARG0 v15)))
+
+# ::id 2
+# ::snt Como todos han podido comprobar , el gran " efecto de el año 2000 " no se ha producido . En cambio , los ciudadanos de varios de nuestros países han sido víctimas de catástrofes naturales verdaderamente terribles .
+# ::alignments 1-2|0.0 3-4|0 4-5|0.1 7-8|0.1.0.4 12-14|0.1.0.3.1 15-16|0.1.0.3.0 21-22|0.1.0.3 24-25|0.1.0.2 26-27|0.1.0 28-29|0.1.0.0.0 29-30|0.1.0.0 32-33|0.1.0.1 34-35|0.1.0.1.0 35-36|0.1.0.1.0.0 36-37|0.1.0.1.0.1.0 37-38|0.1.0.1.0.1 
+(v3 / possible-01
+    :mod (v1 / all)
+    :ARG1 (v5 / see-01
+        :ARG1 (v15 / number
+            :quant (v19 / country
+                :poss (v17 / we))
+            :quant (v21 / victim
+                :mod (v23 / disaster
+                    :ARG1-of (v25 / natural-03)
+                    :mod (v29 / dreadful
+                        :degree (v27 / really)
+                        :ARG0 v25)))
+            :poss (v13 / citizen)
+            :location (v11 / change-01
+                :polarity -
+                :ARG1 (v9 / genericconcept))
+            :mod (v7 / great))
+        :ARG0 v1))
+
+# ::id 3
+# ::snt Sus Señorías han solicitado un debate sobre el tema para los próximos días , en el curso de este período de sesiones .
+# ::alignments 1-2|0.0+0.0.0+0.0.0.0+0.0.1 3-4|0 5-6|0.1 8-9|0.1.0 11-12|0.1.0.0.1 12-13|0.1.0.0+0.1.0.0.0 18-19|0.2.0 21-22|0.2 
+(v5 / request-01
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Señorías")
+        :wiki "Señorías")
+    :ARG1 (v7 / debate-01
+        :ARG1 (v9 / issue-02
+            :ARG0 (v13 / temporal-quantity
+                :unit (v14 / day)
+                :mod (v11 / next)))
+        :ARG0 v1)
+    :ARG2 (v19 / session
+        :mod (v17 / this)
+        :ARG0 v1))
+
+# ::id 4
+# ::snt A la espera de que se produzca , de acuerdo con muchos colegas que me lo han pedido , pido que hagamos un minuto de silencio en memoria de todas las víctimas de las tormentas , en los distintos países de la Unión Europea afectados .
+# ::alignments 11-12|0.0.1.0 12-13|0.0.1 14-15|0.0.0 17-18|0.0 19-20|0.0.2 21-22|0.0.2.0.1 23-24|0.0.2.0+0.0.2.0.0 25-26|0.0.2.0.2 29-30|0.0.2.0.3.0 31-32|0.0.2.0.3 34-35|0.0.2.0.4 38-39|0.1.0.0 39-40|0.1.0 44-45|0.1 
+(mu / multi-sentence
+    :snt1 (v7 / ask-02
+        :ARG0 (v5 / i)
+        :ARG1 (v3 / colleague
+            :quant (v1 / many))
+        :ARG1 (v9 / ask-01
+            :ARG1 (v13 / temporal-quantity
+                :unit (v14 / minute)
+                :domain (v11 / we)
+                :ARG1-of (v17 / silence-01
+                    :ARG0 v14)
+                :mod (v21 / victim
+                    :quant (v19 / all)
+                    :ARG0 v14)
+                :mod (v23 / storm
+                    :ARG0 v14))
+            :ARG0 v5))
+    :snt2 (v29 / affect-01
+        :ARG0 (v27 / country
+            :ARG1-of (v25 / differ-02))))
+
+# ::id 5
+# ::snt Invito a todos a que nos pongamos de pie para guardar un minuto de silencio .
+# ::alignments 0-1|0.0+0.0.0 2-3|0.0.1.0 6-7|0.0.1 8-9|0.0.1.1 12-13|0.0.1.1.0+0.0.1.1.0.0 14-15|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / urge-01
+        :ARG0 (v2 / i)
+        :ARG2 (v7 / rise-01
+            :quant (v5 / all)
+            :ARG2 (v9 / rise-01
+                :ARG1 (v11 / temporal-quantity
+                    :unit (v12 / minute)))
+            :ARG0 v2))
+    :snt2 (v15 / silence-01
+        :ARG0 v1))
+
+# ::id 6
+# ::snt ( El Parlamento , de pie , guarda un minuto de silencio )
+# ::alignments 2-3|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1 5-6|0.0 7-8|0 9-10|0.1+0.1.0 11-12|0.1.1 
+(v7 / observe-01
+    :ARG1 (v5 / rise-01
+        :ARG1 (v1 / government-organization
+            :name (v2 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt"))
+    :ARG1 (v9 / temporal-quantity
+        :unit (v10 / minute)
+        :duration (v13 / silence-01
+            :ARG0 v10)))
+
+# ::id 7
+# ::snt Señora Presidenta , una cuestión de procedimiento .
+# ::alignments 0-2|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.0.1 4-5|0.0 6-7|0.1 
+(mu / multi-sentence
+    :snt1 (v5 / issue-02
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta"))
+    :snt2 (v7 / procedure
+        :ARG0 v5))
+
+# ::id 8
+# ::snt Sabrá usted por la prensa y la televisión que se han producido una serie de explosiones y asesinatos en Sri Lanka .
+# ::alignments 0-1|0.3 1-2|0.2 4-5|0.0 5-6|0 7-8|0.1.2 13-14|0.1.1 15-16|0.1.0 16-17|0.1 17-18|0.1.3 19-21|0.1.3.0+0.1.3.0.0+0.1.3.0.0.0+0.1.3.0.0.1 
+(v7 / and
+    :op1 (v5 / press)
+    :op2 (v15 / and
+        :op1 (v13 / explode-01)
+        :quant (v11 / series)
+        :op1 (v9 / television)
+        :op2 (v17 / murder-01
+            :location (v19 / country
+                :name (v20 / name
+                    :op1 "Sri"
+                    :op2 "Lanka")
+                :wiki "Sri_Lanka")
+            :ARG0 v13)
+        :ARG0 v5)
+    :domain (v3 / you)
+    :domain (v1 / you))
+
+# ::id 9
+# ::snt Una de las personas que recientemente han asesinado en Sri Lanka ha sido a el Sr. Kumar Ponnambalam , quien hace pocos meses visitó el Parlamento Europeo .
+# ::alignments 0-1|0.4 3-4|0.1 5-6|0.0 7-8|0 9-11|0.2+0.2.0+0.2.0.0+0.2.0.1 15-18|0.3.2 19-20|0.3.1 21-22|0.3.0 22-23|0.3.0.0+0.3.0.0.0 23-24|0.3 
+(v5 / kill-01
+    :time (v3 / recent)
+    :ARG0 (v1 / person)
+    :location (v7 / country
+        :name (v8 / name
+            :op1 "Sri"
+            :op2 "Lanka")
+        :wiki "Sri_Lanka")
+    :ARG0 (v19 / visitar-01
+        :quant (v13 / few
+            :op1 (v15 / temporal-quantity
+                :unit (v16 / month)))
+        :mod (v11 / polluter)
+        :mod "Sr.")
+    :li 1)
+
+# ::id 10
+# ::snt ¿ Sería apropiado que usted , Señora Presidenta , escribiese una carta a el Presidente de Sri Lanka expresando las condolencias de el Parlamento por esa y otras muertes violentas , pidiendo le que haga todo lo posible para encontrar una reconciliación pacífica ante la extremadamente difícil situación que está viviendo su país ?
+# ::alignments 2-3|0 4-5|0.0.1 6-8|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.0.1 9-10|0.0 11-12|0.0.2 14-18|0.0.2.0.0+0.0.2.0.0.0+0.0.2.0.0.0.0+0.0.2.0.0.0.1+0.0.2.0.0.0.2+0.0.2.0.0.0.3 18-19|0.0.2.0 20-21|0.0.2.0.1 23-24|0.0.2.0.1.0+0.0.2.0.1.0.0+0.0.2.0.1.0.0.0+0.0.2.0.1.0.1 26-27|0.1 27-28|0.1.0.4 29-30|0.1.0.3 31-32|0.1.0.0 37-38|0.1.0 39-40|0.1.0.1 41-42|0.1.0.1.0 42-43|0.1.0.1.0.0 45-46|0.1.0.1.0.1.1 46-47|0.1.0.1.0.1.0 47-48|0.1.0.1.0.1 52-53|0.1.0.1.0.1.2 53-54|0.1.0.2 
+(v1 / appropriate-02
+    :ARG1 (v9 / write-01
+        :ARG0 (v5 / person
+            :name (v6 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta")
+        :ARG0 (v3 / you)
+        :ARG1 (v11 / letter
+            :ARG1-of (v17 / express-01
+                :ARG0 (v13 / person
+                    :name (v14 / name
+                        :op1 "Presidente"
+                        :op2 "de"
+                        :op3 "Sri"
+                        :op4 "Lanka")
+                    :wiki "Presidente_de_Sri_Lanka")
+                :ARG1 (v19 / express-01
+                    :ARG1 (v21 / government-organization
+                        :name (v22 / name
+                            :op1 "Parliament")
+                        :wiki "Parliament_of_Egypt")
+                    :ARG0 v13))
+            :ARG0 v5))
+    :ARG1 (v25 / and
+        :op2 (v33 / possible-01
+            :ARG1 (v31 / ask-02)
+            :ARG1 (v35 / find-01
+                :ARG1 (v37 / reconcile-01
+                    :manner (v39 / peaceful)
+                    :ARG1 (v45 / situation
+                        :mod (v43 / difficult)
+                        :mod (v41 / extreme)
+                        :location (v47 / country
+                            :ARG0 v43)
+                        :ARG0 v39))
+                :ARG0 v31)
+            :mode interrogative
+            :mod (v29 / violent)
+            :mod (v27 / other))
+        :ARG0 v9))
+
+# ::id 11
+# ::snt Sí , señor Evans , pienso que una iniciativa como la que usted acaba de sugerir sería muy adecuada .
+# ::alignments 3-4|0.1+0.1.0+0.1.0.0+0.1.1 5-6|0+0.0 8-9|0.2 12-13|0.2.0.1 13-14|0.2.0.0 15-16|0.2.0 17-18|0.2.0.2.0 18-19|0.2.0.2 
+(v5 / think-01
+    :ARG0 (v6 / i)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Evans")
+        :wiki "Evans")
+    :ARG1 (v9 / initiative
+        :ARG1-of (v15 / suggest-01
+            :mod (v13 / just)
+            :ARG0 (v11 / you)
+            :manner (v19 / proper
+                :degree (v17 / very)))
+        :ARG0 v6))
+
+# ::id 12
+# ::snt Si la Asamblea está de acuerdo , haré lo que el señor Evans acaba de sugerir .
+# ::alignments 2-3|0.4+0.4.0+0.4.0.0+0.4.1 5-6|0.3 7-8|0.2 12-13|0.1+0.1.0+0.1.0.0+0.1.1 13-14|0.0 15-16|0 
+(v17 / suggest-01
+    :mod (v15 / just)
+    :ARG0 (v11 / person
+        :name (v12 / name
+            :op1 "Evans")
+        :wiki "Evans")
+    :ARG0 (v7 / i)
+    :ARG1 (v5 / agree-01)
+    :ARG0 (v1 / government-organization
+        :name (v2 / name
+            :op1 "House")
+        :wiki "United_States_House_of_Representatives"))
+
+# ::id 13
+# ::snt Señora Presidenta , una cuestión de procedimiento .
+# ::alignments 0-2|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.0.1 4-5|0.0 6-7|0.1 
+(mu / multi-sentence
+    :snt1 (v5 / issue-02
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta"))
+    :snt2 (v7 / procedure
+        :ARG0 v5))
+
+# ::id 14
+# ::snt Me gustaría que me asesorara sobre el Artículo 143 concerniente a la inadmisibilidad .
+# ::alignments 0-1|0.0 1-2|0 3-4|0.1.0 4-5|0.1 7-8|0.1.1 8-9|0.1.1.0.0 12-13|0.1.1.0 
+(v3 / like-02
+    :ARG0 (v1 / i)
+    :ARG1 (v7 / advise-01
+        :ARG0 (v5 / i)
+        :ARG1 (v9 / article
+            :mod (v11 / inadmissibility
+                :quant 143)
+            :ARG0 v5)
+        :ARG0 v1))
+
+# ::id 15
+# ::snt Mi pregunta se refiere a un asunto de el que se hablará el jueves , día que en volveré a plantear la .
+# ::alignments 0-1|0.0 1-2|0 6-7|0.1 13-14|0.1.0 18-19|0.1.1 
+(v3 / question-01
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / issue-02
+        :mod (v7 / thursday)
+        :mod (v9 / again
+            :ARG0 v7)
+        :ARG0 v1))
+
+# ::id 16
+# ::snt El informe Cunha sobre los programas de dirección plurianual se presenta a el Parlamento el jueves y contiene una propuesta en el apartado 6 en torno a una forma de penalizaciones basada en cuotas que debe aplicar se a los países que no cumplan anualmente sus objetivos de reducción de flota .
+# ::alignments 1-2|0.4 2-3|0.4.0 5-6|0.3 7-8|0.2 8-9|0.1 13-14|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1 15-16|0.0 16-17|0 17-18|0.5 19-20|0.5.0 23-24|0.5.0.0 30-31|0.5.0.1 31-32|0.5.0.1.0 33-34|0.5.0.1.0.0 36-37|0.5.0.1.0.0.0 40-41|0.5.0.1.0.0.0.0 42-43|0.5.0.1.0.0.0.0.0.0 43-44|0.5.0.1.0.0.0.0.0 46-47|0.5.0.1.0.0.0.0.0.1 48-49|0.5.0.1.0.0.0.0.0.1.0 50-51|0.5.0.1.0.0.0.0.0.1.0.0 
+(v17 / and
+    :op1 (v15 / thursday
+        :domain (v11 / government-organization
+            :name (v12 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt"))
+    :op1 (v9 / multiannual)
+    :op1 (v7 / direction)
+    :op1 (v5 / program)
+    :topic (v1 / report
+        :mod (v3 / cunha))
+    :op2 (v19 / contain-01
+        :ARG1 (v21 / propose-01
+            :ARG1 6
+            :ARG1 (v23 / penalize-01
+                :ARG1-of (v25 / base-01
+                    :ARG1 (v27 / quota
+                        :ARG1-of (v29 / apply-01
+                            :ARG1 (v31 / country
+                                :ARG0-of (v33 / fulfil-01
+                                    :polarity -
+                                    :ARG1 (v35 / objective
+                                        :mod (v37 / reduce-01
+                                            :mod (v39 / fleet))))))))))
+        :ARG0 v15))
+
+# ::id 17
+# ::snt El informe estipula que se debe aplicar se a pesar de el principio de estabilidad relativa .
+# ::alignments 1-2|0.0 6-7|0 12-13|0.1 14-15|0.1.0 
+(v3 / apply-01
+    :ARG1 (v1 / report)
+    :ARG1 (v5 / principle
+        :mod (v7 / stability)
+        :ARG0 v1))
+
+# ::id 18
+# ::snt Creo que el principio de estabilidad relativa es un principio legal fundamental de las políticas pesqueras comunitarias , por lo que una propuesta que lo subvierta es legalmente inadmisible .
+# ::alignments 0-1|0+0.0 3-4|0.1.4 5-6|0.1.4.0 9-10|0.1.4.1 10-11|0.1.4.1.0 11-12|0.1.4.1.1 14-15|0.1.3 15-16|0.1.2 16-17|0.1.1 22-23|0.1.0 28-29|0.1 
+(v1 / believe-01
+    :ARG0 (v2 / i)
+    :ARG1 (v23 / accept-01
+        :ARG1 (v21 / propose-01)
+        :ARG0 (v19 / community)
+        :ARG0 (v17 / fish-01)
+        :mod (v15 / policy)
+        :ARG0 (v5 / principle
+            :mod (v7 / stability)
+            :mod (v9 / principle
+                :ARG1-of (v11 / legal-02)
+                :mod (v13 / fundamental
+                    :ARG0 v11)
+                :ARG0 v7))
+        :ARG0 v2))
+
+# ::id 19
+# ::snt Quiero saber si se puede hacer este tipo de objeción a lo que sólo es un informe , no una propuesta legislativa , y si es algo que puedo plantear el jueves .
+# ::alignments 0-1|0.2 4-5|0 6-7|0.0.3.0.0 7-8|0.0.3.0 9-10|0.0.3 13-14|0.0.2 16-17|0.0.1 18-19|0.0.0.0 20-21|0.0.0 21-22|0.0.0.1 23-24|0.0 26-27|0.1 28-29|0.1.0.0 31-32|0.1.0 
+(v3 / possible-01
+    :ARG1 (v19 / and
+        :op1 (v15 / propose-01
+            :polarity -
+            :ARG1 (v17 / legislate-01))
+        :topic (v13 / report)
+        :mod (v11 / only)
+        :op1 (v9 / object-01
+            :mod (v7 / type
+                :mod (v5 / this))))
+    :ARG1 (v21 / something
+        :time (v25 / thursday
+            :domain (v23 / i))
+        :ARG0 v19)
+    :ARG0 (v1 / i))
+
+# ::id 20
+# ::snt Su Señoría , si así lo desea , podrá plantear esta cuestión en ese momento , es decir , el jueves antes de que se presente el informe .
+# ::alignments 1-2|0.2+0.2.0+0.2.0.0+0.2.1 6-7|0.1 8-9|0 10-11|0.0.2.0 11-12|0.0.2 13-14|0.0.1 17-18|0.0 20-21|0.0.0.0 27-28|0.0.0 
+(v7 / possible-01
+    :ARG1 (v15 / say-01
+        :ARG1 (v19 / report
+            :mod (v17 / thursday))
+        :ARG1 (v13 / this)
+        :ARG0 (v11 / issue-02
+            :mod (v9 / this)))
+    :ARG1 (v5 / wish-01)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Señoría")
+        :wiki "Señoría"))
+
+# ::id 21
+# ::snt Señora Presidenta , coincidiendo con el primer período parcial de sesiones de este año de el Parlamento Europeo , lamentablemente , en los Estados Unidos , en Texas , se ha fijado para el próximo jueves la ejecución de un condenado a la pena capital , un joven de 34 años que llamaremos con el nombre de Hicks .
+# ::alignments 0-2|0.0+0.0.0+0.0.0.0+0.0.0.1 3-4|0 10-11|0.1 12-13|0.1.0.0 13-14|0.1.0 19-20|0.2+0.2.0 27-28|0.3+0.3.0+0.3.0.0+0.3.1 34-36|0.4.0 37-38|0.4 40-41|0.4.1 44-45|0.4.1.0 47-48|0.5 49-50|0.5.0.1 50-51|0.5.0+0.5.0.0 52-53|0.5.0.2 57-58|0.5.0.2.0 
+(v5 / coincide-01
+    :domain (v1 / person
+        :name (v2 / name
+            :op1 "Señora"
+            :op2 "Presidenta")
+        :wiki "Señora_Presidenta")
+    :ARG1 (v7 / session
+        :mod (v11 / year
+            :mod (v9 / this))
+        :ARG0 v1)
+    :mod (v13 / fortunate-01
+        :polarity -
+        :ARG0 v1)
+    :location (v15 / state
+        :name (v16 / name
+            :op1 "Texas")
+        :wiki "Texas"
+        :ARG0 v1)
+    :purpose (v21 / implement-01
+        :ARG1 (v19 / genericconcept)
+        :ARG1-of (v23 / condemn-01
+            :ARG1 (v25 / matter)
+            :ARG0 v19)
+        :ARG0 v1)
+    :ARG1 (v27 / young
+        :mod (v29 / temporal-quantity
+            :unit (v30 / year)
+            :quant 34
+            :mod (v33 / llamar-01
+                :location "Hicks"
+                :ARG0 v30))
+        :ARG0 v1))
+
+# ::id 22
+# ::snt A petición de un diputado francés , el Sr. Zimeray , se ha presentado una solicitud , cuyos firmantes han sido numerosos y entre los cuales me cuento , sin embargo , de conformidad con la posición constantemente expresada por el Parlamento Europeo y por toda la Comunidad europea , le pido que intervenga con el prestigio de su cargo y de la Institución que representa ante el Presidente y el Gobernador de el Estado de Texas , Sr. Bush , que tiene la facultad de suspender la condena a muerte y de indultar a el condenado .
+# ::alignments 0-3|0.0.2 4-5|0.0.1+0.0.1.0 5-6|0.0.1.1+0.0.1.1.0+0.0.1.1.0.0+0.0.1.1.1+0.0.1.1.0.0+0.0.1.1.1 8-10|0.0.0+0.1.0.2.3.0.1.2.1.0.0 13-14|0.0 15-16|0.1 18-19|0.1.0.1+0.1.0.1.0 21-22|0.1.0.0 22-23|0.1.0 26-27|0.1.0.2.0 27-28|0.1.0.2 33-34|0.1.0.2.1.2 36-37|0.1.0.2.1.1 37-38|0.1.0.2.1.0 43-44|0.1.0.2.1 47-48|0.1.0.2.2.1 48-49|0.1.0.2.2.0+0.1.0.2.2.0.0+0.1.0.2.2.0.0.0+0.1.0.2.2.0.1+0.1.0.2.2.0.0.0+0.1.0.2.2.0.1 51-52|0.1.0.2.2 53-54|0.1.0.2.3 56-57|0.1.0.2.3.0.0 60-61|0.1.0.2.3.0 63-64|0.1.0.2.3.0.1.1 68-69|0.1.0.2.3.0.1.0+0.1.0.2.3.0.1.0.0+0.1.0.2.3.0.1.0.0.0+0.1.0.2.3.0.1.0.1 69-70|0.1.0.2.3.0.1 71-77|0.1.0.2.3.0.1.2.2 78-80|0.1.0.2.3.0.1.2.1+0.1.0.2.3.0.1.2.1.0+0.0.0+0.1.0.2.3.0.1.2.1.0.0+0.1.0.2.3.0.1.2.1.0.1 88-89|0.1.0.2.3.0.1.2.0 89-91|0.1.0.2.3.0.1.2.0.0 91-92|0.1.0.2.3.0.1.2 93-94|0.1.0.2.3.0.1.3 96-97|0.1.0.2.3.0.1.3.0 
+(mu / multi-sentence
+    :snt1 (v11 / table-01
+        :ARG0 "Sr."
+        :ARG1 (v3 / have-org-role-91
+            :ARG2 (v4 / member)
+            :ARG1 (v7 / country
+                :name (v8 / name
+                    :op1 "France")
+                :wiki "France"
+                :ARG0 v4))
+        :ARG0 (v1 / state-01))
+    :snt2 (v13 / request-01
+        :ARG2 (v21 / and
+            :quant (v19 / many)
+            :op1 (v15 / person
+                :ARG0-of (v16 / sign-02))
+            :op2 (v25 / call-01
+                :ARG0 (v23 / i)
+                :ARG1 (v33 / and
+                    :op1 (v31 / constant)
+                    :op1 (v29 / position)
+                    :mod (v27 / next)
+                    :ARG0 v23)
+                :ARG1 (v41 / ask-01
+                    :ARG0 (v37 / country
+                        :name (v38 / name
+                            :op1 "Europe")
+                        :wiki "Europe")
+                    :ARG0 (v35 / community)
+                    :ARG0 v23)
+                :ARG1 (v43 / intervene-01
+                    :ARG1 (v47 / and
+                        :mod (v45 / this)
+                        :op2 (v55 / and
+                            :op1 (v51 / person
+                                :name (v52 / name
+                                    :op1 "Presidente")
+                                :wiki "Presidente")
+                            :op1 (v49 / institution)
+                            :op2 (v67 / and
+                                :op1 (v61 / condemn-01
+                                    :ARG1 (v63 / sentence-01))
+                                :op1 (v57 / person
+                                    :name (v58 / name
+                                        :op1 "Sr."
+                                        :op2 "Bush")
+                                    :wiki "Sr._Bush")
+                                :op1 "Gobernador"
+                                :ARG0 v51)
+                            :op2 (v69 / indultar-01
+                                :ARG1-of (v71 / condemn-01)
+                                :ARG0 v51)
+                            :ARG0 v45))
+                    :ARG0 v23)))
+        :ARG0 v11))
+
+# ::id 23
+# ::snt Todo ello , de conformidad con los principios que siempre hemos apoyado .
+# ::alignments 0-1|0.4 4-5|0.3 7-8|0.2 9-10|0.1 10-11|0.0 11-12|0 
+(v11 / support-01
+    :ARG0 (v9 / we)
+    :time (v7 / always)
+    :ARG1 (v5 / principle)
+    :mod (v3 / next)
+    :quant (v1 / all))
+
+# ::id 24
+# ::snt Gracias , señor Segni , lo haré de muy buen grado .
+# ::alignments 0-1|0.3+0.3.0+0.3.0.0+0.3.1 3-4|0.2+0.2.0+0.2.0.0+0.2.1 6-7|0.1 8-9|0.0.0 9-10|0.0 10-11|0 
+(v17 / degree
+    :mod (v15 / good
+        :degree (v13 / very))
+    :domain (v9 / i)
+    :domain (v5 / person
+        :name (v6 / name
+            :op1 "Segni")
+        :wiki "Segni")
+    :domain (v1 / person
+        :name (v2 / name
+            :op1 "Gracias")
+        :wiki "Gracias"))
+
+# ::id 25
+# ::snt Está , sin duda , dentro de la línea de las posiciones que nuestro Parlamento siempre ha adoptado .
+# ::alignments 8-9|0.4 11-12|0.3 13-14|0.2 14-15|0.1+0.1.0+0.1.0.0+0.1.1 15-16|0.0 17-18|0 
+(v13 / adopt-01
+    :time (v11 / always)
+    :ARG1 (v7 / government-organization
+        :name (v8 / name
+            :op1 "Parliament")
+        :wiki "Parliament_of_Egypt")
+    :ARG0 (v5 / we)
+    :ARG1 (v3 / position)
+    :ARG1 (v1 / line))
+
+# ::id 26
+# ::snt Señora Presidenta , quisiera llamar la atención de usted acerca de un caso de el que se ha ocupado una y otra vez este Parlamento .
+# ::alignments 0-2|0.1+0.1.0+0.1.0.0+0.1.0.1 3-4|0+0.0 4-5|0.2 6-7|0.2.0 8-9|0.2.0.0 12-13|0.2.0.1 20-21|0.3 23-24|0.3.0.2 24-25|0.3.0+0.3.0.0+0.3.0.0.0+0.3.0.1 
+(v5 / like-02
+    :ARG0 (v6 / i)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Señora"
+            :op2 "Presidenta")
+        :wiki "Señora_Presidenta")
+    :ARG1 (v9 / draw-02
+        :ARG1 (v11 / attend-02
+            :ARG0 (v13 / you)
+            :ARG1 (v15 / case-03
+                :ARG0 v13))
+        :ARG0 v6)
+    :ARG1 (v17 / and
+        :op2 (v21 / government-organization
+            :name (v22 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt"
+            :mod (v19 / this))
+        :ARG0 v6))
+
+# ::id 27
+# ::snt Es el caso de Alexander Nikitin .
+# ::alignments 2-3|0 4-6|0.0+0.0.0+0.0.0.0+0.0.0.1 
+(v1 / case-03
+    :ARG0 (v3 / person
+        :name (v4 / name
+            :op1 "Alexander"
+            :op2 "Nikitin")
+        :wiki "Alexander_Nikitin"))
+
+# ::id 28
+# ::snt Todos celebramos aquí que el tribunal le haya declarado inocente y que haya puesto de manifiesto que también en Rusia el acceso a la información sobre el medio ambiente es un derecho constitucional .
+# ::alignments 0-1|0.0+0.0.0 1-2|0 2-3|0.1 5-6|0.2.1 9-10|0.2.0 10-11|0.2 17-18|0.2.2.2 19-20|0.2.2.1+0.2.2.1.0+0.2.2.1.0.0+0.2.2.1.1+0.2.2.1.0.0+0.2.2.1.1 21-22|0.2.2 24-25|0.2.2.0 27-28|0.2.2.0.0.1 28-29|0.2.2.0.0.0 31-32|0.2.2.0.0 32-33|0.2.2.0.0.2 
+(v5 / welcome-01
+    :ARG0 (v1 / we
+        :quant (v2 / all))
+    :location (v7 / here
+        :ARG0 v1)
+    :ARG1 (v13 / and
+        :op1 (v11 / innocent-01)
+        :op1 (v9 / court)
+        :op2 (v21 / access-01
+            :ARG1 (v23 / information
+                :topic (v29 / right-05
+                    :ARG1 (v27 / environment)
+                    :ARG1 (v25 / environment)
+                    :mod (v31 / constitution)))
+            :ARG0 (v17 / country
+                :name (v18 / name
+                    :op1 "Russia")
+                :wiki "Russia")
+            :mod (v15 / also)
+            :ARG0 v11)
+        :ARG0 v1))
+
+# ::id 29
+# ::snt Sin embargo , sucede que va a ser acusado de nuevo , pues el fiscal interpondrá un recurso .
+# ::alignments 8-9|0 10-11|0.0.0 15-16|0.0 17-18|0.0.1 
+(v1 / accuse-01
+    :ARG2 (v5 / prosecute-01
+        :mod (v3 / new)
+        :ARG1 (v9 / resource)))
+
+# ::id 30
+# ::snt Sabemos y lo hemos afirmado realmente en muchas resoluciones - precisamente en la última sesión plenaria de el año pasado - que éste no es solamente un caso jurídico y que es un error acusar a Alexander Nikitin de conducta criminal y de traición , porque nosotros , como afectados por sus resultados , obtengamos provecho de ella .
+# ::alignments 0-1|0.0+0.0.0 1-2|0 3-4|0.1.0 4-5|0.1 7-8|0.1.1.0 8-9|0.1.1 13-14|0.2.0 14-15|0.2 15-16|0.2.1 18-19|0.2.2 19-20|0.2.2.0 22-23|0.3.3 23-24|0.3.2 25-26|0.3.1 27-28|0.3.0 28-29|0.3.0.0 29-30|0.3 33-34|0.3.4 34-35|0.3.4.0 36-38|0.3.4.0.0.1+0.3.4.0.0.1.0+0.3.4.0.0.1.0.0+0.3.4.0.0.1.0.1 39-40|0.3.4.0.0.0 40-41|0.3.4.0.0.0.0 41-42|0.3.4.0.0 45-46|0.4 49-50|0.4.0 52-53|0.4.0.0+0.4.0.0.0 54-55|0.4.0.1 
+(v5 / and
+    :op1 (v1 / know-01
+        :ARG0 (v2 / we))
+    :op2 (v9 / state-01
+        :ARG0 (v7 / we)
+        :ARG1 (v13 / resolution
+            :quant (v11 / many)
+            :ARG0 v7)
+        :ARG0 v1)
+    :op2 (v17 / sit-01
+        :mod (v15 / last)
+        :mod (v19 / plenary)
+        :time (v21 / year
+            :mod (v23 / last))
+        :ARG0 v1)
+    :op2 (v33 / and
+        :op1 (v29 / case-03
+            :ARG1-of (v31 / legal-02))
+        :mod (v27 / only)
+        :polarity -
+        :domain (v25 / this)
+        :op2 (v35 / mistake-02
+            :ARG1 (v37 / accuse-01
+                :ARG2 (v47 / and
+                    :op1 (v43 / conduct-02
+                        :mod (v45 / criminal-03))
+                    :op1 (v39 / person
+                        :name (v40 / name
+                            :op1 "Alexander"
+                            :op2 "Nikitin")
+                        :wiki "Alexander_Nikitin")))
+            :ARG0 v29)
+        :ARG0 v1)
+    :ARG1-of (v49 / cause-01
+        :ARG0 (v51 / affect-01
+            :ARG1 (v53 / thing
+                :ARG2-of (v54 / result-01))
+            :ARG1 (v57 / beneficiary
+                :ARG0 v53))
+        :ARG0 v1))
+
+# ::id 31
+# ::snt Esos resultados constituyen la base de los programas europeos de el mar de Barent y , por ello , le pido que estudie un borrador de carta que le describe los hechos más relevantes y que haga patente a Rusia esta posición que es acorde con las decisiones de el Parlamento .
+# ::alignments 1-2|0.4+0.4.0 7-8|0.3 8-9|0.2+0.2.0+0.2.0.0+0.2.1+0.2.0.0+0.2.1 11-12|0.1 14-15|0 20-21|0.0 22-23|0.0.0 24-25|0.0.0.0 26-27|0.0.0.0.0 29-30|0.0.0.0.0.0 31-32|0.0.0.0.0.0.0 32-33|0.0.0.0.0.0.0.0.0 34-35|0.0.0.0.0.0.0.0 39-40|0.0.0.0.0.0.0.0.1.1+0.0.0.0.0.0.0.0.1.1.0+0.0.0.0.0.0.0.0.1.1.0.0+0.0.0.0.0.0.0.0.1.1.1+0.0.0.0.0.0.0.0.1.1.0.0+0.0.0.0.0.0.0.0.1.1.1 40-41|0.0.0.0.0.0.0.0.1.0 41-42|0.0.0.0.0.0.0.0.1 47-48|0.0.0.0.0.0.0.0.2 50-51|0.0.0.0.0.0.0.0.2.0+0.0.0.0.0.0.0.0.2.0.0+0.0.0.0.0.0.0.0.2.0.0.0+0.0.0.0.0.0.0.0.2.0.1 
+(v13 / and
+    :op2 (v15 / ask-01
+        :ARG1 (v17 / examine-01
+            :ARG1 (v19 / draft-01
+                :mod (v21 / letter
+                    :ARG1-of (v23 / describe-01
+                        :ARG1 (v25 / fact
+                            :location (v29 / and
+                                :quant (v27 / more)
+                                :op2 (v37 / position
+                                    :mod (v35 / this)
+                                    :mod (v31 / country
+                                        :name (v32 / name
+                                            :op1 "Russia")
+                                        :wiki "Russia"))
+                                :op2 (v39 / decide-01
+                                    :ARG1 (v41 / government-organization
+                                        :name (v42 / name
+                                            :op1 "Parliament")
+                                        :wiki "Parliament_of_Egypt")))))))))
+    :op1 (v11 / sea)
+    :op1 (v7 / country
+        :name (v8 / name
+            :op1 "Europe")
+        :wiki "Europe")
+    :op1 (v5 / program)
+    :op1 (v1 / thing
+        :ARG2-of (v2 / result-01)))
+
+# ::id 32
+# ::snt Sí , señora Schroedter , de buena gana voy a examinar los hechos relacionados con este tema en cuanto reciba su carta .
+# ::alignments 3-4|0.1+0.1.0+0.1.0.0+0.1.1 8-9|0.0 10-11|0 12-13|0.2 13-14|0.2.0 15-16|0.2.0.0.0 16-17|0.2.0.0 21-22|0.2.0.0.1 
+(v7 / examine-01
+    :ARG0 (v5 / i)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Schroedter")
+        :wiki "Schroedter")
+    :ARG1 (v9 / fact
+        :ARG1-of (v11 / relate-01
+            :ARG2 (v15 / issue-02
+                :mod (v13 / this)
+                :mod (v17 / letter
+                    :ARG0 v13)))
+        :ARG0 v5))
+
+# ::id 33
+# ::snt Señora Presidenta , en primer lugar me gustaría felicitar la por haber cumplido con su promesa ya que efectivamente en este primer periodo de sesiones de el año nuevo se ha ampliado drásticamente el número de canales en nuestros despachos .
+# ::alignments 0-2|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.0.1 6-7|0.0.0 7-8|0.0 8-9|0.0.2 12-13|0.0.2.0 15-16|0.0.2.0.0 20-21|0.0.2.0.0.0.0 24-25|0.0.2.0.0.0 27-28|0.1.1 28-29|0.1.0 31-32|0.1 32-33|0.1.2 34-35|0.1.3 36-37|0.1.3.0 38-39|0.1.3.0.0.0 39-40|0.1.3.0.0 
+(mu / multi-sentence
+    :snt1 (v7 / like-02
+        :ARG0 (v5 / i)
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta")
+        :ARG1 (v9 / congratulate-01
+            :ARG1 (v11 / keep-01
+                :ARG1 (v13 / promise-01
+                    :ARG2 (v17 / session
+                        :mod (v15 / this))))
+            :ARG0 v5))
+    :snt2 (v23 / extend-01
+        :mod (v21 / new)
+        :time (v19 / year)
+        :manner (v25 / drastic)
+        :ARG1 (v27 / number
+            :quant-of (v29 / channel
+                :poss (v33 / office
+                    :poss (v31 / we))))
+        :ARG0 v7))
+
+# ::id 34
+# ::snt Sin embargo , señora Presidenta , no se ha hecho lo que yo había pedido .
+# ::alignments 4-5|0.2+0.2.0+0.2.0.0+0.2.1 6-7|0.1 12-13|0.0 14-15|0 
+(v7 / ask-02
+    :ARG0 (v5 / i)
+    :polarity -
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Presidenta")
+        :wiki "Presidenta"))
+
+# ::id 35
+# ::snt Bien es verdad que ahora hay dos canales finlandeses y uno portugués , pero aún no hay ninguno neerlandés y yo le había pedido un canal neerlandés , porque también los neerlandeses quisiéramos escuchar las noticias cada mes , cuando nos mandan a este exilio .
+# ::alignments 4-5|0.1 7-8|0 8-9|0.0 9-10|0.0.0 11-12|0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.1+0.0.0.0.0.0.0+0.0.0.0.0.1 13-14|0.0.0.0 14-15|0.0.0.0.1.2 15-16|0.0.0.0.1.1 17-18|0.0.0.0.1.0 19-20|0.0.0.0.1 20-21|0.0.0.0.1.3.0 23-24|0.0.0.0.1.3 25-26|0.0.0.0.1.3.1 28-29|0.0.0.0.1.3.1.0 29-30|0.0.0.0.1.3.1.0.0.0 31-32|0.0.0.0.1.3.1.0.0 32-33|0.0.0.0.1.3.1.0.0.1.0 33-34|0.0.0.0.1.3.1.0.0.1 35-36|0.0.0.0.1.3.1.0.0.1.1 36-37|0.0.0.0.1.3.1.0.0.1.1.0.1 37-38|0.0.0.0.1.3.1.0.0.1.1.0+0.0.0.0.1.3.1.0.0.1.1.0.0 43-44|0.0.0.0.1.3.1.0.0.1.2.0 44-45|0.0.0.0.1.3.1.0.0.1.2 
+(v3 / channel
+    :op1 (v5 / and
+        :op2 (v7 / and
+            :op2 (v13 / contrast-01
+                :ARG1 (v9 / country
+                    :name (v10 / name
+                        :op1 "Portugal")
+                    :wiki "Portugal")
+                :ARG2 (v19 / and
+                    :op1 (v17 / none)
+                    :polarity -
+                    :mod (v15 / still)
+                    :ARG1-of (v23 / ask-02
+                        :ARG0 (v21 / i)
+                        :ARG1 (v25 / channel
+                            :ARG1-of (v27 / cause-01
+                                :ARG0 (v31 / follow-02
+                                    :mod (v29 / also)
+                                    :ARG1 (v35 / hear-01
+                                        :ARG0 (v33 / we)
+                                        :ARG1 (v37 / news
+                                            :mod (v41 / temporal-quantity
+                                                :unit (v42 / month)
+                                                :mod (v39 / each))
+                                            :ARG0 v33)
+                                        :ARG1 (v47 / exile-01
+                                            :mod (v45 / this)
+                                            :ARG0 v33))))
+                            :ARG0 v21)
+                        :ARG0 v17)
+                    :ARG0 v9))))
+    :time (v1 / now))
+
+# ::id 36
+# ::snt Por lo tanto quisiera pedir le nuevamente que se encargue de que podamos ver también un canal neerlandés .
+# ::alignments 3-4|0+0.0 4-5|0.1 6-7|0.1.0 9-10|0.1.1 12-13|0.1.1.0 13-14|0.1.1.0.0 14-15|0.1.1.0.0.0 16-17|0.1.1.0.0.1 
+(v1 / like-02
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / ask-01
+        :mod (v7 / again)
+        :ARG1 (v9 / deal-01
+            :ARG1 (v11 / possible-01
+                :ARG1 (v13 / see-01
+                    :mod (v15 / also)
+                    :ARG1 (v17 / channel))))
+        :ARG0 v2))
+
+# ::id 37
+# ::snt Señora Plooij-van Gorsel , puedo decir le que esa cuestión está en el orden de el día de la reunión de cuestores fijada para el miércoles .
+# ::alignments 0-3|0.1+0.1.0+0.1.0.0+0.1.0.1+0.1.0.2 4-5|0.0 5-6|0 9-10|0.2 19-20|0.2.0 21-22|0.2.0.0 25-26|0.2.0.1 
+(v7 / say-01
+    :ARG0 (v5 / i)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Señora"
+            :op2 "Plooij-van"
+            :op3 "Gorsel")
+        :wiki "Señora_Plooij-van_Gorsel")
+    :ARG1 (v9 / issue-02
+        :ARG0 (v11 / meet-03
+            :ARG1 (v13 / quaestor)
+            :time (v15 / wednesday
+                :ARG0 v13))
+        :ARG0 v5))
+
+# ::id 38
+# ::snt Espero que se examine con un espíritu positivo .
+# ::alignments 0-1|0+0.0 3-4|0.1 6-7|0.1.0 7-8|0.1.0.0 
+(v1 / hope-01
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / examine-01
+        :ARG1 (v7 / spirit
+            :mod (v9 / positive))
+        :ARG0 v2))
+
+# ::id 39
+# ::snt Señora Presidenta , ¿ podría decir me por qué este Parlamento no cumple la legislación de sanidad y seguridad que en realidad ha aprobado ?
+# ::alignments 0-2|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.0.1 4-5|0.0 5-6|0.0.1 6-7|0.0.1.0 9-10|0.0.1.1.1.2 10-11|0.0.1.1.1+0.0.1.1.1.0+0.0.1.1.1.0.0+0.0.1.1.1.1 11-12|0.0.1.1.0 14-15|0.0.1.1 16-17|0.1.1 17-18|0.1 18-19|0.1.0.0 23-24|0.1.0 24-25|0.1.0.1 
+(mu / multi-sentence
+    :snt1 (v5 / possible-01
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta")
+        :ARG1 (v7 / say-01
+            :ARG0 (v9 / i)
+            :ARG1 (v17 / legislation
+                :polarity -
+                :domain (v13 / government-organization
+                    :name (v14 / name
+                        :op1 "Parliament")
+                    :wiki "Parliament_of_Egypt"
+                    :mod (v11 / this))
+                :domain v9
+                :ARG0 v9)
+            :ARG0 v1))
+    :snt2 (v21 / and
+        :op2 (v25 / approve-01
+            :ARG1 (v23 / security)
+            :mode interrogative)
+        :op1 (v19 / health)
+        :ARG0 v5))
+
+# ::id 40
+# ::snt ¿ Por qué no se ha hecho ninguna prueba de calidad de el aire de este edificio desde que hemos sido elegidos ?
+# ::alignments 3-4|0.1.3 7-8|0.1.3 10-11|0.1.2 13-14|0.1.1 15-16|0.0.0 16-17|0.0 19-20|0.1.0 21-22|0.1 22-23|0.1.4 
+(mu / multi-sentence
+    :snt1 (v7 / building
+        :mod (v5 / this))
+    :snt2 (v11 / elect-01
+        :ARG0 (v9 / we)
+        :ARG1 v7
+        :ARG1 (v3 / air)
+        :ARG1 (v1 / quality)
+        :polarity -
+        :mode interrogative))
+
+# ::id 41
+# ::snt ¿ Por qué no se ha celebrado ninguna reunión de el Comité de Sanidad y Seguridad desde 1998 ?
+# ::alignments 3-4|0.1.0+0.4 7-8|0.1.0+0.4 8-9|0.1 11-14|0.0 14-15|0 15-16|0.2.1 17-18|0.2+0.2.0 18-19|0.3 
+(v5 / and
+    :op1 (v3 / committee)
+    :op1 (v1 / meet-03
+        :polarity -)
+    :op2 (v9 / date-entity
+        :year 1998
+        :time (v7 / security)
+        :ARG0 v3)
+    :mode interrogative
+    :polarity -)
+
+# ::id 42
+# ::snt ¿ Por qué no hemos tenido simulacros de incendio ni en los edificios de el Parlamento de Bruselas ni en los de el Parlamento de Estrasburgo ?
+# ::alignments 3-4|0.1 4-5|0.0 6-7|0 8-9|0.2 12-13|0.2.0.2 15-18|0.2.0.1 23-26|0.2.0 26-27|0.2.0.0 
+(v3 / fire-01
+    :domain (v1 / we)
+    :polarity -
+    :location (v5 / fire-01
+        :location (v11 / building
+            :mode interrogative
+            :mod (v9 / building)
+            :mod (v7 / building))
+        :ARG0 v1))
+
+# ::id 43
+# ::snt ¿ Por qué no hay instrucciones en caso de incendio ?
+# ::alignments 3-4|0.0.1 5-6|0.0 9-10|0.0.0 10-11|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / instruct-01
+        :ARG1 (v3 / fire-01)
+        :polarity -)
+    :snt2 interrogative)
+
+# ::id 44
+# ::snt ¿ Por qué no se han mejorado las escaleras desde mi accidente ?
+# ::alignments 3-4|0.0.0 6-7|0.0 8-9|0.0.1 11-12|0.0.1.0 12-13|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / improve-01
+        :polarity -
+        :time (v3 / since
+            :op1 (v5 / accident)))
+    :snt2 interrogative)
+
+# ::id 45
+# ::snt ¿ Por qué no se respetan las áreas de no fumadores ?
+# ::alignments 3-4|0.0.0+0.0.1.0.0 5-6|0.0 7-8|0.0.1 9-10|0.0.0+0.0.1.0.0 10-11|0.0.1.0 11-12|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / respect-01
+        :polarity -
+        :ARG1 (v3 / area
+            :ARG0-of (v5 / smoke-02
+                :polarity -)))
+    :snt2 interrogative)
+
+# ::id 46
+# ::snt Es totalmente vergonzoso que aprobemos una legislación y no la cumplamos ni nosotros mismos .
+# ::alignments 1-2|0.0 2-3|0 4-5|0.1 6-7|0.1.0.0 7-8|0.1.0 8-9|0.1.0.1.0 10-11|0.1.0.1 
+(v3 / shame-02
+    :degree (v1 / total)
+    :domain (v5 / grant-01
+        :ARG1 (v9 / and
+            :op1 (v7 / legislation)
+            :op2 (v11 / adhere-02
+                :polarity -
+                :ARG0 v7))
+        :ARG0 v1))
+
+# ::id 47
+# ::snt Señora Lynne , tiene toda la razón de el mundo , y verificaré si estas cosas no se han hecho de verdad .
+# ::alignments 0-2|0.1+0.1.0+0.1.0.0+0.1.0.1 9-10|0.0 11-12|0 12-13|0.2 14-15|0.2.0.0 15-16|0.2.0 16-17|0.2.1 
+(v7 / and
+    :op1 (v5 / world)
+    :op1 (v1 / person
+        :name (v2 / name
+            :op1 "Señora"
+            :op2 "Lynne")
+        :wiki "Señora_Lynne")
+    :op2 (v9 / check-out-05
+        :ARG1 (v13 / thing
+            :mod (v11 / this))
+        :polarity -
+        :ARG0 v5))
+
+# ::id 48
+# ::snt También someteré el problema a la Junta de Cuestores , y estoy segura de que los cuestores harán lo debido para que respetemos las normas que , efectivamente , nosotros mismos votamos .
+# ::alignments 0-1|0.0 1-2|0 3-4|0.1 10-11|0.1.0 11-12|0.1.0.0.0 12-13|0.1.0.0 16-17|0.1.0.0.1 22-23|0.1.0.0.1.0.2 24-25|0.1.0.0.1.0.1 31-32|0.1.0.0.1.0+0.1.0.0.1.0.0 
+(v3 / refer-01
+    :mod (v1 / also)
+    :ARG1 (v7 / problem
+        :topic (v9 / and
+            :op2 (v13 / sure-02
+                :ARG0 (v11 / i)
+                :ARG1 (v15 / quaestor
+                    :ARG1-of (v21 / vote-01
+                        :ARG0 (v22 / we)
+                        :ARG1 (v19 / rule)
+                        :ARG0 (v17 / we))
+                    :ARG0 v11)))))
+
+# ::id 49
+# ::snt Sra. Presidenta , la Sra. Díez González y yo mismo habíamos presentado unas preguntas sobre determinadas opiniones , reproducidas en un diario español , de la Vicepresidenta , Sra. de Palacio .
+# ::alignments 0-2|0.0.0+0.0.1.3+0.2.0.0+0.3 4-7|0.0.0+0.0.1.3+0.2.0.0+0.3 7-8|0.0 8-9|0.0.1.1 10-11|0.0.1.0 11-12|0.0.1 13-14|0.0.1.2 15-16|0.0.1.2.0.0 16-17|0.0.1.2.0 18-19|0 26-27|0.1+0.1.0+0.1.0.0+0.1.1 28-31|0.2+0.2.0+0.0.0+0.0.1.3+0.2.0.0+0.3+0.2.0.1+0.2.0.2 
+(v15 / reproducir-01
+    :op2 (v1 / and
+        :op1 "Sra."
+        :op2 (v7 / table-01
+            :ARG0 (v5 / we)
+            :ARG0 (v3 / i)
+            :ARG1 (v9 / question-01
+                :ARG1 (v13 / view-02
+                    :mod (v11 / certain))
+                :ARG0 v5)
+            :ARG0 "Sra."))
+    :ARG0 (v17 / person
+        :name (v18 / name
+            :op1 "Vicepresidenta")
+        :wiki "Vicepresidenta"
+        :ARG0 v1)
+    :ARG0 (v21 / person
+        :name (v22 / name
+            :op1 "Sra."
+            :op2 "de"
+            :op3 "Palacio")
+        :wiki "Sra._de_Palacio"
+        :ARG0 v1)
+    :ARG0 "Sra.")
+
+# ::id 50
+# ::snt Los servicios competentes no las han incluido en el orden de el día por considerar que ya habían sido contestadas en una sesión anterior .
+# ::alignments 1-2|0.2 2-3|0.2.0 3-4|0.1 16-17|0.0 19-20|0 22-23|0.3 23-24|0.3.0 
+(v7 / reply-01
+    :time (v5 / already)
+    :polarity -
+    :ARG1 (v1 / service
+        :ARG1-of (v3 / competent-01))
+    :ARG1 (v9 / sit-01
+        :mod (v11 / previous)))
+
+# ::id 51
+# ::snt Ruego que se reconsidere esta decisión porque esto no es así .
+# ::alignments 0-1|0+0.0 3-4|0.1 4-5|0.1.0.2 5-6|0.1.0.1 6-7|0.1.0 7-8|0.1.0.0 8-9|0.1.0.0.0 
+(v1 / ask-01
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / reconsider-01
+        :ARG1-of (v11 / cause-01
+            :ARG0 (v13 / this
+                :polarity -)
+            :ARG0 (v9 / decide-01)
+            :mod (v7 / this))
+        :ARG0 v2))
+
+# ::id 52
+# ::snt Las preguntas contestadas con anterioridad se referían a la intervención , en determinado expediente , de la Sra. de Palacio , no a esas declaraciones aparecidas en el diario ABC el 18 de noviembre pasado .
+# ::alignments 1-2|0.0 2-3|0.0.0 6-7|0 9-10|0.1.6 12-13|0.1.5 17-20|0.1.4 21-22|0.1.3 23-24|0.1.2 25-26|0.1+0.1.0 31-34|0.1.1.0 34-35|0.1.1 
+(v5 / concern-01
+    :ARG1 (v1 / question-01
+        :ARG1-of (v3 / reply-01))
+    :ARG0 (v13 / report-01
+        :ARG0 (v14 / newspaper)
+        :ARG1 (v19 / last
+            :mod (v17 / genericconcept)
+            :ARG0 v14)
+        :mod (v11 / this)
+        :polarity -
+        :mod "Sra."
+        :mod (v9 / certain)
+        :ARG0 (v7 / intervene-01)
+        :ARG0 v1))
+
+# ::id 53
+# ::snt Señoría , vamos a verificar todo esto .
+# ::alignments 0-1|0.1+0.1.0+0.1.0.0+0.1.1 2-3|0.0 4-5|0 6-7|0.2 
+(v7 / verify-01
+    :ARG0 (v5 / we)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Señoría")
+        :wiki "Señoría")
+    :ARG1 (v9 / this
+        :ARG0 v5))
+
+# ::id 54
+# ::snt Le confieso que , de momento , las cosas me parecen un tanto confusas .
+# ::alignments 0-1|0.0.0 1-2|0.0 8-9|0.0.1.1 9-10|0.0.1.0 10-11|0.0.1 13-14|0.1 
+(mu / multi-sentence
+    :snt1 (v3 / admit-01
+        :ARG0 (v1 / i)
+        :ARG1 (v9 / seem-01
+            :ARG2 (v7 / i)
+            :ARG1 (v5 / thing)))
+    :snt2 (v11 / confuse-01
+        :ARG0 v3))
+
+# ::id 55
+# ::snt Por consiguiente , vamos a revisar las con seriedad para que todo esté en orden .
+# ::alignments 3-4|0.0 5-6|0 8-9|0.1 11-12|0.2 
+(v3 / review-01
+    :ARG0 (v1 / we)
+    :manner (v5 / serious
+        :ARG0 v1)
+    :manner (v7 / particular
+        :ARG0 v1))
+
+# ::id 56
+# ::snt Señora Presidenta , me gustaría saber si el Parlamento emitirá esta semana un comunicado claro sobre el descontento por la decisión de hoy de no renovar el embargo de armas a Indonesia , considerando que la inmensa mayoría de este Parlamento apoyó en el pasado el embargo de armas a Indonesia .
+# ::alignments 0-2|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.0.1 3-4|0.0.0 4-5|0.0 8-9|0.0.2.2+0.0.2.2.0+0.0.2.2.0.0+0.1.0.0.0+0.0.2.2.1+0.1.0.1 10-11|0.0.2.1 11-12|0.0.2.0 13-14|0.0.2 14-15|0.0.2.3 17-18|0.1.4 20-21|0.1.3.1 22-23|0.1.3.1.0 24-25|0.1.3.0 25-26|0.1.3 29-30|0.1.3.2 31-32|0.1.3.2.0+0.1.3.2.0.0+0.1.3.2.0.0.0+0.1.3.2.0.1+0.1.5.1.0.0+0.1.5.1.1 36-37|0.1.2.0 37-38|0.1.2 39-40|0.1.1 40-41|0.1.0+0.1.0.0+0.0.2.2.0.0+0.1.0.0.0+0.0.2.2.1+0.1.0.1 41-42|0.1 44-45|0.1.5.0 48-49|0.1.5 50-51|0.1.5.1+0.1.5.1.0+0.1.3.2.0.0.0+0.1.3.2.0.1+0.1.5.1.0.0+0.1.5.1.1 
+(mu / multi-sentence
+    :snt1 (v7 / like-02
+        :ARG0 (v5 / i)
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta")
+        :ARG1 (v17 / pass-01
+            :time (v15 / week)
+            :mod (v13 / this)
+            :ARG1 (v9 / government-organization
+                :name (v10 / name
+                    :op1 "Parliament")
+                :wiki "Parliament_of_Egypt")
+            :ARG1-of (v19 / clear-06)
+            :ARG0 v5))
+    :snt2 (v45 / support-01
+        :ARG0 (v41 / government-organization
+            :name (v42 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt")
+        :mod (v39 / this)
+        :ARG0 (v37 / majority
+            :mod (v35 / great))
+        :ARG1 (v27 / renew-01
+            :polarity -
+            :ARG1 (v23 / decide-01
+                :time (v25 / today))
+            :ARG1 (v29 / weapon
+                :location (v31 / country
+                    :name (v32 / name
+                        :op1 "Indonesia")
+                    :wiki "Indonesia")))
+        :ARG0 (v21 / discontent)
+        :ARG1 (v49 / weapon
+            :mod (v47 / last)
+            :location (v51 / country
+                :name (v52 / name
+                    :op1 "Indonesia")
+                :wiki "Indonesia")
+            :ARG0 v41)
+        :ARG0 v7))
+
+# ::id 57
+# ::snt La decisión de hoy de no renovar el embargo es extremadamente peligrosa teniendo en cuenta la situación de ese país .
+# ::alignments 1-2|0.1 3-4|0.1.0 5-6|0.0 6-7|0 10-11|0.2.0 11-12|0.2 16-17|0.2.1 18-19|0.2.1.0.0 19-20|0.2.1.0 
+(v5 / renew-01
+    :polarity -
+    :ARG1 (v1 / decide-01
+        :time (v3 / today))
+    :ARG1 (v9 / dangerous
+        :degree (v7 / extreme)
+        :beneficiary (v11 / situation
+            :location (v15 / country
+                :mod (v13 / this))
+            :ARG0 v7)))
+
+# ::id 58
+# ::snt Por lo tanto , el Parlamento debe enviar un mensaje , ya que ése es el deseo de la inmensa mayoría .
+# ::alignments 5-6|0.0+0.0.0+0.0.0.0+0.0.1 7-8|0 9-10|0.1 13-14|0.1.0.0 16-17|0.1.0 19-20|0.1.0.1.0 20-21|0.1.0.1 
+(v5 / send-01
+    :ARG0 (v1 / government-organization
+        :name (v2 / name
+            :op1 "Parliament")
+        :wiki "Parliament_of_Egypt")
+    :ARG1 (v7 / message
+        :ARG1-of (v11 / desire-01
+            :ARG0 (v9 / this)
+            :degree (v15 / majority
+                :mod (v13 / great)
+                :ARG0 v9))
+        :ARG0 v1))
+
+# ::id 59
+# ::snt Es irresponsable por parte de los Estados Miembros de la UE negar se a renovar el embargo .
+# ::alignments 1-2|0 6-11|0.0.0 11-12|0.0 14-15|0.1 
+(v1 / responsible-02
+    :ARG1 (v5 / deny-01
+        :ARG0 (v3 / state))
+    :ARG1 (v7 / renew-01
+        :ARG0 v5))
+
+# ::id 60
+# ::snt Como ha dicho la gente , la situación allí es extremadamente precaria .
+# ::alignments 2-3|0 4-5|0.0 7-8|0.0.0 10-11|0.0.1.0 11-12|0.0.1 
+(v1 / say-01
+    :ARG0 (v3 / person
+        :mod (v5 / situation)
+        :mod (v9 / volatile
+            :degree (v7 / extreme)
+            :ARG0 v5)))
+
+# ::id 61
+# ::snt De hecho , existe el riesgo de un golpe militar en el futuro .
+# ::alignments 5-6|0 8-9|0.0 9-10|0.0.0 12-13|0.1 
+(v1 / risk-01
+    :ARG1 (v3 / blow-14
+        :mod (v5 / military))
+    :time (v7 / future))
+
+# ::id 62
+# ::snt No sabemos lo que está ocurriendo allí .
+# ::alignments 0-1|0.0 1-2|0 
+(v1 / know-01
+    :polarity -)
+
+# ::id 63
+# ::snt ¿ Por qué tienen que beneficiar se los productores de armas de la UE a expensas de gente inocente ?
+# ::alignments 5-6|0.0 10-11|0.0.0 13-14|0.0.0.0+0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.1 14-17|0.0.1 17-18|0.0.1.0 18-19|0.0.1.0.0 19-20|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / benefit-01
+        :ARG1 (v3 / weapon
+            :mod (v5 / organization
+                :name (v6 / name
+                    :op1 "EU")
+                :wiki "European_Union"))
+        :ARG1 (v9 / innocent-01
+            :ARG1 (v11 / person
+                :ARG1-of (v13 / innocent-01))
+            :ARG0 v3))
+    :snt2 interrogative)
+
+# ::id 64
+# ::snt En cualquier caso , este tema no figura ahora mismo entre las demandas de urgencia para el jueves próximo .
+# ::alignments 1-2|0.3.0 2-3|0.3 4-5|0.2.0 5-6|0.2 6-7|0.1 8-9|0.0 12-13|0 14-15|0.4 17-19|0.4.0 
+(v11 / demand-01
+    :time (v9 / now)
+    :polarity -
+    :ARG0 (v7 / issue-02
+        :mod (v5 / this))
+    :ARG1 (v3 / case-03
+        :mod (v1 / any))
+    :ARG1 (v13 / urgency
+        :mod (v15 / genericconcept)))
+
+# ::id 65
+# ::snt Orden de los trabajos
+# ::alignments 0-1|0.0 3-4|0 
+(v3 / work-01
+    :ARG1 (v1 / agenda))
+
+# ::id 66
+# ::snt De conformidad con el orden de el día , se procede a examinar el proyecto definitivo de orden de el día , establecido de conformidad con el artículo 110 de el Reglamento en la Conferencia de Presidentes , el jueves 13 de enero .
+# ::alignments 1-2|0.0.0 12-13|0.0 14-15|0.0.1 15-16|0.0.1.0 24-25|0.0.2.0 27-28|0.0.2 28-29|0.0.2.1+0.0.2.1.0+0.0.2.1.0.0+0.0.2.1.0.1+0.0.2.1.0.2+0.0.2.1.1+0.0.2.1.2 39-43|0.1 
+(mu / multi-sentence
+    :snt1 (v3 / examine-01
+        :time (v1 / next)
+        :ARG1 (v5 / project
+            :mod (v7 / final))
+        :ARG1 (v11 / article
+            :mod (v9 / next)
+            :mod (v13 / book
+                :name (v14 / name
+                    :op1 "Rules"
+                    :op2 "for"
+                    :op3 "Radicals")
+                :wiki "Rules_for_Radicals"
+                :quant 110
+                :ARG0 v9)))
+    :snt2 (v17 / genericconcept
+        :ARG0 v3))
+
+# ::id 67
+# ::snt En lo relativo a el lunes y a el martes , no hay modificaciones .
+# ::alignments 5-6|0.0 6-7|0 9-10|0.1.1 11-12|0.1.0 13-14|0.1 
+(v3 / and
+    :op1 (v1 / monday)
+    :op2 (v7 / change-01
+        :polarity -
+        :mod (v5 / tuesday)
+        :ARG0 v1))
+
+# ::id 68
+# ::snt Miércoles :
+# ::alignments 0-1|0+0.0 
+(v1 / relate-01
+    :ARG2 (v2 / wednesday))
+
+# ::id 69
+# ::snt El Grupo de el Partido de los Socialistas Europeos solicita que se incluya una declaración de la Comisión sobre sus objetivos estratégicos para los próximos cinco años , así como sobre la reforma administrativa de la Comisión .
+# ::alignments 9-10|0.0 14-15|0.0.0 17-18|0.0.0.0 20-21|0.0.0.1 21-22|0.0.0.1.0 24-25|0.0.1.2 25-26|0.0.1.1 26-27|0.0.1+0.0.1.0 32-33|0.1.1 33-34|0.1.0 36-37|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / request-01
+        :ARG2 (v3 / state-01
+            :ARG0 (v5 / commission)
+            :ARG1 (v7 / objective
+                :mod v5
+                :mod (v9 / strategy
+                    :ARG0 v5)
+                :ARG0 v5))
+        :ARG2 (v13 / temporal-quantity
+            :unit (v14 / year)
+            :quant 5
+            :mod (v11 / next)))
+    :snt2 (v21 / commission
+        :mod (v19 / administrate-01)
+        :mod (v17 / reform-01)))
+
+# ::id 70
+# ::snt Desearía que el Sr. Barón Crespo , autor de la petición , interviniera para justificar la , si a él le parece adecuado , por supuesto .
+# ::alignments 0-1|0+0.0+0.1 3-6|0.2.2+0.2.2.0+0.2.2.0.0+0.2.2.0.1+0.2.2.0.2 7-8|0.2.1 10-11|0.2.0 12-13|0.2.0.0.0 14-15|0.2.0.0 21-22|0.2 22-23|0.2.3 
+(v1 / recommend-01
+    :ARG1 (v2 / like-02)
+    :ARG0 (v3 / i)
+    :ARG1 (v19 / seem-01
+        :ARG1 (v13 / request-01
+            :ARG1-of (v17 / justify-01
+                :ARG1 (v15 / intervenir-01)))
+        :ARG1 (v11 / copyright-01)
+        :ARG2 (v7 / person
+            :name (v8 / name
+                :op1 "Sr."
+                :op2 "Barón"
+                :op3 "Crespo")
+            :wiki "Sr._Barón_Crespo")
+        :ARG1 (v21 / appropriate-02)
+        :ARG0 v2))
+
+# ::id 71
+# ::snt Como siempre , escucharemos a un orador a favor y a otro en contra .
+# ::alignments 1-2|0.2 6-7|0.1+0.1.0 8-9|0.0 9-10|0 11-12|0.3 
+(v9 / and
+    :op1 (v7 / favor-01)
+    :example (v3 / person
+        :ARG0-of (v4 / speak-01))
+    :time (v1 / always)
+    :op2 (v11 / other))
+
+# ::id 72
+# ::snt Señora Presidenta , la presentación de el programa político de la Comisión Prodi para toda la legislatura fue inicialmente una propuesta de el Grupo de el Partido de los Socialistas Europeos que logró la unanimidad de la Conferencia de Presidentes en septiembre y también la aceptación explícita de el Presidente Prodi , que reiteró su compromiso en su discurso de investidura .
+# ::alignments 0-2|0.0+0.0.0+0.0.0.0+0.0.0.1 4-5|0 7-8|0.1 8-9|0.1.0 16-17|0.1.1.1 18-19|0.1.1.0 20-21|0.1.1 34-35|0.2 42-43|0.3 43-44|0.3.0.0 45-46|0.3.0 46-47|0.3.0.1 53-54|0.4 55-56|0.4.0 58-59|0.4.0.0 60-61|0.4.0.0.0 
+(v5 / presentation
+    :mod (v1 / person
+        :name (v2 / name
+            :op1 "Señora"
+            :op2 "Presidenta")
+        :wiki "Señora_Presidenta")
+    :mod (v7 / program
+        :mod (v9 / politics)
+        :topic (v15 / propose-01
+            :time (v13 / initial)
+            :ARG1 (v11 / legislate-01))
+        :ARG0 v1)
+    :mod (v17 / unanimity
+        :ARG0 v1)
+    :op1 (v19 / and
+        :op2 (v23 / accept-01
+            :mod (v21 / also)
+            :ARG1-of (v25 / explicit-03))
+        :ARG0 v1)
+    :ARG0-of (v27 / reiterate-01
+        :ARG1 (v29 / commit-01
+            :ARG2 (v31 / speak-01
+                :ARG1 (v33 / debate-01)))
+        :ARG0 v1))
+
+# ::id 73
+# ::snt Tiene importancia este compromiso en la medida en que la Comisión es un organismo que tiene el monopolio de la iniciativa de acuerdo con los Tratados y , por lo tanto , configura básicamente lo que va a ser la actividad política y legislativa de este Parlamento en los próximos cincos años .
+# ::alignments 1-2|0.0 2-3|0.0.0.0 3-4|0.0.0 10-11|0.0.1.0 17-18|0.0.1 20-21|0.0.1.1 25-26|0.0.1.1.0 26-27|0.0.2 33-34|0.0.2.0.2 40-41|0.0.2.0.1 41-42|0.0.2.0.0 42-43|0.0.2.0 43-44|0.1.4 45-46|0.1.3.2 46-47|0.1.3+0.1.3.0+0.1.3.0.0+0.1.3.1 49-50|0.1.2 50-51|0.1.1 51-52|0.1+0.1.0 
+(mu / multi-sentence
+    :snt1 (v1 / important
+        :mod (v5 / commit-01
+            :mod (v3 / this))
+        :domain (v9 / monopoly
+            :mod (v7 / commission)
+            :mod (v11 / initiative
+                :mod (v13 / treaties)
+                :ARG0 v7)
+            :ARG0 v5)
+        :topic (v15 / and
+            :op2 (v23 / and
+                :op1 (v21 / politics)
+                :op1 (v19 / activity-06)
+                :mod (v17 / basic))
+            :ARG0 v5))
+    :snt2 (v35 / temporal-quantity
+        :unit (v36 / year)
+        :quant 5
+        :mod (v33 / next)
+        :domain (v29 / government-organization
+            :name (v30 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt"
+            :mod (v27 / this))
+        :mod (v25 / legislate-01)
+        :ARG0 v1))
+
+# ::id 74
+# ::snt Recuerdo además , señora Presidenta , que este Parlamento votó en dos ocasiones en la anterior legislatura su confianza en el Presidente Prodi ; en esta legislatura la votó de nuevo en julio y después , con la nueva Comisión en funciones , volvió en septiembre a dar le un voto de confianza a toda la Comisión .
+# ::alignments 0-1|0.0+0.0.0 4-5|0.0.1.4+0.0.1.4.0+0.0.1.4.0.0+0.0.1.4.1 7-8|0.0.1.3.1.2 8-9|0.0.1.3.1+0.0.1.3.1.0+0.0.1.3.1.0.0+0.0.1.3.1.1 9-10|0.2.0+0.0.1.3.0+0.2 12-13|0.0.1.3 15-16|0.0.1.3.2.0 16-17|0.0.1.3.2 18-19|0.0.1.2 23-24|0.0.1 25-26|0.0.1.0.4 26-27|0.0.1.0.3 28-29|0.1.0+0.0.1.0.2+0.1 30-31|0.0.1.0.1 32-33|0.0.1.0.0+0.0.1.0.0.0 33-34|0.0.1.0 38-39|0.0.1.1.0.0 39-40|0.0.1.1.0 43-44|0.0.1.1 50-51|0.0.1.1.1 52-53|0.0.1.1.1.0 56-57|0.0.1.1.1.0.0 
+(mu / multi-sentence
+    :snt1 (v1 / remind-01
+        :ARG0 (v2 / i)
+        :ARG1 (v29 / and
+            :op2 (v44 / and
+                :op1 (v42 / date-entity
+                    :month 7)
+                :mod (v40 / new)
+                :name (v36 / name)
+                :location (v32 / legislate-01)
+                :mod (v30 / this))
+            :op2 (v50 / volver-01
+                :ARG0 (v48 / commission
+                    :mod (v46 / new))
+                :ARG1 (v52 / vote-01
+                    :ARG1 (v54 / confidence
+                        :mod (v56 / commission))
+                    :ARG0 v48)
+                :ARG0 v44)
+            :op1 (v27 / confidence)
+            :op1 (v21 / occasion-02
+                :name (v17 / name)
+                :ARG0 (v11 / government-organization
+                    :name (v12 / name
+                        :op1 "Parliament")
+                    :wiki "Parliament_of_Egypt"
+                    :mod (v9 / this))
+                :ARG1 (v25 / legislate-01
+                    :mod (v23 / previous)
+                    :ARG0 v17))
+            :op1 (v5 / person
+                :name (v6 / name
+                    :op1 "Presidenta")
+                :wiki "Presidenta")
+            :ARG0 v2))
+    :snt2 (v34 / vote-01
+        :ARG0 (v35 / organization))
+    :snt3 (v15 / vote-01
+        :ARG0 (v16 / organization)))
+
+# ::id 75
+# ::snt Por lo tanto , ya ha habido tiempo suficiente para que la Comisión prepare su programa y para que nosotros lo podamos conocer y podamos explicar se lo a los ciudadanos .
+# ::alignments 4-5|0.1.1 7-8|0.1 8-9|0.1.0 12-13|0.0 13-14|0 15-16|0.2.0 16-17|0.2 21-22|0.2.1 22-23|0.2.1.0.0 23-24|0.2.1.0 24-25|0.2.1.0.1 25-26|0.2.1.0.1.0 30-31|0.2.1.0.1.0.0 
+(v9 / prepare-02
+    :ARG0 (v7 / commission)
+    :time (v3 / time
+        :mod (v5 / enough)
+        :time (v1 / already))
+    :ARG2 (v13 / and
+        :op1 (v11 / program)
+        :op2 (v15 / possible-01
+            :ARG1 (v19 / and
+                :op1 (v17 / know-01)
+                :op2 (v21 / possible-01
+                    :ARG1 (v23 / explain-01
+                        :ARG1 (v25 / citizen))
+                    :ARG0 v17))
+            :ARG0 v11)
+        :ARG0 v7))
+
+# ::id 76
+# ::snt En este sentido recuerdo la resolución de el 15 de septiembre , en la que se recomendaba que se presentara la propuesta en el plazo más breve posible .
+# ::alignments 1-2|0.2 3-4|0+0.0+0.1 5-6|0.3 8-11|0.3.0 16-17|0.4 21-22|0.4.0 25-26|0.4.0.0.1 26-27|0.4.0.0.0 27-28|0.4.0.0 
+(v3 / remind-01
+    :ARG0 (v4 / i)
+    :ARG2 (v5 / you)
+    :ARG1 (v1 / this)
+    :ARG1 (v9 / resolution
+        :mod (v11 / genericconcept)
+        :ARG0 v4)
+    :ARG1 (v13 / recommend-01
+        :ARG1 (v15 / propose-01
+            :ARG1 (v21 / possible-01
+                :ARG1 (v19 / brief)
+                :degree (v17 / more)))
+        :ARG0 v4))
+
+# ::id 77
+# ::snt Los hechos ocurridos la semana pasada - que se han originado a el margen de la Conferencia de Presidentes y utilizando la sólo para corroborar y ratificar decisiones tomadas fuera de ella - plantean un dilema : o bien la Comisión no está en condiciones de presentar ese programa ( en ese caso convendría que lo aclarara .
+# ::alignments 1-2|0.1 4-5|0.0 5-6|0.0.0 10-11|0 19-20|0.2.0 20-21|0.2.0.0.2 22-23|0.2.0.0.1 24-25|0.2.0.0.0 25-26|0.2.0.0 26-27|0.2.0.1.4 27-28|0.2.0.1.4.0 35-36|0.2.0.1.4.0.0 40-41|0.2.0.1.3 41-42|0.2.0.1.2 44-45|0.2.0.1.1 46-47|0.2.0.1.0 47-48|0.2.0.1.0.0.0 48-49|0.2.0.1.0.0 51-52|0.2.0.1.0.1.0 52-53|0.2.0.1.0.1 53-54|0.2.0.1 56-57|0.2 
+(v7 / originar-01
+    :time (v3 / week
+        :mod (v5 / last))
+    :mod (v1 / fact)
+    :ARG1 (v41 / aclarar-01
+        :op2 (v9 / and
+            :op2 (v17 / and
+                :op1 (v15 / corroborar-01)
+                :mod (v13 / only)
+                :op1 (v11 / use-01))
+            :op2 (v39 / recommend-01
+                :ARG1 (v29 / present-01
+                    :ARG1 (v33 / program
+                        :mod (v31 / this))
+                    :ARG1 (v37 / case-03
+                        :mod (v35 / this)))
+                :ARG1 (v27 / condition)
+                :polarity -
+                :ARG0 (v25 / commission)
+                :ARG1 (v19 / ratify-01
+                    :ARG1 (v21 / decide-01
+                        :ARG1 (v23 / dilemma)))
+                :ARG0 v17))))
+
+# ::id 78
+# ::snt Según palabras de su Presidente , está en condiciones de hacer lo .
+# ::alignments 0-1|0 1-2|0.0 4-5|0.0.0.0+0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.1 8-9|0.0.0 
+(v1 / say-01
+    :ARG0 (v3 / word
+        :topic (v9 / condition
+            :mod (v5 / person
+                :name (v6 / name
+                    :op1 "Presidente")
+                :wiki "Presidente"))))
+
+# ::id 79
+# ::snt Dado que la Comisión está representada por la Vicepresidenta , Sra. de Palacio , creo que antes de votar sería conveniente conocer la situación de la Comisión en relación con su disponibilidad para presentar el programa , tal como se había convenido ) ; o bien el Parlamento no está en condiciones de examinar este programa , como parece que pretenden algunos .
+# ::alignments 0-2|0.1 3-4|0.0 5-6|0 8-9|0.2.2 10-13|0.2.1+0.2.1.0+0.2.1.0.0+0.2.1.0.1+0.2.1.0.2 14-15|0.2+0.2.0 18-19|0.2.3.1 21-22|0.2.3 23-24|0.2.3.0 26-27|0.2.3.0.0 31-32|0.2.3.2 33-34|0.2.3.2.0 35-36|0.2.3.2.0.0 41-42|0.2.3.2.0.0.0 43-44|0.2.3.2.0.0.0.0 47-48|0.2.3.2.0.0.0.0.0+0.2.3.2.0.0.0.0.0.0+0.2.3.2.0.0.0.0.0.0.0+0.2.3.2.0.0.0.0.0.1 48-49|0.2.3.2.0.0.0.0.1.3 51-52|0.2.3.2.0.0.0.0.1.2 53-54|0.2.3.2.0.0.0.0.1.1 54-55|0.2.3.2.0.0.0.0.1.1.0.0 55-56|0.2.3.2.0.0.0.0.1.1.0 58-59|0.2.3.2.0.0.0.0.1 60-61|0.2.3.2.0.0.0.0.1.0 61-62|0.2.3.2.0.0.0.0.1.0.0 
+(v5 / represent-01
+    :ARG0 (v3 / commission)
+    :op1 (v1 / since)
+    :ARG0 (v13 / believe-01
+        :ARG0 (v14 / i)
+        :ARG0 (v9 / person
+            :name (v10 / name
+                :op1 "Sra."
+                :op2 "de"
+                :op3 "Palacio")
+            :wiki "Sra._de_Palacio")
+        :ARG1 (v7 / madam)
+        :ARG1 (v19 / know-01
+            :ARG1 (v21 / situation
+                :mod (v23 / commission))
+            :ARG1 (v17 / vote-01)
+            :ARG1 (v25 / available-02
+                :ARG2 (v27 / present-01
+                    :ARG1 (v29 / program
+                        :ARG1-of (v31 / agree-01
+                            :ARG1 (v33 / and
+                                :op1 (v34 / government-organization
+                                    :name (v35 / name
+                                        :op1 "Parliament")
+                                    :wiki "Parliament_of_Egypt")
+                                :ARG1-of (v46 / seem-01
+                                    :ARG1 (v48 / wish-01
+                                        :ARG1 (v50 / some))
+                                    :ARG1 (v40 / examine-01
+                                        :ARG1 (v44 / program
+                                            :mod (v42 / this)))
+                                    :ARG1 (v38 / condition)
+                                    :polarity -
+                                    :ARG0 v34))))))
+            :ARG0 v14)
+        :ARG0 v3))
+
+# ::id 80
+# ::snt En mi opinión , esta segunda hipótesis significaría hacer dejación de nuestras responsabilidades como Parlamento , además de introducir una tesis original , un método desconocido consistente en dar a conocer a los grupos políticos por escrito el discurso programático de la Comisión una semana antes - y no el día antes , como se había convenido - , teniendo en cuenta que el programa legislativo se discutirá en febrero , de tal manera que podríamos prescindir de el debate , porque a el día siguiente la prensa e Internet lo habrían dado a conocer a todos los ciudadanos y el Parlamento no tendría ya por qué ocupar se de el asunto .
+# ::alignments 2-3|0.1 4-5|0.0.0 6-7|0.0 7-8|0 9-10|0.2 11-12|0.2.0.2 12-13|0.2.0.1+0.2.0.1.0 14-15|0.2.0.0+0.2.0.0.0+0.2.0.0.0.0+0.3.0.0.1.0.0.0.2.0.0.1.2.0.1.0.0+0.2.0.0.1+0.3.0.0.1.0.0.0.2.0.0.1.2.0.1.1 18-19|0.2.0 20-21|0.2.0.3 21-22|0.2.0.3.0 24-25|0.3 25-26|0.3.0 33-34|0.3.0.0 34-35|0.3.0.0.0 36-37|0.3.0.0.1 38-39|0.3.0.0.1.0 42-43|0.3.0.0.1.0.0.2 44-45|0.3.0.0.1.0.0.1 47-48|0.3.0.0.1.0.0 48-49|0.3.0.0.1.0.0.0.0 56-57|0.3.0.0.1.0.0.0 64-65|0.3.0.0.1.0.0.0.1.0 65-66|0.3.0.0.1.0.0.0.1.0.0 67-68|0.3.0.0.1.0.0.0.1 75-76|0.3.0.0.1.0.0.0.2 79-80|0.3.0.0.1.0.0.0.2.0.1 81-82|0.3.0.0.1.0.0.0.2.0 87-88|0.3.0.0.1.0.0.0.2.0.0.0 88-89|0.3.0.0.1.0.0.0.2.0.0 89-90|0.3.0.0.1.0.0.0.2.0.0.1.0 92-95|0.3.0.0.1.0.0.0.2.0.0.1 96-97|0.3.0.0.1.0.0.0.2.0.0.1.1.0 98-99|0.3.0.0.1.0.0.0.2.0.0.1.1 99-100|0.3.0.0.1.0.0.0.2.0.0.1.2 101-102|0.3.0.0.1.0.0.0.2.0.0.1.2.0.1+0.3.0.0.1.0.0.0.2.0.0.1.2.0.1.0+0.2.0.0.0.0+0.3.0.0.1.0.0.0.2.0.0.1.2.0.1.0.0+0.2.0.0.1+0.3.0.0.1.0.0.0.2.0.0.1.2.0.1.1 102-103|0.3.0.0.1.0.0.0.0 104-105|0.3.0.0.1.0.0.0.2.0.0.1.2.0.0 111-112|0.3.0.0.1.0.0.0.2.0.0.1.2.0 
+(v7 / mean-01
+    :ARG1 (v5 / scenario
+        :mod (v3 / this))
+    :ARG1 (v1 / opine-01)
+    :ARG1 (v9 / fail-01
+        :ARG1-of (v21 / introduce-02
+            :ARG0 (v17 / government-organization
+                :name (v18 / name
+                    :op1 "Parliament")
+                :wiki "Parliament_of_Egypt")
+            :ARG1 (v13 / thing
+                :ARG1-of (v14 / responsible-03))
+            :ARG0 (v11 / we)
+            :ARG1 (v23 / view-02
+                :mod (v25 / original)
+                :ARG0 v17))
+        :ARG0 v5)
+    :ARG1 (v27 / method
+        :ARG1-of (v29 / know-01
+            :ARG2 (v31 / group
+                :mod (v33 / politics)
+                :ARG1-of (v35 / write-01
+                    :ARG1 (v37 / speak-01
+                        :ARG1 (v43 / and
+                            :op2 (v45 / agree-01
+                                :polarity -
+                                :ARG1 (v51 / discuss-01
+                                    :ARG1 (v47 / program
+                                        :mod (v49 / legislate-01)))
+                                :ARG1 (v53 / possible-01
+                                    :ARG1 (v57 / cause-01
+                                        :ARG0 (v61 / and
+                                            :op1 (v59 / press)
+                                            :op2 (v65 / open-04
+                                                :ARG1 (v63 / internet)
+                                                :ARG2 (v69 / citizen
+                                                    :quant (v67 / all)
+                                                    :ARG0 v63)
+                                                :ARG1 (v71 / and
+                                                    :op2 (v79 / issue-02
+                                                        :time (v77 / already)
+                                                        :ARG0 (v73 / government-organization
+                                                            :name (v74 / name
+                                                                :op1 "Parliament")
+                                                            :wiki "Parliament_of_Egypt"))
+                                                    :ARG0 v63)
+                                                :ARG0 v59))
+                                        :ARG1 (v55 / debate-01))))
+                            :time (v41 / week)
+                            :op1 (v39 / commission))))))
+        :ARG0 v5))
+
+# ::id 81
+# ::snt Como mi Grupo opina que un Parlamento está hecho para escuchar , para debatir y para reflexionar , pensamos que no hay razón alguna que justifique este aplazamiento y creemos que si , la Comisión está en condiciones de hacer lo , estamos perfectamente a tiempo para poder restablecer el acuerdo original entre el Parlamento y la Comisión y proceder con responsabilidad ante nuestras conciudadanas y nuestros conciudadanos .
+# ::alignments 2-3|0.0 3-4|0 6-7|0.1.2+0.1.2.0+0.1.2.0.0+0.1.3.2.0.2.1.0.0+0.1.2.1+0.1.3.2.0.2.1.1 10-11|0.1.1 13-14|0.1.1.0.0 14-15|0.1.1.0 16-17|0.1.0 18-19|0.1 20-21|0.1.3.0 25-26|0.1.3 26-27|0.1.3.1.0 27-28|0.1.3.1 28-29|0.1.3.2 29-30|0.1.3.2.0+0.1.3.2.0.0 34-35|0.1.3.2.0.1.3 37-38|0.1.3.2.0.1.2 42-43|0.1.3.2.0.1.1 45-46|0.1.3.2.0.1.0 47-48|0.1.3.2.0.1 50-51|0.1.3.2.0.2 51-52|0.1.3.2.0.2.0 54-55|0.1.3.2.0.2.1+0.1.3.2.0.2.1.0+0.1.2.0.0+0.1.3.2.0.2.1.0.0+0.1.2.1+0.1.3.2.0.2.1.1 55-56|0.1.3.2.0.2.2 57-58|0.1.3.2.0.2.2.0.0 58-59|0.1.3.2.0.2.2.0 61-62|0.1.3.2.0.2.2.0.1 63-64|0.1.3.2.0.2.2.0.1.0.2 64-65|0.1.3.2.0.2.2.0.1.0.0 65-66|0.1.3.2.0.2.2.0.1.0 66-67|0.1.3.2.0.2.2.0.1.0.1.1 67-68|0.1.3.2.0.2.2.0.1.0.1+0.1.3.2.0.2.2.0.1.0.1.0 
+(v3 / view-02
+    :ARG0 (v1 / group)
+    :ARG1 (v17 / think-01
+        :ARG1 (v15 / reflect-01)
+        :ARG1 (v9 / hear-01
+            :ARG1 (v13 / and
+                :op1 (v11 / discuss-01)))
+        :ARG0 (v5 / government-organization
+            :name (v6 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt")
+        :ARG1 (v19 / justify-01
+            :polarity -
+            :ARG1 (v23 / postpone-01
+                :mod (v21 / this))
+            :ARG1 (v25 / and
+                :op2 (v27 / believe-01
+                    :ARG0 (v28 / we)
+                    :ARG1 (v39 / possible-01
+                        :time (v37 / time)
+                        :ARG0 (v35 / we)
+                        :mod (v33 / condition)
+                        :ARG0 (v31 / commission)
+                        :ARG0 v28)
+                    :ARG1 (v41 / agree-01
+                        :mod (v43 / original)
+                        :mod (v45 / government-organization
+                            :name (v46 / name
+                                :op1 "Parliament")
+                            :wiki "Parliament_of_Egypt"
+                            :ARG0 v43)
+                        :ARG1 (v49 / and
+                            :op2 (v53 / and
+                                :op1 (v51 / commission)
+                                :op2 (v55 / responsible-03
+                                    :ARG1 (v61 / and
+                                        :op1 (v59 / fellow)
+                                        :op2 (v65 / citizen
+                                            :mod (v66 / fellow)
+                                            :poss (v63 / we)
+                                            :ARG0 v59)
+                                        :poss (v57 / we))
+                                    :ARG0 v51))
+                            :ARG0 v43)
+                        :ARG0 v28))))
+        :ARG0 v1))
+
+# ::id 82
+# ::snt Por lo tanto , la propuesta que hace el Grupo de el Partido de los Socialistas Europeos y que su Señoría ha mencionado es que el miércoles se mantenga la presentación de el programa de legislatura de la Comisión Prodi , incluyendo dentro de este programa también el proyecto de reforma administrativa porque , de no ser así , nos podemos encontrar con una situación paradójica : con la excusa de que no hay texto , se niega por una parte el derecho a el Presidente de la Comisión a hablar en este Parlamento y , por otra parte , que tenga lugar un debate sobre la reforma sin que este Parlamento conozca previamente los textos en que se basa .
+# ::alignments 5-6|0.0.0 17-18|0.0 22-23|0.0.1 26-27|0.0.1.0.0 30-31|0.0.1.0 33-34|0.0.1.0.1 35-36|0.0.1.0.1.0 44-45|0.0.2.2 45-46|0.0.2.1 46-47|0.0.2.0 48-49|0.0.2 50-51|0.1.4 51-52|0.1.3.0 52-53|0.1.3 55-56|0.1.1.3+0.1.2 60-61|0.1 61-62|0.1.0 64-65|0.1.0.0 65-66|0.1.0.0.0 69-70|0.1.1.4 72-73|0.1.1.3+0.1.2 74-75|0.1.1.2 77-78|0.1.1.1 82-83|0.1.1.1.0 90-91|0.1.1.1.0.0 92-93|0.1.1.1.0.0.0.2 93-94|0.1.1.1.0.0.0+0.1.1.1.0.0.0.0+0.1.1.0.0.0.0+0.1.1.1.0.0.0.0.0+0.1.1.0.0.1+0.1.1.1.0.0.0.1 94-95|0.1.1 101-103|0.1.1.0.2.0.0 104-105|0.1.1.0.2.0 107-108|0.1.1.0.2 110-111|0.1.1.0.0.2 111-112|0.1.1.0.0+0.1.1.0.0.0+0.1.1.0.0.0.0+0.1.1.1.0.0.0.0.0+0.1.1.0.0.1+0.1.1.1.0.0.0.1 113-114|0.1.1.0 115-116|0.1.1.0.1 119-120|0.1.1.0.1.0 
+(mu / multi-sentence
+    :snt1 (v3 / and
+        :op1 (v1 / propose-01)
+        :op2 (v5 / mention-01
+            :ARG1 (v9 / presentation
+                :mod (v7 / wednesday)
+                :mod (v11 / program
+                    :mod (v13 / legislate-01)
+                    :ARG0 v7))
+            :ARG0 v1)
+        :op2 (v21 / project
+            :mod (v19 / also)
+            :mod (v17 / program)
+            :mod (v15 / this)
+            :ARG0 v1))
+    :snt2 (v29 / possible-01
+        :ARG1 (v31 / find-01
+            :ARG1 (v33 / situation
+                :mod (v35 / paradoxical)))
+        :ARG1 (v53 / and
+            :op2 (v67 / prior
+                :time (v63 / government-organization
+                    :name (v64 / name
+                        :op1 "Parliament")
+                    :wiki "Parliament_of_Egypt"
+                    :mod (v61 / this))
+                :time (v69 / text-01
+                    :ARG1-of (v71 / base-01))
+                :time (v59 / reform-01
+                    :ARG1 (v57 / debate-01
+                        :mod (v55 / this))))
+            :op1 (v41 / deny-01
+                :ARG1 (v43 / right-05
+                    :ARG2 (v45 / talk-01
+                        :ARG1 (v49 / government-organization
+                            :name (v50 / name
+                                :op1 "Parliament")
+                            :wiki "Parliament_of_Egypt"
+                            :mod (v47 / this)))))
+            :op1 (v39 / text)
+            :polarity -
+            :op1 (v37 / pretext)
+            :ARG0 v31)
+        :polarity -
+        :ARG0 (v27 / cause-01
+            :ARG0 (v25 / administrate-01))
+        :ARG1 (v23 / reform-01)
+        :ARG0 v3))
+
+# ::id 83
+# ::snt Por lo tanto , le ruego , señora Presidenta , que pida a la Comisión que se manifieste en este momento y después que se proceda a el voto .
+# ::alignments 8-9|0.2+0.2.0+0.2.0.0+0.2.1 11-12|0.1.2 14-15|0.1.1 17-18|0.1+0.1.0 19-20|0.0 21-22|0 28-29|0.3 
+(v15 / and
+    :mod (v13 / this)
+    :op1 (v9 / express-01
+        :ARG1 (v10 / opine-01)
+        :ARG0 (v7 / commission)
+        :ARG0 (v5 / you))
+    :op1 (v1 / person
+        :name (v2 / name
+            :op1 "Presidenta")
+        :wiki "Presidenta")
+    :op2 (v17 / vote-01
+        :ARG0 v13))
+
+# ::id 84
+# ::snt ( Aplausos de el grupo PSE )
+# ::alignments 1-2|0 4-5|0.0 5-6|0.0.0 
+(v1 / applaud-01
+    :mod (v3 / group
+        :mod (v5 / group)))
+
+# ::id 85
+# ::snt . Señora Presidenta , quiero dejar muy claro que , ante todo , la Comisión tiene el máximo respeto por las decisiones de este Parlamento y , entre ellas , la de establecer su orden de el día .
+# ::alignments 1-3|0.1+0.1.0+0.1.0.0+0.1.0.1 4-5|0+0.0 6-7|0.2.0 7-8|0.2 11-12|0.2.1.3 14-15|0.2.1.2 17-18|0.2.1.1.0 18-19|0.2.1.1 21-22|0.2.1.1.1 23-24|0.2.1.1.1.0.2 24-25|0.2.1.1.1.0+0.2.1.1.1.0.0+0.2.1.1.1.0.0.0+0.2.1.1.1.0.1 25-26|0.2.1 32-33|0.2.1.0 
+(v5 / like-02
+    :ARG0 (v6 / i)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Señora"
+            :op2 "Presidenta")
+        :wiki "Señora_Presidenta")
+    :ARG1 (v11 / clear-06
+        :degree (v9 / very)
+        :ARG1 (v29 / and
+            :op2 (v31 / establish-01)
+            :op1 (v19 / respect-01
+                :degree (v17 / maximum)
+                :ARG1 (v21 / decide-01
+                    :ARG1 (v25 / government-organization
+                        :name (v26 / name
+                            :op1 "Parliament")
+                        :wiki "Parliament_of_Egypt"
+                        :mod (v23 / this))))
+            :op1 (v15 / commission)
+            :mod (v13 / particular)
+            :ARG0 v9)
+        :ARG0 v6))
+
+# ::id 86
+# ::snt Por lo tanto , nosotros respetamos lo que en este sentido pueda decidir el Parlamento .
+# ::alignments 5-6|0.2 9-10|0.1 11-12|0 12-13|0.0 14-15|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1 
+(v5 / possible-01
+    :ARG1 (v7 / decide-01
+        :ARG1 (v9 / government-organization
+            :name (v10 / name
+                :op1 "Parliament")
+            :wiki "Parliament_of_Egypt"))
+    :mod (v3 / this)
+    :ARG1 (v1 / respect-01))
+
+# ::id 87
+# ::snt Pero quiero dejar también muy claro que el Presidente Prodi se comprometió con el Parlamento a incorporar un nuevo debate , como ha recordado el Sr. Barón , que se añade a el debate anual sobre el programa legislativo de la Comisión , sobre las grandes líneas de actuación para el próximo período de cinco años , es decir , para esta legislatura .
+# ::alignments 0-1|0.0 1-2|0.0.0+0.0.0.0 3-4|0.0.0.1.1 4-5|0.0.0.1.0 5-6|0.0.0.1 11-12|0.0.0.1.2+0.0.0.1.2.0 14-15|0.0.0.1.2.1+0.0.0.1.2.1.0+0.0.0.1.2.1.0.0+0.0.0.1.2.1.1 16-17|0.0.0.2 18-19|0.0.0.2.0.0 19-20|0.0.0.2.0 25-27|0.1.0 30-31|0.1 33-34|0.1.1 37-38|0.1.1.0 38-39|0.1.1.0.0 41-42|0.1.1.0.1 45-46|0.1.2.0 46-47|0.1.2 51-52|0.1.2.1.2 54-55|0.1.2.1.1 55-56|0.1.2.1+0.1.2.1.0 58-59|0.1.3 61-62|0.1.3.0.0 62-63|0.1.3.0 
+(mu / multi-sentence
+    :snt1 (v1 / contrast-01
+        :ARG2 (v3 / like-02
+            :ARG0 (v4 / i)
+            :ARG1 (v11 / clear-06
+                :degree (v9 / very)
+                :mod (v7 / also)
+                :ARG1 (v13 / give-01
+                    :ARG1 (v14 / commit-01)
+                    :ARG2 (v17 / government-organization
+                        :name (v18 / name
+                            :op1 "Parliament")
+                        :wiki "Parliament_of_Egypt"
+                        :ARG0 v14)
+                    :ARG0 v9)
+                :ARG0 v4)
+            :ARG1 (v21 / incorporate-01
+                :ARG1 (v25 / debate-01
+                    :mod (v23 / new))
+                :ARG0 v4)))
+    :snt2 (v27 / add-02
+        :ARG0 "Sr."
+        :ARG1 (v29 / debate-01
+            :ARG1 (v31 / program
+                :mod (v33 / legislate-01)
+                :mod (v35 / commission)))
+        :ARG2 (v39 / line
+            :ARG1-of (v37 / major-02)
+            :mod (v43 / temporal-quantity
+                :unit (v44 / year)
+                :quant 5
+                :mod (v41 / next)
+                :ARG0 v37))
+        :purpose (v47 / say-01
+            :ARG1 (v51 / legislate-01
+                :mod (v49 / this)))))
+
+# ::id 88
+# ::snt Quiero decir , señora Presidenta , que este debate se distinguía , en el acuerdo a el que se llegó en el mes de septiembre , de lo que es la presentación anual de el programa legislativo de la Comisión .
+# ::alignments 0-1|0.0 1-2|0 4-5|0.1.2+0.1.2.0+0.1.2.0.0+0.1.2.1 7-8|0.1.1.0.0 8-9|0.1.1.0 10-11|0.1.1 14-15|0.1 22-25|0.1.0.0 31-32|0.1.0 35-36|0.1.0.1 36-37|0.1.0.1.0 39-40|0.1.0.1.1 
+(v3 / say-01
+    :ARG0 (v1 / i)
+    :ARG1 (v15 / agree-01
+        :ARG1 (v19 / presentation
+            :mod (v17 / genericconcept)
+            :mod (v21 / program
+                :mod (v23 / legislate-01)
+                :mod (v25 / commission)
+                :ARG0 v17))
+        :ARG1 (v13 / distinguish-01
+            :ARG1 (v11 / debate-01
+                :mod (v9 / this)))
+        :ARG0 (v5 / person
+            :name (v6 / name
+                :op1 "Presidenta")
+            :wiki "Presidenta")
+        :ARG0 v1))
+
+# ::id 89
+# ::snt Y quiero decir , señora Presidenta , que , por parte de la Comisión , estamos preparados y dispuestos a tener ese debate cuando convenga , que estábamos preparados para desarrollar lo esta semana , como en principio se había acordado , partiendo de la base de que se presentaba la víspera en un discurso a los grupos parlamentarios .
+# ::alignments 1-2|0+0.0 2-3|0.1 5-6|0.1.0.6+0.1.0.6.0+0.1.0.6.0.0+0.1.0.6.1 13-14|0.1.0.5 15-16|0.1.0.2.0.0 16-17|0.1.0.2.0 17-18|0.1.0.2 18-19|0.1.0.2.1 21-22|0.1.0.2.1.0.0 22-23|0.1.0.2.1.0 24-25|0.1.0.1 27-28|0.1.0.0 28-29|0.1.0 30-31|0.1.0.3 32-33|0.1.0.3.0.0 33-34|0.1.0.3.0 37-38|0.1.0.4.0 40-41|0.1.0.4 49-50|0.1.0.4.1 51-52|0.1.0.4.1.0 54-55|0.1.0.4.1.0.0 57-58|0.1.0.4.1.0.0.0 58-59|0.1.0.4.1.0.0.0.0 
+(v1 / like-02
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / say-01
+        :ARG1 (v29 / prepare-02
+            :ARG0 (v27 / we)
+            :ARG1 (v25 / convenient)
+            :ARG1 (v17 / and
+                :op1 (v15 / prepare-02
+                    :ARG1 (v13 / we))
+                :op2 (v19 / prepare-02
+                    :ARG2 (v23 / debate-01
+                        :mod (v21 / this))
+                    :ARG0 v15))
+            :ARG2 (v31 / develop-02
+                :time (v35 / week
+                    :mod (v33 / this))
+                :ARG0 v27)
+            :ARG2 (v39 / agree-01
+                :ARG1 (v37 / principle)
+                :ARG1-of (v41 / present-01
+                    :time (v43 / before
+                        :op1 (v45 / speak-01
+                            :ARG1 (v47 / group
+                                :mod (v49 / parliament)))))
+                :ARG0 v27)
+            :ARG0 (v11 / commission)
+            :ARG0 (v7 / person
+                :name (v8 / name
+                    :op1 "Presidenta")
+                :wiki "Presidenta"))
+        :ARG0 v2))
+
+# ::id 90
+# ::snt Por lo tanto , señora Presidenta , quiero reiterar que , por nuestra parte , hemos debatido el programa de actuación para los próximos cinco años y que estamos preparados para , cuando así lo decida el Parlamento , - esta misma semana si ésa es la decisión - venir a exponer el programa para los próximos cinco años y , el mes que viene , el programa para el año 2000 , que era lo que estaba perfectamente acordado .
+# ::alignments 5-6|0.1+0.1.0+0.1.0.0+0.1.1 7-8|0+0.0 8-9|0.2 12-13|0.2.0.1 15-16|0.2.0.0 16-17|0.2.0 18-19|0.2.0.2 23-24|0.2.0.2.0.2 24-25|0.2.0.2.0.1 25-26|0.2.0.2.0+0.2.0.2.0.0 26-27|0.3 28-29|0.3.0.2 29-30|0.3.0.1 37-38|0.3.0.1.0.1+0.3.0.1.0.1.0+0.3.0.1.0.1.0.0+0.3.0.1.0.1.1 40-41|0.3.0.1.0.0 42-43|0.3.0.1.0 47-48|0.3.0.1.1 49-50|0.3.0.1.2 53-54|0.3.0.1.2.0 56-57|0.3.0.1.2.0.0.1 57-58|0.2.0.2.0.1 58-59|0.3.0.1.2.0.0+0.3.0.1.2.0.0.0 59-60|0.3.0 62-63|0.3.0.0.1.0+0.3.0.0.1.0.0 67-68|0.3.0.0.1 70-72|0.3.0.0.0 79-80|0.3.0.0 
+(v5 / like-02
+    :ARG0 (v6 / i)
+    :ARG0 (v1 / person
+        :name (v2 / name
+            :op1 "Presidenta")
+        :wiki "Presidenta")
+    :ARG1 (v9 / repeat-01
+        :ARG1 (v15 / debate-01
+            :ARG0 (v13 / we)
+            :ARG0 (v11 / we)
+            :ARG1 (v17 / program
+                :mod (v21 / temporal-quantity
+                    :unit (v22 / year)
+                    :quant 5
+                    :mod (v19 / next))
+                :ARG0 v13))
+        :ARG0 v6)
+    :ARG1 (v25 / and
+        :op2 (v51 / and
+            :op2 (v61 / agree-01
+                :ARG0 (v59 / genericconcept)
+                :ARG1 (v57 / program
+                    :mod (v53 / temporal-quantity
+                        :unit (v54 / month))))
+            :op1 (v29 / prepare-02
+                :time (v37 / week
+                    :mod (v35 / this)
+                    :time (v31 / government-organization
+                        :name (v32 / name
+                            :op1 "Parliament")
+                        :wiki "Parliament_of_Egypt"))
+                :ARG2 (v39 / decide-01)
+                :ARG2 (v41 / come-01
+                    :ARG4 (v43 / program
+                        :mod (v47 / temporal-quantity
+                            :unit (v48 / year)
+                            :mod (v45 / next)))))
+            :domain (v27 / we))
+        :ARG0 v6))
+
+# ::id 91
+# ::snt Propongo que votemos la petición de el Grupo de el Partido de los Socialistas Europeos para volver a incluir la declaración de la Comisión sobre sus objetivos estratégicos .
+# ::alignments 0-1|0+0.0 2-3|0.1 4-5|0.1.0 20-21|0.1.0.0 23-24|0.1.0.0.0 26-27|0.1.0.0.1 27-28|0.1.0.0.1.0 
+(v1 / propose-01
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / vote-01
+        :ARG1 (v7 / request-01
+            :ARG2 (v9 / state-01
+                :mod (v11 / commission)
+                :ARG1 (v13 / objective
+                    :mod v11
+                    :mod (v15 / strategy
+                        :ARG0 v11)
+                    :ARG0 v11)))
+        :ARG0 v2))
+
+# ::id 92
+# ::snt ( El Parlamento rechaza la petición ) El Presidente .
+# ::alignments 2-3|0.0+0.0.0+0.0.0.0+0.0.1 3-4|0 5-6|0.1 7-9|0.1.0+0.1.0.0 
+(v5 / reject-01
+    :ARG0 (v1 / government-organization
+        :name (v2 / name
+            :op1 "Parliament")
+        :wiki "Parliament_of_Egypt")
+    :ARG1 (v7 / request-01
+        :ARG1 (v9 / have-org-role-91
+            :ARG2 (v10 / president))
+        :ARG0 v1))
+
+# ::id 93
+# ::snt Sobre el tema de el miércoles , tengo otra propuesta relativa a la pregunta oral sobre el impuesto a el capital .
+# ::alignments 2-3|0.3 5-6|0.0.1 7-8|0.0.0 9-10|0.0 13-14|0 14-15|0.1 17-18|0.2 20-21|0.2.0 
+(v9 / question-01
+    :ARG1 (v7 / propose-01
+        :ARG0 (v5 / i)
+        :ARG1 (v3 / wednesday))
+    :mod (v11 / oral
+        :ARG0 v7)
+    :ARG1 (v13 / tax-01
+        :mod (v15 / capital)
+        :ARG0 v7)
+    :ARG0 (v1 / issue-02))
+
+# ::id 94
+# ::snt El grupo PPE-DE solicita que se retire este punto de el orden de el día .
+# ::alignments 1-2|0.0 2-3|0.0.0 3-4|0 6-7|0.1 7-8|0.1.0 
+(v5 / request-01
+    :ARG0 (v1 / group
+        :mod (v3 / ppe))
+    :ARG1 (v7 / request-01
+        :ARG1 (v9 / this)
+        :ARG0 v1))
+
+# ::id 95
+# ::snt ¿ Algún colega tomará la palabra en nombre de el grupo para justificar esta petición ?
+# ::alignments 3-4|0 5-6|0.0 10-11|0.0.0 12-13|0.0.1 13-14|0.0.1.0.0 14-15|0.0.1.0 15-16|0.1 
+(v1 / take-01
+    :ARG1 (v3 / word
+        :mod (v5 / group)
+        :ARG1-of (v7 / justify-01
+            :ARG0 v5
+            :ARG1 (v11 / request-01
+                :mod (v9 / this)
+                :ARG0 v5)))
+    :mode interrogative)
+
+# ::id 96
+# ::snt Señora Presidenta , escucho algunas risas entre los socialistas .
+# ::alignments 0-2|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.0.1 3-4|0.0 4-5|0.0.1.0 5-6|0.0.1 8-9|0.1 
+(mu / multi-sentence
+    :snt1 (v5 / hear-01
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Señora"
+                :op2 "Presidenta")
+            :wiki "Señora_Presidenta")
+        :ARG1 (v11 / laughter
+            :quant (v9 / some)
+            :ARG0 v1))
+    :snt2 (v13 / socialists))
+
+# ::id 97
+# ::snt Me han dicho que también amplios círculos de el Grupo Socialista ven de buen grado la supresión de este punto de el orden de el día , ya que en la votación habida en la Conferencia de Presidentes faltó el voto de el grupo de trabajo competente para ello de nuestros colegas de el Grupo Socialista .
+# ::alignments 0-1|0.0.0 2-3|0.0 4-5|0.0.1.1 5-6|0.0.1.0 6-7|0.0.1 12-15|0.0.1.2.1 18-19|0.0.1.2.0 31-32|0.0.1.2 38-39|0.0.2 40-41|0.0.2.0 43-44|0.0.2.0.0 45-46|0.0.2.0.0.0 46-47|0.0.2.0.0.0.0 50-51|0.1.0 51-52|0.1 
+(mu / multi-sentence
+    :snt1 (v3 / say-01
+        :ARG0 (v1 / i)
+        :ARG1 (v9 / concentric
+            :ARG1-of (v7 / broad-02)
+            :mod (v5 / also)
+            :ARG1-of (v15 / vote-01
+                :mod (v13 / this)
+                :mod (v11 / also)
+                :ARG0 v7)
+            :ARG0 v1)
+        :ARG1 (v17 / vote-01
+            :ARG1 (v19 / vote-01
+                :ARG1 (v21 / group
+                    :ARG0-of (v23 / work-01
+                        :mod (v25 / competent-01))))
+            :ARG0 v1))
+    :snt2 (v29 / colleague
+        :poss (v27 / we)
+        :ARG0 v3))
+
+# ::id 98
+# ::snt Ignoro si esta información es correcta , pero nosotros como Grupo de el PPE / DE agradeceríamos en cualquier caso que se suprimiera este punto , ya que el Parlamento se ha ocupado ya numerosas veces de esta cuestión .
+# ::alignments 0-1|0+0.0+0.1 2-3|0.2.0.0 3-4|0.2.0 5-6|0.2 7-8|0.3 18-19|0.3.0.0 19-20|0.3.0 22-23|0.3.1 23-24|0.3.1.0.4 29-30|0.3.1.0.3+0.3.1.0.3.0+0.3.1.0.3.0.0+0.3.1.0.3.1 33-34|0.3.1.0.2 34-35|0.3.1.0.1 37-38|0.3.1.0.0 38-39|0.3.1.0 
+(v1 / know-01
+    :polarity -
+    :ARG0 (v2 / i)
+    :ARG1 (v9 / correct-02
+        :ARG1 (v7 / information
+            :mod (v5 / this)))
+    :ARG1-of (v11 / contrast-01
+        :ARG2 (v15 / case-03
+            :mod (v13 / any))
+        :ARG2 (v17 / remove-01
+            :ARG1 v15
+            :ARG2 (v31 / issue-02
+                :mod (v29 / this)
+                :quant (v27 / many)
+                :time (v25 / already)
+                :ARG0 (v21 / government-organization
+                    :name (v22 / name
+                        :op1 "Parliament")
+                    :wiki "Parliament_of_Egypt")
+                :mod (v19 / this)
+                :ARG0 v15)
+            :ARG0 v15)))
+
+# ::id 99
+# ::snt También existen acuerdos contra semejante impuesto .
+# ::alignments 0-1|0.0.0 2-3|0.0 5-6|0.1 
+(mu / multi-sentence
+    :snt1 (v3 / agree-01
+        :mod (v1 / also))
+    :snt2 (v5 / tax-01
+        :ARG0 v3))
+

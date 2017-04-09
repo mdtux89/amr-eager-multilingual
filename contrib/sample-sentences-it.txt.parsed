@@ -1,0 +1,2559 @@
+# ::id 0
+# ::snt Signor Presidente , onorevoli parlamentari , innanzitutto terrei a ricordare che gli Stati membri dell' Unione europea hanno svolto un ruolo molto importante alla Conferenza di Pechino del 1995 e nell' elaborazione del relativo progetto d' azione .
+# ::alignments 1-2|0.2+0.2.0 4-5|0.1 7-8|0 9-10|0.0 12-13|0.0.0+0.0.0.0 13-14|0.0.0.1 15-17|0.0.0.1.0.2+0.0.0.1.0.2.0+0.0.0.1.0.2.0.0+0.0.0.1.0.2.0.1+0.0.0.1.0.2.1 20-21|0.0.0.1.0 21-22|0.0.0.1.0.0.0 22-23|0.0.0.1.0.0 24-25|0.0.0.1.0.1 26-27|0.0.0.1.0.1.0.2 28-29|0.0.0.1.0.1.0.0+0.0.0.1.0.1.0.0.0 29-30|0.0.0.1.0.1.0 31-32|0.0.0.1.0.1.0.1 34-35|0.0.0.1.0.1.0.1.0 36-37|0.0.0.1.0.1.0.1.0.0 
+(v7 / like-02
+    :ARG1 (v9 / remind-01
+        :ARG1 (v11 / have-org-role-91
+            :ARG2 (v12 / member)
+            :ARG1 (v15 / state
+                :poss (v21 / role
+                    :mod (v25 / important
+                        :degree (v23 / very))
+                    :mod (v27 / conference
+                        :location (v31 / and
+                            :time (v29 / date-entity
+                                :year 1995)
+                            :op2 (v33 / draft-01
+                                :ARG1 (v35 / project
+                                    :mod (v37 / action)))
+                            :op1 "Peking"))
+                    :domain (v17 / organization
+                        :name (v18 / name
+                            :op1 "European"
+                            :op2 "Union")
+                        :wiki "European_Union"))
+                :ARG0 v12)))
+    :ARG1 (v5 / gentleman)
+    :ARG1 (v1 / have-org-role-91
+        :ARG2 (v2 / president)))
+
+# ::id 1
+# ::snt In seguito all' adozione di tale progetto le Istituzioni europee e gli Stati membri si sono occupati attivamente della sua attuazione sia a livello nazionale che a livello di Unione europea .
+# ::alignments 3-4|0.3 5-6|0.1.0 6-7|0.1 8-9|0.0 9-10|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1+0.0.0.0.0+0.0.0.1 10-11|0 12-13|0.2.4.0+0.2.4.0.0 13-14|0.2.4 17-18|0.2.1 20-21|0.2.0 23-24|0.2 24-25|0.2.2 27-28|0.2.3 29-31|0.2.3.0+0.2.3.0.0+0.2.3.0.0.0+0.2.3.0.0.1+0.2.3.0.1 
+(v13 / and
+    :op1 (v7 / institution
+        :mod (v9 / country
+            :name (v10 / name
+                :op1 "Europe")
+            :wiki "Europe"))
+    :location (v5 / project
+        :mod (v3 / this))
+    :op1 (v25 / level
+        :mod (v23 / implement-01)
+        :mod (v21 / activity-06)
+        :mod (v27 / nation
+            :ARG0 v23)
+        :mod (v29 / level
+            :poss (v31 / organization
+                :name (v32 / name
+                    :op1 "European"
+                    :op2 "Union")
+                :wiki "European_Union")
+            :ARG0 v23)
+        :location (v19 / state
+            :ARG0-of (v15 / have-org-role-91
+                :ARG2 (v16 / member)))
+        :ARG0 v7)
+    :location (v1 / adopt-01))
+
+# ::id 2
+# ::snt Quanto alla questione attinente alla tratta delle donne , affrontata nel capitolo sulla violenza contro le donne , gli obiettivi sono molto chiari .
+# ::alignments 2-3|0 3-4|0.0 7-8|0.1.2 9-10|0.1 13-14|0.1.0 16-17|0.1.0.0 19-20|0.1.1.1 21-22|0.1.1.0 22-23|0.1.1 
+(v1 / issue-02
+    :ARG0 (v3 / attinente)
+    :ARG1-of (v7 / address-02
+        :ARG1 (v9 / violence
+            :poss (v11 / woman))
+        :ARG1-of (v17 / clear-06
+            :degree (v15 / very)
+            :ARG1 (v13 / objective))
+        :ARG1 (v5 / woman)
+        :ARG0 v3))
+
+# ::id 3
+# ::snt Le misure che i governi e le organizzazioni regionali ed internazionali dei paesi di origine , di transito e di destinazione devono adottare sono di vario tipo e lei fa bene , di fronte al pericolo di detto traffico , a puntare il dito contro la violazione della sicurezza e della dignità delle donne in Europa .
+# ::alignments 1-2|0.5 4-5|0.0+0.0.0 5-6|0 7-8|0.1.1 8-9|0.1.0 9-10|0.1 10-11|0.2.2 12-13|0.2.1 14-15|0.2.0 18-19|0.2 25-26|0.3.0+0.3 26-27|0.4.1 27-28|0.4 28-29|0.4.0.2 38-39|0.4.0 43-44|0.4.0.0.3 46-47|0.4.0.0.1 48-49|0.4.0.0.0 49-50|0.4.0.0 51-52|0.4.0.0.2 53-54|0.4.0.0.2.0 55-56|0.4.0.1+0.4.0.1.0+0.4.0.1.0.0+0.4.0.1.1+0.4.0.1.0.0+0.4.0.1.1 
+(v7 / and
+    :op1 (v3 / government-organization
+        :ARG0-of (v4 / govern-01))
+    :op2 (v13 / and
+        :op1 (v11 / region)
+        :op2 (v9 / organization)
+        :ARG0 v3)
+    :op2 (v21 / and
+        :op2 (v19 / originate-01)
+        :op1 (v17 / country)
+        :mod (v15 / international)
+        :ARG0 v3)
+    :domain (v23 / variety
+        :mod (v24 / fund)
+        :ARG0 v3)
+    :op2 (v29 / and
+        :op2 (v33 / traffic
+            :op1 (v41 / and
+                :op1 (v39 / safe-01)
+                :op2 (v37 / violate-01)
+                :op3 (v43 / dignity
+                    :poss (v45 / woman)
+                    :ARG0 v39)
+                :op1 (v35 / finger))
+            :location (v47 / continent
+                :name (v48 / name
+                    :op1 "Europe")
+                :wiki "Europe"
+                :ARG0 v41)
+            :mod (v31 / you))
+        :mod (v27 / type)
+        :ARG0 v3)
+    :mod (v1 / measure-02))
+
+# ::id 4
+# ::snt Può essere certa del fatto che le Istituzioni stanno affrontando la questione molto seriamente ed infatti sono già state adottate alcune misure volte a combattere tale traffico , che passo ad esporre nel modo più sintetico possibile .
+# ::alignments 0-1|0.4 7-8|0.3 11-12|0.2 12-13|0.0.0 13-14|0.0 14-15|0 17-18|0.1.4 20-21|0.1.0 21-22|0.1 24-25|0.1.1 25-26|0.1.1.0.0 26-27|0.1.1.0 29-30|0.1.2 34-35|0.1.2.0.0 35-36|0.1.2.0 36-37|0.1.3 
+(v11 / and
+    :op1 (v9 / serious
+        :degree (v7 / very))
+    :op1 (v17 / measure-02
+        :quant (v15 / some)
+        :ARG0 (v19 / combat-01
+            :ARG1 (v23 / traffic
+                :mod (v21 / this))
+            :ARG0 v15)
+        :ARG0 (v25 / step
+            :manner (v29 / detail-01
+                :degree (v27 / more))
+            :ARG0 v15)
+        :ARG1 (v31 / possible-01
+            :ARG0 v15)
+        :op1 (v13 / already)
+        :ARG0 v9)
+    :op2 (v5 / issue-02)
+    :location (v3 / institution)
+    :mod (v1 / possible-01))
+
+# ::id 5
+# ::snt In primo luogo va segnalato che già nel novembre 1993 il Consiglio " giustizia e affari interni " aveva messo a punto una serie di raccomandazioni sul commercio degli esseri umani ai fini della prostituzione , volte a combattere tale fenomeno .
+# ::alignments 1-2|0.7 6-7|0.6 9-10|0.5+0.5.0 11-12|0.4 13-14|0.0 14-15|0 15-16|0.1 23-24|0.2 25-26|0.2.0 27-28|0.2.0.0 29-30|0.2.0.0.0 30-31|0.2.0.0.0.0 34-35|0.3 38-39|0.3.0 39-40|0.3.0.0 
+(v9 / and
+    :op1 (v7 / justice)
+    :op2 (v11 / affair
+        :ARG0 v7)
+    :mod (v13 / series
+        :mod (v15 / recommend-01
+            :ARG1 (v17 / trade-01
+                :ARG1 (v19 / being
+                    :mod (v21 / human))))
+        :ARG0 v7)
+    :domain (v23 / prostituzione
+        :purpose (v25 / combat-01
+            :ARG1 (v27 / this))
+        :ARG0 v7)
+    :mod (v5 / council)
+    :li (v3 / date-entity
+        :year 1993)
+    :time (v1 / already)
+    :li 1)
+
+# ::id 6
+# ::snt Due anni più tardi , l' Assemblea ha fatto suo questo tema : oltre ad avere adottato un certo numero di risoluzioni , ha anche prodotto una relazione ed una risoluzione riguardanti proprio la tratta degli esseri umani .
+# ::alignments 1-2|0.1+0.1.0 2-3|0.0.0 3-4|0.0 10-11|0.0.1.0 11-12|0.0.1 16-17|0 18-19|0.2.0 19-20|0.2 21-22|0.2.1 24-25|0.3.3 27-28|0.3.2 28-29|0.3 30-31|0.3.0.0 36-37|0.3.0 37-38|0.3.1 
+(v13 / adopt-01
+    :time (v7 / late
+        :mod (v5 / more)
+        :time (v11 / issue-02
+            :mod (v9 / this)))
+    :time (v1 / temporal-quantity
+        :unit (v2 / year))
+    :ARG1 (v17 / number
+        :mod (v15 / certain)
+        :quant-of (v19 / resolution))
+    :ARG1 (v25 / and
+        :op2 (v29 / being
+            :mod (v27 / resolution))
+        :op2 (v31 / human)
+        :op1 (v23 / report)
+        :mod (v21 / also)))
+
+# ::id 7
+# ::snt A sua volta la Commissione , nel 1996 , vale a dire esattamente un anno dopo l' adozione del progetto di Pechino , ha emesso la sua prima comunicazione sulla questione della tratta delle donne e lanciato il cosiddetto programma STOP , con una dotazione annuale di 6.5 milioni di euro .
+# ::alignments 4-5|0.1 7-8|0.0+0.0.0 11-12|0 12-13|0.2.1 14-15|0.2.0 15-16|0.2 17-18|0.2.2 19-20|0.2.2.0 21-22|0.2.2.0.0 24-25|0.3.0+0.3 28-29|0.3.1 30-31|0.3.1.0 34-35|0.3.1.0.0.2 35-36|0.3.1.0.0 39-40|0.3.1.0.0.0 40-41|0.3.1.0.0.0.0 47-48|0.3.1.0.0.1.0 50-51|0.3.1.0.0.1 
+(v5 / say-01
+    :time (v3 / date-entity
+        :year 1996)
+    :ARG0 (v1 / commission)
+    :time (v11 / after
+        :mod (v9 / year)
+        :mod (v7 / exact)
+        :op1 (v13 / adopt-01
+            :ARG1 (v15 / project
+                :mod "Peking")
+            :ARG0 v9))
+    :ARG1 (v17 / cry-01
+        :mod (v18 / politics)
+        :ARG1 (v21 / communicate-01
+            :ARG1 (v23 / issue-02
+                :ARG1 (v27 / and
+                    :op2 (v29 / program
+                        :mod (v31 / stop))
+                    :op2 (v35 / euro
+                        :quant (v33 / 6,5)
+                        :ARG0 v29)
+                    :op2 (v25 / woman)))
+            :ARG0 v18)))
+
+# ::id 8
+# ::snt Ritengo non si debba sottovalutare l' importanza di questo programma , dato che ha contribuito a finanziare molti progetti , rivelandosi realmente efficace .
+# ::alignments 0-1|0+0.0 1-2|0.1.0 4-5|0.1 6-7|0.1.1 8-9|0.1.1.0.0 9-10|0.1.1.0 14-15|0.1.2 16-17|0.1.2.0 17-18|0.1.2.0.0.0 18-19|0.1.2.0.0 20-21|0.1.2.0.0.1 22-23|0.1.2.0.0.1.0 
+(v1 / believe-01
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / underestimate-01
+        :polarity -
+        :ARG1 (v7 / important
+            :poss (v11 / program
+                :mod (v9 / this)))
+        :ARG1 (v13 / contribute-01
+            :ARG2 (v15 / finance-01
+                :ARG1 (v19 / project
+                    :quant (v17 / many)
+                    :mod (v21 / rivelare-01
+                        :ARG0-of (v23 / effective-04)
+                        :ARG0 v17))))
+        :ARG0 v2))
+
+# ::id 9
+# ::snt In terzo luogo , la Commissione e l' Organizzazione internazionale per le migrazioni hanno organizzato a Vienna , sempre nel 1996 , una conferenza di carattere interdisciplinare su questo tema , riunendo rappresentanti degli Stati membri , delle Istituzioni , dell' Unione europea , di ambienti accademici e di varie organizzazioni non governative .
+# ::alignments 5-6|0.0 6-7|0 9-10|0.1.5 12-13|0.1.4 14-15|0.1 16-17|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.1 18-19|0.1.1 20-21|0.1.2+0.1.2.0 23-24|0.1.3.0 26-27|0.1.3 28-29|0.1.3.1.0 29-30|0.1.3.1 31-32|0.1.3.2 32-33|0.1.3.2.0+0.1.3.2.0.0 34-35|0.1.3.2.0.1.0.0+0.1.3.2.0.1.0.0.0 35-36|0.1.3.2.0.1.0 38-39|0.1.3.2.0.1 41-43|0.1.3.2.0.1.1+0.1.3.2.0.1.1.0+0.1.3.2.0.1.1.0.0+0.1.3.2.0.1.1.0.1+0.1.3.2.0.1.1.1 45-46|0.1.3.2.0.1.2.1 46-47|0.1.3.2.0.1.2.0 47-48|0.1.3.2.0.1.2 49-50|0.1.3.2.0.1.2.2.0 50-51|0.1.3.2.0.1.2.2 51-52|0.1.3.2.0.1.2.3.1 52-53|0.1.3.2.0.1.2.3+0.1.3.2.0.1.2.3.0 
+(v3 / and
+    :op1 (v1 / commission)
+    :op2 (v9 / organize-01
+        :location (v11 / city
+            :name (v12 / name
+                :op1 "Vienna")
+            :wiki "Vienna")
+        :time (v15 / always)
+        :time (v17 / date-entity
+            :year 1996)
+        :ARG1 (v21 / interdisciplinare-01
+            :ARG0 (v19 / conference)
+            :ARG0 (v25 / issue-02
+                :mod (v23 / this)
+                :ARG0 v19)
+            :purpose (v27 / bring-01
+                :ARG1 (v29 / person
+                    :ARG0-of (v30 / represent-01)
+                    :poss (v39 / institution
+                        :mod (v37 / state
+                            :ARG0-of (v33 / have-org-role-91
+                                :ARG2 (v34 / member)))
+                        :poss (v41 / organization
+                            :name (v42 / name
+                                :op1 "European"
+                                :op2 "Union")
+                            :wiki "European_Union"
+                            :ARG0 v37)
+                        :location (v49 / and
+                            :mod (v47 / accademico)
+                            :op1 (v45 / sector)
+                            :domain (v53 / organization
+                                :mod (v51 / various)
+                                :ARG0 v47)
+                            :domain (v55 / government-organization
+                                :ARG0-of (v56 / govern-01)
+                                :polarity -
+                                :ARG0 v47)
+                            :ARG0 v37)
+                        :ARG0 v30))
+                :ARG0 v19))
+        :ARG0 (v7 / we)
+        :mod (v5 / international)
+        :ARG0 v1))
+
+# ::id 10
+# ::snt Tutta una serie di conclusioni trae origine da tale lavoro .
+# ::alignments 0-1|0.2.0 2-3|0.2 4-5|0.2.1+0.2.1.0 5-6|0.1 6-7|0 8-9|0.0.0 9-10|0.0 
+(v11 / originate-01
+    :ARG1 (v15 / work-01
+        :mod (v13 / this))
+    :mod (v9 / trarre)
+    :location (v3 / series
+        :mod (v1 / entire)
+        :mod (v5 / thing
+            :ARG1-of (v6 / conclude-01)
+            :ARG0 v1)))
+
+# ::id 11
+# ::snt Infine , sempre nel 1996 , il Consiglio ha approvato un' azione comune tesa a combattere la tratta di esseri umani e lo sfruttamento sessuale dei bambini .
+# ::alignments 0-1|0.0.3 2-3|0.0.2 4-5|0.0.1+0.0.1.0 7-8|0.0.0 9-10|0.0 11-12|0.0.4 12-13|0.0.4.0 13-14|0.1 15-16|0.1.0 19-20|0.1.0.0.0 20-21|0.1.0.0.0.0 21-22|0.1.0.0 23-24|0.1.0.0.1 26-27|0.1.0.0.1.0 
+(mu / multi-sentence
+    :snt1 (v9 / approve-01
+        :ARG0 (v7 / council)
+        :time (v5 / date-entity
+            :year 1996)
+        :time (v3 / always)
+        :time (v1 / final)
+        :ARG1 (v11 / action
+            :mod (v13 / common)
+            :ARG0 v7))
+    :snt2 (v15 / aim-01
+        :ARG1 (v17 / combat-01
+            :ARG1 (v23 / and
+                :op1 (v19 / being
+                    :mod (v21 / human))
+                :op2 (v25 / exploit-01
+                    :ARG1 (v27 / child)
+                    :ARG0 v19)))))
+
+# ::id 12
+# ::snt Nel 1997 , la Conferenza ministeriale dell' Aia ha redatto una dichiarazione relativa agli orientamenti europei in materia di misure volte a prevenire e combattere in modo efficace la tratta delle donne a fini dello sfruttamento sessuale .
+# ::alignments 1-2|0.0.3+0.0.3.0 4-6|0.0.2+0.0.2.0+0.0.2.0.0 7-8|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.0.1+0.0.1.1 11-12|0.0.0 14-15|0.0 15-16|0.0.4+0.0.4.0+0.0.4.0.0+0.0.4.1+0.0.4.0.0+0.0.4.1 19-20|0.1 22-23|0.1.0 23-24|0.1.0.0 24-25|0.1.0.0.0 27-28|0.1.0.0.0.0.1 31-32|0.1.0.0.0.0.0 35-36|0.1.0.0.0.0 
+(mu / multi-sentence
+    :snt1 (v15 / guideline
+        :mod (v13 / state-01)
+        :location (v9 / city
+            :name (v10 / name
+                :op1 "The"
+                :op2 "Hague")
+            :wiki "The_Hague")
+        :poss (v3 / person
+            :ARG0-of (v4 / have-org-role-91
+                :ARG2 (v5 / minister)))
+        :time (v1 / date-entity
+            :year 1997)
+        :mod (v17 / country
+            :name (v18 / name
+                :op1 "Europe")
+            :wiki "Europe"
+            :ARG0 v13))
+    :snt2 (v21 / measure-02
+        :ARG0 (v23 / prevent-01
+            :ARG1 (v25 / and
+                :op2 (v27 / combat-01
+                    :ARG1 (v33 / exploit-01
+                        :ARG0 (v31 / woman)
+                        :ARG1-of (v29 / effective-04)))))))
+
+# ::id 13
+# ::snt Infine , nel 1998 , la Commissione ha adottato un' altra comunicazione relativa a nuove azioni di lotta contro tale traffico .
+# ::alignments 0-1|0.2 3-4|0.1+0.1.0 6-7|0.0 8-9|0 10-11|0.3.0 11-12|0.3 14-15|0.3.1.0 17-18|0.3.1 19-20|0.3.1.1.0 20-21|0.3.1.1 
+(v7 / adopt-01
+    :ARG0 (v5 / commission)
+    :time (v3 / date-entity
+        :year 1998)
+    :mod (v1 / final)
+    :ARG1 (v11 / communicate-01
+        :mod (v9 / another)
+        :ARG2 (v15 / fight-01
+            :mod (v13 / new)
+            :ARG1 (v19 / traffic
+                :mod (v17 / this)))
+        :ARG0 v5))
+
+# ::id 14
+# ::snt Desidero inoltre segnalare come la questione venga presa in esame periodicamente nell' ambito del dialogo transatlantico , in quanto il fenomeno colpisce in egual misura paesi come il Canada e gli Stati Uniti e non è circoscritto alle aree situate in prossimità dell' Unione europea .
+# ::alignments 0-1|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.1 1-2|0.0.0 2-3|0.0 5-6|0.0.2 10-11|0.0.2.0 14-15|0.0.2.0.0 15-16|0.0.2.0.0.0 23-24|0.0.3.2 25-26|0.0.3.1 28-29|0.0.3.0+0.0.3.0.0+0.0.3.0.0.0+0.0.3.0.1+0.0.3.0.0.0+0.0.3.0.1 29-30|0.0.3 31-33|0.1.1+0.1.1.0+0.1.1.0.0+0.1.1.0.1+0.1.1.1 33-34|0.1 34-35|0.1.0.0 36-37|0.1.0 38-39|0.1.0.1 39-40|0.1.0.1.0 43-45|0.1.0.1.0.0+0.1.0.1.0.0.0+0.1.0.1.0.0.0.0+0.1.0.1.0.0.0.1+0.1.0.1.0.0.1 
+(mu / multi-sentence
+    :snt1 (v7 / point-out-02
+        :mod (v5 / also)
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Desidero")
+            :wiki "Desidero")
+        :ARG1 (v9 / issue-02
+            :ARG1-of (v11 / regular-02
+                :ARG1 (v13 / dialogue-01
+                    :mod (v15 / transatlantico))))
+        :ARG1 (v25 / and
+            :op1 (v21 / country
+                :name (v22 / name
+                    :op1 "Canada")
+                :wiki "Canada")
+            :location (v19 / country)
+            :mod (v17 / egual)))
+    :snt2 (v31 / and
+        :op2 (v33 / limit-01
+            :polarity -
+            :ARG2 (v35 / area
+                :mod (v37 / authority
+                    :location (v39 / organization
+                        :name (v40 / name
+                            :op1 "European"
+                            :op2 "Union")
+                        :wiki "European_Union"))))
+        :op1 (v27 / country
+            :name (v28 / name
+                :op1 "United"
+                :op2 "States")
+            :wiki "United_States")
+        :ARG0 v7))
+
+# ::id 15
+# ::snt Riteniamo che lo scambio di opinioni con altri paesi di destinazione assuma sempre maggiore importanza , nell' ottica di procedere ad un confronto e ad una valutazione del fenomeno , nonché ad un' armonizzazione delle misure di controllo .
+# ::alignments 0-1|0+0.0 3-4|0.1 5-6|0.1.0 7-8|0.1.0.0.0 8-9|0.1.0.0 11-12|0.1.0.0.1 12-13|0.1.0.0.1.0.1 13-14|0.1.0.0.1.0.0 14-15|0.1.0.0.1.0 22-23|0.1.0.0.1.0.2.0 23-24|0.1.0.0.1.0.2 26-27|0.1.0.0.1.0.3 33-34|0.1.0.0.1.0.4 35-36|0.1.0.0.1.0.4.0 37-38|0.1.0.0.1.0.4.0.0 
+(v1 / believe-01
+    :ARG0 (v2 / we)
+    :ARG1 (v5 / exchange-01
+        :ARG1 (v7 / opine-01
+            :ARG2 (v11 / country
+                :mod (v9 / other)
+                :ARG0-of (v13 / take-10
+                    :ARG1 (v19 / important
+                        :mod (v17 / great)
+                        :mod (v15 / always)
+                        :op1 (v23 / and
+                            :op1 (v21 / compare-01))
+                        :domain (v25 / assess-01
+                            :ARG0 v17)
+                        :domain (v27 / harmonisation
+                            :mod (v29 / measure-02
+                                :ARG1 (v31 / control-01))
+                            :ARG0 v17))
+                    :ARG0 v9)))
+        :ARG0 v2))
+
+# ::id 16
+# ::snt Com' è naturale , la questione è entrata regolarmente a far parte dell' agenda relativa ai contatti con i paesi dell' Europa centrale e orientale , che sono sia paesi di transito che di origine di gran parte di tale traffico .
+# ::alignments 2-3|0.0.0.0 5-6|0.0.0 7-8|0.0 8-9|0.0.1 13-14|0.0.2 16-17|0.0.2.0 19-20|0.0.2.0.0 21-22|0.0.2.0.0.0+0.0.2.0.0.0.0+0.0.2.0.0.0.0.0+0.0.2.0.0.0.1+0.0.2.0.0.0.0.0+0.0.2.0.0.0.1 22-23|0.0.2.0.0.1.0 23-24|0.0.2.0.0.1 29-30|0.1.1 34-35|0.1 39-40|0.1.0.0 40-41|0.1.0 
+(mu / multi-sentence
+    :snt1 (v5 / enter-01
+        :ARG0 (v3 / issue-02
+            :ARG1-of (v1 / natural-03))
+        :ARG1-of (v7 / regular-02
+            :ARG0 v3)
+        :ARG1 (v9 / agenda
+            :mod (v11 / contact-01
+                :ARG1 (v13 / country
+                    :location (v15 / continent
+                        :name (v16 / name
+                            :op1 "Europe")
+                        :wiki "Europe")
+                    :location (v21 / and
+                        :op1 (v19 / central))))
+            :ARG0 v3))
+    :snt2 (v25 / originate-01
+        :ARG1 (v29 / traffic
+            :mod (v27 / this))
+        :location (v23 / country)))
+
+# ::id 17
+# ::snt In questo campo esistono campagne finanziate dal programma PHARE , alcune delle quali con l' ausilio dell' Organizzazione internazionale per le migrazioni .
+# ::alignments 1-2|0.5 4-5|0.4 5-6|0.4.0 7-8|0.1 8-9|0.1.0 10-11|0.0 15-16|0 18-19|0.2 21-22|0.3 
+(v13 / assist-01
+    :quant (v11 / some)
+    :ARG0 (v7 / program
+        :mod (v9 / phare))
+    :mod (v15 / international)
+    :ARG0 (v17 / we)
+    :ARG0 (v3 / campaign-01
+        :mod (v5 / finance-01))
+    :mod (v1 / this))
+
+# ::id 18
+# ::snt Tengo a mettere in chiaro che il Consiglio non vuole fare commenti sulle cifre fornite dal Ministro degli esteri della Svizzera , che parlano di 300.000 donne vittime della prostituzione in Europa .
+# ::alignments 0-1|0+0.0 4-5|0.1 7-8|0.1.0.1 8-9|0.1.0.0 9-10|0.1.0 11-12|0.1.0.2 13-14|0.1.0.2.0 16-19|0.1.0.2.0.0+0.1.0.2.0.0.0 20-21|0.1.0.2.0.0.1+0.1.0.2.0.0.1.0+0.1.0.2.0.0.1.0.0+0.1.0.2.0.0.1.1+0.1.0.2.0.0.1.0.0+0.1.0.2.0.0.1.1 23-24|0.1.0.3 26-27|0.1.0.3.0 27-28|0.1.0.3.0.0 29-30|0.1.0.3.0.0.0 31-32|0.1.0.3.0.1+0.1.0.3.0.1.0+0.1.0.3.0.1.0.0+0.1.0.3.0.1.1+0.1.0.3.0.1.0.0+0.1.0.3.0.1.1 
+(v1 / like-02
+    :ARG0 (v2 / i)
+    :ARG1 (v5 / clear-06
+        :ARG1 (v9 / wish-01
+            :polarity -
+            :ARG0 (v7 / council)
+            :ARG1 (v11 / comment-01
+                :ARG1 (v13 / figure
+                    :ARG0-of (v15 / have-org-role-91
+                        :ARG2 (v16 / minister)
+                        :location (v23 / country
+                            :name (v24 / name
+                                :op1 "Switzerland")
+                            :wiki "Switzerland"
+                            :ARG0 v16))))
+            :ARG0 (v27 / speak-01
+                :ARG2 (v29 / woman
+                    :mod (v31 / victim
+                        :mod (v33 / prostituzione))
+                    :location (v35 / continent
+                        :name (v36 / name
+                            :op1 "Europe")
+                        :wiki "Europe"
+                        :ARG0 v31))))
+        :ARG0 v2))
+
+# ::id 19
+# ::snt Non ci sono dati statistici precisi al riguardo , in quanto si lavora sulla base di numeri difficili da reperire , essendo legati al problema dell' immigrazione clandestina , da un lato , e dell' occupazione illegale , dall' altro .
+# ::alignments 0-1|0.0.0+0.1.1.0.0 3-4|0.0 4-5|0.0.1 5-6|0.0.2 12-13|0.0.3+0.0.0+0.1.1.0.0 16-17|0.0.3.0 17-18|0.0.3.0.0 19-20|0.1.0 24-25|0.1.0.0 26-27|0.1.0.0.0 27-28|0.1.0.0.0.0 33-34|0.1 35-36|0.1.1 36-37|0.1.1.0+0.0.0+0.1.1.0.0 
+(mu / multi-sentence
+    :snt1 (v1 / data
+        :polarity -
+        :mod (v3 / statistic)
+        :mod (v5 / precise)
+        :ARG0-of (v7 / work-01
+            :ARG1 (v9 / and
+                :mod (v13 / difficult))))
+    :snt2 (v23 / and
+        :op1 (v15 / find-01
+            :ARG1 (v17 / problem
+                :topic (v19 / immigrate-01
+                    :mod (v21 / clandestino))))
+        :op2 (v25 / employ-01
+            :mod (v27 / law
+                :polarity -)
+            :ARG0 v15)
+        :ARG0 v1))
+
+# ::id 20
+# ::snt A prima vista il numero ci sembra abbastanza elevato ; pensiamo sia necessario compiere uno sforzo per dare una più corretta valutazione di tale cifra e che non ci si debba fissare , nonostante tutto , su una stima del genere , che a noi pare alquanto priva di fondamento .
+# ::alignments 1-2|0.0 2-3|0 4-5|0.1 6-7|0.1.0 7-8|0.1.0.0.0 8-9|0.1.0.0 9-10|0.2 15-16|0.2.0+0.3.0.0 19-20|0.2.0.0.0 20-21|0.2.0.0 21-22|0.2.0.1 23-24|0.2.0.1.0.0 24-25|0.2.0.1.0 25-26|0.3 27-28|0.3.0.0 38-39|0.3.0 44-45|0.3.0.1.0 45-46|0.3.0.1 
+(v3 / give-01
+    :time (v1 / before)
+    :ARG1 (v5 / number
+        :ARG1-of (v7 / seem-01
+            :ARG1 (v11 / high-02
+                :mod (v9 / enough))))
+    :ARG1 (v13 / and
+        :op2 (v14 / effort
+            :ARG1-of (v18 / correct-02
+                :degree (v16 / more))
+            :purpose (v20 / assess-01
+                :ARG1 (v24 / figure
+                    :mod (v22 / this))
+                :ARG0 v18)))
+    :ARG1 (v26 / and
+        :op2 (v28 / estimate-01
+            :polarity -
+            :ARG1-of (v32 / seem-01
+                :ARG1 (v30 / we)))))
+
+# ::id 21
+# ::snt Ad ogni modo , il problema va affrontato molto seriamente , non solo a causa del numero di persone coinvolte , ma anche perché la tratta delle donne è un tipo di reato che , a quanto pare , è in fase di espansione in tutto il mondo , poiché è in grado di procurare profitti elevati con rischi relativamente bassi per i trafficanti .
+# ::alignments 5-6|0 8-9|0.0.1.0 9-10|0.0.1 11-12|0.0.0.0 12-13|0.0.0 16-17|0.0.0.1 18-19|0.0.0.1.0 19-20|0.0.0.1.0.0 21-22|0.0 22-23|0.0.2.0 23-24|0.0.2 27-28|0.0.2.1.2 30-31|0.0.2.1 32-33|0.0.2.1.0 37-38|0.0.2.1.1 41-42|0.0.2.1.1.0 47-48|0.0.2.1.1.0.0.2 54-55|0.0.2.1.1.0.0 55-56|0.0.2.1.1.0.0.0 56-57|0.0.2.1.1.0.0.0.0 58-59|0.0.2.1.1.0.0.0.1 59-60|0.0.2.1.1.0.0.0.1.0 60-61|0.0.2.1.1.0.0.0.1.1 63-64|0.0.2.1.1.0.0.1+0.0.2.1.1.0.0.1.0 
+(v1 / problem
+    :ARG1-of (v15 / contrast-01
+        :mod (v7 / only
+            :polarity -
+            :mod (v9 / number
+                :quant-of (v11 / person
+                    :ARG1-of (v13 / involve-01))))
+        :mod (v5 / serious
+            :degree (v3 / very))
+        :ARG0 (v19 / cause-01
+            :mod (v17 / also)
+            :ARG0 (v23 / type
+                :mod (v25 / offence)
+                :ARG1-of (v27 / seem-01
+                    :ARG1 (v29 / stage
+                        :location (v33 / procurare-01
+                            :ARG1 (v35 / profit-01
+                                :ARG1-of (v37 / high-02)
+                                :ARG1 (v39 / risk-01
+                                    :mod (v41 / relative)
+                                    :ARG1-of (v43 / low-04)))
+                            :ARG0 (v45 / person
+                                :ARG0-of (v46 / traffic-01))
+                            :location (v31 / world))))
+                :mod (v21 / woman)))))
+
+# ::id 22
+# ::snt Esiste un traffico di dimensioni minori , ma vi sono anche grandi imprese e reti internazionali che danno vita ad un' industria sofisticata e ben organizzata , che si avvale di appoggi politici e risorse economiche nei paesi di origine , di transito e di destinazione .
+# ::alignments 2-3|0.2 7-8|0 10-11|0.0.2 11-12|0.0.1.0 12-13|0.0.1 13-14|0.0 14-15|0.0.0 15-16|0.0.0.0 18-19|0.0.0.1 21-22|0.0.3.0 22-23|0.0.3.0.0 23-24|0.0.3 25-26|0.0.4 29-30|0.0.5 31-32|0.0.5.0 32-33|0.0.5.0.0 33-34|0.0.5.1 34-35|0.0.5.1.0 35-36|0.0.5.1.0.0 37-38|0.0.5.1.0.1 39-40|0.0.5.1.0.1.0 43-44|0.1 
+(v3 / contrast-01
+    :ARG2 (v11 / and
+        :op2 (v13 / network
+            :mod (v15 / international)
+            :mod (v17 / life))
+        :op1 (v9 / business
+            :mod (v7 / large))
+        :mod (v5 / also)
+        :op2 (v23 / and
+            :op1 (v19 / industry
+                :mod (v21 / sofisticato))
+            :ARG0 v13)
+        :mod (v25 / organize-01
+            :ARG0 v13)
+        :ARG1-of (v27 / use-01
+            :ARG2 (v29 / support-01
+                :mod (v31 / politics))
+            :ARG1 (v33 / and
+                :op2 (v35 / resource
+                    :mod (v37 / economy)
+                    :poss (v39 / country
+                        :ARG0-of (v41 / originate-01))))
+            :ARG0 v13))
+    :ARG2 (v43 / and
+        :ARG0 v11)
+    :ARG1 (v1 / traffic))
+
+# ::id 23
+# ::snt E' per questa ragione che la questione deve essere affrontata al massimo livello , ovvero di concerto con le Nazioni Unite .
+# ::alignments 2-3|0.3 6-7|0.0 9-10|0 12-13|0.1 16-17|0.2 19-21|0.2.0+0.2.0.0+0.2.0.0.0+0.2.0.0.1+0.2.0.1 
+(v5 / address-02
+    :ARG1 (v3 / issue-02)
+    :manner (v7 / level
+        :ARG0 v3)
+    :ARG0 (v9 / cooperate-01
+        :ARG0 (v11 / organization
+            :name (v12 / name
+                :op1 "United"
+                :op2 "Nations")
+            :wiki "United_Nations")
+        :ARG0 v3)
+    :mod (v1 / this))
+
+# ::id 24
+# ::snt Lei saprà di sicuro che è attualmente in discussione un progetto di protocollo volto a prevenire , eliminare e punire la tratta delle persone , in particolare di donne e bambini , il quale fa da complemento alla Convenzione delle Nazioni Unite contro la criminalità organizzata .
+# ::alignments 0-1|0.0.4.0 1-2|0.0.4 3-4|0.0.3 6-7|0.0.1 8-9|0.0.0 10-11|0.0 12-13|0.0.2 15-16|0.0.2.0.2 17-18|0.0.2.0.1 18-19|0.0.2.0 19-20|0.0.2.0.0 23-24|0.0.2.0.0.0 26-27|0.0.2.0.0.1 28-29|0.0.2.0.0.1.0.2 29-30|0.0.2.0.0.1.0 30-31|0.0.2.0.0.1.0.0.2 36-37|0.0.2.0.0.1.0.0.1 38-42|0.0.2.0.0.1.0.0.0+0.1+0.1.0+0.1.1 44-45|0.0.2.0.0.1.0.0 45-46|0.0.2.0.0.1.0.1 
+(mu / multi-sentence
+    :snt1 (v11 / project
+        :mod (v9 / debate-01)
+        :time (v7 / current)
+        :mod (v13 / protocol
+            :location (v19 / and
+                :op2 (v21 / punish-01
+                    :ARG1 (v23 / person)
+                    :manner (v25 / particular
+                        :mod (v29 / and
+                            :op2 (v43 / crime-02
+                                :mod (v38 / convention)
+                                :mod (v33 / complement-01)
+                                :mod (v31 / child))
+                            :op2 (v45 / organize-01)
+                            :op1 (v27 / woman))
+                        :ARG0 v23))
+                :op1 (v17 / eliminate-01)
+                :op1 (v15 / prevent-01))
+            :ARG0 v9)
+        :mod (v5 / sure-02)
+        :time (v3 / know-01
+            :ARG0 (v1 / you)))
+    :snt2 (v37 / name
+        :op1 "United"
+        :op2 "States"))
+
+# ::id 25
+# ::snt A tal proposito il Consiglio ha adottato di recente una decisione proprio per autorizzare la Commissione a negoziare tale protocollo .
+# ::alignments 4-5|0.0 6-7|0 8-9|0.1.0 10-11|0.1 13-14|0.1.1 15-16|0.1.1.0.0 17-18|0.1.1.0 18-19|0.1.1.0.1.0 19-20|0.1.1.0.1 
+(v3 / adopt-01
+    :ARG0 (v1 / council)
+    :ARG1 (v7 / decide-01
+        :time (v5 / recent)
+        :ARG1-of (v9 / authorise-01
+            :ARG1 (v13 / negotiate-01
+                :ARG0 (v11 / commission)
+                :ARG1 (v17 / protocol
+                    :mod (v15 / this)
+                    :ARG0 v11)))
+        :ARG0 v1))
+
+# ::id 26
+# ::snt Gli Stati membri dell' Unione europea stanno svolgendo anch' essi un ruolo molto attivo nella sessione della commissione delle Nazioni Unite sullo statuto della donna , che sta preparando una sessione speciale dell' Assemblea generale delle Nazioni Unite dedicata , per l' appunto , alla donna .
+# ::alignments 1-2|0+0.0 2-3|0.1 4-6|0.1.0.4+0.1.0.4.0+0.1.0.4.0.0+0.1.0.4.0.1+0.1.0.4.1 7-8|0.1.0 11-12|0.1.0.0 12-13|0.1.0.0.0.0 13-14|0.1.0.0.0 15-16|0.1.0.0.1 17-21|0.1.0.0.1.0+0.1.0.0.1.0.0+0.1.0.0.1.0.0.0+0.1.0.0.1.0.0.0.0+0.1.0.0.1.0.0.0.1+0.1.0.0.1.0.0.1 22-23|0.1.0.1 24-25|0.1.0.1.0 28-29|0.1.0.2 30-31|0.1.0.2.0 31-32|0.1.0.2.0.0 33-38|0.1.0.0.1.0.0.0.0 42-43|0.1.0.3 45-46|0.1.0.3.0 
+(v1 / have-org-role-91
+    :ARG2 (v2 / member)
+    :ARG1 (v5 / state
+        :location (v11 / carry-01
+            :ARG1 (v13 / role
+                :ARG1-of (v17 / activity-06
+                    :degree (v15 / very))
+                :mod (v19 / session
+                    :poss (v21 / committee
+                        :mod (v22 / organization
+                            :name (v23 / name
+                                :op1 "United"
+                                :op2 "Nations")
+                            :wiki "United_Nations"))))
+            :ARG0 (v27 / statute
+                :poss (v29 / woman)
+                :ARG0 v13)
+            :purpose (v31 / prepare-02
+                :ARG1 (v33 / session
+                    :ARG1-of (v35 / special-02)))
+            :ARG0 (v37 / criticize-01
+                :ARG1 (v39 / woman)
+                :ARG0 v13)
+            :location (v7 / organization
+                :name (v8 / name
+                    :op1 "European"
+                    :op2 "Union")
+                :wiki "European_Union"))
+        :ARG0 v2))
+
+# ::id 27
+# ::snt Per concludere vorrei ribadire l' importanza che il Consiglio continua ad attribuire al problema della tratta dei bambini e delle donne e spero di essere riuscito , col mio intervento , a tranquillizzare in parte la onorevole parlamentare , perlomeno riguardo al modo in cui il Consiglio si è mobilitato sulla questione .
+# ::alignments 1-2|0.1 2-3|0+0.0 3-4|0.2 5-6|0.2.0 8-10|0.2.0.0 11-12|0.2.0.0.0 13-14|0.2.0.0.0.0 17-18|0.2.0.0.0.0.0.5 18-19|0.2.0.0.0.0.0.4 20-21|0.2.0.0.0.0.0.3 21-22|0.2.0.0.0.0.0.1 22-23|0.2.0.0.0.0.0+0.2.0.0.0.0.0.0 29-30|0.2.0.0.0.0.0.2 32-33|0.2.0.0.0.0.0.2.0 37-38|0.2.0.0.0.0.0.2.0.0 46-47|0.2.0.0.0.0.0.2.0.0.0.0 49-50|0.2.0.0.0.0.0.2.0.0.0 51-52|0.2.0.0.0.0.0.2.0.0.0.1 
+(v3 / like-02
+    :ARG0 (v4 / i)
+    :mod (v1 / final)
+    :ARG1 (v7 / repeat-01
+        :ARG1 (v9 / important
+            :ARG0-of (v11 / continue-01
+                :ARG1 (v13 / give-01
+                    :ARG1 (v15 / problem
+                        :ARG1-of (v25 / hope-01
+                            :ARG0 (v26 / i)
+                            :op2 (v23 / and)
+                            :ARG1 (v29 / intervene-01
+                                :ARG1 (v31 / reassurance
+                                    :mod (v33 / parliament
+                                        :ARG1-of (v37 / mobilise-01
+                                            :ARG0 (v35 / council)
+                                            :ARG0 (v39 / issue-02
+                                                :ARG0 v35))))
+                                :ARG0 v26)
+                            :ARG0 (v21 / woman)
+                            :op2 (v19 / and)
+                            :mod (v17 / child))))))
+        :ARG0 v4))
+
+# ::id 28
+# ::snt Signor Presidente in carica del Consiglio , la ringrazio sinceramente per la risposta così completa che ha dato a questa interrogazione citando i programmi che , come ci ha ricordato , sono stati realizzati .
+# ::alignments 1-2|0.0.2+0.0.2.0 3-4|0.0.1 5-6|0.0.1.0 8-9|0.0+0.0.0 9-10|0.0.3 12-13|0.0.3.0 14-15|0.0.3.0.0 19-20|0.0.3.0.1.3 20-21|0.0.3.0.1.2 21-22|0.0.3.0.1+0.0.3.0.1.0 23-24|0.0.3.0.1.1 29-30|0.0.3.0.1.1.0 33-34|0.1 
+(mu / multi-sentence
+    :snt1 (v9 / thank-01
+        :ARG1 (v10 / you)
+        :ARG1 (v5 / office
+            :mod (v7 / council))
+        :ARG2 (v1 / have-org-role-91
+            :ARG2 (v2 / president))
+        :mod (v13 / sincere
+            :mod (v15 / answer-01
+                :ARG1-of (v17 / complete-02)
+                :ARG2 (v23 / close-01
+                    :ARG2 (v24 / quote-01)
+                    :ARG1 (v27 / program
+                        :ARG1-of (v29 / mention-01))
+                    :ARG1 (v21 / question-01)
+                    :mod (v19 / this)))
+            :ARG0 v10))
+    :snt2 (v31 / achieve-01))
+
+# ::id 29
+# ::snt Mi rendo conto degli sforzi compiuti nel corso degli ultimi anni , ma vorrei insistere sul fatto che a questo problema bisogna dedicare adesso una speciale attenzione e cercare di prevenirlo per il futuro , perché non potrà che continuare ad aggravarsi .
+# ::alignments 0-1|0.0 2-3|0 4-5|0.1 5-6|0.1.0 9-10|0.1.0.0.1 10-11|0.1.0.0+0.1.0.0.0 12-13|0.2 13-14|0.2.0+0.2.0.0 14-15|0.2.0.1 19-20|0.2.0.1.0.0.0 20-21|0.2.0.1.0.0 22-23|0.2.0.1.0 23-24|0.2.0.1.0.1 25-26|0.2.0.1.0.1.0.0.0.0 26-27|0.2.0.1.0.1.0.0.0 27-28|0.2.0.1.0.1.0.0 28-29|0.2.0.1.0.1.0.0.1 30-31|0.2.0.1.0.1.0.0.1.0 33-34|0.2.0.1.0.1.0.0.1.0.0 35-36|0.2.0.1.0.1.0 36-37|0.3.1 37-38|0.3 39-40|0.3.0 41-42|0.3.0.0 
+(v3 / account
+    :mod (v1 / i)
+    :mod (v5 / effort
+        :purpose (v7 / progress-01
+            :ARG1 (v11 / temporal-quantity
+                :unit (v12 / year)
+                :mod (v9 / recent)))
+        :ARG0 v1)
+    :ARG1-of (v15 / contrast-01
+        :ARG2 (v17 / like-02
+            :ARG0 (v18 / i)
+            :ARG1 (v21 / insist-01
+                :ARG1 (v27 / devote-01
+                    :ARG1 (v25 / problem
+                        :mod (v23 / this))
+                    :time (v29 / now
+                        :ARG1-of (v43 / cause-01
+                            :ARG1 (v35 / and
+                                :op1 (v33 / attend-02
+                                    :ARG1-of (v31 / special-02))
+                                :op2 (v37 / try-01
+                                    :ARG1 (v39 / prevenire-01
+                                        :time (v41 / future))
+                                    :ARG0 v33)))))
+                :ARG0 v18))
+        :ARG0 v1)
+    :mod (v45 / possible-01
+        :ARG1 (v47 / continue-01
+            :ARG1 (v49 / mass-quantity))
+        :polarity -
+        :ARG0 v1))
+
+# ::id 30
+# ::snt Signor Presidente , vorrei solo aggiungere che sono perfettamente d' accordo sull' osservazione della onorevole parlamentare e che l' Unione si adopererà , nell' ambito dei negoziati per l' ampliamento ed in particolare nel quadro delle relazioni esterne in materia di giustizia e affari interni , per portare avanti con i paesi candidati il dialogo su questioni specifiche riguardanti la libera circolazione delle persone ed in particolare l' immigrazione clandestina .
+# ::alignments 1-2|0.1+0.1.0 3-4|0+0.0 4-5|0.2.0 5-6|0.2 8-9|0.2.1.0 10-11|0.2.1 12-13|0.2.1.1 15-16|0.2.1.1.0 16-17|0.3 19-20|0.3.0.4 26-27|0.3.0.3 29-30|0.3.0.0 30-31|0.3.0 32-33|0.3.0.1 34-35|0.3.0.1.0 36-37|0.3.0.1.0.0 37-38|0.3.0.1.0.0.0 41-42|0.3.0.1.0.0.1.0 42-43|0.3.0.1.0.0.1 43-44|0.3.0.1.0.0.1.1 51-52|0.3.0.2 52-53|0.3.0.2.0 54-55|0.3.0.2.0.0 56-57|0.3.0.2.0.0.0 57-58|0.3.0.2.0.0.0.0 60-61|0.3.0.2.1.0 61-62|0.3.0.2.1 63-64|0.3.0.2.1.1 64-65|0.3.0.2.1.1.0 66-67|0.3.0.2.1.1.0.0.0 68-69|0.3.0.2.1.1.0.0 69-70|0.3.0.2.1.1.0.0.1 
+(v5 / like-02
+    :ARG0 (v6 / i)
+    :ARG1-of (v1 / have-org-role-91
+        :ARG2 (v2 / president))
+    :ARG1 (v11 / add-02
+        :mod (v9 / only)
+        :ARG1 (v15 / agree-01
+            :ARG1-of (v13 / perfect-02)
+            :ARG1 (v17 / point
+                :mod (v19 / parliament)))
+        :ARG0 v6)
+    :ARG1 (v21 / and
+        :op1 (v27 / and
+            :op1 (v25 / enlargement)
+            :op2 (v29 / particular
+                :mod (v31 / framework
+                    :mod (v33 / relation-03
+                        :mod (v35 / external)
+                        :ARG2 (v39 / and
+                            :op1 (v37 / justice)
+                            :op2 (v41 / affair
+                                :ARG0 v37))))
+                :ARG0 v25)
+            :location (v43 / country
+                :mod (v45 / candidate
+                    :mod (v47 / dialogue-01
+                        :ARG1 (v49 / issue-02
+                            :ARG1-of (v51 / specific-02))))
+                :location (v55 / movement-07
+                    :ARG1-of (v53 / free-04)
+                    :ARG1 (v57 / person
+                        :location (v59 / and
+                            :op2 (v63 / immigrate-01
+                                :mod (v61 / particular)
+                                :mod (v65 / clandestino
+                                    :ARG0 v61)))))
+                :ARG0 v25)
+            :ARG1-of (v23 / negotiate-01)
+            :location "Union")
+        :ARG0 v6))
+
+# ::id 31
+# ::snt Pensiamo che , pur senza mettere in discussione la necessità di condurre all' interno dell' Unione europea una politica di tolleranza nei confronti degli immigrati e di accoglienza nei confronti dei rifugiati per motivi economici , dovremo cercare di evitare che vengano a crearsi , in tal modo , meccanismi atti a facilitare , in particolare , lo sfruttamento delle donne e lo sviluppo di forme di criminalità legate , per l' appunto , alla libera circolazione delle persone .
+# ::alignments 0-1|0.4 7-8|0.3 9-10|0.2 15-17|0.1+0.1.0+0.1.0.0+0.1.0.1+0.1.1 18-19|0 20-21|0.0 24-25|0.0.0.0+0.0.0.0.0 25-26|0.0.0 27-28|0.0.0.1+0.0.0.1.0 31-32|0.0.0.2.2 33-34|0.0.0.2.1 34-35|0.0.0.2.1.0 36-37|0.0.0.2.0 37-38|0.0.0.2 39-40|0.0.0.3 49-50|0.0.0.3.0 52-53|0.0.0.3.0.0 55-56|0.0.0.3.1.0 58-59|0.0.0.3.1 60-61|0.0.0.3.1.1 61-62|0.0.0.4 63-64|0.0.0.4.0 65-66|0.0.0.4.0.0 67-68|0.0.0.4.0.0.0.1 68-69|0.0.0.4.0.0.0 72-73|0.0.0.4.0.0.0.0.2 75-76|0.0.0.4.0.0.0.0.0 76-77|0.0.0.4.0.0.0.0 78-79|0.0.0.4.0.0.0.0.1 
+(v11 / policy
+    :mod (v13 / tolerate-01
+        :ARG1 (v19 / and
+            :op1 (v15 / person
+                :ARG0-of (v16 / immigrate-01))
+            :op2 (v21 / thank-01
+                :ARG2 (v22 / welcome-01)
+                :ARG0 v15)
+            :op3 (v33 / try-01
+                :ARG0 (v31 / we)
+                :ARG1 (v27 / reason
+                    :mod (v29 / economy))
+                :ARG0 (v25 / refugee)
+                :ARG0 v15)
+            :purpose (v35 / avoid-01
+                :ARG1 (v37 / mechanism
+                    :ARG1-of (v39 / facilitate-01))
+                :ARG1 (v43 / exploit-01
+                    :mod (v41 / particular)
+                    :ARG1 (v45 / woman))
+                :ARG0 v15)
+            :op1 (v47 / and
+                :op2 (v49 / develop-02
+                    :ARG1 (v51 / form
+                        :ARG1-of (v55 / relate-01
+                            :ARG1 (v61 / movement-07
+                                :ARG1-of (v59 / free-04)
+                                :ARG0 (v63 / person)
+                                :ARG1 (v57 / criticize-01))
+                            :ARG1 (v53 / crime-02))))
+                :ARG0 v15)))
+    :poss (v7 / organization
+        :name (v8 / name
+            :op1 "European"
+            :op2 "Union")
+        :wiki "European_Union")
+    :poss (v5 / need-01)
+    :location (v3 / debate-01)
+    :domain (v1 / we))
+
+# ::id 32
+# ::snt Riteniamo che risultati concreti possano emergere dal lavoro svolto e dalla consapevolezza dimostrata dai paesi candidati in merito all' importanza di portare avanti insieme all' Unione europea , nel periodo precedente l' adesione , un approfondimento sui meccanismi di controllo e di lavoro esistenti in materia .
+# ::alignments 0-1|0+0.0 2-3|0.1.0+0.1.0.0 3-4|0.1.0.1 4-5|0.1 5-6|0.1.1 7-8|0.1.1.0.5 9-10|0.1.1.0.4 14-15|0.1.1.0.0 15-16|0.1.1.0.0.0 19-20|0.1.1.0 23-24|0.1.1.0.1 25-27|0.1.1.0.2+0.1.1.0.2.0+0.1.1.0.2.0.0+0.1.1.0.2.0.1+0.1.1.0.2.1 30-31|0.1.1.0.3.2 32-33|0.1.1.0.3.0.0 35-36|0.1.1.0.3.0 37-38|0.1.1.0.3.0.1 39-40|0.1.1.0.3.0.1.0 40-41|0.1.1.0.3 42-43|0.1.1.0.3.1 43-44|0.1.1.0.3.1.0 
+(v1 / believe-01
+    :ARG0 (v2 / we)
+    :ARG1 (v11 / possible-01
+        :ARG1 (v5 / thing
+            :ARG2-of (v6 / result-01)
+            :ARG1-of (v9 / concrete-02
+                :ARG0 v6))
+        :ARG1 (v13 / emerge-01
+            :ARG1 (v23 / important
+                :mod (v19 / country
+                    :mod (v21 / candidate))
+                :mod (v25 / together
+                    :ARG0 v19)
+                :poss (v27 / organization
+                    :name (v28 / name
+                        :op1 "European"
+                        :op2 "Union")
+                    :wiki "European_Union"
+                    :ARG0 v19)
+                :domain (v41 / and
+                    :op1 (v35 / deepen-01
+                        :ARG0 (v33 / accession)
+                        :ARG1 (v37 / mechanism
+                            :mod (v39 / control-01)
+                            :ARG0 v33))
+                    :op2 (v43 / work-01
+                        :ARG1-of (v45 / exist-01)
+                        :ARG0 v35)
+                    :mod (v31 / previous)
+                    :ARG0 v19)
+                :op2 (v17 / and)
+                :location (v15 / work-01)))
+        :ARG0 v2))
+
+# ::id 33
+# ::snt Ritengo che la Commissione stia dedicando un' attenzione particolare alla questione e che il fatto che , proprio nel periodo della Presidenza portoghese , si aprano , con i paesi candidati della cosiddetta fase di Lussemburgo , vari capitoli di discussione aventi per oggetto tale tema , in particolare in materia di giustizia e affari interni e di libera circolazione , possa contribuire fin d' ora a creare quella cultura comune , in termini di rispetto dell' acquis comunitario , che i paesi candidati in seguito saranno tenuti a condividere .
+# ::alignments 0-1|0.0+0.0.0 3-4|0.0.1.0 7-8|0.0.1 8-9|0.0.1.1 10-11|0.1.14 11-12|0.1.13 21-23|0.1.12+0.1.12.0+0.1.12.0.0+0.1.12.1 25-26|0.1.11 29-30|0.1.10 30-31|0.1.10.0 32-33|0.1.1.0 33-34|0.1.1 35-36|0.1.1.1+0.1.1.1.0+0.1.1.1.0.0+0.1.1.1.1+0.1.1.1.0.0+0.1.1.1.1 37-38|0.1.0 38-39|0.1 40-41|0.1.2 44-45|0.1.2.0.0 45-46|0.1.2.0 48-49|0.1.3.2 52-53|0.1.3.0 53-54|0.1.3 54-55|0.1.3.1.0 56-57|0.1.3.1 58-59|0.1.4.0 59-60|0.1.4 61-62|0.1.5 62-63|0.1.5.0 65-66|0.1.5.0.0 67-68|0.1.5.0.1 69-70|0.1.5.0.1.0 70-71|0.1.5.0.1.0.0 75-76|0.1.6 77-78|0.1.6.0+0.1.6.0.0 78-79|0.1.7 82-83|0.1.8 83-84|0.1.8.0 89-90|0.1.9 
+(mu / multi-sentence
+    :snt1 (v1 / believe-01
+        :ARG0 (v2 / i)
+        :ARG1 (v7 / attend-02
+            :ARG0 (v5 / commission)
+            :mod (v9 / particular
+                :ARG0 v5)
+            :ARG0 v2))
+    :snt2 (v35 / list-01
+        :mod (v33 / various)
+        :ARG0 (v27 / stage
+            :ARG1-of (v25 / call-01)
+            :location (v29 / country
+                :name (v30 / name
+                    :op1 "Luxembourg")
+                :wiki "Luxembourg"
+                :ARG0 v25))
+        :ARG0 (v37 / debate-01
+            :ARG1 (v41 / issue-02
+                :mod (v39 / this))
+            :ARG0 v33)
+        :location (v47 / and
+            :op1 (v45 / justice)
+            :op2 (v51 / and
+                :op1 (v49 / affair)
+                :ARG0 v45)
+            :mod (v43 / particular)
+            :ARG0 v33)
+        :ARG0 (v55 / movement-07
+            :ARG1-of (v53 / free-04)
+            :ARG0 v33)
+        :ARG1 (v57 / possible-01
+            :ARG1 (v59 / contribute-01
+                :time (v61 / now)
+                :ARG2 (v63 / create-01
+                    :ARG1 (v65 / culture
+                        :mod (v67 / common))))
+            :ARG0 v33)
+        :ARG0 (v69 / respect-01
+            :ARG1 (v71 / communautaire
+                :mod (v72 / acquis))
+            :ARG0 v33)
+        :mod (v75 / community
+            :ARG0 v33)
+        :mod (v77 / country
+            :source (v79 / candidate)
+            :ARG0 v33)
+        :mod (v81 / share-01
+            :ARG0 v33)
+        :op1 (v21 / country
+            :mod (v23 / candidate))
+        :op1 (v19 / open-05)
+        :op1 (v15 / country
+            :name (v16 / name
+                :op1 "Portugal")
+            :wiki "Portugal")
+        :op1 (v13 / and)
+        :op1 (v11 / issue-02)))
+
+# ::id 34
+# ::snt Nell' unirmi ai ringraziamenti rivolti al Consiglio per la risposta precedente , vorrei interrogarlo su una questione correlata .
+# ::alignments 1-2|0.1.0 3-4|0.1 4-5|0.1.1 6-7|0.1.1.0 9-10|0.1.1.1 10-11|0.1.1.1.0 12-13|0+0.0 13-14|0.2 16-17|0.2.0 17-18|0.2.0.0 
+(v13 / like-02
+    :ARG0 (v14 / i)
+    :ARG1-of (v3 / thank-01
+        :mod (v1 / unirmi)
+        :ARG2 (v5 / program
+            :mod (v7 / council)
+            :ARG1-of (v9 / answer-01
+                :mod (v11 / previous))
+            :ARG0 v1))
+    :ARG1 (v17 / interrogare-01
+        :ARG2 (v19 / issue-02
+            :ARG1-of (v21 / relate-01))
+        :ARG0 v14))
+
+# ::id 35
+# ::snt Di recente , la BBC ha fornito prove che in Romania , come si è detto , erano in vendita " uteri " , ossia si pagavano donne affinché dessero alla luce bambini da esportare verso i paesi membri dell' Unione .
+# ::alignments 1-2|0.2 4-5|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1+0.0.0.0.0+0.0.0.1 7-8|0.0 10-11|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.1 15-16|0 21-22|0.1.1 26-27|0.1 27-28|0.1.0.3 32-33|0.1.0.2 34-35|0.1.0 37-38|0.1.0.0 38-39|0.1.0.0.0 40-41|0.1.0.1 
+(v13 / say-01
+    :ARG1 (v7 / evidence-01
+        :ARG0 (v3 / company
+            :name (v4 / name
+                :op1 "BBC")
+            :wiki "BBC")
+        :location (v9 / country
+            :name (v10 / name
+                :op1 "Romania")
+            :wiki "Romania"
+            :ARG0 v3))
+    :ARG1 (v17 / pay-01
+        :ARG1 (v23 / export-01
+            :ARG2 (v25 / country
+                :mod (v27 / state))
+            :ARG0 "Union"
+            :ARG1 (v21 / child)
+            :ARG1 (v19 / woman))
+        :ARG1 (v15 / utero)
+        :ARG0 v7)
+    :time (v1 / recent))
+
+# ::id 36
+# ::snt Inoltre , la BBC ha sostenuto che ciò avveniva col tacito assenso delle autorità romene , in quanto faceva affluire valuta forte nel paese .
+# ::alignments 3-4|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1+0.0.0.0.0+0.0.0.1 10-11|0.0 11-12|0.0.1 13-14|0.0.2 14-15|0.0.2.0+0.0.2.0.0+0.0.2.0.0.0+0.0.2.0.1+0.0.2.0.0.0+0.0.2.0.1 19-20|0 20-21|0.1 21-22|0.1.0 23-24|0.1.1 
+(v15 / come-01
+    :ARG1 (v5 / tacito
+        :mod (v1 / company
+            :name (v2 / name
+                :op1 "BBC")
+            :wiki "BBC")
+        :mod (v7 / consent-01
+            :ARG0 v1)
+        :mod (v9 / authority
+            :mod (v11 / country
+                :name (v12 / name
+                    :op1 "Romania")
+                :wiki "Romania")
+            :ARG0 v1))
+    :ARG1 (v17 / currency
+        :ARG1-of (v19 / strong-02)
+        :location (v21 / country
+            :ARG0 v19)
+        :ARG0 v5))
+
+# ::id 37
+# ::snt Il Consiglio solleverà questo punto nel suo dialogo con la Romania in merito alla domanda di adesione alla Comunità da essa presentata ?
+# ::alignments 1-2|0.0 2-3|0 3-4|0.1.3 7-8|0.1 10-11|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.1+0.1.0.0.0+0.1.0.1 14-15|0.1.1 16-17|0.1.1.0 18-19|0.1.1.0.0 22-23|0.1.2 
+(v3 / raise-01
+    :ARG0 (v1 / council)
+    :location (v7 / dialogue-01
+        :ARG0 (v9 / country
+            :name (v10 / name
+                :op1 "Romania")
+            :wiki "Romania")
+        :ARG0 (v13 / question-01
+            :ARG1 (v15 / accession
+                :poss (v17 / community)))
+        :mode interrogative
+        :mod (v5 / this)
+        :ARG0 v1))
+
+# ::id 38
+# ::snt La ringrazio per la domanda , onorevole parlamentare , e ne approfitto per fornire un chiarimento su un' azione portata a termine dalla Presidenza portoghese in Romania .
+# ::alignments 0-1|0.0.1 1-2|0.0+0.0.0 4-5|0.1.3 7-8|0.1.2 9-10|0.1 11-12|0.1.0.0 13-14|0.1.0 15-16|0.1.0.1 18-19|0.1.0.1.0 23-25|0.1.0.1.0.0+0.1.0.1.0.0.0+0.1.0.1.0.0.0.0+0.1.0.1.0.0.1 26-27|0.1.1+0.1.1.0+0.1.1.0.0+0.1.1.1 
+(mu / multi-sentence
+    :snt1 (v3 / thank-01
+        :ARG1 (v4 / you)
+        :ARG2 (v1 / thank-01))
+    :snt2 (v11 / and
+        :op2 (v15 / provide-01
+            :ARG0 (v13 / i)
+            :ARG1 (v17 / clarification
+                :mod (v19 / action
+                    :mod (v21 / country
+                        :name (v22 / name
+                            :op1 "Portugal")
+                        :wiki "Portugal"))
+                :ARG0 v13))
+        :op2 (v25 / country
+            :name (v26 / name
+                :op1 "Romania")
+            :wiki "Romania")
+        :mod (v9 / parliament)
+        :ARG1-of (v7 / question-01)))
+
+# ::id 39
+# ::snt Ho avuto uno scambio di opinioni con le autorità rumene meno di dieci giorni fa , non solo sulla questione del traffico di bambini , bensì anche sui problemi delle popolazioni zingare .
+# ::alignments 0-1|0.0.0 3-4|0.0 5-6|0.0.1 8-9|0.0.1.0 9-10|0.0.1.0.0+0.0.1.0.0.0+0.0.1.0.0.0.0+0.0.1.0.0.1+0.0.1.0.0.0.0+0.0.1.0.0.1 13-14|0.0.1.1+0.0.1.1.0 16-17|0.0.2.0 17-18|0.0.2 19-20|0.0.3 21-22|0.0.3.0 23-24|0.0.3.0.0 25-26|0.1 26-27|0.1.0.0 28-29|0.1.0 30-31|0.1.0.1 31-32|0.1.0.1.0 
+(mu / multi-sentence
+    :snt1 (v3 / exchange-01
+        :ARG0 (v1 / i)
+        :ARG1 (v5 / opine-01
+            :ARG1 (v7 / authority
+                :mod (v9 / country
+                    :name (v10 / name
+                        :op1 "Romania")
+                    :wiki "Romania"))
+            :ARG2 (v13 / temporal-quantity
+                :unit (v14 / day)
+                :ARG0 v7)
+            :ARG0 v1)
+        :mod (v17 / only
+            :polarity -
+            :ARG0 v1)
+        :ARG1 (v19 / issue-02
+            :ARG1 (v21 / traffic
+                :mod (v23 / child))
+            :ARG0 v1))
+    :snt2 (v25 / contrast-01
+        :domain (v29 / problem
+            :mod (v27 / also)
+            :poss (v31 / person
+                :ARG1-of (v33 / zingare-01)))))
+
+# ::id 40
+# ::snt Sono questioni che le autorità rumene affermano di affrontare con la massima serietà e che , da quanto ho potuto appurare , a loro giudizio derivano da una situazione di carattere culturale che coinvolge alcuni settori della popolazione .
+# ::alignments 0-1|0.0 1-2|0 4-5|0.1 5-6|0.1.0.4+0.1.0.4.0+0.1.0.4.0.0+0.1.0.4.1+0.1.0.4.0.0+0.1.0.4.1 8-9|0.1.0 12-13|0.1.0.0 13-14|0.1.0.1 18-19|0.1.0.2 19-20|0.1.0.3 28-29|0.1.0.3.0.2 31-32|0.1.0.3.0.1 33-34|0.1.0.3.0 34-35|0.1.0.3.0.0.0 35-36|0.1.0.3.0.0 37-38|0.1.0.3.0.0.1 
+(v3 / issue-02
+    :ARG0 (v1 / i)
+    :ARG1 (v5 / authority
+        :mod (v11 / address-02
+            :ARG2 (v13 / serious)
+            :op1 (v15 / and)
+            :ARG0 (v17 / i)
+            :time (v19 / possible-01
+                :domain v17
+                :ARG1 (v25 / affect-01
+                    :ARG1 (v29 / area
+                        :quant (v27 / some)
+                        :mod (v31 / population
+                            :ARG0 v27))
+                    :mod (v23 / culture)
+                    :ARG1 (v21 / situation)
+                    :ARG0 v17))
+            :location (v7 / country
+                :name (v8 / name
+                    :op1 "Romania")
+                :wiki "Romania"))
+        :ARG0 v1))
+
+# ::id 41
+# ::snt La determinazione delle autorità rumene nell' affrontare tale questione , che , come esse ben sanno , non mancherà di ripercuotersi concretamente sull' esame della candidatura del loro paese da parte dei Quindici , ci è sembrata genuina .
+# ::alignments 1-2|0 3-4|0.0 4-5|0.0.0+0.0.0.0+0.0.0.0.0+0.0.0.1+0.0.0.0.0+0.0.0.1 6-7|0.1 7-8|0.1.0.0 8-9|0.1.0 15-16|0.2 17-18|0.2.0.0 18-19|0.2.0 20-21|0.2.0.1 21-22|0.2.0.1.0 25-26|0.2.0.1.0.0 28-29|0.2.0.1.0.0.0 32-33|0.2.0.1.0.0.0.0 36-37|0.2.1 37-38|0.2.1.0 
+(v1 / determine-01
+    :ARG0 (v3 / authority
+        :mod (v5 / country
+            :name (v6 / name
+                :op1 "Romania")
+            :wiki "Romania"))
+    :ARG1 (v9 / address-02
+        :ARG1 (v13 / issue-02
+            :mod (v11 / this))
+        :ARG0 v3)
+    :ARG1 (v15 / know-01
+        :ARG1 (v17 / bind-01
+            :polarity -
+            :ARG1 (v19 / ripercuotere-01
+                :mod (v21 / practical
+                    :mod (v23 / apply-01
+                        :ARG1 (v25 / country
+                            :mod 15)))))
+        :ARG1 (v27 / propose-01
+            :mod (v31 / real))
+        :ARG0 v3))
+
+# ::id 42
+# ::snt Credo esista un grande impegno da parte loro per contrastare a fondo tale tipo di situazioni .
+# ::alignments 0-1|0+0.0 3-4|0.1.0 4-5|0.1 9-10|0.1.1 11-12|0.1.1.0 12-13|0.1.1.0.0.0 13-14|0.1.1.0.0 15-16|0.1.1.0.0.1 
+(v1 / believe-01
+    :ARG0 (v2 / i)
+    :ARG1 (v7 / commit-01
+        :mod (v5 / great)
+        :purpose (v9 / combat-01
+            :ARG1 (v11 / fund
+                :mod (v15 / type
+                    :mod (v13 / this)
+                    :mod (v17 / situation
+                        :ARG0 v13)))
+            :ARG0 v5)
+        :ARG0 v2))
+
+# ::id 43
+# ::snt interrogazione n . 2 , dell' onorevole ( H-0148 / 00 ) :
+# ::alignments 0-1|0.2 1-2|0.1 3-4|0.0 8-9|0 
+(v3 / h-0148
+    :quant 2
+    :polarity -
+    :ARG1 (v1 / question-01))
+
+# ::id 44
+# ::snt Oggetto : Articoli 6 e 7 del TUE Il Consiglio ha dichiarato , il 2 febbraio scorso , che intende monitorare l' Austria a seguito dell' entrata nel governo del FPÖ , in virtù degli articoli 6 e 7 del TUE .
+# ::alignments 0-1|0.2 2-3|0.1 3-4|0.0 4-5|0 5-6|0.3.6.1+0.3.8 7-10|0.3.3+0.3.3.0+0.3.3.0.0+0.3.3.1 14-15|0.3.2 16-17|0.3.1 20-21|0.3 22-23|0.3.0+0.3.0.0+0.3.0.0.0+0.3.0.1 28-29|0.3.4+0.3.4.0 30-31|0.3.5 35-36|0.3.6.0 36-37|0.0 37-38|0.3.6 38-39|0.3.6.1+0.3.8 40-41|0.3.7 
+(v5 / and
+    :time 6
+    :op1 (v3 / article)
+    :op2 (v1 / subject)
+    :op1 (v13 / monitor-01
+        :ARG1 (v15 / country
+            :name (v16 / name
+                :op1 "Austria")
+            :wiki "Austria")
+        :mod (v11 / last)
+        :quant 2
+        :ARG0 (v7 / organization
+            :name (v8 / name
+                :op1 "Board")
+            :wiki "International_Narcotics_Control_Board")
+        :ARG0 (v19 / government-organization
+            :ARG0-of (v20 / govern-01))
+        :ARG0 (v23 / fpö)
+        :ARG1 (v27 / and
+            :mod (v25 / articles)
+            :op2 7)
+        :ARG0 (v29 / teu)
+        :li 7))
+
+# ::id 45
+# ::snt Il Parlamento europeo , nella sua risoluzione del 3 febbraio 2000 " invita Consiglio e Commissione ad essere pronti , in caso di violazione grave e persistente da parte di qualunque Stato membro dei principi di cui all' articolo 6 , paragrafo 1 del TUE , ad avviare un' azione ai sensi dell' articolo 7 del TUE [ ... ] " .
+# ::alignments 1-3|0.1+0.1.0+0.1.0.0+0.1.0.1+0.1.1 6-7|0 8-9|0.0.3 12-13|0.0.2 13-16|0.0+0.0.0+0.0.0.0 18-19|0.0.1 23-24|0.0.1.0 24-25|0.0.1.0.0 25-26|0.0.1.0.1 26-27|0.0.1.0.1.0.3 30-31|0.0.1.0.1.0.3.0.0 31-32|0.0.1.0.1.0.3.0 32-33|0.0.1.0.1.0.3.0.1+0.0.1.0.1.0.3.0.1.0 34-35|0.0.1.0.1.0 38-39|0.0.1.0.1.0.0 39-40|0.0.1.0.1.0.0.0 41-42|0.0.1.0.1.0.1 42-43|0.0.1.0.1.0.1.0 44-45|0.0.1.0.1.0.1.1 49-50|0.0.1.0.1.0.2.2 53-54|0.0.1.0.1.0.2.1 54-55|0.0.1.0.1.0.2.0 56-57|0.0.1.0.1.0.2 
+(v5 / resolution
+    :mod (v9 / council
+        :mod (v10 / and
+            :op2 (v11 / commission))
+        :mod (v15 / ready-02
+            :ARG2 (v17 / violate-01
+                :mod (v19 / serious)
+                :location (v21 / and
+                    :op2 (v33 / principle
+                        :poss (v35 / article
+                            :mod 6)
+                        :mod (v37 / paragraph
+                            :mod 1
+                            :mod (v39 / teu))
+                        :domain (v45 / teu
+                            :quant 7
+                            :mod (v43 / article)
+                            :mod (v41 / action))
+                        :location (v23 / persist-01
+                            :ARG1 (v27 / state
+                                :mod (v25 / any)
+                                :ARG0-of (v29 / have-org-role-91
+                                    :ARG2 (v30 / member)
+                                    :ARG0 v25))))
+                    :op1 v19))
+            :ARG0 v10)
+        :time (v7 / call-01)
+        :quant 3)
+    :poss (v1 / organization
+        :name (v2 / name
+            :op1 "European"
+            :op2 "Parliament")
+        :wiki "European_Parliament"))
+
+# ::id 46
+# ::snt Dal canto suo , la Commissione aveva risposto all' interrogazione H-0826 / 99 - sul fatto che l' Italia è il paese più condannato dalla Corte dei diritti dell' uomo per le lentezze e i disfunzionamenti del suo sistema giudiziario e che in Belgio i processi legati alla pedofilia procedono con una lentezza e con battute d' arresto inquietanti - che " non è suo compito interferire con l' amministrazione della giustizia negli Stati membri " , che " ha istituito una struttura amministrativa " che " se necessario , sarà incaricata dell' esame dei casi di violazione grave e persistente da parte di uno Stato membro dei diritti fondamentali " applicando " i criteri e i principi già elaborati dalla Corte europea dei diritti dell' uomo e dalla Corte di giustizia delle CE " e che " al momento , nessun esame di casi di violazione grave e persistente dei diritti dell' uomo da parte di uno Stato membro è in corso " .
+# ::alignments 5-6|0.0.0 7-8|0.0 9-10|0.0.1.0 10-11|0.0.1 12-13|0.1.0.1 18-19|0.1.0.0.0+0.1.0.0.0.0+0.1.0.0.0.0.0+0.1.0.0.0.1+0.1.0.0.0.0.0+0.1.0.0.0.1 21-22|0.1.0.0 22-23|0.1.0.0.1.0 23-24|0.1.0.0.1 25-26|0.1.0.0.1.1 27-28|0.1.0.0.1.1.0 29-30|0.1.0.0.1.1.0.0 33-34|0.1.0 35-36|0.1.0.2 38-39|0.1.0.2.0 39-40|0.1.0.2.0.0 40-41|0.1 43-44|0.1.1.3+0.1.1.3.0+0.1.1.3.0.0+0.1.1.3.1+0.1.1.3.0.0+0.1.1.3.1 45-46|0.1.1.1 48-49|0.1.1.0 53-54|0.1.1 57-58|0.1.1.2.0 58-59|0.1.1.2 62-63|0.2.0+0.2.1.0.0.0.1.0.3.1.0.2 65-66|0.2 66-67|0.2.1 69-70|0.2.1.0 71-72|0.2.1.0.0 73-74|0.2.1.0.0.0.4.0+0.2.1.0.0.0.4.0.0 74-75|0.2.1.0.0.0.4 82-83|0.2.1.0.0.0.3.0 83-84|0.2.1.0.0.0.3 95-96|0.2.1.0.0.0.2 97-98|0.2.1.0.0.0 98-99|0.2.1.0.0.0.0 99-100|0.2.1.0.0.0.1 100-101|0.2.1.0.0.0.1.0.2 105-106|0.2.1.0.0.0.1.0.1 106-107|0.2.1.0.0.0.1.0.0+0.2.1.0.0.0.1.0.0.0 108-109|0.2.1.0.0.0.1.0.0.1 109-110|0.2.1.0.0.0.1.0.0.1.0 111-112|0.2.1.0.0.0.1.0 114-115|0.2.1.0.0.0.1.0.3.0 115-116|0.2.1.0.0.0.1.0.3 117-118|0.2.1.0.0.0.1.0.3.1 118-119|0.2.1.0.0.0.1.0.3.1.0.5 121-123|0.2.1.0.0.0.1.0.3.1.0.4 124-125|0.2.1.0.0.0.1.0.3.1.0.3.0 126-127|0.2.1.0.0.0.1.0.3.1.0.3.0.0 127-128|0.2.1.0.0.0.1.0.3.1.0.3 135-136|0.2.1.0.0.0.1.0.3.1.0.3.1 141-142|0.2.0+0.2.1.0.0.0.1.0.3.1.0.2 144-145|0.2.1.0.0.0.1.0.3.1.0.1 146-147|0.2.1.0.0.0.1.0.3.1.0 147-148|0.2.1.0.0.0.1.0.3.1.0.0 148-149|0.2.1.0.0.0.1.0.3.1.0.0.0 149-150|0.2.1.0.0.0.1.0.3.1.0.0.0.0.2 151-152|0.2.1.0.0.0.1.0.3.1.0.0.0.0.1 153-154|0.2.1.0.0.0.1.0.3.1.0.0.0.0.1.0 158-159|0.2.1.0.0.0.1.0.3.1.0.0.0.0 159-160|0.2.1.0.0.0.1.0.3.1.0.0.0.0.0+0.2.1.0.0.0.1.0.3.1.0.0.0.0.0.0 
+(mu / multi-sentence
+    :snt1 (v3 / respond-01
+        :ARG0 (v1 / commission)
+        :ARG1 (v7 / h-0826
+            :ARG1 (v5 / question-01)
+            :ARG0 v1))
+    :snt2 (v35 / and
+        :op2 (v27 / and
+            :op1 (v15 / country
+                :location (v11 / country
+                    :name (v12 / name
+                        :op1 "Italy")
+                    :wiki "Italy")
+                :ARG1-of (v19 / condemn-01
+                    :degree (v17 / more)
+                    :ARG0 (v21 / court
+                        :mod (v23 / right
+                            :mod (v25 / human)))
+                    :ARG0 v11))
+            :time (v9 / date-entity)
+            :op2 (v29 / disfunzionamenti
+                :poss (v31 / system
+                    :mod (v33 / judiciary))
+                :ARG0 v15))
+        :op1 (v45 / and
+            :op2 (v43 / paedophilia)
+            :op2 (v41 / process-02)
+            :domain (v49 / worry-02
+                :mod (v47 / arrest-01)
+                :ARG0 v43)
+            :op1 (v37 / country
+                :name (v38 / name
+                    :op1 "Belgium")
+                :wiki "Belgium")
+            :ARG0 v27)
+        :ARG0 v3)
+    :snt3 (v51 / task
+        :polarity -
+        :ARG1-of (v53 / interfere-01
+            :ARG1 (v55 / administrate-01
+                :poss (v57 / justice
+                    :ARG1-of (v71 / violate-01
+                        :mod (v73 / serious)
+                        :location (v75 / and
+                            :op2 (v89 / apply-01
+                                :ARG0 (v81 / have-org-role-91
+                                    :ARG2 (v82 / member)
+                                    :ARG1 (v85 / right
+                                        :mod (v87 / fundamental)
+                                        :ARG0 v82))
+                                :ARG0 (v79 / state)
+                                :ARG1 (v77 / persist-01)
+                                :ARG1 (v93 / and
+                                    :op1 (v91 / criteria)
+                                    :op2 (v95 / principle
+                                        :location (v111 / violate-01
+                                            :mod (v113 / serious
+                                                :op1 (v115 / and
+                                                    :op2 (v123 / state
+                                                        :ARG0-of (v125 / have-org-role-91
+                                                            :ARG2 (v126 / member))
+                                                        :poss (v119 / right
+                                                            :mod (v121 / human))
+                                                        :mod (v117 / persist-01))))
+                                            :ARG1 (v109 / case-03)
+                                            :polarity -
+                                            :op3 (v105 / and
+                                                :op1 (v101 / right
+                                                    :mod (v103 / human))
+                                                :op2 (v107 / and
+                                                    :ARG0 v101))
+                                            :location (v99 / court)
+                                            :time (v97 / already))
+                                        :ARG0 v91)))
+                            :op1 v73)
+                        :mod (v69 / case-03)
+                        :location (v67 / administrate-01
+                            :mod (v65 / structure))
+                        :location (v63 / state
+                            :ARG0-of (v59 / have-org-role-91
+                                :ARG2 (v60 / member)))))))))
+
+# ::id 47
+# ::snt Può il Consiglio escludere che i fatti sopra individuati costituiscano gravi e persistenti violazioni dei diritti fondamentali quali definiti all' articolo 6 del TUE e , in caso affermativo , per quali ragioni ?
+# ::alignments 0-1|0.2 2-4|0.1 8-9|0 10-11|0.0.0 11-12|0.0 12-13|0.0.1.3 13-14|0.0.1.0 15-16|0.0.1.0.0 16-17|0.0.1.0.0.0 18-19|0.0.1.0.0.1 20-21|0.0.1.0.0.1.0 21-22|0.0.1.0.0.1.0.0 23-24|0.0.1.0.0.1.0.1 24-25|0.0.1 32-33|0.0.1.1 33-34|0.0.1.2 
+(v5 / identify-01
+    :ARG1 (v9 / and
+        :op1 (v7 / serious)
+        :op2 (v25 / and
+            :op1 (v13 / violate-01
+                :ARG1 (v15 / right
+                    :mod (v17 / fundamental)
+                    :ARG1-of (v19 / define-01
+                        :ARG1 (v21 / article
+                            :mod 6
+                            :mod (v23 / teu)))))
+            :op2 (v27 / reason)
+            :mode interrogative
+            :mod (v11 / employ-01)
+            :ARG0 v7))
+    :ARG2 (v3 / exclude-01)
+    :ARG1 (v1 / possible-01))
+
+# ::id 48
+# ::snt In caso negativo , intende esso attivare le procedure previste all' articolo 7 del TUE ?
+# ::alignments 2-3|0.3 6-7|0 8-9|0.0 11-12|0.0.0 12-13|0.0.0.0 14-15|0.1 15-16|0.2 
+(v3 / activate-01
+    :ARG1 (v5 / procedure
+        :mod (v7 / article
+            :mod 7))
+    :ARG0 (v9 / teu)
+    :mode interrogative
+    :mod (v1 / negative))
+
+# ::id 49
+# ::snt La questione , signor Presidente , è già stata affrontata in questi termini più di una volta durante la seduta odierna .
+# ::alignments 1-2|0.0 4-5|0.0.0.1+0.0.0.1.0 7-8|0.0.0.0 9-10|0.0.0 11-12|0.0.1.1 13-14|0.0.1.0 19-20|0.0.1 20-21|0.1 
+(mu / multi-sentence
+    :snt1 (v1 / issue-02
+        :ARG1-of (v9 / address-02
+            :time (v7 / already)
+            :ARG2 (v3 / have-org-role-91
+                :ARG2 (v4 / president)))
+        :ARG1 (v15 / sit-01
+            :mod (v13 / more)
+            :mod (v11 / this)
+            :ARG0 v9))
+    :snt2 (v17 / today
+        :ARG0 v1))
+
+# ::id 50
+# ::snt Dobbiamo renderci conto che la situazione austriaca , in particolare , e quella relativa all' Italia e al Belgio , descritte nell' interrogazione , esulano , se vogliamo , da quanto previsto dagli articoli 6 e 7 del Trattato di Amsterdam .
+# ::alignments 0-1|0.9 1-2|0.8.0 2-3|0.8 5-6|0.8.1.1 6-7|0.8.1.1.0+0.8.1.1.0.0+0.8.1.1.0.0.0+0.8.1.1.0.1+0.8.1.1.0.0.0+0.8.1.1.0.1 9-10|0.8.1.0 11-12|0.8.1 15-16|0.7+0.7.0+0.7.0.0+0.7.1+0.7.0.0+0.7.1 16-17|0.3 18-19|0.2.0+0.2.0.0+0.2.0.0.0+0.2.0.1+0.2.0.0.0+0.2.0.1 20-21|0.2 22-23|0.2.1 24-25|0.1 27-28|0+0.0 33-34|0.4.1 34-35|0.4.0 35-36|0.4 36-37|0.5 38-39|0.6 40-41|0.6.0+0.6.0.0+0.6.0.0.0+0.6.0.1 
+(v33 / want-01
+    :ARG0 (v34 / we)
+    :ARG1 (v31 / this)
+    :ARG1 (v27 / describe-01
+        :ARG0 (v23 / country
+            :name (v24 / name
+                :op1 "Belgium")
+            :wiki "Belgium")
+        :ARG1 (v29 / question-01
+            :ARG0 v23))
+    :op2 (v21 / and)
+    :ARG1 (v39 / and
+        :time 6
+        :mod (v37 / articles)
+        :ARG0 v34)
+    :ARG1 7
+    :ARG1 (v41 / treaty
+        :poss (v43 / city
+            :name (v44 / name
+                :op1 "Amsterdam")
+            :wiki "Amsterdam")
+        :ARG0 v34)
+    :location (v17 / country
+        :name (v18 / name
+            :op1 "Italy")
+        :wiki "Italy")
+    :ARG0 (v5 / account
+        :mod (v3 / we)
+        :location (v15 / and
+            :op1 (v13 / particular)
+            :location (v7 / situation
+                :mod (v9 / country
+                    :name (v10 / name
+                        :op1 "Austria")
+                    :wiki "Austria"))
+            :ARG0 v3))
+    :li (v1 / we))
+
+# ::id 51
+# ::snt L' articolo 6 del suddetto Trattato - è importante ribadirlo in quanto si tratta di questioni inedite sul piano del contenuto dei Trattati - afferma che l' Unione si riconosce nei principi di libertà , democrazia e rispetto dei diritti umani e delle libertà fondamentali , nonché nello Stato di diritto .
+# ::alignments 1-2|0.0.3 2-3|0.0.0.1 4-5|0.0.0.0 5-6|0.0.0 8-9|0.0 9-10|0.0.1+0.0.1.0 15-16|0.0.1.1 16-17|0.0.1.1.0 20-21|0.0.2 22-23|0.0.2.0 27-28|0.1.8 31-32|0.1.7 33-34|0.1.6 35-36|0.1.5 36-37|0.1.4 37-38|0.1.3 39-40|0.1.0 40-41|0.1.0.0 41-42|0.1 43-44|0.1.1 44-45|0.1.1.0 48-49|0.1.2 50-51|0.1.2.0 
+(mu / multi-sentence
+    :snt1 (v7 / important
+        :domain (v5 / treaty
+            :mod (v3 / this)
+            :time 6)
+        :domain (v9 / emphasise-01
+            :ARG1 (v10 / this)
+            :ARG2 (v13 / issue-02
+                :mod (v15 / inedito))
+            :ARG0 v5)
+        :mod (v17 / content
+            :mod (v19 / treaties)
+            :ARG0 v5)
+        :domain (v1 / article))
+    :snt2 (v35 / and
+        :op1 (v31 / right
+            :mod (v33 / human))
+        :op2 (v37 / free-04
+            :mod (v39 / fundamental)
+            :ARG0 v31)
+        :location (v41 / state
+            :poss (v43 / law)
+            :ARG0 v31)
+        :ARG1-of (v29 / respect-01)
+        :op2 (v27 / and)
+        :op1 (v25 / democracy)
+        :op1 (v23 / free-04)
+        :mod (v21 / principle)
+        :op1 "Union"
+        :ARG0 v7))
+
+# ::id 52
+# ::snt Benché , come noto , l' Unione europea non sia firmataria della Convenzione europea dei diritti umani , lo stesso articolo aggiunge , a parziale concessione , che l' Unione europea rispetta i diritti fondamentali , allo stesso modo in cui li garantisce la Convenzione europea per la salvaguardia dei diritti dell' uomo e delle libertà fondamentali .
+# ::alignments 3-4|0.9 6-8|0.8+0.8.0+0.0.0.0+0.8.0.0+0.0.0.1+0.8.0.1+0.0.1+0.4+0.5.1+0.8.1 8-9|0.7.0 10-11|0.7 13-14|0.6+0.6.0+0.6.0.0+0.6.1+0.6.0.0+0.6.1 15-16|0.2 16-17|0.2.0 20-21|0.1 29-31|0.0+0.0.0+0.0.0.0+0.8.0.0+0.0.0.1+0.8.0.1+0.0.1+0.4+0.5.1+0.8.1 31-32|0 33-34|0.3 34-35|0.3.0 44-46|0.0.1+0.4+0.5.1+0.8.1 48-49|0.5 50-51|0.5.0 52-53|0.5.0.0.0 53-54|0.5.0.0 55-56|0.5.0.0.1 56-57|0.5.0.0.1.0 
+(v23 / respect-01
+    :ARG0 (v19 / organization
+        :name (v20 / name
+            :op1 "European"
+            :op2 "Union")
+        :wiki "European_Union")
+    :ARG1 (v17 / article)
+    :ARG1 (v13 / right
+        :mod (v15 / human))
+    :ARG1 (v25 / right
+        :mod (v27 / fundamental)
+        :ARG0 v19)
+    :ARG0 "European_Union"
+    :ARG1 (v29 / safeguard-01
+        :ARG1 (v31 / right
+            :location (v35 / and
+                :op1 (v33 / human)
+                :op2 (v37 / free-04
+                    :mod (v39 / fundamental)
+                    :ARG0 v33)))
+        :ARG0 "European_Union"
+        :ARG0 v19)
+    :location (v9 / country
+        :name (v10 / name
+            :op1 "Europe")
+        :wiki "Europe")
+    :ARG1-of (v7 / sign-02
+        :polarity -)
+    :op1 (v3 / organization
+        :name (v4 / name
+            :op1 "European"
+            :op2 "Union")
+        :wiki "European_Union")
+    :op1 (v1 / know-01))
+
+# ::id 53
+# ::snt Quanto all' articolo 7 - si tratta tra l' altro di una proposta portoghese che ho avuto modo di presentare in seno al gruppo di riflessione dell' ultima Conferenza intergovernativa - esso ha creato un meccanismo particolare - ed è questo il punto cui si riferisce l' interrogazione - che è sanzionatorio nei confronti di qualsiasi Stato membro che violi in modo grave e persistente alcuni dei principi enunciati nel citato articolo 6 .
+# ::alignments 2-3|0.0.1 3-4|0.0.0 12-13|0.0 13-14|0.0.2+0.0.2.0+0.0.2.0.0+0.0.2.1+0.0.2.0.0+0.0.2.1 15-16|0.0.3.0 19-20|0.0.3 23-24|0.0.3.1 25-26|0.0.3.1.0 28-30|0.0.3.1.0.0 33-34|0.1.0 35-36|0.1.0.0 36-37|0.1.0.0.0 38-39|0.1 40-41|0.1.1.1 45-46|0.1.1 47-48|0.1.1.0 51-52|0.1.1.0.0 55-56|0.1.1.0.0.0.0 56-57|0.1.1.0.0.0 57-58|0.1.1.0.0.0.1.2+0.1.1.0.0.0.1.2.0 59-60|0.1.1.0.0.0.1.1 62-63|0.1.1.0.0.0.1.0 63-64|0.1.1.0.0.0.1 64-65|0.1.1.0.1.2 65-66|0.1.1.0.1.1.0 67-68|0.1.1.0.1.1 70-71|0.1.1.0.1 71-72|0.1.1.0.1.0 72-73|0.1.1.0.1.0.0 
+(mu / multi-sentence
+    :snt1 (v3 / propose-01
+        :quant 7
+        :ARG1 (v1 / article)
+        :mod (v5 / country
+            :name (v6 / name
+                :op1 "Portugal")
+            :wiki "Portugal")
+        :ARG1-of (v11 / present-01
+            :ARG0 (v9 / i)
+            :ARG2 (v13 / group
+                :mod (v15 / think-01
+                    :ARG1 (v17 / conference))
+                :ARG0 v9)))
+    :snt2 (v25 / and
+        :op1 (v19 / create-01
+            :ARG1 (v21 / mechanism
+                :mod (v23 / particular)))
+        :op2 (v29 / refer-01
+            :ARG1 (v31 / question-01
+                :ARG1 (v33 / sanzionatorio
+                    :poss (v37 / state
+                        :mod (v35 / any)
+                        :location (v47 / and
+                            :op1 (v45 / serious)
+                            :op2 (v43 / violate-01)
+                            :ARG0-of (v39 / have-org-role-91
+                                :ARG2 (v40 / member))
+                            :ARG0 v35)))
+                :ARG1-of (v55 / mention-01
+                    :ARG1 (v57 / article
+                        :mod 6)
+                    :ARG0 (v53 / principle
+                        :quant (v51 / some))
+                    :ARG1 (v49 / persist-01)
+                    :ARG0 v33))
+            :ARG1 (v27 / this)
+            :ARG0 v19)
+        :ARG0 v3))
+
+# ::id 54
+# ::snt Da tale sanzione può prendere le mosse la sospensione dei diritti dello Stato in questione in quanto membro dell' Unione .
+# ::alignments 1-2|0.0.0 2-3|0.0 3-4|0 10-11|0.1.1 12-13|0.1 14-15|0.1.0 17-18|0.1.0.0+0.1.0.0.0 19-20|0.1.0.1 
+(v5 / possible-01
+    :mod (v3 / sanction-02
+        :mod (v1 / this))
+    :ARG2 (v9 / state
+        :location (v11 / issue-02
+            :ARG1 (v13 / have-org-role-91
+                :ARG2 (v14 / member))
+            :ARG0 "Union")
+        :mod (v7 / right)
+        :ARG0 v3))
+
+# ::id 55
+# ::snt Tale meccanismo risale ad una proposta contenuta nel progetto Spinelli del 1984 , legata alla necessità di prevenire infrazioni ai principi democratici all' interno di uno Stato membro e , in particolare , fenomeni in grado di attentare ai principi dello Stato di diritto .
+# ::alignments 0-1|0.0.0 1-2|0.0 2-3|0 5-6|0.1 8-9|0.1.0 9-10|0.1.0.0+0.1.0.0.0+0.1.0.0.0.0+0.1.0.0.1 11-12|0.1.0.1+0.1.0.1.0 15-16|0.2 17-18|0.2.0 18-19|0.2.0.0 20-21|0.2.0.0.0 21-22|0.2.0.0.0.0 26-27|0.2.0.0.0.1.2 27-28|0.2.0.0.0.1.0+0.2.0.0.0.1.0.0 28-29|0.2.0.0.0.1 31-32|0.2.0.0.0.1.1.0 37-38|0.2.0.0.0.1.1 39-40|0.2.0.0.0.1.1.1 41-42|0.2.0.0.0.1.1.1.0 43-44|0.2.0.0.0.1.1.1.0.0 
+(v5 / date
+    :domain (v3 / mechanism
+        :mod (v1 / this))
+    :ARG1-of (v7 / propose-01
+        :ARG1 (v9 / project
+            :mod (v11 / person
+                :name (v12 / name
+                    :op1 "Spinelli")
+                :wiki "Spinelli")
+            :time (v15 / date-entity
+                :year 1984
+                :ARG0 v11))
+        :ARG0 v3)
+    :location (v17 / need-01
+        :ARG0-of (v19 / prevent-01
+            :ARG1 (v21 / offence
+                :mod (v23 / principle
+                    :mod (v25 / democracy)
+                    :poss (v33 / and
+                        :ARG0-of (v29 / have-org-role-91
+                            :ARG2 (v30 / member))
+                        :op2 (v37 / attentare-01
+                            :mod (v35 / particular)
+                            :ARG2 (v39 / principle
+                                :poss (v41 / state
+                                    :poss (v43 / law))))
+                        :op1 (v27 / state)))))
+        :ARG0 v3))
+
+# ::id 56
+# ::snt E' importante ribadire che i fatti a cui fa riferimento l' onorevole Dupuis nella sua interrogazione non costituiscono una violazione dei principi menzionati nell' articolo 6 del Trattato .
+# ::alignments 1-2|0.0 2-3|0 9-10|0.1.4 12-13|0.1.3+0.1.3.0+0.1.3.0.0+0.1.3.1 15-16|0.1.2 16-17|0.1.1 19-20|0.1 21-22|0.1.0 22-23|0.1.0.0 24-25|0.1.0.0.0 25-26|0.1.0.0.0.0 27-28|0.1.0.0.0.1 
+(v3 / repeat-01
+    :mod (v1 / important)
+    :ARG1 (v13 / violate-01
+        :ARG1 (v15 / principle
+            :ARG1-of (v17 / mention-01
+                :ARG1 (v19 / article
+                    :mod 6
+                    :topic (v21 / treaty))))
+        :polarity -
+        :ARG1 (v11 / question-01)
+        :location (v7 / person
+            :name (v8 / name
+                :op1 "Dupuis")
+            :wiki "Dupuis")
+        :ARG1 (v5 / reference-04)
+        :ARG0 v1))
+
+# ::id 57
+# ::snt Non si può invocare l' applicazione di questo articolo per motivare un' ingerenza nell' amministrazione degli affari interni degli Stati membri , in particolare nel settore della giustizia .
+# ::alignments 0-1|0.1 2-3|0 5-6|0.0 7-8|0.0.0.0 8-9|0.0.0 12-13|0.0.0.1 14-15|0.0.0.1.0 16-17|0.0.0.1.0.0 19-20|0.0.0.1.0.0.0.3+0.0.0.1.0.0.0.3.0 20-21|0.0.0.1.0.0.0.2 23-24|0.0.0.1.0.0.0.1 25-26|0.0.0.1.0.0.0 27-28|0.0.0.1.0.0.0.0 
+(v1 / possible-01
+    :ARG1 (v3 / apply-01
+        :ARG1 (v7 / article
+            :mod (v5 / this)
+            :mod (v9 / interfere-01
+                :ARG1 (v11 / administrate-01
+                    :mod (v13 / affair
+                        :poss (v23 / sector
+                            :mod (v25 / justice)
+                            :mod (v21 / particular)
+                            :location (v19 / state)
+                            :ARG0-of (v15 / have-org-role-91
+                                :ARG2 (v16 / member)))))
+                :ARG0 v5)))
+    :polarity -)
+
+# ::id 58
+# ::snt L' effettiva violazione di un principio enunciato nell' articolo 6 deve essere verificata dal Consiglio - anche questo è un punto importante ed è la ragione per cui non è stato attivato alcun meccanismo - in seguito alla proposta di un terzo degli Stati membri o su iniziativa della Commissione europea , previo parere favorevole del Parlamento .
+# ::alignments 2-3|0.4 5-6|0.4.0 8-9|0.4.0.0 9-10|0.4.0.0.0 14-15|0.4.0.0.1 16-17|0.3 17-18|0.2 21-22|0.0 22-23|0 28-29|0.1.0 31-32|0.1 32-33|0.1.0 33-34|0.1.1 38-39|0.1.1.0 43-44|0.1.1.0.0.4+0.1.1.0.0.4.0 44-45|0.1.1.0.0.0 45-46|0.1.1.0.0 47-48|0.1.1.0.0.1 49-51|0.1.1.0.0.1.0+0.1.1.0.0.1.0.0+0.1.1.0.0.1.0.0.0+0.1.1.0.0.1.0.0.1+0.1.1.0.0.1.0.1 52-53|0.1.1.0.0.2.0 53-54|0.1.1.0.0.2 54-55|0.1.1.0.0.2.1 56-57|0.1.1.0.0.3+0.1.1.0.0.3.0+0.1.1.0.0.3.0.0+0.1.1.0.0.3.1 
+(v15 / and
+    :mod (v13 / important)
+    :op2 (v17 / respond-01
+        :polarity -
+        :ARG1 (v19 / mechanism
+            :ARG1-of (v21 / propose-01
+                :ARG1 (v29 / or
+                    :op1 (v27 / state)
+                    :op2 (v31 / initiative
+                        :poss (v33 / organization
+                            :name (v34 / name
+                                :op1 "European"
+                                :op2 "Commission")
+                            :wiki "European_Commission")
+                        :ARG0 v27)
+                    :op2 (v39 / opine-01
+                        :mod (v37 / previo)
+                        :mod (v41 / favor-01)
+                        :ARG0 v27)
+                    :location (v43 / government-organization
+                        :name (v44 / name
+                            :op1 "Parliament")
+                        :wiki "Parliament_of_Egypt"
+                        :ARG0 v27)
+                    :ARG0-of (v23 / have-org-role-91
+                        :ARG2 (v24 / member))))))
+    :mod (v11 / this)
+    :mod (v9 / also)
+    :op1 (v1 / violate-01
+        :ARG1 (v3 / principle
+            :poss (v5 / article
+                :mod 6
+                :mod (v7 / council)))))
+
+# ::id 59
+# ::snt Ebbene , nessuno degli organi con diritto d' iniziativa ha sollecitato tale procedura e , a nostro avviso , la situazione non presenta aspetti tali da richiedere l' applicazione dell' articolo 7 .
+# ::alignments 4-5|0.3 6-7|0.3.0 8-9|0.3.0.0 10-11|0.1.0 11-12|0.1.0.0.0 12-13|0.1.0.0 13-14|0.1 16-17|0.0 17-18|0 20-21|0.2.2 21-22|0.2.1 23-24|0.2 26-27|0.2.0 28-29|0.2.0.0 30-31|0.2.0.0.0 31-32|0.2.0.0.0.0 
+(v17 / believe-01
+    :ARG0 (v15 / we)
+    :op2 (v13 / and
+        :op1 (v7 / urge-01
+            :ARG1 (v11 / procedure
+                :mod (v9 / this))))
+    :ARG1 (v21 / aspect
+        :mod (v23 / request-01
+            :ARG1 (v25 / apply-01
+                :ARG1 (v27 / article
+                    :mod 7)))
+        :polarity -
+        :domain (v19 / situation)
+        :ARG0 v15)
+    :location (v1 / body
+        :mod (v3 / law
+            :mod (v5 / initiative))))
+
+# ::id 60
+# ::snt Riguardo alla dichiarazione del Consiglio del giorno 2 scorso , torno a ripetere , dal momento che sono stato io a pronunciarla davanti all' Assemblea , che è stata fatta sì dalla Presidenza del Consiglio , ma a nome di quattordici Stati membri e che , ovviamente , gli effetti di tale dichiarazione e degli elementi in essa contenuti relativamente all' Austria vincolano i singoli Stati membri solo sul piano bilaterale .
+# ::alignments 2-3|0.0.0 4-5|0.0.0.0 6-7|0.0.0.1 7-8|0.0.0.1.0 8-9|0.0.0.1.1 10-11|0.0 12-13|0.0.1 19-20|0.0.1.0 21-22|0.0.1.1 32-35|0.1.0 36-37|0.1 40-41|0.1.1.5 41-42|0.1.1.4.0+0.1.1.4.0.0 42-43|0.1.1.4 43-44|0.1.1.3 51-52|0.1.1.0.0 52-53|0.1.1.0 53-54|0.1.1 58-59|0.1.1.1 59-60|0.1.1.1.0 61-62|0.1.1.1.1+0.1.1.1.1.0+0.1.1.1.1.0.0+0.1.1.1.1.1 62-63|0.1.1.2 64-65|0.1.1.2.0.2 65-66|0.1.1.2.0.1.0+0.1.1.2.0.1.0.0 66-67|0.1.1.2.0.1 67-68|0.1.1.2.0.0 70-71|0.1.1.2.0 
+(mu / multi-sentence
+    :snt1 (v9 / return-01
+        :ARG1 (v1 / state-01
+            :mod (v3 / council)
+            :mod (v5 / agenda
+                :mod 2
+                :mod (v7 / last)
+                :ARG0 v3))
+        :ARG1 (v11 / repeat-01
+            :ARG0 (v13 / i)
+            :ARG1 (v15 / pronunciare-01
+                :mod v13
+                :ARG0 v13)
+            :ARG0 v1))
+    :snt2 (v19 / contrast-01
+        :ARG1 (v17 / council)
+        :ARG2 (v33 / and
+            :op1 (v31 / state-01
+                :mod (v29 / this))
+            :op2 (v35 / content
+                :mod (v37 / relative)
+                :mod (v39 / country
+                    :name (v40 / name
+                        :op1 "Austria")
+                    :wiki "Austria"))
+            :op3 (v43 / charter-01
+                :mod v35
+                :ARG1 (v55 / bilateral
+                    :mod (v53 / only)
+                    :domain (v51 / state
+                        :ARG0-of (v47 / have-org-role-91
+                            :ARG2 (v48 / member)))
+                    :mod (v45 / individual)
+                    :ARG0 v35)
+                :ARG0 v31)
+            :op2 (v27 / and)
+            :op1 (v25 / state
+                :ARG0-of (v21 / have-org-role-91
+                    :ARG2 (v22 / member)))
+            :mod 14
+            :ARG0 v17)))
+
+# ::id 61
+# ::snt Non vincolano il Consiglio e non toccano il libero e normale funzionamento delle Istituzioni comunitarie , delle quali l' Austria , del resto , continua a far parte a pieno titolo .
+# ::alignments 0-1|0.2.0 1-2|0.2 3-4|0.1 4-5|0 5-6|0.2.0 8-9|0.0.0 9-10|0.0 10-11|0.0.1.2 11-12|0.0.1 13-14|0.0.1.0 14-15|0.0.1.0.0 19-20|0.0.1.1.0+0.0.1.1.0.0+0.0.1.1.0.0.0+0.0.1.1.0.1 24-25|0.0.1.1 29-30|0.0.1.1.1 
+(v5 / and
+    :op2 (v9 / and
+        :op1 (v7 / free-04)
+        :op2 (v13 / operation
+            :mod (v15 / institution
+                :mod (v17 / community))
+            :ARG1-of (v23 / continue-01
+                :ARG0 (v19 / country
+                    :name (v20 / name
+                        :op1 "Austria")
+                    :wiki "Austria")
+                :ARG1 (v25 / full
+                    :ARG0 v19))
+            :mod (v11 / normal-02)
+            :ARG0 v7))
+    :op1 (v3 / council)
+    :op1 (v1 / charter-01
+        :polarity -))
+
+# ::id 62
+# ::snt Signor Sottosegretario di Stato , ritengo abbia illustrato in modo chiaro e completo la questione tecnica relativa agli articoli 6 e 7 .
+# ::alignments 1-2|0.0.1 3-4|0.0.1.0 10-11|0.0.0 11-12|0.0 12-13|0.0.2.0 14-15|0.0.2 15-16|0.0.2.1 18-19|0.0.3.1 19-20|0.0.3.0 20-21|0.0.3 21-22|0.1 
+(mu / multi-sentence
+    :snt1 (v7 / and
+        :op1 (v5 / clear-06)
+        :op2 (v1 / sottosegretario
+            :mod (v3 / state))
+        :op2 (v11 / issue-02
+            :ARG1-of (v9 / complete-02)
+            :mod (v13 / technical)
+            :ARG0 v5)
+        :op2 (v17 / and
+            :time 6
+            :mod (v15 / articles)
+            :ARG0 v5))
+    :snt2 7)
+
+# ::id 63
+# ::snt Continuiamo ad avere un' idea quasi esclusivamente nazionale della sicurezza e della giustizia di fronte a realtà che sono senza dubbio transnazionali .
+# ::alignments 0-1|0.0+0.0.0 4-5|0.0.1 5-6|0.0.1.0.0 6-7|0.0.1.0 7-8|0.0.1.1 9-10|0.0.2.0 10-11|0.0.2 12-13|0.0.2.1 20-21|0.1 21-22|0.1.0 
+(mu / multi-sentence
+    :snt1 (v1 / continue-01
+        :ARG0 (v2 / we)
+        :ARG1 (v5 / idea
+            :domain (v9 / exclusive-02
+                :mod (v7 / almost))
+            :mod (v11 / nation)
+            :ARG0 v2)
+        :ARG1 (v15 / and
+            :op1 (v13 / safe-01)
+            :op2 (v17 / justice
+                :ARG0 v13)
+            :ARG0 v2))
+    :snt2 (v19 / doubt-01
+        :ARG0 (v21 / transnational)
+        :ARG0 v1))
+
+# ::id 64
+# ::snt Ci troviamo costantemente a fare i conti con questa contraddizione , in particolare per quanto riguarda i diritti dell' infanzia , ambito in cui esistono casi nei quali è coinvolto più di un paese e le cui vittime , oltre a non ricevere alcuna notifica dallo Stato in cui viene emessa la sentenza , non godono neanche di assistenza a livello giudiziario .
+# ::alignments 0-1|0.0.3 1-2|0.0.2 2-3|0.0.1 8-9|0.0.0 9-10|0.0 12-13|0.0.4 17-18|0.0.4.0 19-20|0.0.4.0.0 25-26|0.0.4.0.1 29-30|0.0.4.0.1.0 30-31|0.0.4.0.1.0.0.0.0 33-34|0.0.4.0.1.0.0.0 34-35|0.0.4.0.1.0.0 37-38|0.0.4.0.1.0.0.1 41-42|0.2.0 43-44|0.2.0 44-45|0.2 46-47|0.2.1 50-51|0.1 52-53|0.1.0 54-55|0.2.0 58-59|0.2.2 60-61|0.2.2.0 61-62|0.2.2.0.0 
+(mu / multi-sentence
+    :snt1 (v9 / contradict-01
+        :mod (v7 / this)
+        :mod (v5 / constant)
+        :ARG0 (v3 / we)
+        :ARG1 (v1 / we)
+        :mod (v11 / particular
+            :mod (v13 / right
+                :mod (v15 / child)
+                :mod (v17 / case-03
+                    :ARG1-of (v19 / involve-01
+                        :ARG1 (v25 / and
+                            :op1 (v23 / country
+                                :mod (v21 / more))
+                            :op2 (v27 / victim
+                                :ARG0 v23)))))
+            :ARG0 v7))
+    :snt2 (v33 / late
+        :op1 (v35 / judge-01))
+    :snt3 (v29 / notification
+        :polarity -
+        :mod (v31 / state)
+        :mod v33
+        :mod (v37 / assist-01
+            :mod (v39 / level
+                :mod (v41 / judiciary)))))
+
+# ::id 65
+# ::snt Signor Presidente in carica del Consiglio , vorrei ringraziarla esplicitamente di aver constatato , durante il Tempo delle interrogazioni dell' ultima sessione , che in Austria non è stata riscontrata alcuna violazione degli articoli 6 e 7 , e che quella inflittale è stata una condanna preventiva .
+# ::alignments 1-2|0.2+0.2.0 3-4|0.1 5-6|0.1.0 7-8|0+0.0 8-9|0.3+0.3.0 9-10|0.3.1 12-13|0.3.1.0 16-17|0.3.1.0.0 18-19|0.3.1.0.0.0 21-22|0.3.1.0.0.0.0 25-26|0.3.1.0.0.0.0.0+0.3.1.0.0.0.0.0.0+0.3.1.0.0.0.0.0.0.0+0.3.1.0.0.0.0.0.1 26-27|0.3.1.0.0.0.0.1.0+0.3.1.0.0.0.0.1.1.5 29-30|0.3.1.0.0.0.0.1 30-31|0.3.1.0.0.0.0.1.0+0.3.1.0.0.0.0.1.1.5 31-32|0.3.1.0.0.0.0.1.1.2 33-34|0.3.1.0.0.0.0.1.1.1 34-35|0.3.1.0.0.0.0.1.1.0+0.3.1.0.0.0.0.1.1.3.1+0.3.1.0.0.0.0.1.1.4.1 35-36|0.3.1.0.0.0.0.1.1 36-37|0.3.1.0.0.0.0.1.1.3.0 38-39|0.3.1.0.0.0.0.1.1.3 41-42|0.3.1.0.0.0.0.1.1.4.0 45-46|0.3.1.0.0.0.0.1.1.4 
+(v9 / like-02
+    :ARG0 (v10 / i)
+    :ARG1 (v5 / office
+        :mod (v7 / council))
+    :ARG1-of (v1 / have-org-role-91
+        :ARG2 (v2 / president))
+    :ARG1 (v13 / thank-01
+        :ARG1 (v14 / you)
+        :ARG2 (v17 / explicit-03
+            :ARG1 (v19 / note-01
+                :ARG1 (v21 / question-01
+                    :ARG1 (v23 / question-01
+                        :ARG1 (v25 / session
+                            :poss (v27 / country
+                                :name (v28 / name
+                                    :op1 "Austria")
+                                :wiki "Austria")
+                            :ARG1-of (v31 / detect-01
+                                :polarity -
+                                :ARG1 (v37 / and
+                                    :time 6
+                                    :mod (v35 / articles)
+                                    :op1 (v33 / violate-01)
+                                    :op2 (v39 / and
+                                        :time 7
+                                        :ARG0 6)
+                                    :op2 (v43 / condemn-01
+                                        :ARG0 (v41 / inflittale)
+                                        :ARG0 6)
+                                    :polarity -)
+                                :ARG0 v27)))))
+            :ARG0 v14)
+        :ARG0 v10))
+
+# ::id 66
+# ::snt Si sono altresì scavalcate tutte le Istituzioni comunitarie , mettendole davanti al fatto compiuto .
+# ::alignments 2-3|0.0 3-4|0 4-5|0.1.0 6-7|0.1 7-8|0.1.1 9-10|0.2 
+(v3 / scavalcare-01
+    :mod (v1 / also)
+    :domain (v7 / institution
+        :quant (v5 / all)
+        :mod (v9 / community))
+    :mod (v11 / mettendole))
+
+# ::id 67
+# ::snt Donde il mio quesito : quali saranno gli sviluppi in futuro , a prescindere dal caso Austria ?
+# ::alignments 0-1|0 3-4|0.0 8-9|0.1 10-11|0.1.0 16-17|0.2+0.2.0+0.2.0.0+0.2.1 17-18|0.3 
+(v1 / donde-01
+    :ARG1 (v3 / question-01)
+    :ARG1-of (v5 / develop-01
+        :ARG1 (v7 / future))
+    :location (v9 / country
+        :name (v10 / name
+            :op1 "Austria")
+        :wiki "Austria")
+    :mode interrogative)
+
+# ::id 68
+# ::snt In futuro saranno i Primi ministri dei vari paesi a condannare gli Stati europei ?
+# ::alignments 1-2|0.3 4-5|0.2 5-6|0+0.0+0.0.0 7-8|0.1.0 8-9|0.1 10-11|0.1.1 12-13|0.1.1.0+0.1.1.0.0 13-14|0.1.1.0.1+0.1.1.0.1.0+0.1.1.0.1.0.0+0.1.1.0.1.1+0.1.1.0.1.0.0+0.1.1.0.1.1 14-15|0.4 
+(v5 / person
+    :ARG0-of (v6 / have-org-role-91
+        :ARG2 (v7 / minister))
+    :poss (v13 / country
+        :mod (v11 / various)
+        :ARG1-of (v15 / condemn-01
+            :ARG1 (v17 / have-org-role-91
+                :ARG2 (v18 / member)
+                :mod (v21 / country
+                    :name (v22 / name
+                        :op1 "Europe")
+                    :wiki "Europe"
+                    :ARG0 v18))
+            :ARG0 v11))
+    :mod (v3 / prime)
+    :poss (v1 / future)
+    :mode interrogative)
+
+# ::id 69
+# ::snt A tal fine , basta una maggioranza di otto voti o ne sarà necessaria un' altra ?
+# ::alignments 4-5|0.2 6-7|0.1 8-9|0.0.0 9-10|0.0 10-11|0 15-16|0.3 16-17|0.4 
+(v7 / or
+    :op1 (v5 / vote-01
+        :quant 8)
+    :mod (v3 / majority)
+    :mod (v1 / enough)
+    :mod (v9 / another
+        :ARG0 v5)
+    :mode interrogative)
+
+# ::id 70
+# ::snt Quanto potere e capacità d' intervento perdono di conseguenza il Consiglio d' Europa e le Istituzioni europee ?
+# ::alignments 1-2|0.2 2-3|0.1 5-6|0 10-13|0.0.2+0.0.2.0+0.0.0.0.0.0+0.0.0.0.1+0.0.2.0.0+0.0.2.1 13-14|0.0 15-16|0.0.0 16-17|0.0.0.0+0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.1+0.0.2.0.0+0.0.2.1+0.0.0.0.0.0+0.0.0.0.1+0.0.2.0.0+0.0.2.1 17-18|0.0.1 
+(v5 / intervene-01
+    :ARG1 (v11 / and
+        :op2 (v13 / institution
+            :mod (v15 / country
+                :name (v16 / name
+                    :op1 "Europe")
+                :wiki "Europe"))
+        :mode interrogative
+        :op1 (v7 / continent
+            :name (v8 / name
+                :op1 "Europe")
+            :wiki "Europe"))
+    :op2 (v3 / and)
+    :ARG1 (v1 / power))
+
+# ::id 71
+# ::snt Ne deriva una nuova concorrenza fra Istituzioni europee e Stati nazionali ?
+# ::alignments 3-4|0.2.0 4-5|0.2 6-7|0 7-8|0.0+0.0.0+0.0.0.0+0.0.1+0.0.0.0+0.0.1 8-9|0.1 9-10|0.1.0+0.1.0.0 10-11|0.1.0.1 11-12|0.1.1 
+(v5 / institution
+    :mod (v7 / country
+        :name (v8 / name
+            :op1 "Europe")
+        :wiki "Europe")
+    :op1 (v11 / and
+        :op2 (v13 / have-org-role-91
+            :ARG2 (v14 / member)
+            :mod (v17 / nation
+                :ARG0 v14))
+        :mode interrogative)
+    :location (v3 / compete-02
+        :mod (v1 / new)))
+
+# ::id 72
+# ::snt Onorevole Casaca , vorrei dirle che nonostante tutto non sono così pessimista rispetto ai progressi registrati dall' Unione europea nella creazione di una dimensione etica e , in particolare , nella messa a punto di meccanismi di carattere giuridico che le permettano di affrontare situazioni nuove , come in particolare quelle da lei citate .
+# ::alignments 1-2|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.1+0.0.1.0.0+0.0.1.1 3-4|0.0+0.0.0 4-5|0.0.2 8-9|0.0.2.0.0 11-12|0.0.2.0 14-15|0.0.2.0.1 17-19|0.0.2.0.1.0.0+0.0.2.0.1.0.0.0+0.0.2.0.1.0.0.0.0+0.0.2.0.1.0.0.0.1+0.0.2.0.1.0.0.1 20-21|0.0.2.0.1.0 23-24|0.0.2.0.1.0.1 24-25|0.0.2.0.1.0.1.0 25-26|0.0.3 28-29|0.0.3.0 35-36|0.1 38-39|0.1.0.1 43-44|0.1.0 44-45|0.1.0.0 45-46|0.1.0.0.0 49-50|0.1.0.2 52-53|0.1.0.2.0 53-54|0.1.0.3 
+(mu / multi-sentence
+    :snt1 (v5 / like-02
+        :ARG0 (v6 / i)
+        :ARG0 (v1 / person
+            :name (v2 / name
+                :op1 "Casaca")
+            :wiki "Casaca")
+        :ARG1 (v9 / say-01
+            :ARG1 (v11 / pessimistic
+                :polarity -
+                :mod (v13 / progress-01
+                    :ARG1 (v19 / create-01
+                        :ARG0 (v15 / organization
+                            :name (v16 / name
+                                :op1 "European"
+                                :op2 "Union")
+                            :wiki "European_Union")
+                        :ARG1 (v21 / dimension
+                            :mod (v23 / ethic)
+                            :ARG0 v15))))
+            :ARG0 v6)
+        :ARG1 (v25 / and
+            :op2 (v27 / particular)
+            :ARG0 v6))
+    :snt2 (v29 / mechanism
+        :mod (v33 / address-02
+            :ARG1 (v35 / situation
+                :mod (v37 / new))
+            :ARG1-of (v31 / legal-02)
+            :mod (v39 / particular
+                :mod (v41 / you))
+            :ARG0 (v43 / mention-01))))
+
+# ::id 73
+# ::snt Penso sia importante tener conto del fatto che , con l' evoluzione derivante dal Trattato di Amsterdam , c' è stato un trasferimento di competenze e che nei prossimi cinque anni avverranno altri passaggi da quello che era il vecchio terzo pilastro al primo pilastro dell' Unione , soprattutto in materia di visti , cooperazione giudiziaria in ambito civile e cooperazione doganale .
+# ::alignments 0-1|0.0+0.0.0 2-3|0.0.1 3-4|0.0.1.0 4-5|0.0.1.0.0 14-15|0.0.1.0.0.0 16-17|0.0.1.0.0.0.0+0.0.1.0.0.0.0.0+0.0.1.0.0.0.0.0.0+0.0.1.0.0.0.0.1 22-23|0.1.0 24-25|0.1.0.0 25-26|0.1 28-29|0.1.1.7 29-30|0.1.1.6.0.1 30-31|0.1.1.6.0+0.1.1.6.0.0 31-32|0.1.1.6 32-33|0.1.1.5 39-40|0.1.1.4 41-42|0.1.1 43-44|0.1.1.0.0 44-45|0.1.1.0 46-47|0.1.1.0.1 48-49|0.1.1.1.0 52-53|0.1.1.1 54-55|0.1.1.1.1 55-56|0.1.1.1.1.0 58-59|0.1.1.2.1 59-60|0.1.1.2.0 60-61|0.1.1.2 61-62|0.1.1.3 
+(mu / multi-sentence
+    :snt1 (v1 / think-01
+        :ARG0 (v2 / i)
+        :ARG1 (v5 / important
+            :domain (v7 / take-01
+                :ARG1 (v9 / account
+                    :mod (v11 / treaty
+                        :poss (v13 / city
+                            :name (v14 / name
+                                :op1 "Amsterdam")
+                            :wiki "Amsterdam"))))
+            :ARG0 v2))
+    :snt2 (v21 / and
+        :op1 (v17 / transfer-01
+            :ARG1 (v19 / power))
+        :op1 (v35 / pilastro-01
+            :time (v37 / pillar
+                :quant 1
+                :mod "Union")
+            :location (v41 / visa
+                :mod (v39 / particular)
+                :mod (v43 / cooperate-01
+                    :mod (v45 / judiciary))
+                :ARG0 v37)
+            :ARG0 (v51 / cooperate-01
+                :op2 (v49 / and)
+                :mod (v47 / civil))
+            :mod (v53 / customs)
+            :mod (v33 / old)
+            :mod (v31 / other)
+            :ARG1 (v29 / bad-07
+                :time (v25 / temporal-quantity
+                    :unit (v26 / year)
+                    :quant 5))
+            :mod (v23 / next)
+            :ARG0 v17)
+        :ARG0 v1))
+
+# ::id 74
+# ::snt Rimarranno nel terzo pilastro le questioni riguardanti la cooperazione giudiziaria in materia penale e la cooperazione delle forze di polizia , ma stiamo già lavorando alla creazione di uno spazio europeo di libertà , giustizia e sicurezza , cui speriamo la Commissione possa contribuire con la presentazione di uno scoreboard in grado di fornirci una serie di provvedimenti ad hoc .
+# ::alignments 0-1|0 3-4|0.0 5-6|0.0.0 8-9|0.0.0.0 9-10|0.0.0.0.0 12-13|0.1.3 13-14|0.1.2 15-20|0.1.0 21-22|0.1 22-23|0.1.1.1 23-24|0.1.1.0 24-25|0.1.1 26-27|0.1.1.2 29-30|0.1.1.2.0 30-31|0.1.1.2.0.0+0.1.1.2.0.0.0+0.1.1.2.0.0.0.0+0.1.1.2.0.0.1+0.1.1.2.0.0.0.0+0.1.1.2.0.0.1 32-33|0.1.1.2.0.1.2 34-35|0.1.1.2.0.1.1 35-36|0.1.1.2.0.1 36-37|0.1.1.2.0.1.0 39-40|0.1.1.2.0.1.0.0+0.1.1.2.0.1.0.0.0 41-42|0.1.1.2.0.1.0.0.1.0 42-43|0.1.1.2.0.1.0.0.1 43-44|0.1.1.2.0.1.0.0.1.1 46-47|0.1.1.2.0.1.0.0.1.1.0 49-50|0.1.1.2.0.1.0.0.1.1.0.0 53-54|0.1.1.2.0.1.0.0.1.1.0.0.0 55-56|0.1.1.2.0.1.0.0.1.1.0.0.0.0 57-58|0.1.1.2.0.1.0.0.1.1.0.0.0.0.0 
+(v1 / remain-01
+    :ARG1 (v3 / pilastro-01
+        :ARG1 (v5 / issue-02
+            :ARG1 (v7 / cooperate-01
+                :mod (v9 / judiciary))))
+    :ARG1 (v17 / contrast-01
+        :ARG1 (v15 / police)
+        :ARG2 (v23 / work-01
+            :time (v21 / already)
+            :ARG0 (v19 / we)
+            :manner (v25 / create-01
+                :ARG1 (v27 / area
+                    :mod (v29 / country
+                        :name (v30 / name
+                            :op1 "Europe")
+                        :wiki "Europe")
+                    :location (v37 / and
+                        :op2 (v39 / safe-01
+                            :ARG1 (v41 / hope-01
+                                :ARG0 (v42 / we)
+                                :ARG1 (v47 / possible-01
+                                    :ARG0 (v45 / commission)
+                                    :ARG1 (v49 / contribute-01
+                                        :ARG2 (v51 / presentation
+                                            :mod (v53 / scoreboard
+                                                :ARG0-of (v55 / give-01
+                                                    :ARG1 (v57 / series
+                                                        :mod (v59 / measure-02)))))
+                                        :ARG0 v45)
+                                    :ARG0 v42)))
+                        :location (v35 / justice)
+                        :op1 (v33 / free-04)
+                        :ARG0 v29)))
+            :ARG0 v15)
+        :op2 (v13 / and)
+        :mod (v11 / criminal-03)))
+
+# ::id 75
+# ::snt Tengo inoltre a sottolineare che la Carta europea dei diritti fondamentali , attualmente in discussione , può rivelarsi , con tutta probabilità , un elemento di rafforzamento di questa nuova configurazione e può sicuramente contribuire a dare all' Unione europea un corpo di principi compatto con una base giuridica più solida , come alcuni di noi , e il Consiglio in particolare , auspicano .
+# ::alignments 0-1|0+0.0 1-2|0.1 3-4|0.2 7-8|0.2.0.2+0.2.0.2.0+0.2.0.2.0.0+0.2.0.2.1+0.2.0.2.0.0+0.2.0.2.1 9-10|0.2.0 10-11|0.2.0.0 12-13|0.2.0.1.0.0 14-15|0.2.0.1.0 16-17|0.2.0.1 17-18|0.2.0.1.1 21-22|0.2.0.1.1.0 28-29|0.2.0.1.1.0.0.3 29-30|0.2.0.1.1.0.0.2 30-31|0.2.0.1.1.0.0.1 31-32|0.2.0.1.1.0.0 32-33|0.2.0.1.1.0.0.0 34-35|0.2.0.1.1.0.0.0.0 38-40|0.2.0.1.1.0.0.0.0.0.6+0.2.0.1.1.0.0.0.0.0.6.0+0.2.0.1.1.0.0.0.0.0.6.0.0+0.2.0.1.1.0.0.0.0.0.6.0.1+0.2.0.1.1.0.0.0.0.0.6.1 43-44|0.2.0.1.1.0.0.0.0.0.5.0 44-45|0.2.0.1.1.0.0.0.0.0.5 48-49|0.2.0.1.1.0.0.0.0.0.4 49-50|0.2.0.1.1.0.0.0.0.0.3.0 50-51|0.2.0.1.1.0.0.0.0.0.3 53-54|0.2.0.1.1.0.0.0.0.0.2 55-56|0.2.0.1.1.0.0.0.0.0.1 57-58|0.2.0.1.1.0.0.0.0.0 59-60|0.2.0.1.1.0.0.0.0.0.0 61-62|0.2.0.1.1.0.0.0.0.0.0.0 
+(v1 / like-02
+    :ARG0 (v2 / i)
+    :mod (v5 / also
+        :ARG0 v2)
+    :ARG1 (v7 / emphasise-01
+        :ARG1 (v13 / right
+            :mod (v15 / fundamental)
+            :location (v21 / possible-01
+                :location (v19 / debate-01
+                    :time (v17 / current))
+                :ARG1 (v23 / possible-01
+                    :ARG1 (v25 / likely-01
+                        :op1 (v35 / and
+                            :op2 (v37 / possible-01
+                                :ARG1 (v39 / contribute-01
+                                    :ARG1 (v59 / and
+                                        :op2 (v61 / council
+                                            :mod (v63 / particular))
+                                        :domain (v57 / we)
+                                        :op1 (v55 / some)
+                                        :mod (v53 / solid-02
+                                            :degree (v51 / more))
+                                        :mod (v49 / legal-02)
+                                        :location (v47 / compattare-01
+                                            :mod (v45 / principle))
+                                        :location (v41 / organization
+                                            :name (v42 / name
+                                                :op1 "European"
+                                                :op2 "Union")
+                                            :wiki "European_Union"))))
+                            :location (v31 / we)
+                            :mod (v29 / new)
+                            :mod (v27 / this)))
+                    :ARG0 v19)
+                :ARG0 v15)
+            :mod (v9 / country
+                :name (v10 / name
+                    :op1 "Europe")
+                :wiki "Europe"))
+        :ARG0 v2))
+
+# ::id 76
+# ::snt Rispetto alla domanda sull' Austria , ribadisco quanto ho affermato sull' osservanza , da parte di quest' ultima , degli articoli 6 e 7 , almeno fino a questo momento .
+# ::alignments 2-3|0.1 4-5|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.1 8-9|0.0 9-10|0 16-17|0.2.2 20-21|0.2.1 21-22|0.2.0+0.2.3.1 22-23|0.2 23-24|0.2.3.0 28-29|0.2.3 
+(v9 / say-01
+    :ARG0 (v7 / i)
+    :ARG1 (v1 / question-01
+        :location (v3 / country
+            :name (v4 / name
+                :op1 "Austria")
+            :wiki "Austria"))
+    :ARG1 (v15 / and
+        :time 6
+        :mod (v13 / articles)
+        :mod (v11 / this)
+        :mod (v17 / this
+            :mod 7
+            :ARG0 6)
+        :ARG0 v7))
+
+# ::id 77
+# ::snt Ho affermato in una discussione precedente - e torno a ripeterlo - che in questo frangente è come se tutti noi , cittadini dell' Unione europea , fossimo austriaci .
+# ::alignments 0-1|0.0.0 1-2|0.0 4-5|0.0.1 5-6|0.0.1.0 7-8|0.0.1.1.0 8-9|0.0.1.1 10-11|0.1 14-15|0.1.0.0 15-16|0.1.0 19-20|0.1.1.3 20-21|0.1.1.0 22-23|0.1.1 24-26|0.1.1.1+0.1.1.1.0+0.1.1.1.0.0+0.1.1.1.0.1+0.1.1.1.1 27-28|0.1.1.2 28-29|0.1.1.2.0 
+(mu / multi-sentence
+    :snt1 (v3 / say-01
+        :ARG0 (v1 / i)
+        :ARG1 (v5 / debate-01
+            :mod (v7 / previous)
+            :ARG1-of (v11 / return-01
+                :op2 (v9 / and))
+            :ARG0 v1))
+    :snt2 (v13 / repeat
+        :topic (v17 / matter
+            :mod (v15 / this))
+        :location (v23 / citizen
+            :poss (v21 / we)
+            :poss (v25 / organization
+                :name (v26 / name
+                    :op1 "European"
+                    :op2 "Union")
+                :wiki "European_Union"
+                :ARG0 v21)
+            :domain (v29 / we
+                :domain "Austrians"
+                :ARG0 v21)
+            :mod (v19 / all))))
+
+# ::id 78
+# ::snt Siamo tutti austriaci perché lo spazio dell' Unione è uno solo dal punto di vista dei diritti e della cittadinanza , ed io voglio godere in Austria degli stessi diritti di cui godono i cittadini austriaci nel mio paese .
+# ::alignments 0-1|0.3 1-2|0.2 2-3|0.1+0.1.0+0.0.3.0.1.0.0+0.0.3.0.1.1+0.0.3.0.3.0.0+0.0.3.0.3.1+0.1.0.0+0.1.1+0.0.3.0.1.0.0+0.0.3.0.1.1+0.0.3.0.3.0.0+0.0.3.0.3.1+0.1.0.0+0.1.1 3-4|0 5-6|0.0 7-8|0.0.0 10-11|0.0.1 16-17|0.0.2.0 17-18|0.0.2 19-20|0.0.2.1 21-22|0.0.3 22-23|0.0.3.0.4 26-27|0.0.3.0.3+0.0.3.0.3.0+0.0.3.0.1.0.0+0.0.3.0.1.1+0.0.3.0.3.0.0+0.0.3.0.3.1+0.1.0.0+0.1.1 29-30|0.0.3.0.0 34-35|0.0.3.0 35-36|0.0.3.0.1+0.0.3.0.1.0+0.0.3.0.1.0.0+0.0.3.0.1.1+0.0.3.0.3.0.0+0.0.3.0.3.1+0.1.0.0+0.1.1+0.0.3.0.1.0.0+0.0.3.0.1.1+0.0.3.0.3.0.0+0.0.3.0.3.1+0.1.0.0+0.1.1 38-39|0.0.3.0.2 
+(v9 / cause-01
+    :mod (v11 / area
+        :mod "Union"
+        :mod (v13 / only)
+        :location (v17 / and
+            :op1 (v15 / right)
+            :op2 (v19 / citizenship
+                :ARG0 v15))
+        :op1 (v21 / and
+            :op2 (v31 / citizen
+                :mod (v29 / right)
+                :mod (v33 / country
+                    :name (v34 / name
+                        :op1 "Austria")
+                    :wiki "Austria"
+                    :ARG0 v29)
+                :location (v37 / country
+                    :ARG0 v29)
+                :location (v25 / country
+                    :name (v26 / name
+                        :op1 "Austria")
+                    :wiki "Austria")
+                :domain (v23 / i))))
+    :ARG0 (v5 / country
+        :name (v6 / name
+            :op1 "Austria")
+        :wiki "Austria")
+    :quant (v3 / all)
+    :ARG0 (v1 / we))
+
+# ::id 79
+# ::snt Di conseguenza non voglio essere governato da un partito che tiene comportamenti e fa affermazioni di natura razzista e xenofoba , di fronte ai quali è legittimo nutrire una certa preoccupazione .
+# ::alignments 2-3|0.0 5-6|0 8-9|0.1 12-13|0.2 16-17|0.2.0 17-18|0.2.0.0 18-19|0.2.0.1 19-20|0.2.0.1.0.2 26-27|0.2.0.1.0.1 27-28|0.2.0.1.0.0 30-31|0.2.0.1.0 
+(v1 / govern-01
+    :polarity -
+    :ARG0 (v3 / party)
+    :ARG1 (v5 / and
+        :op2 (v7 / nature
+            :mod (v9 / racist)
+            :location (v11 / and
+                :op2 (v19 / concern-01
+                    :ARG0 (v17 / we)
+                    :ARG1-of (v15 / legitimate-02)
+                    :mod (v13 / xenophobic))
+                :op1 v9))))
+
+# ::id 80
+# ::snt Gli austriaci hanno il diritto di avere il governo che vogliono , ma noi abbiamo il diritto di avere la nostra opinione sul governo austriaco .
+# ::alignments 1-2|0.3 4-5|0.2 8-9|0.1+0.1.0 10-11|0 12-13|0.0 13-14|0.0.0.0 14-15|0.0.0 16-17|0.0.1 20-21|0.0.1.0.0 21-22|0.0.1.0 23-24|0.0.1.0.1+0.0.1.0.1.0 24-25|0.0.2+0.0.2.0+0.0.2.0.0+0.0.2.1+0.0.2.0.0+0.0.2.1 
+(v7 / want-01
+    :ARG1 (v9 / contrast-01
+        :ARG2 (v13 / we
+            :domain (v11 / we))
+        :ARG2 (v15 / law
+            :topic (v19 / opine-01
+                :ARG0 (v17 / we)
+                :ARG2 (v21 / government-organization
+                    :ARG0-of (v22 / govern-01)
+                    :ARG0 v17))
+            :ARG0 v13)
+        :ARG2 (v25 / country
+            :name (v26 / name
+                :op1 "Austria")
+            :wiki "Austria"
+            :ARG0 v13))
+    :ARG0 (v3 / government-organization
+        :ARG0-of (v4 / govern-01))
+    :ARG1 (v1 / law)
+    :ARG1 "Austrians")
+
+# ::id 81
+# ::snt Signor Presidente del Consiglio , avete affermato che nel governo austriaco c' è un partito che ha espresso pubblicamente opinioni di stampo razzista .
+# ::alignments 1-2|0.3+0.3.0 3-4|0.2 5-6|0.0 6-7|0 9-10|0.1.3+0.1.3.0 10-11|0.1.2+0.1.2.0+0.1.2.0.0+0.1.2.1+0.1.2.0.0+0.1.2.1 14-15|0.1.0 17-18|0.1 18-19|0.1.1.1 19-20|0.1.1 22-23|0.1.1.0 
+(v9 / say-01
+    :ARG0 (v7 / you)
+    :ARG1 (v21 / express-01
+        :ARG0 (v19 / party)
+        :ARG1 (v25 / opine-01
+            :mod (v27 / racist)
+            :mod (v23 / public)
+            :ARG0 v19)
+        :ARG0 (v15 / country
+            :name (v16 / name
+                :op1 "Austria")
+            :wiki "Austria")
+        :ARG0 (v11 / government-organization
+            :ARG0-of (v12 / govern-01))
+        :ARG0 v7)
+    :ARG0 (v5 / council)
+    :ARG1 (v1 / have-org-role-91
+        :ARG2 (v2 / president)))
+
+# ::id 82
+# ::snt Qui , nel Parlamento europeo sono le persone a parlare , non i partiti .
+# ::alignments 3-4|0.3+0.3.0+0.3.0.0+0.3.1 4-5|0.2+0.2.0+0.2.0.0+0.2.1+0.2.0.0+0.2.1 7-8|0.1 11-12|0.0 13-14|0 
+(v11 / party
+    :polarity -
+    :domain (v9 / person)
+    :mod (v5 / country
+        :name (v6 / name
+            :op1 "Europe")
+        :wiki "Europe")
+    :poss (v1 / government-organization
+        :name (v2 / name
+            :op1 "Parliament")
+        :wiki "Parliament_of_Egypt"))
+
+# ::id 83
+# ::snt Nella sua risposta all' interrogazione dell' onorevole Dupuis ha ricordato che le sanzioni approvate da quattordici paesi membri e dai rispettivi Capi di governo sono di natura bilaterale .
+# ::alignments 2-3|0 4-5|0.0 7-8|0.0.0.0+0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.1 9-10|0.0.0 12-13|0.0.0.1 13-14|0.0.0.1.0 15-16|0.0.0.1.0.0.0 16-17|0.0.0.1.0.0 17-18|0.0.0.1.0.0.1 18-19|0.1.2 21-22|0.1.1+0.1.1.0 23-24|0.1.0+0.1.0.0 26-27|0.1 27-28|0.2 
+(v1 / answer-01
+    :ARG1 (v3 / question-01
+        :ARG1-of (v9 / mention-01
+            :ARG0 (v5 / person
+                :name (v6 / name
+                    :op1 "Dupuis")
+                :wiki "Dupuis")
+            :ARG1 (v11 / sanction-02
+                :ARG1-of (v13 / adopt-01
+                    :ARG2 (v15 / country
+                        :quant 12
+                        :mod (v17 / state)))
+                :ARG0 v5)))
+    :location (v29 / nature
+        :mod (v25 / government-organization
+            :ARG0-of (v26 / govern-01))
+        :domain (v21 / person
+            :ARG0-of (v22 / head-01))
+        :op2 (v19 / and))
+    :mod (v31 / bilateral))
+
+# ::id 84
+# ::snt A questo punto , può un paese membro decidere di rinunciare all' applicazione di queste sanzioni bilaterali e tornare a rapporti normali ?
+# ::alignments 1-2|0.5 4-5|0.4 6-7|0.3 7-8|0+0.0 8-9|0.1 10-11|0.1.0 12-13|0.1.0.0 14-15|0.1.0.0.0.0 15-16|0.1.0.0.0 16-17|0.1.0.0.0.1 17-18|0.2 18-19|0.2.0 20-21|0.2.0.0 21-22|0.2.0.0.0 22-23|0.2.0.1 
+(v7 / have-org-role-91
+    :ARG2 (v8 / member)
+    :ARG0-of (v11 / decide-01
+        :ARG1 (v13 / relinquish-01
+            :ARG1 (v15 / apply-01
+                :ARG1 (v19 / sanction-02
+                    :mod (v17 / this)
+                    :mod (v21 / bilateral
+                        :ARG0 v17))))
+        :ARG0 v8)
+    :ARG1 (v23 / and
+        :op2 (v25 / return-01
+            :ARG1 (v27 / relation-03
+                :mod (v29 / ordinary))
+            :mode interrogative)
+        :ARG0 v8)
+    :ARG1 (v5 / country)
+    :ARG1 (v3 / possible-01)
+    :mod (v1 / this))
+
+# ::id 85
+# ::snt Se ciò fosse possibile , quando intende il Consiglio liberare i cittadini austriaci da questa situazione che offende i loro diritti democratici ?
+# ::alignments 3-4|0.4 8-9|0.0 9-10|0 11-12|0.1 12-13|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.1+0.1.0.0.0+0.1.0.1 14-15|0.2.0 15-16|0.2 17-18|0.2.1 20-21|0.2.1.0 21-22|0.2.1.0.0 22-23|0.3 
+(v5 / release-01
+    :ARG0 (v3 / council)
+    :ARG1 (v7 / citizen
+        :mod (v9 / country
+            :name (v10 / name
+                :op1 "Austria")
+            :wiki "Austria")
+        :ARG0 v3)
+    :ARG2 (v15 / situation
+        :mod (v13 / this)
+        :ARG1-of (v17 / offendere-01
+            :ARG1 (v19 / right
+                :mod (v21 / democracy))
+            :ARG0 v13)
+        :ARG0 v3)
+    :mode interrogative
+    :ARG1 (v1 / possible-01))
+
+# ::id 86
+# ::snt Pensa che per far tornare la ragione al Consiglio e fargli decidere di abrogare questa decisione ogni paese membro debba decidere unilateralmente di rinunciare alle sanzioni ?
+# ::alignments 4-5|0 8-9|0.0.1 9-10|0.0 10-11|0.0.0.1 11-12|0.0.0 13-14|0.0.0.0 14-15|0.0.0.0.0.4 15-16|0.0.0.0.0.2 17-18|0.0.0.0.0.2.0.1 18-19|0.0.0.0.0.2.0.0+0.0.0.0.0.2.0.0.0 20-21|0.0.0.0.0.2.0 21-22|0.0.0.0.0.1 23-24|0.0.0.0.0 25-26|0.0.0.0.0.0 26-27|0.0.0.0.0.3 
+(v1 / return-01
+    :ARG1 (v5 / and
+        :op2 (v9 / decide-01
+            :ARG1 (v11 / lift-01
+                :ARG1 (v27 / relinquish-01
+                    :ARG1 (v29 / sanction-02)
+                    :mod (v25 / unilateral)
+                    :ARG1 (v15 / decide-01
+                        :ARG1 (v23 / decide-01
+                            :ARG0-of (v19 / have-org-role-91
+                                :ARG2 (v20 / member))
+                            :ARG0 (v17 / country)))
+                    :mode interrogative
+                    :mod (v13 / this)))
+            :ARG1 (v7 / fare))
+        :location (v3 / council)))
+
+# ::id 87
+# ::snt Probabilmente non ha udito bene ciò che ho detto oppure c' è stato un errore di interpretazione .
+# ::alignments 1-2|0.3 7-8|0.2 8-9|0.0 9-10|0 14-15|0.1 16-17|0.1.0 
+(v5 / or
+    :op1 (v3 / say-01)
+    :op2 (v7 / mistake-02
+        :ARG1 (v9 / interpret-01)
+        :ARG0 v3)
+    :domain (v1 / i)
+    :polarity -)
+
+# ::id 88
+# ::snt Non ho mai asserito che il governo austriaco è un governo fascista , sia ben chiaro .
+# ::alignments 0-1|0.1 1-2|0.0 3-4|0 6-7|0.2.4+0.2.4.0 7-8|0.2.3+0.2.3.0+0.2.3.0.0+0.2.3.1+0.2.3.0.0+0.2.3.1 10-11|0.2+0.2.0 11-12|0.2.1 15-16|0.2.2 
+(v3 / asserire-01
+    :ARG0 (v1 / i)
+    :polarity -
+    :ARG1 (v13 / government-organization
+        :ARG0-of (v14 / govern-01)
+        :mod (v17 / fascistic
+            :ARG0 v14)
+        :ARG1-of (v19 / clear-06
+            :ARG0 v14)
+        :mod (v9 / country
+            :name (v10 / name
+                :op1 "Austria")
+            :wiki "Austria")
+        :domain (v5 / government-organization
+            :ARG0-of (v6 / govern-01))
+        :ARG0 v1))
+
+# ::id 89
+# ::snt Ci sono persone nel governo austriaco , con le quali ho lavorato in passato e con cui spero di continuare a lavorare in futuro , che sono ben lontane dal nutrire simpatia per ideologie razziste .
+# ::alignments 0-1|0.6 2-3|0.5 4-5|0.4+0.4.0 5-6|0.3+0.3.0+0.3.0.0+0.3.1+0.3.0.0+0.3.1 10-11|0.0 11-12|0 13-14|0.1.0 14-15|0.1 17-18|0.2+0.2.0 19-20|0.2.1 21-22|0.2.1.0 23-24|0.2.1.0.0 28-29|0.2.1.0.1 30-31|0.2.1.0.1.0.0 31-32|0.2.1.0.1.0 33-34|0.2.1.0.1.0.1 34-35|0.2.1.0.1.0.1.0 
+(v15 / work-01
+    :ARG0 (v13 / i)
+    :ARG1 (v19 / and
+        :op1 (v17 / past)
+        :ARG0 v13)
+    :condition (v21 / hope-01
+        :ARG0 (v22 / i)
+        :ARG1 (v25 / continue-01
+            :ARG1 (v27 / work-01
+                :ARG1 (v29 / future)
+                :mod (v31 / distant-02
+                    :ARG1 (v35 / sympathy
+                        :domain (v33 / we)
+                        :mod (v37 / ideology
+                            :mod (v39 / racist)
+                            :ARG0 v33))))
+            :ARG0 v22)
+        :ARG0 v13)
+    :location (v9 / country
+        :name (v10 / name
+            :op1 "Austria")
+        :wiki "Austria")
+    :ARG0 (v5 / government-organization
+        :ARG0-of (v6 / govern-01))
+    :mod (v3 / person)
+    :ARG1 (v1 / we))
+
+# ::id 90
+# ::snt Quello che affermo apertamente è che questo governo ha al suo interno un partito i cui dirigenti , oltre ad aver rilasciato dichiarazioni estremamente gravi in materia di razzismo e xenofobia , sono giunti a proporre - sul piano interno - provvedimenti legislativi che configurano chiaramente un' ideologia razzista .
+# ::alignments 0-1|0.1 2-3|0.0 3-4|0 6-7|0.2.5 7-8|0.2.4+0.2.4.0 13-14|0.2.3 16-17|0.2.2+0.2.2.0 21-22|0.2 22-23|0.2.0+0.2.0.0 23-24|0.2.0.1.0 24-25|0.2.0.1 28-29|0.2.1.2 29-30|0.2.1.1 30-31|0.2.1 33-34|0.2.1.0 35-36|0.2.1.0.0 39-40|0.2.1.0.0.0.0 41-42|0.2.1.0.0.0 42-43|0.2.1.0.0.0.1 44-45|0.2.1.0.0.0.2 45-46|0.2.1.0.0.0.2.0 47-48|0.2.1.0.0.0.2.1 48-49|0.2.1.0.0.0.2.1.0 
+(v5 / open-04
+    :mod (v3 / affermare-01)
+    :ARG1 (v1 / amr-unknown)
+    :ARG1 (v19 / release-01
+        :ARG1 (v21 / thing
+            :ARG1-of (v22 / state-01)
+            :mod (v27 / serious
+                :degree (v25 / extreme)
+                :ARG0 v22))
+        :location (v33 / xenophobia
+            :time (v35 / reach-01
+                :ARG1 (v37 / propose-01
+                    :ARG1 (v41 / measure-02
+                        :mod (v39 / internal-02)
+                        :mod (v43 / legislate-01)
+                        :ARG1-of (v45 / shape-01
+                            :ARG1-of (v47 / clear-06)
+                            :ARG1 (v49 / ideology
+                                :mod (v51 / racist))))))
+            :op2 (v31 / and)
+            :location (v29 / racism))
+        :ARG0 (v15 / person
+            :ARG0-of (v16 / lead-02))
+        :location (v13 / party)
+        :ARG0 (v9 / government-organization
+            :ARG0-of (v10 / govern-01))
+        :mod (v7 / this)
+        :ARG0 v3))
+
+# ::id 91
+# ::snt E sinora non si è avuta da parte dell' FPO una chiara smentita riguardo al suo legame con questo genere di ideologie .
+# ::alignments 2-3|0.0 5-6|0 9-10|0.1.1 11-12|0.1.0 12-13|0.1 16-17|0.2 18-19|0.2.0.0 21-22|0.2.0 
+(v1 / fund
+    :polarity -
+    :mod (v9 / smentita
+        :ARG1-of (v7 / clear-06)
+        :mod (v5 / fpo))
+    :mod (v11 / connect-01
+        :ARG2 (v15 / ideology
+            :mod (v13 / this))))
+
+# ::id 92
+# ::snt Quanto all' altra domanda , la risposta è affermativa .
+# ::alignments 2-3|0.0.0 3-4|0.0 6-7|0 
+(v5 / answer-01
+    :ARG1 (v3 / question-01
+        :mod (v1 / another)))
+
+# ::id 93
+# ::snt Ogni paese può sciogliersi dall' impegno preso nell' ambito dei Quattordici .
+# ::alignments 1-2|0.1 2-3|0 3-4|0.0 5-6|0.0.0 10-11|0.0.0.0 
+(v3 / possible-01
+    :domain (v5 / sciogliere-01
+        :ARG2 (v7 / commit-01
+            :ARG1 14))
+    :location (v1 / country))
+
+# ::id 94
+# ::snt Si tratta di quattordici paesi liberi , i quali liberamente hanno deciso di manifestare all' Austria , a livello bilaterale , il loro dissenso riguardo alla formula di governo scelta , ma ognuno di questi paesi può dissociarsi in qualsiasi momento da tale iniziativa congiunta .
+# ::alignments 3-4|0.0.0.0+0.0.0.1.0 4-5|0.0.0 5-6|0.0.0.1 9-10|0.0 11-12|0 13-14|0.1 15-16|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.1 18-19|0.2 19-20|0.2.0 23-24|0.3 28-29|0.3.0.0.0+0.3.0.0.0.0 29-30|0.3.0.0 31-32|0.3.0 32-33|0.3.0.1.3 34-35|0.3.0.1.2.0 35-36|0.3.0.1.2 36-37|0.3.0.1 37-38|0.3.0.1.0 39-40|0.3.0.1.0.0.1 42-43|0.3.0.1.0.0.0 43-44|0.3.0.1.0.0 44-45|0.3.0.1.1 
+(v7 / decide-01
+    :ARG1-of (v5 / free-04
+        :ARG1 (v1 / country
+            :quant 12
+            :ARG1-of (v3 / free-04
+                :ARG0 12)))
+    :ARG1 (v9 / express-01
+        :location (v11 / country
+            :name (v12 / name
+                :op1 "Austria")
+            :wiki "Austria"))
+    :ARG1 (v15 / level
+        :mod (v17 / bilateral))
+    :ARG1 (v19 / disagree-01
+        :ARG1 (v27 / contrast-01
+            :ARG1 (v25 / choose-01
+                :ARG0 (v21 / government-organization
+                    :ARG0-of (v22 / govern-01)))
+            :ARG2 (v35 / possible-01
+                :ARG0 (v37 / dissociare-01
+                    :location (v43 / initiative
+                        :mod (v41 / this)
+                        :mod (v39 / any)))
+                :ARG1 (v45 / joint)
+                :location (v33 / country
+                    :mod (v31 / this))
+                :location (v29 / each)
+                :ARG0 v25))))
+
+# ::id 95
+# ::snt La stessa volontà , che li ha portati ad unirsi su tale decisione , domani potrà portarli a separarsi , per esempio quando vi siano interpretazioni differenti sull' evolversi della situazione austriaca .
+# ::alignments 9-10|0 11-12|0.0.0 12-13|0.0 14-15|0.1.2 15-16|0.1 16-17|0.1.0 18-19|0.1.0.0 25-26|0.1.1 26-27|0.1.1.0 28-29|0.1.1.1 30-31|0.1.1.1.0 31-32|0.1.1.1.0.0+0.1.1.1.0.0.0+0.1.1.1.0.0.0.0+0.1.1.1.0.0.1+0.1.1.1.0.0.0.0+0.1.1.1.0.0.1 
+(v1 / join-01
+    :ARG1 (v5 / decide-01
+        :mod (v3 / this))
+    :ARG1 (v9 / possible-01
+        :domain (v11 / portare-01
+            :manner (v13 / separare-01))
+        :ARG1 (v15 / interpret-01
+            :ARG1-of (v17 / differ-02)
+            :ARG2 (v19 / evolve-02
+                :ARG1 (v21 / situation
+                    :mod (v23 / country
+                        :name (v24 / name
+                            :op1 "Austria")
+                        :wiki "Austria"))
+                :ARG0 v17))
+        :time (v7 / tomorrow)
+        :ARG0 v5))
+
+# ::id 96
+# ::snt Lei mi domanda inoltre quando il Consiglio permetterà al popolo austriaco di sottrarsi a tale pressione .
+# ::alignments 0-1|0.6 1-2|0.5 3-4|0.4 6-7|0.3 9-10|0.2 10-11|0.1+0.1.0+0.1.0.0+0.1.1+0.1.0.0+0.1.1 12-13|0 14-15|0.0.0 15-16|0.0 
+(v15 / escape-01
+    :ARG1 (v19 / pressure-01
+        :mod (v17 / this))
+    :ARG0 (v11 / country
+        :name (v12 / name
+            :op1 "Austria")
+        :wiki "Austria")
+    :ARG0 (v9 / person)
+    :ARG0 (v7 / council)
+    :mod (v5 / also)
+    :domain (v3 / i)
+    :mod (v1 / you))
+
+# ::id 97
+# ::snt Non si può pretendere , tuttavia , che tutti i membri dei governi dell' Unione europea siano contenti di sedere accanto a figure che essi considerano seguaci di ideologie in grado di richiamare alla memoria vicende storiche del passato e di risvegliare i fantasmi della vecchia Europa .
+# ::alignments 0-1|0.0 2-3|0 3-4|0.1 8-9|0.1.0.0 10-11|0.1.0 12-13|0.1.0.1+0.1.0.1.0 14-16|0.1.0.2+0.1.0.2.0+0.1.0.2.0.0+0.1.0.2.0.1+0.1.0.2.1 19-20|0.2.1 26-27|0.2 28-29|0.2.0 34-35|0.2.0.0.1.0 35-36|0.2.0.0.1 36-37|0.2.0.0.1.1 38-39|0.2.0.0.0 39-40|0.2.0.0 41-42|0.2.0.0.2 43-44|0.2.0.0.2.0 45-46|0.2.0.0.2.0.0.2 46-47|0.2.0.0.2.0.0+0.2.0.0.2.0.0.0+0.2.0.0.2.0.0.0.0+0.2.0.0.2.0.0.1+0.2.0.0.2.0.0.0.0+0.2.0.0.2.0.0.1 
+(v1 / possible-01
+    :polarity -
+    :ARG1 (v3 / expect-01
+        :ARG1 (v7 / state
+            :quant (v5 / all)
+            :poss (v9 / government-organization
+                :ARG0-of (v10 / govern-01))
+            :poss (v13 / organization
+                :name (v14 / name
+                    :op1 "European"
+                    :op2 "Union")
+                :wiki "European_Union")))
+    :ARG1 (v19 / follow-01
+        :ARG1 (v21 / ideology
+            :mod (v31 / and
+                :op1 (v29 / past)
+                :op1 (v25 / affair
+                    :mod (v23 / memory)
+                    :mod (v27 / history
+                        :ARG0 v23))
+                :ARG1-of (v33 / pull-01
+                    :ARG1 (v35 / ghost
+                        :location (v39 / continent
+                            :name (v40 / name
+                                :op1 "Europe")
+                            :wiki "Europe"
+                            :mod (v37 / old)))
+                    :ARG0 v29)))
+        :ARG1 (v17 / take-01)))
+
+# ::id 98
+# ::snt Ciò riguarda il modo di sentire di ognuno .
+# ::alignments 0-1|0.0 7-8|0 
+(v3 / each
+    :domain (v1 / this))
+
+# ::id 99
+# ::snt Da parte mia , non desidero sedermi accanto a fascisti .
+# ::alignments 4-5|0.1 5-6|0+0.0 6-7|0.2 9-10|0.2.0 
+(v1 / like-02
+    :ARG0 (v2 / i)
+    :polarity -
+    :ARG1 (v5 / sedere
+        :mod "Fascists"
+        :ARG0 v2))
+
