@@ -131,7 +131,7 @@ class State:
 
     def apply(self, action):
         if action.name == "shift":
-            pred = self.nextSubgraph()
+            #pred = self.nextSubgraph()
             token = self.buffer.consume()
             sg = action.argv.get()
             #pred2 = pred.get_str(None, Variables())
