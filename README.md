@@ -14,7 +14,7 @@ TODO: TABLE OF PERFORMANCE
 
 # Run the parser with pretrained model
 
-Note: the input file must contain sentences (one sentence for line), see ```contrib/sample-sentences.txt``` for example.
+Note: the input file must contain sentences (one sentence for line), see ```contrib/sample-sentences.txt``` for example. All following commands should be run from the parser root directory.
 
 Preprocessing:
 ```
@@ -33,7 +33,7 @@ Parsing:
 ```
 python parser.py -l [en|it|de|es|zh] -f <file> -m <model_dir>
 ``` 
-If you wish to have the list of all nodes and edges in a JAMR-like format, add option ```-n```. Without ```-m``` the parser uses the model provided in the directory ```LDC2015E86```.
+If you wish to have the list of all nodes and edges in a JAMR-like format, add option ```-n```. Without ```-m``` the parser uses the model provided in the directory ```ENGLISH```. For Spanish, you need to specify the model ```SPANISH```, for Italian ```ITALIAN```, for German ```GERMAN``` and for Chinese ```CHINESE```.
 
 *Mac users: the pretrained models seem to have compatibility errors when running on Mac OS X.*
 
