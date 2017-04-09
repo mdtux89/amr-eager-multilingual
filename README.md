@@ -24,14 +24,14 @@ Preprocessing:
 If not specified, the default language is English. You should get the output files in the same directory as the input files, with the prefix ```<sentences_file>``` and extensions ```.out``` and ```.sentences```.
 
 ```
-python preprocessing.py -f <sentences_file> -l [en|it|de|es|zh]
+python preprocessing.py -l [en|it|de|es|zh] -f <sentences_file>
 ```
 
 You should get the output files in the same directory as the input files, with the prefix ```<sentences_file>``` and extensions ```.tokens.p```, ```.dependencies.p```.
 
 Parsing:
 ```
-python parser.py -f <file> -m <model_dir> -l [en|it|de|es|zh]
+python parser.py -l [en|it|de|es|zh] -f <file> -m <model_dir>
 ``` 
 If you wish to have the list of all nodes and edges in a JAMR-like format, add option ```-n```. Without ```-m``` the parser uses the model provided in the directory ```LDC2015E86```.
 
