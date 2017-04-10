@@ -88,6 +88,8 @@ def main(args):
     loadModels(args.lang)
 
     for idx in range(0, len(alltokens)):
+	if idx < 8973:
+		continue
         ununderscored = []
         sent_ranges = {}
         i = 0
@@ -96,8 +98,9 @@ def main(args):
             sent_ranges[t] = str(i) + "-" + str(i + len(units))
             ununderscored.extend(units)
             i += len(units)
+
         sys.stderr.write("Sentence " + str((idx + 1)) + ": " + " ".join([t for t in ununderscored]) + "\n")
-        
+         
         if args.oracle:
             data = (copy.deepcopy(alltokens[idx]), copy.deepcopy(alldependencies[idx]), copy.deepcopy(allrelations[idx]), copy.deepcopy(allalignments[idx]))
             t = TransitionSystem(embs, data, "ORACLETEST", args.lang)    

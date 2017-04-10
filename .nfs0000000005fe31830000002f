@@ -7,7 +7,7 @@
 
 JAMR="/disk/ocean/public/tools/jamr2016/"
 CORENLP="stanford-corenlp-full-2015-12-09/"
-FASTALIGN="/disk/ocean/public/tools/fast_align/build" # if you don't know why is this here, just ignore it, you don't need it
+#FASTALIGN="/disk/ocean/public/tools/fast_align/build"
 
 if [[ "$JAMR" != "" ]];
 then
@@ -53,13 +53,13 @@ then
 	cat "$1.tmp" | grep '# ::tok ' | sed 's/^# ::tok //' > "$1.sentences_en"
 	cat "$1.tmp" | grep '# ::alignments ' | grep '::annotator Aligner' | sed 's/^# ::alignments //' | cut -d":" -f1 > "$1.alignments_en"
 	python combine.py "$1.sentences_en" "$1.sentences" > "$1.parallel"
-    resources="resources_zh"
-	if [ ! -e "$resources/fwd_params" ]; 
+
+	if [ ! -e "resources/fwd_params" ]; 
 	then
-		echo "NEED TO RUN fastalign_train.sh FIRST!"
+		echo "NEED TO TRAIN FASTALIGN FIRST!"
 		exit
-    fi	
-	${FASTALIGN}/force_align.py $resources/fwd_params $resources/fwd_err $resources/rev_params $resources/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
+        fi	
+	${FASTALIGN}/force_align.py resources/fwd_params resources/fwd_err resources/rev_params resources/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
 	python transfer_alignments.py "$1.alignments_en" "$1.wordalign" > "$1.alignments"
 
 	rm "$1.sentences_en"

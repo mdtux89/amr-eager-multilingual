@@ -1,0 +1,1 @@
+java -mx6g -cp "stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props "chinese.properties" -file "data/ted-train.zh" -outputFormat text -replaceExtension --outputDirectory "data"

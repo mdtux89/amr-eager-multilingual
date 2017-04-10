@@ -37,22 +37,22 @@ workdir=$(dirname $1)
 
 if [[ $SENTS -eq "0" ]];
 then
-	echo "Extracting AMR graphs.."
-	cat $1 | grep -v '^#' > "$1.graphs"
+	#echo "Extracting AMR graphs.."
+	#cat $1 | grep -v '^#' > "$1.graphs"
 
-	if [[ $JAMR != "" ]];
-	then
-		echo "Running JAMR aligner.."
-		source $JAMR/scripts/config.sh
-		$JAMR/scripts/ALIGN.sh < "$1" > "$1.tmp"
-	else
-		echo "JAMR path not specified"
-	fi
+	#if [[ $JAMR != "" ]];
+	#then
+	#	echo "Running JAMR aligner.."
+	#	source $JAMR/scripts/config.sh
+	#	$JAMR/scripts/ALIGN.sh < "$1" > "$1.tmp"
+	#else
+	#	echo "JAMR path not specified"
+	#fi
 
-	cat "$1.tmp" | grep '# ::tok-zh ' | sed 's/^# ::tok-zh //' > "$1.sentences"
-	cat "$1.tmp" | grep '# ::tok ' | sed 's/^# ::tok //' > "$1.sentences_en"
-	cat "$1.tmp" | grep '# ::alignments ' | grep '::annotator Aligner' | sed 's/^# ::alignments //' | cut -d":" -f1 > "$1.alignments_en"
-	python combine.py "$1.sentences_en" "$1.sentences" > "$1.parallel"
+	#cat "$1.tmp" | grep '# ::tok-zh ' | sed 's/^# ::tok-zh //' > "$1.sentences"
+	#cat "$1.tmp" | grep '# ::tok ' | sed 's/^# ::tok //' > "$1.sentences_en"
+	#cat "$1.tmp" | grep '# ::alignments ' | grep '::annotator Aligner' | sed 's/^# ::alignments //' | cut -d":" -f1 > "$1.alignments_en"
+	#python combine.py "$1.sentences_en" "$1.sentences" > "$1.parallel"
     resources="resources_zh"
 	if [ ! -e "$resources/fwd_params" ]; 
 	then

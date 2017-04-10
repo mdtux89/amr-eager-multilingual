@@ -24,7 +24,6 @@ case $key in
 esac
 shift # past argument or value
 done
-
 ./preprocessing_"$LANGUAGE".sh $SENTS $ALIGNED -f $FILE 
 #./preprocessing_en.sh $SENT $ALIGNED -l $LANGUAGE $1 
 

@@ -7,7 +7,7 @@
 
 JAMR="/disk/ocean/public/tools/jamr2016/"
 CORENLP="stanford-corenlp-full-2015-12-09/"
-#FASTALIGN="/disk/ocean/public/tools/fast_align/build"
+FASTALIGN="/disk/ocean/public/tools/fast_align/build" # if you don't know why is this here, just ignore it, you don't need it
 
 if [[ "$JAMR" != "" ]];
 then
@@ -56,9 +56,9 @@ then
 
 	if [ ! -e "resources/fwd_params" ]; 
 	then
-		echo "NEED TO TRAIN FASTALIGN FIRST!"
+        echo "NEED TO RUN fastalign_train.sh FIRST!"
 		exit
-        fi	
+    fi	
 	${FASTALIGN}/force_align.py resources/fwd_params resources/fwd_err resources/rev_params resources/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
 	python transfer_alignments.py "$1.alignments_en" "$1.wordalign" > "$1.alignments"
 
