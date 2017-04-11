@@ -61,6 +61,7 @@ then
     fi	
 	${FASTALIGN}/force_align.py $resources/fwd_params $resources/fwd_err $resources/rev_params $resources/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
 	python transfer_alignments.py "$1.alignments_en" "$1.wordalign" > "$1.alignments"
+    exit
 	rm "$1.sentences_en"
 	rm "$1.alignments_en"
 	rm "$1.wordalign"

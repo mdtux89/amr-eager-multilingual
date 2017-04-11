@@ -36,7 +36,7 @@ def transfer(line, wordal):
 						al[start2] = defaultdict(list)
 					if segment not in al[start2][end2]:
 						al[start2][end2].append(segment)
-	print al
+	#print al
 	for index in al.keys():
 		lst = []
 		max_i = index
@@ -48,13 +48,10 @@ def transfer(line, wordal):
 	print ""
 	#raw_input()
 #transfer("0-1|0 3-4|0.0","0-0 1-0 2-1 3-2")
-transfer("0-1|0 1-2|0.0","0-0 0-1 1-0")
-# if __name__ == "__main__":
+#transfer("0-1|0 1-2|0.0","0-0 0-1 1-0")
+if __name__ == "__main__":
 
-# 	amr_align = sys.argv[1]
-# 	word_align = sys.argv[2]
-# 	for line in zip(open(amr_align),open(word_align)):
-# 		#print "->",line[0]
-# 		#print amr_align
-# 		transfer(line[0],line[1])
-# 		#raw_input()
+    amr_align = sys.argv[1]
+    word_align = sys.argv[2]
+    for line in zip(open(amr_align),open(word_align)):
+        transfer(line[0],line[1])

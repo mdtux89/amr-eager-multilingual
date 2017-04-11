@@ -25,8 +25,9 @@ def normalize(token):
         token = token.replace(",",".")
     return token
 
-def run_single(parse):
-    data = AMRDataset(parse)
+def run_single(parse, language):
+    amrdata = __import__("amrdata_" + language)
+    data = amrdata.AMRDataset(parse,  False, demo = True)
     sentence = data.getAllSents()[0]
     buftokens = []
     indexes = [-1]*len(sentence.tokens)

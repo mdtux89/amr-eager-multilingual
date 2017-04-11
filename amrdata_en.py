@@ -37,11 +37,16 @@ class AMRDataset:
             v2c[n] = v
         return v2c
 
-    def __init__(self, prefix, amrs, normalize = True):
+    def __init__(self, prefix, amrs, demo = False, normalize = True):
         self.normalize = normalize
         self.sentences = []
 
-        alltokens, allpos, alllemmas, allnes, alldepslines = self._loadFromFile(prefix + ".out")
+        if demo:
+             blocks = prefix.split("\n\n")
+        else:
+             blocks = open(prefix + ".out", 'r').read().split("\n\n")
+        alltokens, allpos, alllemmas, allnes, alldepslines = self._loadFromCoreNLP(blocks)
+
         if amrs:
             allgraphs = open(prefix + ".graphs").read().split("\n\n")
             a = Alignments(prefix + ".alignments", allgraphs)
@@ -96,13 +101,12 @@ class AMRDataset:
     def getAllSents(self):
         return self.sentences
 
-    def _loadFromFile(self, stanfordOutput):
+    def _loadFromCoreNLP(self, blocks):
         alltokens = []
         allpos = []
         alllemmas = []
         allnes = []
         alldepslines = []
-        blocks = open(stanfordOutput, 'r').read().split("\n\n")
         while True:
             if len(blocks) == 1:
                 break
