@@ -78,7 +78,6 @@ class Stack:
                 ret.append(self.embs.words.get(item.constant))
             else:
                 ret.append(self.embs.words.get(item.concept))
-
         for i in range(len(ret), origK):
             ret.append(self.embs.words.get("<NULL>"))
         return ret

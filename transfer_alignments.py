@@ -49,8 +49,8 @@ def transfer(line, wordal):
 	#raw_input()
 #transfer("0-1|0 3-4|0.0","0-0 1-0 2-1 3-2")
 #transfer("0-1|0 1-2|0.0","0-0 0-1 1-0")
+#transfer("0-1|0.0.2.0 1-2|0.0.2 3-4|0.0.1 4-5|0.0.0.0 5-6|0.0.0 6-7|0.0 7-8|0.1.0 8-9|0.1 10-11|0.2", "0-0 1-2 2-3 3-4 4-6 5-7 6-8 7-10 8-11 9-12 10-14") 
 if __name__ == "__main__":
-
     amr_align = sys.argv[1]
     word_align = sys.argv[2]
     for line in zip(open(amr_align),open(word_align)):

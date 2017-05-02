@@ -61,7 +61,7 @@ class State:
         token = self.buffer.peek()
         word_pos = token.word + "_" + token.pos
         lemma_pos = token.lemma + "_" + token.pos
-
+      
         #TRICK FOR SEMICOLONS
         if token.word == ";":
             if self.semicol_gen_and:
@@ -330,7 +330,7 @@ class State:
             else:
                 deps.append(self.embs.deps.get(self.dependencies.isArc(node1.token,node2.token,[])))
                 deps.append(self.embs.deps.get(self.dependencies.isArc(node2.token,node1.token,[])))
-        
+
         return np.array(digits, dtype=np.float64), np.array(words, dtype=np.float64), np.array(pos, dtype=np.float64), np.array(deps, dtype=np.float64)
 
     def reentr_features(self):

@@ -42,7 +42,6 @@ workdir=$(dirname $1)
 
 if [[ $SENTS -eq "1" ]];
 then
-	echo ${TOKENIZER}" "$1
 	"${TOKENIZER}" < "$1" | sed -E 's/(^# ::.*)cannot/\1can not/g' > "$1.sentences"
 
 else

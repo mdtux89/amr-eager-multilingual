@@ -18,6 +18,7 @@ from embs import Embs
 from resources import Resources
 import sys
 import argparse
+import re
 
 def collect(prefix, language, model_dir):
     Resources.init_table(model_dir, True)

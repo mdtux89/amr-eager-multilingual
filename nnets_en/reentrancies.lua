@@ -23,6 +23,7 @@ function loadDataset(dataFileTrain, dataFileValid, nclasses, wordsDataLength, po
   wordsDataOffset = 1
   posDataOffset = wordsDataLength + wordsDataOffset
   depsDataOffset = posDataOffset + posDataLength
+
   cls = {}
   for i=1,nclasses do
     table.insert(cls, i)
@@ -84,9 +85,6 @@ function loadDataset(dataFileTrain, dataFileValid, nclasses, wordsDataLength, po
       xd[i] = inp[{{depsDataOffset, nFeats}}]
       i = i + 1
   end
-  print(xb:size())
-  print(xc:size())
-  print(xd:size())
   local validInput = dp.ListView({dp.DataView('bf', xb), dp.DataView('bf', xc), dp.DataView('bf', xd)})
   local validTarget = dp.ClassView('b', y)
 
@@ -132,7 +130,7 @@ function loadExperiment(opt, dictSizeWords, dictSizePos, dictSizeDeps, outputSiz
         words = nn.Sequential()
         wordsdict = nn.LookupTable(dictSizeWords, opt.inputEmbeddingSizeWords)
         i = 1
-        for line in io.lines("resources/wordembs.txt") do
+        for line in io.lines("resources_en/wordembs.txt") do
           vals = line:csvline()
           wordsdict.weight[i] = vals
           i = i + 1
@@ -304,7 +302,7 @@ end
 nDeps = nDeps + 3
 
 local nPos = 0
-for line in io.lines("resources/postags.txt") do
+for line in io.lines("resources_en/postags.txt") do
     nPos = nPos + 1
 end
 nPos = nPos + 3
@@ -314,5 +312,5 @@ train = opt.model_dir .. "/reentr_dataset_train.txt"
 valid = opt.model_dir .. "/reentr_dataset_valid.txt"
 dataset = loadDataset(train, valid, 2, 3, 3, 6)
 
-xp = loadExperiment(opt, 118835, nPos, nDeps, 2, 3, 3, 6)
+xp = loadExperiment(opt, 122748, nPos, nDeps, 2, 3, 3, 6)
 xp:run(dataset)

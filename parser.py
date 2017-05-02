@@ -88,8 +88,6 @@ def main(args):
     loadModels(args.lang)
 
     for idx in range(0, len(alltokens)):
-	if idx < 8973:
-		continue
         ununderscored = []
         sent_ranges = {}
         i = 0

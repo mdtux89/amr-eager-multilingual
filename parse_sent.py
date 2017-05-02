@@ -79,7 +79,7 @@ def run(sentence, language):
         #sent = subprocess.check_output(('cdec-master/corpus/tokenize-anything.sh'), stdin=ps.stdout)
         #ps.wait() 
     elif language == 'it':
-        model_dir = "ITALIAN_gpu"
+        model_dir = "ITALIAN"
         parse = subprocess.check_output(['./tintnlp.sh', sentence])
     elif language == 'es':
         model_dir = "SPANISH"
@@ -138,9 +138,9 @@ def run(sentence, language):
     return output
 
 
-#run ("The boy doesn't want to go", "en")
-print run("Il ragazzo non vuole andare", "it")
-#run ("Der Junge will nicht gehen", "de")
-#run ("El chico no quiere ir", es)
-#run ("男孩不想去", zh)
+print run ("The boy doesn't want to go", "en")
+#print run("Il ragazzo non vuole andare", "it")
+#print run ("Der Junge will nicht gehen", "de")
+#print run ("El chico no quiere ir", es)
+#print run ("男孩不想去", zh)
 

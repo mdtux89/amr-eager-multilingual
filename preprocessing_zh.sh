@@ -69,6 +69,7 @@ then
 else
 	cp "$1" "$1.sentences"
 fi
+
 echo "Running CoreNLP.."
 python fullstops.py "$1.sentences"
 java -mx9g -cp "$CORENLP/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props "chinese.properties" -file "$1.sentences" -outputFormat text -replaceExtension --outputDirectory "$workdir"

@@ -48,12 +48,14 @@ class PretrainedEmbs:
         self.dim = dim
         self.punct = punct
         self.nullemb = nullemb
+        self.vecs = {}
 
         if generate:
             fw = open(initializationFileOut, "w")
         for line in open(initializationFileIn).readlines()[2:]: # first two lines are not actual embeddings
             v = line.split()
             word = v[0]
+            self.vecs[word] = " ".join(v[1:])
             if self.prepr:
                 word = self._preprocess(word)
             if word in self.indexes:
@@ -166,6 +168,16 @@ class RndInitLearnedEmbs:
 
 class Embs:
 
+    def _create_concept_vec(self, wordembs, conceptembs, propbank, wordvecs):
+        fw = open(conceptembs, "w") 
+        for line in open(wordembs):
+            fw.write(line.strip() + "\n")
+        for p in open(propbank):
+            p2 = p.split("-")[0] 
+            if p2 in wordvecs.indexes:
+                fw.write(p.strip() + " " + wordvecs.vecs[p2] + "\n")
+        fw.close()
+            
     def __init__(self, resources_dir, model_dir, generate = False):
         random.seed(0)
         punct100 = [float(0.02*random.random())-0.01 for i in xrange(100)]
@@ -183,7 +195,6 @@ class Embs:
 
         punct50 = [float(0.02*random.random())-0.01 for i in xrange(50)]
 
-        
         self.deps = RndInitLearnedEmbs(model_dir + "/dependencies.txt")
         self.pos =  RndInitLearnedEmbs(resources_dir + "/postags.txt")
         self.words = PretrainedEmbs(generate, resources_dir + "/wordvec50.txt", resources_dir + "/wordembs.txt", 50, unk50, root50, null50, True, punct50)

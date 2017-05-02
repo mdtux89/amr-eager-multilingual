@@ -1,7 +1,7 @@
 import re
 def run():
-    amr = open("../amr-eager-github/data/deeuroparl-test.en.parsed").read().split("\n\n")
-    de = open("data/deeuroparl-test.out").read().split("\n\n")
+    amr = open("data/deub2-train.en.parsed").read().split("\n\n")
+    de = open("data/deub2-train.en.out").read().split("\n\n")
 
     for sentence, annot in zip(de, amr):
         tokens = []

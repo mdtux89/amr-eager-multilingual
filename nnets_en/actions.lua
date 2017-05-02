@@ -136,7 +136,7 @@ function loadExperiment(opt, dictSizeWords, dictSizePos, dictSizeDeps, outputSiz
         words = nn.Sequential()
         wordsdict = nn.LookupTable(dictSizeWords, opt.inputEmbeddingSizeWords)
         i = 1
-        for line in io.lines("resources/wordembs.txt") do
+        for line in io.lines("resources_en/wordembs.txt") do
           vals = line:csvline()
           wordsdict.weight[i] = vals
           i = i + 1
@@ -309,7 +309,7 @@ end
 nDeps = nDeps + 3
 
 local nPos = 0
-for line in io.lines("resources/postags.txt") do
+for line in io.lines("resources_en/postags.txt") do
     nPos = nPos + 1
 end
 nPos = nPos + 3
@@ -319,5 +319,5 @@ train = opt.model_dir .. "/dataset_train.txt"
 valid = opt.model_dir .. "/dataset_valid.txt"
 dataset = loadDataset(train, valid, 4, 72, 12, 4, 18)
 
-xp = loadExperiment(opt, 118835, nPos, nDeps, 4, 72, 12, 4, 18)
+xp = loadExperiment(opt, 122748, nPos, nDeps, 4, 72, 12, 4, 18)
 xp:run(dataset)
