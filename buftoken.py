@@ -25,7 +25,7 @@ class BufToken:
         return other is not None and self.word == other.word and self.lemma == other.lemma and self.pos == other.pos and self.ne == other.ne and self.index == other.index 
 
     def __repr__(self):
-        return '<%s %s %s %s %s %s %s %s>' % (
+        return '<%s %s %s %s %s %s %s>' % (
             self.__class__.__name__, str(self.word), str(self.lemma), self.ne, self.pos, self.index, self.nodes)
 
     def __hash__(self):

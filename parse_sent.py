@@ -69,7 +69,7 @@ def to_string(triples, root):
         return "(e / emptygraph)", defaultdict(list), []
     return _to_string(triples, children[0][3] + " / " + children[0][4], 1, False, [], "0", defaultdict(list), [])
 
-def run(sentence, language):
+def run(sentence, language='en'):
     #sentence = subprocess.check_output(['cdec-master/corpus/tokenize-anything.sh', sentence])
     loadModels(language)
     if language == 'en':
@@ -138,9 +138,9 @@ def run(sentence, language):
     return output
 
 
-print run ("The boy doesn't want to go", "en")
+#print run ("The boy doesn't want to go", "en")
 #print run("Il ragazzo non vuole andare", "it")
 #print run ("Der Junge will nicht gehen", "de")
-#print run ("El chico no quiere ir", es)
-#print run ("男孩不想去", zh)
+#print run ("El chico no quiere ir", "es")
+#print run ("男孩不想去", "zh")
 

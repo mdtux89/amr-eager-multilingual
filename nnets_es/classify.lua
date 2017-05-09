@@ -28,7 +28,6 @@ end
 local Classify = torch.class('Classify')
 
 function Classify:__init(model_dir)
-  cutorch.setDevice(1)
   xp = torch.load(model_dir .. "/labels.dat")
   model_labels = xp:model()
   model_labels:evaluate()

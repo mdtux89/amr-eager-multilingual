@@ -45,6 +45,7 @@ class AMRDataset:
              blocks = prefix.split("\n\n")
         else:
              blocks = open(prefix + ".out", 'r').read().split("\n\n")
+
         alltokens, allpos, alllemmas, allnes, alldepslines = self._loadFromCoreNLP(blocks)
 
         if amrs:
