@@ -1,8 +1,0 @@
-Sentence #1 (1 tokens):
-Der
-[Text=Der CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=ART Lemma=der NamedEntityTag=O]
-(ROOT
-  (NUR (ART Der)))
-
-root(ROOT-0, Der-1)
-
