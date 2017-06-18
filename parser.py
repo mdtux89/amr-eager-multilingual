@@ -85,7 +85,7 @@ def main(args):
         allrelations = pickle.load(open(prefix + ".relations.p", "rb"))
         allalignlines = open(prefix + ".alignments").read().splitlines()
     
-    loadModels(args.lang)
+    loadModels()
 
     for idx in range(0, len(alltokens)):
         ununderscored = []

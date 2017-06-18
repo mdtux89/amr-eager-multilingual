@@ -69,73 +69,61 @@ def to_string(triples, root):
         return "(e / emptygraph)", defaultdict(list), []
     return _to_string(triples, children[0][3] + " / " + children[0][4], 1, False, [], "0", defaultdict(list), [])
 
+loadModels()
+
 def run(sentence, language='en'):
-    #sentence = subprocess.check_output(['cdec-master/corpus/tokenize-anything.sh', sentence])
-    loadModels(language)
-    if language == 'en':
-        model_dir = "ENGLISH"
-        parse = subprocess.check_output(['./corenlp.sh', sentence])
-        #ps = subprocess.Popen(('echo', sent), stdout=subprocess.PIPE)
-        #sent = subprocess.check_output(('cdec-master/corpus/tokenize-anything.sh'), stdin=ps.stdout)
-        #ps.wait() 
-    elif language == 'it':
-        model_dir = "ITALIAN"
-        parse = subprocess.check_output(['./tintnlp.sh', sentence])
-    elif language == 'es':
-        model_dir = "SPANISH"
-        parse = subprocess.check_output(['./freelingnlp.sh', sentence])
-        #ps = subprocess.Popen(('echo', sent), stdout=subprocess.PIPE)
-        #sent = subprocess.check_output(('cdec-master/corpus/tokenize-anything.sh'), stdin=ps.stdout)
-        #ps.wait()
-    elif language == 'de':
-        model_dir = "GERMAN"
-        parse = subprocess.check_output(['./corenlp_de.sh', sentence])
-        #ps = subprocess.Popen(('echo', sent), stdout=subprocess.PIPE)
-        #sent = subprocess.check_output(('cdec-master/corpus/tokenize-anything.sh'), stdin=ps.stdout)
-        #ps.wait()
-    elif language == 'zh':
-        model_dir = "CHINESE"
-        parse = subprocess.check_output(['./corenlp_zh.sh', sentence])
-        #ps = subprocess.Popen(('echo', sent), stdout=subprocess.PIPE)
-        #sent = subprocess.check_output(('cdec-master/corpus/tokenize-anything.sh'), stdin=ps.stdout)
-        #ps.wait()
-   
-    dependencies, tokens = preprocessing.run_single(parse, language)
+    try:
+        if language == 'en':
+            model_dir = "ENGLISH"
+            parse = subprocess.check_output(['./corenlp.sh', sentence])
+        elif language == 'it':
+            model_dir = "ITALIAN"
+            parse = subprocess.check_output(['./tintnlp.sh', sentence])
+        elif language == 'es':
+            model_dir = "SPANISH"
+            parse = subprocess.check_output(['./freelingnlp.sh', sentence])
+        elif language == 'de':
+            model_dir = "GERMAN"
+            parse = subprocess.check_output(['./corenlp_de.sh', sentence])
+        elif language == 'zh':
+            model_dir = "CHINESE"
+            parse = subprocess.check_output(['./corenlp_zh.sh', sentence])
 
-    Resources.init_table(model_dir, False)
-    embs = Embs("resources_" + language + "/", model_dir)
+        dependencies, tokens = preprocessing.run_single(parse, language)
+        Resources.init_table(model_dir, False)
+        embs = Embs("resources_" + language + "/", model_dir)
+        data = (copy.deepcopy(tokens), copy.deepcopy(dependencies))
+        ununderscored = []
+        sent_ranges = {}
+        i = 0
+        for t in tokens:
+            units = t.word.split("_")
+            sent_ranges[t] = str(i) + "-" + str(i + len(units))
+            ununderscored.extend(units)
+            i += len(units)
+        t = TransitionSystem(embs, data, "PARSE", language, model_dir)
+        triples = t.relations()
+        output = ""
+        if triples == []:
+            return "# ::snt " + " ".join([t for t in ununderscored]) + "\n" + "(v / emptygraph)\n"
 
-    data = (copy.deepcopy(tokens), copy.deepcopy(dependencies))
-    ununderscored = []
-    sent_ranges = {}
-    i = 0
-    for t in tokens:
-        units = t.word.split("_")
-        sent_ranges[t] = str(i) + "-" + str(i + len(units))
-        ununderscored.extend(units)
-        i += len(units)
-    t = TransitionSystem(embs, data, "PARSE", language, model_dir)
+        graph, graph_indexes, nodes = to_string(triples, "TOP")
+        output = str(graph)
+        if output.startswith("(") == False:
+            return "# ::snt " + " ".join([t for t in ununderscored]) + "\n" + "(v / " + output + ")"
 
-    triples = t.relations()
-    output = ""
-    if triples == []:
-        return "# ::snt " + " ".join([t for t in ununderscored]) + "\n" + "(v / emptygraph)\n"
-
-    graph, graph_indexes, nodes = to_string(triples, "TOP")
-    output = str(graph)
-    if output.startswith("(") == False:
-        return "# ::snt " + " ".join([t for t in ununderscored]) + "\n" + "(v / " + output + ")"
-
-    align_line = ""
-    for t, nodes in t.alignments():
-        if len(nodes) > 0:
-            align_line += sent_ranges[t] + "|"
-            for n in nodes:
-                for i in graph_indexes[n]:
-                    align_line += i + "+"
-                align_line = align_line[0:-1] + " "
-    output = "# ::snt " + " ".join([t for t in ununderscored]) + "\n# ::alignments " + align_line + "\n" + output
-    return output
+        align_line = ""
+        for t, nodes in t.alignments():
+            if len(nodes) > 0:
+                align_line += sent_ranges[t] + "|"
+                for n in nodes:
+                    for i in graph_indexes[n]:
+                        align_line += i + "+"
+                    align_line = align_line[0:-1] + " "
+        output = "# ::snt " + " ".join([t for t in ununderscored]) + "\n# ::alignments " + align_line + "\n" + output
+        return output
+    except:
+        return None
 
 
 #print run ("The boy doesn't want to go", "en")

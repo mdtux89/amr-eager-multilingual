@@ -28,9 +28,9 @@ import copy
 
 Classify = None
 
-def loadModels(language):
+def loadModels():
     global Classify
-    Classify = PyTorchHelpers.load_lua_class('nnets_' + language + '/classify.lua', 'Classify')
+    Classify = PyTorchHelpers.load_lua_class('nnets/classify.lua', 'Classify')
 
 class TransitionSystem:
 

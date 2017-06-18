@@ -26,14 +26,15 @@ def main():
     lang = request.args.get('lang')
     graph = None
     if form.validate_on_submit():
-        try:
+        if hasattr(form.input_sent, 'lang'):
             graph = parse_sent.run(form.input_sent.data, form.input_sent.lang)
-        except:
+        else:
+            #compatability with older site
             graph = parse_sent.run(form.input_sent.data)
-        # sent = form.input_sent.data
+
     elif sent is not None:
-	if lang is None:
-	    lang = 'en'
+        if lang is None:
+            lang = 'en'
         graph = parse_sent.run(sent, lang)
         if graph is not None:
             app.logger.info('Input: ' + sent)
@@ -45,7 +46,9 @@ def main():
             os.remove("tmp" + last + ".png")
             link = "http://bollin.inf.ed.ac.uk:9010/amreager?lang=" + lang + "&sent=" + "+".join([t for t in sent.split()])
             return jsonify({'graph': graph.replace("\n","<br/>").replace(" ","&nbsp;"), 'png': base64.b64encode(binpng), 'link': link}, sort_keys=True, indent=4, separators=(',', ': '))
-    
+        else:
+            return jsonify({'graph': 'ERROR', 'png': '', 'link': ''}, sort_keys=True, indent=4, separators=(',', ': ')) 
+        
     return render_template('sentence.html',form=form)
 
 @app.route('/', methods=['GET', 'POST'])
@@ -55,13 +58,14 @@ def main2():
     lang = request.args.get('lang')
     graph = None
     if form.validate_on_submit():
-        try:
+        if hasattr(form.input_sent, 'lang'):
             graph = parse_sent.run(form.input_sent.data, form.input_sent.lang)
-        except:
+        else:
+            #compatability with older site
             graph = parse_sent.run(form.input_sent.data)
-        sent = form.input_sent.data
+            
     elif sent is not None:
-	if lang is None:
+        if lang is None:
             lang = 'en'
         graph = parse_sent.run(sent, lang)
         if graph is not None:
@@ -74,7 +78,8 @@ def main2():
             os.remove("tmp" + last + ".png")
             link = "<span id ='link' style='height:150;width:162;background-color:pink'> http://bollin.inf.ed.ac.uk:9010?lang" + lang + "&sent=" + "+".join([t for t in sent.split()]) + "</span>"
             return render_template('sentence.html', form=form, graph=graph.replace("\n","<br/>").replace(" ","&nbsp;"),png="<img src=\"data:image/png;base64," + base64.b64encode(binpng) + "\">", link="<b>Link:</b> " + link + " <button onClick=\"ClipBoard();\">Copy to Clipboard</button>")
-        
+        else:
+            return jsonify({'graph': 'ERROR', 'png': '', 'link': ''}, sort_keys=True, indent=4, separators=(',', ': '))
     return render_template('sentence.html',form=form)
 
 
