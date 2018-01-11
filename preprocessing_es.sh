@@ -6,7 +6,7 @@
 # For preprocessing English sentences (parsing only), use: ./preprocessing.sh -s <file>
 
 JAMR="/disk/ocean/public/tools/jamr2016/"
-FREELING="FreeLing-4.0"
+FREELING="FreeLing/"
 FASTALIGN="/disk/ocean/public/tools/fast_align/build" # if you don't know why is this here, just ignore it, you don't need it
 
 if [[ "$JAMR" != "" ]];
@@ -54,12 +54,12 @@ then
 	cat "$1.tmp" | grep '# ::alignments ' | grep '::annotator Aligner' | sed 's/^# ::alignments //' | cut -d":" -f1 > "$1.alignments_en"
 	python combine.py "$1.sentences_en" "$1.sentences" > "$1.parallel"
 
-	if [ ! -e "resources/fwd_params" ]; 
+	if [ ! -e "resources_es/fwd_params" ]; 
 	then
         echo "NEED TO RUN fastalign_train.sh FIRST!"
 		exit
         fi	
-	${FASTALIGN}/force_align.py resources/fwd_params resources/fwd_err resources/rev_params resources/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
+	${FASTALIGN}/force_align.py resources_es/fwd_params resources_es/fwd_err resources_es/rev_params resources_es/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
 	python transfer_alignments.py "$1.alignments_en" "$1.wordalign" > "$1.alignments"
 
 	rm "$1.sentences_en"

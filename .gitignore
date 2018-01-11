@@ -13,10 +13,12 @@ amreval_old/
 EN*
 add_en.sh
 add_en.py
-FreeLing-4.0
+FreeLing*
 tint
+script.sh
 ENGLISH*
 GERMAN*
 CHINESE*
 SPANISH*
 ITALIAN*
+test_*

@@ -75,6 +75,7 @@ function loadDataset(dataFileTrain, dataFileValid, nclasses, wordsDataLength, po
   local y = torch.Tensor(dataSize)
 
   i = 1
+  print(dataFileValid)
   for line in io.lines(dataFileValid) do
       fields = line:split(",")
       y[i] = fields[2]
@@ -84,6 +85,7 @@ function loadDataset(dataFileTrain, dataFileValid, nclasses, wordsDataLength, po
       xd[i] = inp[{{depsDataOffset, nFeats}}]
       i = i + 1
   end
+
   local validInput = dp.ListView({dp.DataView('bf', xb), dp.DataView('bf', xc), dp.DataView('bf', xd)})
   local validTarget = dp.ClassView('b', y)
 

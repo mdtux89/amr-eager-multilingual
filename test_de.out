@@ -1,0 +1,52 @@
+Sentence #1 (4 tokens):
+Ich esse gern.
+[Text=Ich CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=PPER Lemma=ich NamedEntityTag=O]
+[Text=esse CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=VVFIN Lemma=esse NamedEntityTag=O]
+[Text=gern CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=ADV Lemma=gern NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=$. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (PPER Ich) (VVFIN esse) (ADV gern) ($. .)))
+
+root(ROOT-0, esse-2)
+nsubj(esse-2, Ich-1)
+advmod(esse-2, gern-3)
+punct(esse-2, .-4)
+
+Sentence #2 (13 tokens):
+Viele Mitgliedsländer, inklusive meines eigenen Landes, haben dies nicht getan.
+[Text=Viele CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=PIDAT Lemma=viele NamedEntityTag=O]
+[Text=Mitgliedsländer CharacterOffsetBegin=21 CharacterOffsetEnd=36 PartOfSpeech=NN Lemma=mitgliedsländer NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=$, Lemma=, NamedEntityTag=O]
+[Text=inklusive CharacterOffsetBegin=38 CharacterOffsetEnd=47 PartOfSpeech=APPR Lemma=inklusive NamedEntityTag=O]
+[Text=meines CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=PPOSAT Lemma=meines NamedEntityTag=O]
+[Text=eigenen CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=ADJA Lemma=eigenen NamedEntityTag=O]
+[Text=Landes CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=NN Lemma=landes NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=$, Lemma=, NamedEntityTag=O]
+[Text=haben CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=VAFIN Lemma=haben NamedEntityTag=O]
+[Text=dies CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=PDS Lemma=dies NamedEntityTag=O]
+[Text=nicht CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=PTKNEG Lemma=nicht NamedEntityTag=O]
+[Text=getan CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=VVPP Lemma=getan NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=$. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PIDAT Viele) (NN Mitgliedsländer))
+    ($, ,)
+    (PP (APPR inklusive) (PPOSAT meines) (ADJA eigenen) (NN Landes))
+    ($, ,) (VAFIN haben) (PDS dies) (PTKNEG nicht)
+    (VP (VVPP getan))
+    ($. .)))
+
+root(ROOT-0, getan-12)
+det(Mitgliedsländer-2, Viele-1)
+nsubj(getan-12, Mitgliedsländer-2)
+punct(Mitgliedsländer-2, ,-3)
+case(Landes-7, inklusive-4)
+det(Landes-7, meines-5)
+amod(Landes-7, eigenen-6)
+nmod(Mitgliedsländer-2, Landes-7)
+punct(Mitgliedsländer-2, ,-8)
+aux(getan-12, haben-9)
+dobj(getan-12, dies-10)
+neg(getan-12, nicht-11)
+punct(getan-12, .-13)
+

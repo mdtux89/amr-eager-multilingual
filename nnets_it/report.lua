@@ -1,4 +1,4 @@
-require 'cunn'
+--require 'cunn'
 require 'dp'
 require 'optim'
 require 'nngraph'

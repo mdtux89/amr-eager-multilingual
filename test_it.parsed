@@ -1,0 +1,31 @@
+# ::id 0
+# ::snt Noi daremo una risposta .
+# ::alignments 0-1|0.0 3-4|0 
+(v2 / answer-01
+    :ARG0 (v1 / we))
+
+# ::id 1
+# ::snt Lui è entrato nella casa .
+# ::alignments 2-3|0 4-5|0.0 
+(v1 / enter-01
+    :ARG1 (v2 / home))
+
+# ::id 2
+# ::snt Io ho paura .
+# ::alignments 0-1|0.1 1-2|0.0 2-3|0 
+(v3 / fear-01
+    :ARG0 (v2 / i)
+    :ARG0 (v1 / i))
+
+# ::id 3
+# ::snt Infine , nel 1998 , la Commissione ha adottato un' altra comunicazione .
+# ::alignments 0-1|0.2 3-4|0.1+0.1.0 6-7|0.0 8-9|0 10-11|0.3.0 11-12|0.3 
+(v4 / adopt-01
+    :ARG0 (v3 / commission)
+    :time (v2 / date-entity
+        :year 1998)
+    :time (v1 / final)
+    :ARG1 (v6 / communicate-01
+        :mod (v5 / another)
+        :ARG0 v3))
+

@@ -55,12 +55,12 @@ then
 	cat "$1.tmp" | grep '# ::alignments ' | grep '::annotator Aligner' | sed 's/^# ::alignments //' | cut -d":" -f1 > "$1.alignments_en"
 	python combine.py "$1.sentences_en" "$1.sentences" > "$1.parallel"
 
-	if [ ! -e "resources/fwd_params" ]; 
+	if [ ! -e "resources_it/fwd_params" ]; 
 	then
         echo "NEED TO RUN fastalign_train.sh FIRST!"
 		exit
     fi	
-	${FASTALIGN}/force_align.py resources/fwd_params resources/fwd_err resources/rev_params resources/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
+	${FASTALIGN}/force_align.py resources_it/fwd_params resources_it/fwd_err resources_it/rev_params resources_it/rev_err grow-diag-final-and <"$1.parallel" >"$1.wordalign"
 	python transfer_alignments.py "$1.alignments_en" "$1.wordalign" > "$1.alignments"
 
 	rm "$1.sentences_en"

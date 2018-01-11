@@ -1,0 +1,39 @@
+rels classifier	
+bollin.inf.ed.ac.uk:1492371322:1:optimizer:loss avgErr 0.013318014257412	
+bollin.inf.ed.ac.uk:1492371322:1:optimizer:loss avgErr 0.013318014257412	
+Training loss: 0.013318014257412	
+Training accuracy: 0.82663306480795	
+Validation accuracy: 0.78043506653703	
+Confusion matrix:	
+ 38073   2307   1409    872
+  5477   9402    353    411
+  1307    236   3350    155
+  2053    256    294   2954
+[torch.LongTensor of size 4x4]
+
+Accuracy SHIFT: 0.89245444536209	
+Accuracy REDUCE: 0.60103559494019	
+Accuracy LARC1: 0.66362917423248	
+Accuracy RARC1: 0.53158175945282	
+	
+labels classifier	
+bollin.inf.ed.ac.uk:1493820535:1:optimizer:loss avgErr 0.017748219773836	
+bollin.inf.ed.ac.uk:1493820535:1:optimizer:loss avgErr 0.017748219773836	
+Training loss: 0.017748219773836	
+Training accuracy: 0.81576642643847	
+Validation accuracy: 0.72230080150872	
+	
+reentr classifier	
+bollin.inf.ed.ac.uk:1494193487:1:optimizer:loss avgErr 0.010997955353711	
+bollin.inf.ed.ac.uk:1494193487:1:optimizer:loss avgErr 0.010997955353711	
+Training loss: 0.010997955353711	
+Training accuracy: 0.85956147654732	
+Validation accuracy: 0.81481481481481	
+Confusion matrix:	
+ 317   28
+  62   79
+[torch.LongTensor of size 2x2]
+
+Accuracy REENTR: 0.91884058713913	
+Accuracy NONREENTR: 0.56028366088867	
+	

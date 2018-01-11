@@ -13,5 +13,5 @@ for line in open(sys.argv[1]):
 
 fw = open(sys.argv[1], "w")
 for l in lines:
-	fw.write(l+"\n")
+    fw.write(l+"\n")
 fw.close()

@@ -1,0 +1,29 @@
+1	Tengo	tener	VMIP1S0	VMI	pos=verb|type=main|mood=indicative|tense=present|person=1|num=singular	-	-	(grup-verb:1(verb:1)	0	top	-	-
+2	envidia	envidia	NCFS000	NC	pos=noun|type=common|gen=feminine|num=singular	-	-	(sn:2(grup-nom-fs:2(n-fs:2)))	1	dobj	-	-
+3	de	de	SP	SP	pos=adposition|type=preposition	-	-	(grup-sp:3(prep:3)	1	adjt	-	-
+4	ti	ti	PP2CSO0	PP	pos=pronoun|type=personal|person=2|gen=common|num=singular|case=oblique	-	-	(ptonic:4))	3	comp	-	-
+5	.	.	Fp	Fp	pos=punctuation|type=period	-	-	(F-term:5))	1	punc	-	-
+
+1	Me	me	PP1CS00	PP	pos=pronoun|type=personal|person=1|gen=common|num=singular	-	-	(grup-verb:2(patons:1(paton-s:1))	2	mphes	-	-
+2	gustan	gustar	VMIP3P0	VMI	pos=verb|type=main|mood=indicative|tense=present|person=3|num=plural	-	-	(grup-verb:2(verb:2))	0	top	-	-
+3	uvas	uva	NCFP000	NC	pos=noun|type=common|gen=feminine|num=plural	-	-	(sn:3(grup-nom-fp:3(n-fp:3)))	2	modnomatch	-	-
+4	.	.	Fp	Fp	pos=punctuation|type=period	-	-	(F-term:4))	2	punc	-	-
+
+1	Una	uno	DI0FS0	DI	pos=determiner|type=indefinite|gen=feminine|num=singular	-	-	(sn:2(espec-fs:1(indef-fs:1))	2	spec	-	-
+2	evaluación	evaluación	NCFS000	NC	pos=noun|type=common|gen=feminine|num=singular	-	-	(grup-nom-fs:2(n-fs:2))	0	top	-	-
+3	de	de	SP	SP	pos=adposition|type=preposition	-	-	(sp-de:3	2	mod	-	-
+4	el	el	DA0MS0	DA	pos=determiner|type=article|gen=masculine|num=singular	-	-	(sn:5(espec-ms:4(j-ms:4))	5	spec	-	-
+5	impacto	impacto	NCMS000	NC	pos=noun|type=common|gen=masculine|num=singular	-	-	(grup-nom-ms:5(n-ms:5))))	3	comp	-	-
+6	de	de	SP	SP	pos=adposition|type=preposition	-	-	(sp-de:6	2	mod	-	-
+7	una	uno	DI0FS0	DI	pos=determiner|type=indefinite|gen=feminine|num=singular	-	-	(sn:8(espec-fs:7(indef-fs:7))	8	spec	-	-
+8	medida	medida	NCFS000	NC	pos=noun|type=common|gen=feminine|num=singular	-	-	(grup-nom-fs:8(n-fs:8))))	6	comp	-	-
+9	de	de	SP	SP	pos=adposition|type=preposition	-	-	(sp-de:9	2	mod	-	-
+10	este	este	DD0MS0	DD	pos=determiner|type=demonstrative|gen=masculine|num=singular	-	-	(sn:11(espec-ms:10(dem-ms:10))	11	spec	-	-
+11	tipo	tipo	NCMS000	NC	pos=noun|type=common|gen=masculine|num=singular	-	-	(grup-nom-ms:11(n-ms:11))))	9	comp	-	-
+12	sobre	sobre	SP	SP	pos=adposition|type=preposition	-	-	(grup-sp:12(prep:12)	2	mod	-	-
+13	las	el	DA0FP0	DA	pos=determiner|type=article|gen=feminine|num=plural	-	-	(sn:14(espec-fp:13(j-fp:13))	14	spec	-	-
+14	exportaciones	exportación	NCFP000	NC	pos=noun|type=common|gen=feminine|num=plural	-	-	(grup-nom-fp:14(n-fp:14))))	12	comp	-	-
+15	de	de	SP	SP	pos=adposition|type=preposition	-	-	(sp-de:15	2	mod	-	-
+16	cacao	cacao	NCMS000	NC	pos=noun|type=common|gen=masculine|num=singular	-	-	(sn:16(grup-nom-ms:16(n-ms:16)))	15	comp	-	-
+17	.	.	Fp	Fp	pos=punctuation|type=period	-	-	(F-term:17)))	15	punc	-	-
+

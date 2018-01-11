@@ -1,0 +1,33 @@
+# FIELDS: tokenid	parserid	token	lemma	pos	entity	head	deprel
+1	1	Noi	noi	PE	O	2	nsubj
+2	2	daremo	dare	V	O	0	root
+3	3	una	una	RI	O	4	det
+4	4	risposta	risposta	S	O	2	dobj
+5	5	.	[PUNCT]	FS	O	2	punct
+
+6	1	Lui	lui	PE	O	3	nsubj
+7	2	è	essere	VA	O	3	aux
+8	3	entrato	entrare	V	O	0	root
+9	4	nella	nella	E+RD	O	5	case
+10	5	casa	casa	S	O	3	nmod
+11	6	.	[PUNCT]	FS	O	3	punct
+
+12	1	Io	io	PE	O	2	nsubj
+13	2	ho	avere	V	O	0	root
+14	3	paura	paura	S	O	2	dobj
+15	4	.	[PUNCT]	FS	O	2	punct
+
+16	1	Infine	infine	B	O	9	advmod
+17	2	,	[PUNCT]	FF	O	1	punct
+18	3	nel	nel	E+RD	O	4	case
+19	4	1998	1998	N	O	9	nummod
+20	5	,	[PUNCT]	FF	O	4	punct
+21	6	la	la	RD	O	7	det
+22	7	Commissione	commissione	S	ORG	9	nsubj
+23	8	ha	avere	VA	O	9	aux
+24	9	adottato	adottare	V	O	0	root
+25	10	un'	un'	RI	O	12	det
+26	11	altra	altro	A	O	12	amod
+27	12	comunicazione	comunicazione	S	O	9	dobj
+28	13	.	[PUNCT]	FS	O	9	punct
+

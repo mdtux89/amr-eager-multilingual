@@ -1,1 +1,17 @@
-java -mx6g -cp "stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props "chinese.properties" -file "data/ted-train.zh" -outputFormat text -replaceExtension --outputDirectory "data"
+echo "1-train"
+sed -i 's/\.//g' "data/un1-train.zh"
+sed -i 's/$/ ./g' "data/un1-train.zh"
+java -mx6g -cp "stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props "chinese2.properties" -file "data/un1-train.zh" -outputFormat text -replaceExtension --outputDirectory "data"
+sed -i 's/^Sentence/\nSentence/g' "data/un1-train.out"
+
+echo "1-dev"
+sed -i 's/\.//g' "data/un1-dev.zh"
+sed -i 's/$/ ./g' "data/un1-dev.zh"
+java -mx6g -cp "stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props "chinese2.properties" -file "data/un1-dev.zh" -outputFormat text -replaceExtension --outputDirectory "data"
+sed -i 's/^Sentence/\nSentence/g' "data/un1-dev.out"
+
+echo "1-test"
+sed -i 's/\.//g' "data/un1-test.zh"
+sed -i 's/$/ ./g' "data/un1-test.zh"
+java -mx6g -cp "stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props "chinese2.properties" -file "data/un1-test.zh" -outputFormat text -replaceExtension --outputDirectory "data"
+sed -i 's/^Sentence/\nSentence/g' "data/un1-test.out"

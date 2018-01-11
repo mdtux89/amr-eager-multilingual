@@ -1,0 +1,17 @@
+# ::id 0
+# ::snt Ich esse gern .
+# ::alignments 0-1|0.0 1-2|0 
+(v2 / esse-01
+    :ARG0 (v1 / i))
+
+# ::id 1
+# ::snt Viele Mitgliedsländer , inklusive meines eigenen Landes , haben dies nicht getan .
+# ::alignments 0-1|0.2.1 1-2|0.2+0.2.0+0.2.0.0 6-7|0.1 10-11|0.0 11-12|0 
+(v6 / do-02
+    :polarity -
+    :ARG0 (v5 / country)
+    :ARG1 (v2 / state
+        :ARG0-of (v3 / have-org-role-91
+            :ARG2 (v4 / member))
+        :quant (v1 / many)))
+

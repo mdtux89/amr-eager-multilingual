@@ -1,0 +1,25 @@
+# ::id 0
+# ::snt Tengo envidia de ti .
+# ::alignments 0-1|0.0 1-2|0 
+(v2 / envy
+    :domain (v1 / i))
+
+# ::id 1
+# ::snt Me gustan uvas .
+# ::alignments 0-1|0.1 1-2|0.0 2-3|0 
+(v3 / uva
+    :mod (v2 / gustar-01)
+    :domain (v1 / i))
+
+# ::id 2
+# ::snt Una evaluación de el impacto de una medida de este tipo sobre las exportaciones de cacao .
+# ::alignments 1-2|0 4-5|0.0 9-10|0.0.0.0 10-11|0.0.0 13-14|0.0.1 15-16|0.1 
+(v1 / assess-01
+    :ARG1 (v2 / impact-01
+        :ARG1 (v4 / type
+            :mod (v3 / this))
+        :ARG1 (v5 / export-01
+            :ARG0 v4))
+    :ARG1 (v6 / cocoa
+        :ARG0 v2))
+

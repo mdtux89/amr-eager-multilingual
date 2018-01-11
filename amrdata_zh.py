@@ -111,7 +111,7 @@ class AMRDataset:
             if len(blocks) == 1:
                 break
             block = blocks.pop(0).strip().split("\n")
-
+            
             tokens = []
             lemmas = []
             nes = []
