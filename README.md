@@ -63,7 +63,7 @@ To use the evaluation script with a different parser, provide the other parser's
 
 # Annotation projection
 
-In <link to paper> we describe an annotation projection method for AMR, through which AMR data for English can be projected to other languages. This process is prone to problems in the middle, so we didn't give an end-to-end script. Therefore, before proceeding to train the model, the following manual steps must be carried out:
+In [2] we describe an annotation projection method for AMR, through which AMR data for English can be projected to other languages. This process is prone to problems in the middle, so we didn't give an end-to-end script. Therefore, before proceeding to train the model, the following manual steps must be carried out:
 
 - Install fast_align
 - Changing the FASTALIGN path variable in fastalign_train.sh accordingly
