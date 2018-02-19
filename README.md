@@ -1,8 +1,6 @@
 # amr-eager
 
-AMR-EAGER [1] is a transition-based parser for Abstract Meaning Representation (http://amr.isi.edu/). The parser support English, Italian, Spanish, German and Chinese, with the following performance:
-
-TODO: TABLE OF PERFORMANCE
+AMR-EAGER [1] is a transition-based parser for Abstract Meaning Representation (http://amr.isi.edu/). This repository provides an extension of AMR-EAGER to English, Italian, Spanish, German and Chinese. See [2] for a detailed explanation and experiments.
 
 # Installation
 
@@ -12,6 +10,7 @@ TODO: TABLE OF PERFORMANCE
 - Run ```./download.sh```
 - For Spanish parsing, install FreeLing (tested 3.0 and 4.0) and set path in ```preprocessing_es.sh```  (https://github.com/TALP-UPC/FreeLing/releases)
 
+<a name="Parse"></a>
 # Run the parser with pretrained model
 
 Note: the input file must contain sentences (one sentence for line), see ```contrib/sample-sentences.txt``` for example. All following commands should be run from the parser root directory.
@@ -61,18 +60,31 @@ cd amrevaluation
 
 To use the evaluation script with a different parser, provide the other parser's output as the first argument. 
 
-# Train an English model
+# Annotation projection
+
+In [2] we describe an annotation projection method for AMR, through which AMR data for English can be projected to other languages. This process is prone to problems in the middle, so we didn't give an end-to-end script. Therefore, before proceeding to train the model, the following manual steps must be carried out:
+
+- Install fast_align (https://github.com/clab/fast_align)
+- Changing the FASTALIGN path variable in fastalign_train.sh accordingly
+- Runnning f```astalign_train.sh``` (see comments for instructions) to train word alignment models for the language pair
+- Preprocessing and parsing the English side of the parallel corpus with AMREager ([see parsing instruction](#Parse))
+- Creating a target file with sentences in the target languages and the parsed AMR (with same format as traditional AMR data)
+
+However, the projected data we used for the experiments can be obtained by running ```download-data.sh```.
+
+# Train a model
+
 - Install JAMR aligner (https://github.com/jflanigan/jamr) and set path in ```preprocessing.sh```
 - Preprocess training and validation sets:
   ```
-  ./preprocessing.sh -f <amr_file>
-  python preprocessing.py --amrs -f <amr_file>
+  ./preprocessing.sh -f <amr_file> -l [en|it|de|es|zh]
+  python preprocessing.py --amrs -f <amr_file> -l [en|it|de|es|zh]
   ```
   
 - Run the oracle to generate the training data:
   ```
-  python collect.py -t <training_file> -m <model_dir>
-  python create_dataset.py -t <training_file> -v <validation_file> -m <model_dir>
+  python collect.py -t <training_file> -m <model_dir> -l [en|it|de|es|zh]
+  python create_dataset.py -t <training_file> -v <validation_file> -m <model_dir> -l [en|it|de|es|zh]
   ```
   
 - Train the three neural networks: 
@@ -103,3 +115,4 @@ To use the evaluation script with a different parser, provide the other parser's
 # References
 
 [1] "An Incremental Parser for Abstract Meaning Representation", Marco Damonte, Shay B. Cohen and Giorgio Satta. Proceedings of EACL (2017). URL: https://arxiv.org/abs/1608.06111
+[2] "Cross Lingual Abstract Meaning Representation", Marco Damonte and Shay B. Cohen. To appear in Proceedings of NAACL (2018). URL: TODO
