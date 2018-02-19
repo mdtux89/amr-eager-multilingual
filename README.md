@@ -13,7 +13,6 @@ AMR-EAGER [1] is a transition-based parser for Abstract Meaning Representation (
 <a name="Parse"></a>
 # Run the parser with pretrained model
 
-
 Note: the input file must contain sentences (one sentence for line), see ```contrib/sample-sentences.txt``` for example. All following commands should be run from the parser root directory.
 
 Preprocessing:
@@ -65,11 +64,13 @@ To use the evaluation script with a different parser, provide the other parser's
 
 In [2] we describe an annotation projection method for AMR, through which AMR data for English can be projected to other languages. This process is prone to problems in the middle, so we didn't give an end-to-end script. Therefore, before proceeding to train the model, the following manual steps must be carried out:
 
-- Install fast_align
+- Install fast_align (https://github.com/clab/fast_align)
 - Changing the FASTALIGN path variable in fastalign_train.sh accordingly
-- Runnning fastalign_train.sh (see comments for instructions) to train word alignment models for the language pair
+- Runnning f```astalign_train.sh``` (see comments for instructions) to train word alignment models for the language pair
 - Preprocessing and parsing the English side of the parallel corpus with AMREager ([see parsing instruction](#Parse))
 - Creating a target file with sentences in the target languages and the parsed AMR (with same format as traditional AMR data)
+
+However, the projected data we used for the experiments can be obtained by running ```download-data.sh```.
 
 # Train a model
 
