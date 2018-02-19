@@ -1,0 +1,560 @@
+Sentence #1 (14 tokens):
+Yucaipa owned Dominick's before selling the chain to Safeway in 1998 for $2.5 billion.
+[Text=Yucaipa CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Yucaipa NamedEntityTag=ORGANIZATION]
+[Text=owned CharacterOffsetBegin=8 CharacterOffsetEnd=13 PartOfSpeech=VBD Lemma=own NamedEntityTag=O]
+[Text=Dominick's CharacterOffsetBegin=14 CharacterOffsetEnd=24 PartOfSpeech=NNPS Lemma=Dominick's NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=selling CharacterOffsetBegin=32 CharacterOffsetEnd=39 PartOfSpeech=VBG Lemma=sell NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=chain CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=chain NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Safeway CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NNP Lemma=Safeway NamedEntityTag=ORGANIZATION]
+[Text=in CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=1998 CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=CD Lemma=1998 NamedEntityTag=DATE NormalizedNamedEntityTag=1998 Timex=<TIMEX3 tid="t1" type="DATE" value="1998">1998</TIMEX3>]
+[Text=for CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=$2.5 CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=CD Lemma=$2.5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0E9]
+[Text=billion. CharacterOffsetBegin=78 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=billion. NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0E9]
+(ROOT
+  (S
+    (NP (NNP Yucaipa))
+    (VP (VBD owned)
+      (NP (NNPS Dominick's))
+      (PP (IN before)
+        (S
+          (VP (VBG selling)
+            (NP (DT the) (NN chain))
+            (PP (TO to)
+              (NP
+                (NP (NNP Safeway))
+                (PP (IN in)
+                  (NP (CD 1998)))))
+            (PP (IN for)
+              (NP (CD $2.5) (NN billion.)))))))))
+
+root(ROOT-0, owned-2)
+nsubj(owned-2, Yucaipa-1)
+dobj(owned-2, Dominick's-3)
+mark(selling-5, before-4)
+advcl(owned-2, selling-5)
+det(chain-7, the-6)
+dobj(selling-5, chain-7)
+case(Safeway-9, to-8)
+nmod:to(selling-5, Safeway-9)
+case(1998-11, in-10)
+nmod:in(Safeway-9, 1998-11)
+case(billion.-14, for-12)
+nummod(billion.-14, $2.5-13)
+nmod:for(selling-5, billion.-14)
+
+Sentence #2 (18 tokens):
+Yucaipa bought Dominick's in 1995 for $693 million and sold it to Safeway for $1.8 billion in 1998.
+[Text=Yucaipa CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Yucaipa NamedEntityTag=ORGANIZATION]
+[Text=bought CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=VBD Lemma=buy NamedEntityTag=O]
+[Text=Dominick's CharacterOffsetBegin=102 CharacterOffsetEnd=112 PartOfSpeech=NNS Lemma=dominick' NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=1995 CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=CD Lemma=1995 NamedEntityTag=DATE NormalizedNamedEntityTag=1995 Timex=<TIMEX3 tid="t2" type="DATE" value="1995">1995</TIMEX3>]
+[Text=for CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=$693 CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=CD Lemma=$693 NamedEntityTag=NUMBER NormalizedNamedEntityTag=693.0]
+[Text=million CharacterOffsetBegin=130 CharacterOffsetEnd=137 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=1000000.0]
+[Text=and CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=sold CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=VBD Lemma=sell NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Safeway CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=NNP Lemma=Safeway NamedEntityTag=ORGANIZATION]
+[Text=for CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=$1.8 CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=CD Lemma=$1.8 NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E9]
+[Text=billion CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=CD Lemma=billion NamedEntityTag=MONEY NormalizedNamedEntityTag=$1.0E9]
+[Text=in CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=1998. CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=CD Lemma=1998. NamedEntityTag=DATE NormalizedNamedEntityTag=1998 Timex=<TIMEX3 tid="t3" type="DATE" value="1998">1998.</TIMEX3>]
+(ROOT
+  (S
+    (NP (NNP Yucaipa))
+    (VP
+      (VP (VBD bought)
+        (NP (NNS Dominick's))
+        (PP (IN in)
+          (NP (CD 1995)))
+        (PP (IN for)
+          (NP
+            (QP (CD $693) (CD million)))))
+      (CC and)
+      (VP (VBD sold)
+        (NP (PRP it))
+        (PP (TO to)
+          (NP (NNP Safeway)))
+        (PP (IN for)
+          (NP
+            (NP
+              (QP (CD $1.8) (CD billion)))
+            (PP (IN in)
+              (NP (CD 1998.)))))))))
+
+root(ROOT-0, bought-2)
+nsubj(bought-2, Yucaipa-1)
+dobj(bought-2, Dominick's-3)
+case(1995-5, in-4)
+nmod:in(bought-2, 1995-5)
+case(million-8, for-6)
+compound(million-8, $693-7)
+nmod:for(bought-2, million-8)
+cc(bought-2, and-9)
+conj:and(bought-2, sold-10)
+dobj(sold-10, it-11)
+case(Safeway-13, to-12)
+nmod:to(sold-10, Safeway-13)
+case(billion-16, for-14)
+compound(billion-16, $1.8-15)
+nmod:for(sold-10, billion-16)
+case(1998.-18, in-17)
+nmod:in(billion-16, 1998.-18)
+
+Sentence #3 (21 tokens):
+Around 0335 GMT, Tab shares were up 19 cents, or 4.4%, at A$4.56, having earlier set a record high of A$4.57.
+[Text=Around CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=IN Lemma=around NamedEntityTag=O]
+[Text=0335 CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=CD Lemma=0335 NamedEntityTag=DATE NormalizedNamedEntityTag=0335 Timex=<TIMEX3 tid="t4" type="DATE" value="0335">0335</TIMEX3>]
+[Text=GMT, CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=GMT, NamedEntityTag=O]
+[Text=Tab CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=NNP Lemma=Tab NamedEntityTag=O]
+[Text=shares CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNS Lemma=share NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=RB Lemma=up NamedEntityTag=O]
+[Text=19 CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=CD Lemma=19 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0]
+[Text=cents, CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=NN Lemma=cents, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=4.4%, CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=CD Lemma=4.4%, NamedEntityTag=NUMBER]
+[Text=at CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=A$4.56, CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=NN Lemma=a$4.56, NamedEntityTag=O]
+[Text=having CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=VBG Lemma=have NamedEntityTag=O]
+[Text=earlier CharacterOffsetBegin=260 CharacterOffsetEnd=267 PartOfSpeech=JJR Lemma=earlier NamedEntityTag=O]
+[Text=set CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=VBD Lemma=set NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=record CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=NN Lemma=record NamedEntityTag=O]
+[Text=high CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NN Lemma=high NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=A$4.57. CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=NN Lemma=a$4.57. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN Around)
+      (NP (CD 0335)))
+    (NP (NNP GMT,) (NNP Tab) (NNS shares))
+    (VP (VBD were)
+      (ADVP (RB up)
+        (NP
+          (NP (CD 19) (NN cents,))
+          (CC or)
+          (NP
+            (NP (CD 4.4%,))
+            (PP (IN at)
+              (NP (NN A$4.56,))))))
+      (VP (VBG having)
+        (NP
+          (NP (JJR earlier))
+          (SBAR
+            (S
+              (VP (VBD set)
+                (NP
+                  (NP (DT a) (NN record) (NN high))
+                  (PP (IN of)
+                    (NP (NN A$4.57.))))))))))))
+
+root(ROOT-0, having-14)
+case(0335-2, Around-1)
+nmod:around(having-14, 0335-2)
+compound(shares-5, GMT,-3)
+compound(shares-5, Tab-4)
+nsubj(having-14, shares-5)
+aux(having-14, were-6)
+advmod(having-14, up-7)
+nummod(cents,-9, 19-8)
+nmod:npmod(up-7, cents,-9)
+cc(cents,-9, or-10)
+conj:or(cents,-9, 4.4%,-11)
+case(A$4.56,-13, at-12)
+nmod:at(4.4%,-11, A$4.56,-13)
+dobj(having-14, earlier-15)
+acl:relcl(earlier-15, set-16)
+det(high-19, a-17)
+compound(high-19, record-18)
+dobj(set-16, high-19)
+case(A$4.57.-21, of-20)
+nmod:of(high-19, A$4.57.-21)
+
+Sentence #4 (15 tokens):
+Tab shares jumped 20 cents, or 4.6%, to set a record closing high at A$4.57.
+[Text=Tab CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=NN Lemma=tab NamedEntityTag=O]
+[Text=shares CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=NNS Lemma=share NamedEntityTag=O]
+[Text=jumped CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=VBD Lemma=jump NamedEntityTag=O]
+[Text=20 CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=CD Lemma=20 NamedEntityTag=NUMBER NormalizedNamedEntityTag=20.0]
+[Text=cents, CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=NN Lemma=cents, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=4.6%, CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=CD Lemma=4.6%, NamedEntityTag=NUMBER]
+[Text=to CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=set CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=VB Lemma=set NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=record CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=NN Lemma=record NamedEntityTag=O]
+[Text=closing CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=VBG Lemma=close NamedEntityTag=O]
+[Text=high CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=JJ Lemma=high NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=A$4.57. CharacterOffsetBegin=366 CharacterOffsetEnd=373 PartOfSpeech=NN Lemma=a$4.57. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NN Tab) (NNS shares))
+    (VP (VBD jumped)
+      (S
+        (NP
+          (NP (CD 20) (NN cents,))
+          (CC or)
+          (NP (CD 4.6%,)))
+        (VP (TO to)
+          (VP (VB set)
+            (NP
+              (NP (DT a) (NN record))
+              (VP (VBG closing)
+                (ADJP (JJ high)
+                  (PP (IN at)
+                    (NP (NN A$4.57.))))))))))))
+
+root(ROOT-0, jumped-3)
+compound(shares-2, Tab-1)
+nsubj(jumped-3, shares-2)
+nummod(cents,-5, 20-4)
+dobj(jumped-3, cents,-5)
+cc(cents,-5, or-6)
+conj:or(cents,-5, 4.6%,-7)
+mark(set-9, to-8)
+xcomp(jumped-3, set-9)
+det(record-11, a-10)
+dobj(set-9, record-11)
+acl(record-11, closing-12)
+xcomp(closing-12, high-13)
+case(A$4.57.-15, at-14)
+nmod:at(high-13, A$4.57.-15)
+
+Sentence #5 (16 tokens):
+The Nasdaq had a weekly gain of 17.27, or 1.2 percent, closing at 1,520.15 on Friday.
+[Text=The CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Nasdaq CharacterOffsetBegin=378 CharacterOffsetEnd=384 PartOfSpeech=NNP Lemma=Nasdaq NamedEntityTag=MISC]
+[Text=had CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=389 CharacterOffsetEnd=390 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=weekly CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=JJ Lemma=weekly NamedEntityTag=SET Timex=<TIMEX3 freq="P1X" periodicity="P1W" quant="EVERY" tid="t5" type="SET" value="P1W">weekly</TIMEX3>]
+[Text=gain CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=NN Lemma=gain NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=17.27, CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=CD Lemma=17.27, NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.27]
+[Text=or CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=1.2 CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=CD Lemma=1.2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.2]
+[Text=percent, CharacterOffsetBegin=420 CharacterOffsetEnd=428 PartOfSpeech=NN Lemma=percent, NamedEntityTag=O]
+[Text=closing CharacterOffsetBegin=429 CharacterOffsetEnd=436 PartOfSpeech=NN Lemma=closing NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=1,520.15 CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=CD Lemma=1,520.15 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1520.15]
+[Text=on CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Friday. CharacterOffsetBegin=452 CharacterOffsetEnd=459 PartOfSpeech=NN Lemma=friday. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NNP Nasdaq))
+    (VP (VBD had)
+      (NP
+        (NP (DT a) (JJ weekly) (NN gain))
+        (PP (IN of)
+          (NP
+            (NP
+              (QP (CD 17.27,)
+                (CC or)
+                (CD 1.2))
+              (NN percent,) (NN closing))
+            (PP (IN at)
+              (NP (CD 1,520.15))))))
+      (PP (IN on)
+        (NP (NN Friday.))))))
+
+root(ROOT-0, had-3)
+det(Nasdaq-2, The-1)
+nsubj(had-3, Nasdaq-2)
+det(gain-6, a-4)
+amod(gain-6, weekly-5)
+dobj(had-3, gain-6)
+case(closing-12, of-7)
+nummod(closing-12, 17.27,-8)
+cc(17.27,-8, or-9)
+conj:or(17.27,-8, 1.2-10)
+compound(closing-12, percent,-11)
+nmod:of(gain-6, closing-12)
+case(1,520.15-14, at-13)
+nmod:at(closing-12, 1,520.15-14)
+case(Friday.-16, on-15)
+nmod:on(had-3, Friday.-16)
+
+Sentence #6 (13 tokens):
+The tech-laced Nasdaq Composite .IXIC rallied 30.46 points, or 2.04 percent, to 1,520.15.
+[Text=The CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=tech-laced CharacterOffsetBegin=464 CharacterOffsetEnd=474 PartOfSpeech=JJ Lemma=tech-laced NamedEntityTag=O]
+[Text=Nasdaq CharacterOffsetBegin=475 CharacterOffsetEnd=481 PartOfSpeech=NNP Lemma=Nasdaq NamedEntityTag=MISC]
+[Text=Composite CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=NNP Lemma=Composite NamedEntityTag=MISC]
+[Text=.IXIC CharacterOffsetBegin=492 CharacterOffsetEnd=497 PartOfSpeech=NNP Lemma=.IXIC NamedEntityTag=O]
+[Text=rallied CharacterOffsetBegin=498 CharacterOffsetEnd=505 PartOfSpeech=VBD Lemma=rally NamedEntityTag=O]
+[Text=30.46 CharacterOffsetBegin=506 CharacterOffsetEnd=511 PartOfSpeech=CD Lemma=30.46 NamedEntityTag=NUMBER NormalizedNamedEntityTag=30.46]
+[Text=points, CharacterOffsetBegin=512 CharacterOffsetEnd=519 PartOfSpeech=NN Lemma=points, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=2.04 CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=CD Lemma=2.04 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.04]
+[Text=percent, CharacterOffsetBegin=528 CharacterOffsetEnd=536 PartOfSpeech=NN Lemma=percent, NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=1,520.15. CharacterOffsetBegin=540 CharacterOffsetEnd=549 PartOfSpeech=CD Lemma=1,520.15. NamedEntityTag=NUMBER]
+(ROOT
+  (S
+    (NP (DT The) (JJ tech-laced) (NNP Nasdaq) (NNP Composite) (NNP .IXIC))
+    (VP (VBD rallied)
+      (NP
+        (NP (CD 30.46) (NN points,))
+        (CC or)
+        (NP (CD 2.04) (NN percent,)))
+      (PP (TO to)
+        (NP (CD 1,520.15.))))))
+
+root(ROOT-0, rallied-6)
+det(.IXIC-5, The-1)
+amod(.IXIC-5, tech-laced-2)
+compound(.IXIC-5, Nasdaq-3)
+compound(.IXIC-5, Composite-4)
+nsubj(rallied-6, .IXIC-5)
+nummod(points,-8, 30.46-7)
+dobj(rallied-6, points,-8)
+cc(points,-8, or-9)
+nummod(percent,-11, 2.04-10)
+conj:or(points,-8, percent,-11)
+case(1,520.15.-13, to-12)
+nmod:to(rallied-6, 1,520.15.-13)
+
+Sentence #7 (14 tokens):
+That compared with $35.18 million, or 24 cents per share, in the year-ago period.
+[Text=That CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=compared CharacterOffsetBegin=555 CharacterOffsetEnd=563 PartOfSpeech=VBN Lemma=compare NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=$35.18 CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=CD Lemma=$35.18 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.518E7]
+[Text=million, CharacterOffsetBegin=576 CharacterOffsetEnd=584 PartOfSpeech=NN Lemma=million, NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.518E7]
+[Text=or CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=24 CharacterOffsetBegin=588 CharacterOffsetEnd=590 PartOfSpeech=CD Lemma=24 NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.24]
+[Text=cents CharacterOffsetBegin=591 CharacterOffsetEnd=596 PartOfSpeech=NNS Lemma=cent NamedEntityTag=MONEY NormalizedNamedEntityTag=$0.24]
+[Text=per CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=IN Lemma=per NamedEntityTag=O]
+[Text=share, CharacterOffsetBegin=601 CharacterOffsetEnd=607 PartOfSpeech=NN Lemma=share, NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=year-ago CharacterOffsetBegin=615 CharacterOffsetEnd=623 PartOfSpeech=JJ Lemma=year-ago NamedEntityTag=O]
+[Text=period. CharacterOffsetBegin=624 CharacterOffsetEnd=631 PartOfSpeech=NN Lemma=period. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (NP (DT That))
+    (PP (VBN compared)
+      (PP (IN with)
+        (NP
+          (NP (CD $35.18) (NN million,))
+          (CC or)
+          (NP
+            (NP (CD 24) (NNS cents))
+            (PP (IN per)
+              (NP
+                (NP (NN share,))
+                (PP (IN in)
+                  (NP (DT the) (JJ year-ago) (NN period.)))))))))))
+
+root(ROOT-0, That-1)
+case(million,-5, compared-2)
+mwe(compared-2, with-3)
+nummod(million,-5, $35.18-4)
+nmod:compared_with(That-1, million,-5)
+cc(million,-5, or-6)
+nummod(cents-8, 24-7)
+conj:or(million,-5, cents-8)
+case(share,-10, per-9)
+nmod:per(cents-8, share,-10)
+case(period.-14, in-11)
+det(period.-14, the-12)
+amod(period.-14, year-ago-13)
+nmod:in(share,-10, period.-14)
+
+Sentence #8 (14 tokens):
+Earnings were affected by a non-recurring $8 million tax benefit in the year-ago period.
+[Text=Earnings CharacterOffsetBegin=632 CharacterOffsetEnd=640 PartOfSpeech=NNS Lemma=earnings NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=affected CharacterOffsetBegin=646 CharacterOffsetEnd=654 PartOfSpeech=VBN Lemma=affect NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=658 CharacterOffsetEnd=659 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=non-recurring CharacterOffsetBegin=660 CharacterOffsetEnd=673 PartOfSpeech=JJ Lemma=non-recurring NamedEntityTag=O]
+[Text=$8 CharacterOffsetBegin=674 CharacterOffsetEnd=676 PartOfSpeech=CD Lemma=$8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0]
+[Text=million CharacterOffsetBegin=677 CharacterOffsetEnd=684 PartOfSpeech=CD Lemma=million NamedEntityTag=NUMBER NormalizedNamedEntityTag=1000000.0]
+[Text=tax CharacterOffsetBegin=685 CharacterOffsetEnd=688 PartOfSpeech=NN Lemma=tax NamedEntityTag=O]
+[Text=benefit CharacterOffsetBegin=689 CharacterOffsetEnd=696 PartOfSpeech=NN Lemma=benefit NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=697 CharacterOffsetEnd=699 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=year-ago CharacterOffsetBegin=704 CharacterOffsetEnd=712 PartOfSpeech=JJ Lemma=year-ago NamedEntityTag=O]
+[Text=period. CharacterOffsetBegin=713 CharacterOffsetEnd=720 PartOfSpeech=NN Lemma=period. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNS Earnings))
+    (VP (VBD were)
+      (VP (VBN affected)
+        (PP (IN by)
+          (NP
+            (NP (DT a) (JJ non-recurring)
+              (ADJP
+                (QP (CD $8) (CD million)))
+              (NN tax) (NN benefit))
+            (PP (IN in)
+              (NP (DT the) (JJ year-ago) (NN period.)))))))))
+
+root(ROOT-0, affected-3)
+nsubjpass(affected-3, Earnings-1)
+auxpass(affected-3, were-2)
+case(benefit-10, by-4)
+det(benefit-10, a-5)
+amod(benefit-10, non-recurring-6)
+compound(million-8, $8-7)
+nummod(benefit-10, million-8)
+compound(benefit-10, tax-9)
+nmod:agent(affected-3, benefit-10)
+case(period.-14, in-11)
+det(period.-14, the-12)
+amod(period.-14, year-ago-13)
+nmod:in(benefit-10, period.-14)
+
+Sentence #9 (18 tokens):
+Shares of Genentech, a much larger company with several products on the market, rose more than 2 percent.
+[Text=Shares CharacterOffsetBegin=721 CharacterOffsetEnd=727 PartOfSpeech=NNS Lemma=share NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=728 CharacterOffsetEnd=730 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Genentech, CharacterOffsetBegin=731 CharacterOffsetEnd=741 PartOfSpeech=NN Lemma=genentech, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=744 CharacterOffsetEnd=748 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=larger CharacterOffsetBegin=749 CharacterOffsetEnd=755 PartOfSpeech=JJR Lemma=larger NamedEntityTag=O]
+[Text=company CharacterOffsetBegin=756 CharacterOffsetEnd=763 PartOfSpeech=NN Lemma=company NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=764 CharacterOffsetEnd=768 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=several CharacterOffsetBegin=769 CharacterOffsetEnd=776 PartOfSpeech=JJ Lemma=several NamedEntityTag=O]
+[Text=products CharacterOffsetBegin=777 CharacterOffsetEnd=785 PartOfSpeech=NNS Lemma=product NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=786 CharacterOffsetEnd=788 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=789 CharacterOffsetEnd=792 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=market, CharacterOffsetBegin=793 CharacterOffsetEnd=800 PartOfSpeech=NN Lemma=market, NamedEntityTag=O]
+[Text=rose CharacterOffsetBegin=801 CharacterOffsetEnd=805 PartOfSpeech=VBD Lemma=rise NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=806 CharacterOffsetEnd=810 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=811 CharacterOffsetEnd=815 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=816 CharacterOffsetEnd=817 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>2.0]
+[Text=percent. CharacterOffsetBegin=818 CharacterOffsetEnd=826 PartOfSpeech=NN Lemma=percent. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNS Shares))
+      (PP (IN of)
+        (NP
+          (NP (NN Genentech,))
+          (NP
+            (NP (DT a) (JJ much) (JJR larger) (NN company))
+            (PP (IN with)
+              (NP
+                (NP (JJ several) (NNS products))
+                (PP (IN on)
+                  (NP (DT the) (NN market,)))))))))
+    (VP (VBD rose)
+      (NP
+        (QP (JJR more) (IN than) (CD 2))
+        (NN percent.)))))
+
+root(ROOT-0, rose-14)
+nsubj(rose-14, Shares-1)
+case(Genentech,-3, of-2)
+nmod:of(Shares-1, Genentech,-3)
+det(company-7, a-4)
+amod(company-7, much-5)
+amod(company-7, larger-6)
+dep(Genentech,-3, company-7)
+case(products-10, with-8)
+amod(products-10, several-9)
+nmod:with(company-7, products-10)
+case(market,-13, on-11)
+det(market,-13, the-12)
+nmod:on(products-10, market,-13)
+advmod(2-17, more-15)
+mwe(more-15, than-16)
+nummod(percent.-18, 2-17)
+dobj(rose-14, percent.-18)
+
+Sentence #10 (27 tokens):
+Shares of Xoma fell 16 percent in early trade, while shares of Genentech, a much larger company with several products on the market, were up 2 percent.
+[Text=Shares CharacterOffsetBegin=827 CharacterOffsetEnd=833 PartOfSpeech=NNS Lemma=share NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=834 CharacterOffsetEnd=836 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Xoma CharacterOffsetBegin=837 CharacterOffsetEnd=841 PartOfSpeech=NNP Lemma=Xoma NamedEntityTag=ORGANIZATION]
+[Text=fell CharacterOffsetBegin=842 CharacterOffsetEnd=846 PartOfSpeech=VBD Lemma=fall NamedEntityTag=O]
+[Text=16 CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=CD Lemma=16 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%16.0]
+[Text=percent CharacterOffsetBegin=850 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=percent NamedEntityTag=PERCENT NormalizedNamedEntityTag=%16.0]
+[Text=in CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=early CharacterOffsetBegin=861 CharacterOffsetEnd=866 PartOfSpeech=JJ Lemma=early NamedEntityTag=O]
+[Text=trade, CharacterOffsetBegin=867 CharacterOffsetEnd=873 PartOfSpeech=NN Lemma=trade, NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=874 CharacterOffsetEnd=879 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=shares CharacterOffsetBegin=880 CharacterOffsetEnd=886 PartOfSpeech=NNS Lemma=share NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=887 CharacterOffsetEnd=889 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Genentech, CharacterOffsetBegin=890 CharacterOffsetEnd=900 PartOfSpeech=NN Lemma=genentech, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=901 CharacterOffsetEnd=902 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=903 CharacterOffsetEnd=907 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=larger CharacterOffsetBegin=908 CharacterOffsetEnd=914 PartOfSpeech=JJR Lemma=larger NamedEntityTag=O]
+[Text=company CharacterOffsetBegin=915 CharacterOffsetEnd=922 PartOfSpeech=NN Lemma=company NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=923 CharacterOffsetEnd=927 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=several CharacterOffsetBegin=928 CharacterOffsetEnd=935 PartOfSpeech=JJ Lemma=several NamedEntityTag=O]
+[Text=products CharacterOffsetBegin=936 CharacterOffsetEnd=944 PartOfSpeech=NNS Lemma=product NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=945 CharacterOffsetEnd=947 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=948 CharacterOffsetEnd=951 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=market, CharacterOffsetBegin=952 CharacterOffsetEnd=959 PartOfSpeech=NN Lemma=market, NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=960 CharacterOffsetEnd=964 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=965 CharacterOffsetEnd=967 PartOfSpeech=RB Lemma=up NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=968 CharacterOffsetEnd=969 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=percent. CharacterOffsetBegin=970 CharacterOffsetEnd=978 PartOfSpeech=NN Lemma=percent. NamedEntityTag=PERCENT]
+(ROOT
+  (S
+    (NP
+      (NP (NNS Shares))
+      (PP (IN of)
+        (NP (NNP Xoma))))
+    (VP (VBD fell)
+      (NP
+        (NP (CD 16) (NN percent))
+        (PP (IN in)
+          (NP (JJ early) (NN trade,))))
+      (SBAR (IN while)
+        (S
+          (NP
+            (NP (NNS shares))
+            (PP (IN of)
+              (NP
+                (NP (NN Genentech,))
+                (NP
+                  (NP (DT a) (JJ much) (JJR larger) (NN company))
+                  (PP (IN with)
+                    (NP
+                      (NP (JJ several) (NNS products))
+                      (PP (IN on)
+                        (NP (DT the) (NN market,)))))))))
+          (VP (VBD were)
+            (ADVP (RB up)
+              (NP (CD 2) (NN percent.)))))))))
+
+root(ROOT-0, fell-4)
+nsubj(fell-4, Shares-1)
+case(Xoma-3, of-2)
+nmod:of(Shares-1, Xoma-3)
+nummod(percent-6, 16-5)
+dobj(fell-4, percent-6)
+case(trade,-9, in-7)
+amod(trade,-9, early-8)
+nmod:in(percent-6, trade,-9)
+mark(were-24, while-10)
+nsubj(were-24, shares-11)
+case(Genentech,-13, of-12)
+nmod:of(shares-11, Genentech,-13)
+det(company-17, a-14)
+amod(company-17, much-15)
+amod(company-17, larger-16)
+dep(Genentech,-13, company-17)
+case(products-20, with-18)
+amod(products-20, several-19)
+nmod:with(company-17, products-20)
+case(market,-23, on-21)
+det(market,-23, the-22)
+nmod:on(products-20, market,-23)
+advcl(fell-4, were-24)
+advmod(were-24, up-25)
+nummod(percent.-27, 2-26)
+nmod:npmod(up-25, percent.-27)
+

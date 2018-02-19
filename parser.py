@@ -110,7 +110,6 @@ def main(args):
         if triples == []:
             fw.write("# ::id " + str(idx) + "\n# ::snt " + " ".join([t for t in ununderscored]) + "\n(v / emptygraph)\n\n")
             continue
-
         graph, graph_indexes, nodes = to_string(triples, "TOP")
 
         graph = graph.strip()

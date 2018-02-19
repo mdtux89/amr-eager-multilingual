@@ -165,7 +165,7 @@ def run(prefix, amrs, language):
                 neg.concept = "O"
                 if neg not in al:
                     al.append(neg)
-                    
+
         alltokens.append(buftokens)
         alldependencies.append(dependencies)
         if amrs:
