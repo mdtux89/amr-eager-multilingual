@@ -9,6 +9,7 @@ AMR-EAGER [1] is a transition-based parser for Abstract Meaning Representation (
 - Install the following python dependencies: numpy and pytorch (https://github.com/hughperkins/pytorch)
 - Run ```./download.sh```
 - For Spanish parsing, install FreeLing (tested 3.0 and 4.0) and set path in ```preprocessing_es.sh```  (https://github.com/TALP-UPC/FreeLing/releases)
+- Install JAMR aligner (https://github.com/jflanigan/jamr) and set path in ```preprocessing.sh```
 
 <a name="Parse"></a>
 # Run the parser with pretrained model
@@ -76,7 +77,6 @@ This process is prone to errors in the middle, so we do not provide an end-to-en
 
 # Train a model
 
-- Install JAMR aligner (https://github.com/jflanigan/jamr) and set path in ```preprocessing.sh```
 - Preprocess training and validation sets:
   ```
   ./preprocessing.sh -f <amr_file> -l [en|it|de|es|zh]
