@@ -10,6 +10,7 @@ AMR-EAGER [1] is a transition-based parser for Abstract Meaning Representation (
 - Run ```./download.sh```
 - For Spanish parsing, install FreeLing (tested 3.0 and 4.0) and set path in ```preprocessing_es.sh```  (https://github.com/TALP-UPC/FreeLing/releases)
 - Install JAMR aligner (https://github.com/jflanigan/jamr) and set path in ```preprocessing.sh```
+- For Chinese, you wull also need to install the mafan package (https://pypi.org/project/mafan/).
 
 <a name="Parse"></a>
 # Run the parser with pretrained model
